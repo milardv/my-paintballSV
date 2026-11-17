@@ -11,6 +11,9 @@ Deux modes à l'accueil :
   fait perdre une vie et fait réapparaître au hasard dans le parc ou le château. Le premier à
   3 × joueurs / 2 points gagne, ou le dernier encore en jeu.
 
+- **En ligne** : 2 à 8 joueurs, connexion Google, sur invitation de l'organisateur. Le jeu à plusieurs se lance
+  depuis https://paintball-saint-victor.marseille-tech.workers.dev (le solo et les bots restent jouables ici).
+
 Ordinateur (clavier et souris) ou téléphone en paysage (commandes tactiles), avec Chrome, Edge,
 Safari ou Firefox récents (WebGL 2).
 
@@ -19,6 +22,10 @@ Safari ou Firefox récents (WebGL 2).
 - ZQSD (AZERTY) / WASD (QWERTY) : se déplacer · Maj : courir · Espace : sauter
 - Souris : regarder · Clic gauche : tirer · Clic droit : viser
 - R : recharger · V : première / troisième personne · E : ouvrir les portes · Échap : pause
+
+Options (accueil, pause) : sensibilité, axe vertical, champ de vision, ombres, résolution, anticrénelage,
+images par seconde, volumes. Dans le château, les portes et les portes-fenêtres s'ouvrent (E) ; un petit point
+blanc signale un élément à découvrir.
 
 Sur téléphone : joystick à gauche (poussé jusqu'au bord vers l'avant : courir), glisser à droite pour
 regarder, boutons Tir (à droite et à gauche), Viser, Saut, Recharge, Vue, Porte et Pause.
