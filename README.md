@@ -1,16 +1,27 @@
 # Saint-Victor · Paintball
 
-Paintball solo dans le domaine du Château Saint-Victor (Marseille), jouable dans le navigateur.
+Paintball dans le domaine du Château Saint-Victor (Marseille), jouable dans le navigateur.
 
 **Jouer : https://milardv.github.io/my-paintballSV/**
 
-90 secondes, huit cibles, une couleur. Ordinateur, clavier et souris (Chrome, Edge ou Firefox récents, WebGL 2).
+Deux modes à l'accueil :
+
+- **Entraînement** : 90 secondes, huit cibles, une couleur.
+- **Contre les bots** : 1 à 5 robots, trois niveaux. Trois vies chacun ; une touche rapporte un point,
+  fait perdre une vie et fait réapparaître au hasard dans le parc ou le château. Le premier à
+  3 × joueurs / 2 points gagne, ou le dernier encore en jeu.
+
+Ordinateur (clavier et souris) ou téléphone en paysage (commandes tactiles), avec Chrome, Edge,
+Safari ou Firefox récents (WebGL 2).
 
 ## Commandes
 
 - ZQSD (AZERTY) / WASD (QWERTY) : se déplacer · Maj : courir · Espace : sauter
 - Souris : regarder · Clic gauche : tirer · Clic droit : viser
 - R : recharger · V : première / troisième personne · E : ouvrir les portes · Échap : pause
+
+Sur téléphone : joystick à gauche (poussé jusqu'au bord vers l'avant : courir), glisser à droite pour
+regarder, boutons Tir (à droite et à gauche), Viser, Saut, Recharge, Vue, Porte et Pause.
 
 ## Crédits
 
