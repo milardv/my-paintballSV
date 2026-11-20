@@ -1,0 +1,205 @@
+{
+  "id": "P35",
+  "zone": "int-billard",
+  "niveau": "rdc",
+  "piece": "salle de billard",
+  "orientation_vue": "le long du grand mur aveugle (buffet), vers le petit côté à 2 portes",
+  "murs_visibles": [
+    "grand mur aveugle (buffet, desserte, lampe)",
+    "petit côté : porte noyer fermée, tableau + console, porte ouverte vers espace à garde-corps"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "petit côté, gauche",
+      "donne_sur": "porte noyer fermée, « sortie » au-dessus",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 3.4
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "petit côté, droite",
+      "donne_sur": "espace clair à porte-fenêtre et garde-corps fer forgé, « sortie » au-dessus",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.4
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": 6.5,
+    "profondeur_m": 10.0
+  },
+  "sol": "parquet à panneaux (type Versailles/damier à losanges en bois de bout), chêne clair, motif de cubes en perspective",
+  "plafond": "plafond à caissons octogonaux et carrés en bois, poutres maîtresses brun-rouge, moulures vert d'eau, fonds de caissons peints de fleurs stylisées (vert sombre, ocre, rose) ; corniche vert d'eau",
+  "murs_revetement": "tenture damassée crème/ivoire à grand motif, menuiseries (portes, cheminée) en noyer sculpté",
+  "elements": [
+    {
+      "nom": "buffet-vaisselier à gradin (étagère haute à volutes), 2 portes et 2 tiroirs",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun rouge",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "profondeur_m": 0.5,
+        "hauteur_m": 2.0
+      },
+      "position_dans_piece": "grand mur aveugle",
+      "quantite": 1
+    },
+    {
+      "nom": "porte-queues de billard/râtelier (dans le gradin, rangées de baguettes)",
+      "categorie": "objet",
+      "materiau": "bois",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "largeur_m": 0.5
+      },
+      "position_dans_piece": "dans le gradin du buffet",
+      "quantite": 1
+    },
+    {
+      "nom": "pots de fougère en céramique blanche",
+      "categorie": "vegetation",
+      "materiau": "plante, céramique",
+      "couleur": "vert/blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.3
+      },
+      "position_dans_piece": "sur le gradin du buffet",
+      "quantite": 2
+    },
+    {
+      "nom": "boîtes/classeurs en cuir bordeaux",
+      "categorie": "objet",
+      "materiau": "cuir",
+      "couleur": "bordeaux",
+      "dimensions_estimees": {
+        "hauteur_m": 0.3
+      },
+      "position_dans_piece": "étagère du buffet",
+      "quantite": 2
+    },
+    {
+      "nom": "soupière/pot couvert porcelaine bleu et blanc",
+      "categorie": "objet",
+      "materiau": "porcelaine",
+      "couleur": "bleu/blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.2
+      },
+      "position_dans_piece": "sur le buffet",
+      "quantite": 1
+    },
+    {
+      "nom": "lampadaire laiton à abat-jour blanc",
+      "categorie": "luminaire",
+      "materiau": "laiton",
+      "couleur": "doré/blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "à côté du buffet",
+      "quantite": 1
+    },
+    {
+      "nom": "chevet/desserte basse 2 tiroirs",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "largeur_m": 0.6,
+        "hauteur_m": 0.7
+      },
+      "position_dans_piece": "premier plan gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "lampe céramique blanche (pied à motif)",
+      "categorie": "luminaire",
+      "materiau": "céramique",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.55
+      },
+      "position_dans_piece": "sur la desserte",
+      "quantite": 1
+    },
+    {
+      "nom": "console + lampe + 2 chaises à assise rouge sous un tableau paysage",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun/rouge",
+      "dimensions_estimees": {
+        "largeur_m": 1.0
+      },
+      "position_dans_piece": "petit côté entre les portes",
+      "quantite": 1
+    },
+    {
+      "nom": "panneau « sortie »",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "vert",
+      "dimensions_estimees": {},
+      "position_dans_piece": "au-dessus de chaque porte",
+      "quantite": 2
+    },
+    {
+      "nom": "table de billard",
+      "categorie": "mobilier",
+      "materiau": "acajou, drap",
+      "couleur": "vert",
+      "dimensions_estimees": {
+        "largeur_m": 2.6
+      },
+      "position_dans_piece": "droite",
+      "quantite": 1
+    },
+    {
+      "nom": "chaises autour du billard",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun",
+      "dimensions_estimees": {},
+      "position_dans_piece": "fond droit",
+      "quantite": 2
+    },
+    {
+      "nom": "lustre",
+      "categorie": "luminaire",
+      "materiau": "bronze",
+      "couleur": "argent",
+      "dimensions_estimees": {},
+      "position_dans_piece": "plafond",
+      "quantite": 1
+    },
+    {
+      "nom": "fauteuil médaillon blanc et tapis persan",
+      "categorie": "mobilier",
+      "materiau": "acajou, tissu",
+      "couleur": "blanc",
+      "dimensions_estimees": {},
+      "position_dans_piece": "premier plan droit",
+      "quantite": 1
+    },
+    {
+      "nom": "prise électrique murale",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": {},
+      "position_dans_piece": "plinthe, petit côté",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Le petit côté opposé à la cheminée a 2 portes noyer à panneau « sortie » ; celle de droite ouvre sur un espace à porte-fenêtre et garde-corps"
+  ],
+  "incertitudes": [
+    "Ce petit côté est-il le côté ouest (porte du salon fermée + porte vers passage) ou le côté nord ?"
+  ]
+}

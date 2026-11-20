@@ -1,0 +1,221 @@
+{
+  "id": "P25",
+  "zone": "int-petit-salon",
+  "niveau": "rdc",
+  "piece": "petit salon sous le palier (antichambre, entre les deux passages)",
+  "orientation_vue": "vers le sud (mur de la fontaine)",
+  "murs_visibles": [
+    "sud (fontaine, sabres, assiettes)",
+    "est (damas, tableau du château, porte blanche)",
+    "ouest (porte double vers salon)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "sud-est / est",
+      "donne_sur": "salon bow-window, partie est (= porte blanche de P30/P31)",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 2.8,
+        "note": "porte double blanche à panneaux"
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "sud-ouest",
+      "donne_sur": "salon bow-window, partie ouest (P27 prise depuis ce seuil)",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.0,
+        "note": "porte double, vantaux vert d'eau filets dorés"
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 3.2,
+    "largeur_m": 5.0,
+    "profondeur_m": 4.0
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre",
+  "plafond": "plafond bas blanc (sous-face du palier) à caissons/panneaux moulurés, spots encastrés",
+  "murs_revetement": "mur sud enduit blanc cassé uni avec cimaise céladon ; mur est damas ; soubassement à filets",
+  "elements": [
+    {
+      "nom": "panoplie de 6 sabres et 2 dagues sur panneau acajou",
+      "categorie": "objet",
+      "materiau": "acier, bois",
+      "couleur": "argent/brun",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 0.65
+      },
+      "position_dans_piece": "mur sud, centre haut",
+      "quantite": 1
+    },
+    {
+      "nom": "assiette faïence décorée (personnage)",
+      "categorie": "objet",
+      "materiau": "faïence",
+      "couleur": "blanc/polychrome",
+      "dimensions_estimees": {
+        "diametre_m": 0.25
+      },
+      "position_dans_piece": "mur sud, 3 à gauche et 3 à droite de la panoplie",
+      "quantite": 6
+    },
+    {
+      "nom": "fontaine murale : dosseret marbre vert cintré, mufle de lion en pierre, vasque sur pied",
+      "categorie": "objet",
+      "materiau": "marbre vert, pierre blanche",
+      "couleur": "vert sombre/blanc",
+      "dimensions_estimees": {
+        "largeur_m": 0.6,
+        "hauteur_m": 1.4
+      },
+      "position_dans_piece": "mur sud, centre",
+      "quantite": 1
+    },
+    {
+      "nom": "chevet/table de nuit noire à tiroir",
+      "categorie": "mobilier",
+      "materiau": "bois laqué",
+      "couleur": "noir",
+      "dimensions_estimees": {
+        "largeur_m": 0.5,
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "mur sud, à droite de la fontaine",
+      "quantite": 1
+    },
+    {
+      "nom": "table basse ronde, plateau marbre, pieds cannelés laqués",
+      "categorie": "mobilier",
+      "materiau": "marbre, bois laqué gris",
+      "couleur": "blanc/gris",
+      "dimensions_estimees": {
+        "diametre_m": 1.0,
+        "hauteur_m": 0.5
+      },
+      "position_dans_piece": "centre gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "plateau ovale argenté/laqué",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "largeur_m": 0.6
+      },
+      "position_dans_piece": "sur la table basse",
+      "quantite": 1
+    },
+    {
+      "nom": "lanterne-photophore blanche",
+      "categorie": "objet",
+      "materiau": "métal, verre",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.2
+      },
+      "position_dans_piece": "sur le plateau",
+      "quantite": 1
+    },
+    {
+      "nom": "fauteuil Louis XV velours rouge",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, velours",
+      "couleur": "rouge/crème",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "autour de la table",
+      "quantite": 2
+    },
+    {
+      "nom": "fauteuil Louis XV tissu vert olive",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, tissu",
+      "couleur": "olive/crème",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "autour de la table",
+      "quantite": 1
+    },
+    {
+      "nom": "chaise gondole grise",
+      "categorie": "mobilier",
+      "materiau": "bois, tissu",
+      "couleur": "gris",
+      "dimensions_estimees": {
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "premier plan droite",
+      "quantite": 1
+    },
+    {
+      "nom": "tableau : vue du château depuis le jardin (bassin)",
+      "categorie": "tableau",
+      "materiau": "toile, cadre doré",
+      "couleur": "bleu/vert",
+      "dimensions_estimees": {
+        "largeur_m": 0.8,
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "mur est",
+      "quantite": 1
+    },
+    {
+      "nom": "spot encastré",
+      "categorie": "luminaire",
+      "materiau": "métal",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "diametre_m": 0.08
+      },
+      "position_dans_piece": "plafond",
+      "quantite": 3
+    },
+    {
+      "nom": "panier en osier",
+      "categorie": "objet",
+      "materiau": "osier",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "hauteur_m": 0.4
+      },
+      "position_dans_piece": "premier plan droite",
+      "quantite": 1
+    },
+    {
+      "nom": "interrupteur/prise",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": {},
+      "position_dans_piece": "à côté de la porte est",
+      "quantite": 1
+    },
+    {
+      "nom": "cimaise céladon",
+      "categorie": "moulure",
+      "materiau": "bois peint",
+      "couleur": "céladon",
+      "dimensions_estimees": {
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "pourtour",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Le mur sud de ce petit salon est le dos du mur au tableau marine du salon bow-window (P30) : les deux portes encadrent la fontaine et le tableau",
+    "Le tableau du château est sur le mur est, vu à travers la porte blanche depuis le salon (P30, P31)",
+    "Le piano (P23, P24, vu en P30 par la baie gauche) est contre le mur ouest, près de la porte sud-ouest"
+  ],
+  "incertitudes": [
+    "Hauteur sous le palier (2.8-3.5 m)",
+    "Le petit salon s'étend-il sur toute la largeur entre les deux passages ? (hypothèse oui, ~5 m)"
+  ]
+}

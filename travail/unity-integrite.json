@@ -1,0 +1,11 @@
+{
+  "tool": "check_unity_project",
+  "schema": 1,
+  "root": "/home/valm/IdeaProjects/chateau-saint-victor/unity",
+  "files_checked": 210,
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "truncated": false
+}

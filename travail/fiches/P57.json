@@ -1,0 +1,159 @@
+{
+ "id": "P57",
+ "zone": "int-chambre-3",
+ "niveau": "etage",
+ "piece": "Chambre-3 : bureau / pièce à l'armoire et au tableau marine (bout de l'enfilade, porte sur le dégagement d'étage)",
+ "orientation_vue": "vers le mur de l'entrée (opposé aux fenêtres ?) : armoire, porte ouverte sur le dégagement, piano droit et tableau à droite",
+ "murs_visibles": [
+  "mur du fond (armoire, porte)",
+  "mur droit (piano, tableau)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "fond",
+   "donne_sur": "dégagement d'étage : sol marbre blanc à cabochons, porte à filets verts, lanterne suspendue (P10-P12 probable)",
+   "dimensions_estimees": "porte double L 1.2 x H 2.6 m, un vantail ouvert"
+  },
+  {
+   "type": "porte",
+   "mur": "gauche (bord)",
+   "donne_sur": "pièce voisine (chambre-2 en enfilade)",
+   "dimensions_estimees": "porte laquée filets verts"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 5.5,
+  "profondeur_m": 7.0
+ },
+ "sol": "parquet de Versailles chêne clair (panneaux carrés à entrelacs), ciré",
+ "plafond": "plafond blanc, corniche moulurée à feuillages, grande rosace en stuc rocaille",
+ "murs_revetement": "murs peints blanc cassé (papier à fine texture), plinthes ; portes laquées blanches à filets verts",
+ "elements": [
+  {
+   "nom": "armoire provençale noyer à fronton chantourné",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun rouge",
+   "dimensions_estimees": "1.7 x 0.65 x H 2.5 m",
+   "position_dans_piece": "mur du fond, gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "console Louis XV avec livres",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": "0.8 x 0.4 x H 0.75 m",
+   "position_dans_piece": "angle gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise longue/fauteuil en rotin avec coussin",
+   "categorie": "mobilier",
+   "materiau": "rotin",
+   "couleur": "naturel",
+   "dimensions_estimees": "0.6 x 0.9 x H 0.8 m",
+   "position_dans_piece": "à côté de l'armoire",
+   "quantite": 1
+  },
+  {
+   "nom": "piano droit moderne en bois clair (merisier)",
+   "categorie": "mobilier",
+   "materiau": "merisier verni",
+   "couleur": "miel",
+   "dimensions_estimees": "1.45 x 0.55 x H 1.15 m",
+   "position_dans_piece": "mur droit",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe vase céramique bleu-blanc, abat-jour plissé crème",
+   "categorie": "luminaire",
+   "materiau": "céramique, tissu",
+   "couleur": "bleu/crème",
+   "dimensions_estimees": "H 0.5 m",
+   "position_dans_piece": "sur le piano",
+   "quantite": 1
+  },
+  {
+   "nom": "bougie dans verre bleu",
+   "categorie": "objet",
+   "materiau": "verre",
+   "couleur": "bleu",
+   "dimensions_estimees": "0.08 m",
+   "position_dans_piece": "sur le piano",
+   "quantite": 1
+  },
+  {
+   "nom": "réveil/horloge de bureau métal chromé",
+   "categorie": "objet",
+   "materiau": "métal",
+   "couleur": "argent",
+   "dimensions_estimees": "H 0.15 m",
+   "position_dans_piece": "sur le piano",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau de marché provençal (étals, parasols) dans cadre sculpté sombre",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "brun/vert/ocre",
+   "dimensions_estimees": "1.3 x 0.9 m",
+   "position_dans_piece": "mur droit au-dessus du piano",
+   "quantite": 1
+  },
+  {
+   "nom": "yucca / dracaena en pot",
+   "categorie": "vegetation",
+   "materiau": "végétal",
+   "couleur": "vert",
+   "dimensions_estimees": "H 1.6 m",
+   "position_dans_piece": "angle droit premier plan",
+   "quantite": 1
+  },
+  {
+   "nom": "meuble haut/colonne en bois clair (bibliothèque basse)",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "miel",
+   "dimensions_estimees": "0.5 x 0.4 x H 1.2 m",
+   "position_dans_piece": "derrière le piano, près de la porte",
+   "quantite": 1
+  },
+  {
+   "nom": "interrupteur et prise",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur du fond, entre armoire et porte",
+   "quantite": 2
+  },
+  {
+   "nom": "corniche moulurée feuillagée",
+   "categorie": "moulure",
+   "materiau": "stuc",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "lanterne suspendue du dégagement (vue par la porte)",
+   "categorie": "luminaire",
+   "materiau": "métal",
+   "couleur": "doré",
+   "dimensions_estimees": "",
+   "position_dans_piece": "dégagement",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "La porte ouvre sur un dégagement à sol de marbre losangé à cabochons et portes à filets verts : couloir P10-P12 (lanterne suspendue P11-P12)",
+  "Boucle : palier -> salle à manger -> chambre-2 -> chambre-3 -> dégagement -> palier"
+ ],
+ "incertitudes": [
+  "Le dégagement vu peut être un autre couloir que P10-P12"
+ ]
+}

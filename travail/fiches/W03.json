@@ -1,0 +1,172 @@
+{
+  "id": "W03",
+  "zone": "ext-jardin",
+  "niveau": "ext",
+  "piece": "parc sud (vue aérienne oblique)",
+  "orientation_vue": "Vue aérienne oblique depuis le sud-ouest au-dessus du parc, vers le nord-est ; château en haut à droite, façade jardin vers le bas-gauche",
+  "murs_visibles": [
+    "façade sud et pavillon ouest (petits)"
+  ],
+  "ouvertures": [],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "pelouse en pente douce, cour sablée devant la façade, allée asphaltée",
+  "plafond": "ciel",
+  "murs_revetement": "",
+  "elements": [
+    {
+      "nom": "grande pelouse (forme ovale/irrégulière) descendant vers le sud",
+      "categorie": "vegetation",
+      "materiau": "gazon",
+      "couleur": "vert, plaques jaunies",
+      "dimensions_estimees": "≈80 × 60 m",
+      "position_dans_piece": "entre la cour sablée et le bas du parc",
+      "quantite": 1
+    },
+    {
+      "nom": "bassin en forme de haricot (rein) bordé de pierre blanche, avec jets d'eau",
+      "categorie": "architecture",
+      "materiau": "béton/pierre, eau",
+      "couleur": "eau vert clair, margelle blanche",
+      "dimensions_estimees": "≈30 × 12 m",
+      "position_dans_piece": "moitié basse de la pelouse, côté ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "jets d'eau (2-3)",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "dans le bassin",
+      "quantite": 3
+    },
+    {
+      "nom": "mât de drapeau avec drapeaux (français, européen)",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "blanc",
+      "dimensions_estimees": "h≈8 m",
+      "position_dans_piece": "sur la presqu'île/bord concave du bassin",
+      "quantite": 1
+    },
+    {
+      "nom": "buis en boule",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "Ø≈1 m",
+      "position_dans_piece": "rive du bassin, autour du mât",
+      "quantite": 3
+    },
+    {
+      "nom": "rangée de cyprès de Provence (Cupressus sempervirens)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert sombre",
+      "dimensions_estimees": "h≈8-10 m",
+      "position_dans_piece": "à l'ouest et au sud du bassin",
+      "quantite": 6
+    },
+    {
+      "nom": "grand pin parasol (Pinus pinea)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "Ø couronne ≈15 m",
+      "position_dans_piece": "limite ouest du parc, à gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "if conique isolé",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert sombre",
+      "dimensions_estimees": "h≈10 m",
+      "position_dans_piece": "dans la pelouse, sud-ouest du château",
+      "quantite": 1
+    },
+    {
+      "nom": "chênes verts / arbres arrondis",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "isolés dans la pelouse et en lisière",
+      "quantite": 6
+    },
+    {
+      "nom": "platanes en alignement",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert clair",
+      "dimensions_estimees": "",
+      "position_dans_piece": "bord de la cour sablée devant le château",
+      "quantite": 1
+    },
+    {
+      "nom": "cour sablée devant la façade sud",
+      "categorie": "architecture",
+      "materiau": "sable stabilisé",
+      "couleur": "beige clair",
+      "dimensions_estimees": "≈60 × 25 m",
+      "position_dans_piece": "entre terrasse et pelouse",
+      "quantite": 1
+    },
+    {
+      "nom": "allée asphaltée courbe (accès)",
+      "categorie": "architecture",
+      "materiau": "enrobé",
+      "couleur": "gris",
+      "dimensions_estimees": "larg. ≈5 m",
+      "position_dans_piece": "contourne la pelouse par l'est et le sud",
+      "quantite": 1
+    },
+    {
+      "nom": "haies et clôture périphérique",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "limites du parc",
+      "quantite": 1
+    },
+    {
+      "nom": "parking / aire de stationnement avec motos",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "coin bas-gauche (sud-ouest)",
+      "quantite": 1
+    },
+    {
+      "nom": "palmiers",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "est du château, près des villas voisines",
+      "quantite": 3
+    },
+    {
+      "nom": "villas voisines (hors domaine)",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "toits tuiles",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pourtour",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Vue complémentaire de W18 (même drone)"
+  ],
+  "incertitudes": [
+    "Échelle du parc approximative",
+    "Nombre de drapeaux variable selon les vues (W05 : finlandais)"
+  ]
+}

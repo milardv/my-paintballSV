@@ -1,0 +1,408 @@
+{
+ "id": "P45",
+ "zone": "int-salle-a-manger",
+ "niveau": "etage",
+ "piece": "salle à manger",
+ "orientation_vue": "le long de la table, vers le petit côté à porte double (opposé à la cheminée)",
+ "murs_visibles": [
+  "mur du buffet (gauche)",
+  "petit côté (porte double ouverte, placard)",
+  "mur des fenêtres (droite)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "petit côté",
+   "donne_sur": "pièce voisine éclairée par une porte-fenêtre à rideaux (banquette, tapis rouge, lampadaire)",
+   "dimensions_estimees": {
+    "largeur_m": 1.4,
+    "hauteur_m": 3.0,
+    "note": "porte double crème à panneaux, dessus-de-porte cintré rocaille"
+   }
+  },
+  {
+   "type": "porte",
+   "mur": "mur du buffet, extrémité",
+   "donne_sur": "placard/porte double en boiserie (fermée)",
+   "dimensions_estimees": {
+    "largeur_m": 1.1,
+    "hauteur_m": 3.0
+   }
+  },
+  {
+   "type": "baie",
+   "mur": "mur des fenêtres",
+   "donne_sur": "balconnet",
+   "dimensions_estimees": {
+    "largeur_m": 1.3,
+    "hauteur_m": 3.2
+   }
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.6,
+  "largeur_m": 6.0,
+  "profondeur_m": 8.0
+ },
+ "sol": "parquet de chêne à bâtons rompus, ciré",
+ "plafond": "plafond blanc à décor de stuc rocaille Louis XV (coquilles, rinceaux, agrafes) en bordure et aux angles, corniche moulurée",
+ "murs_revetement": "boiseries rocaille Louis XV : grands panneaux à cadres chantournés vert céladon/vert amande, fonds peints jaune paille/abricot, pilastres étroits jaunes, agrafes et coquilles en relief ; dessus-de-porte cintrés à rocailles",
+ "elements": [
+  {
+   "nom": "lustre bronze doré rocaille 12 bras, bougies électriques",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": {
+    "diametre_m": 0.8,
+    "hauteur_m": 1.0
+   },
+   "position_dans_piece": "centre de la pièce, au-dessus de la table",
+   "quantite": 1
+  },
+  {
+   "nom": "grande table rectangulaire en chêne à rallonges, pieds galbés",
+   "categorie": "mobilier",
+   "materiau": "chêne",
+   "couleur": "brun miel",
+   "dimensions_estimees": {
+    "largeur_m": 3.0,
+    "profondeur_m": 1.1,
+    "hauteur_m": 0.76
+   },
+   "position_dans_piece": "centre, parallèle aux fenêtres",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise cannée Louis XV en hêtre/noyer",
+   "categorie": "mobilier",
+   "materiau": "bois, cannage",
+   "couleur": "brun miel",
+   "dimensions_estimees": {
+    "hauteur_m": 0.95
+   },
+   "position_dans_piece": "autour de la table",
+   "quantite": 8
+  },
+  {
+   "nom": "chaise contemporaine tapissée gris anthracite",
+   "categorie": "mobilier",
+   "materiau": "bois, tissu",
+   "couleur": "gris anthracite",
+   "dimensions_estimees": {
+    "hauteur_m": 0.95
+   },
+   "position_dans_piece": "autour de la table",
+   "quantite": 4
+  },
+  {
+   "nom": "vêtements/linge plié posés sur la table",
+   "categorie": "objet",
+   "materiau": "textile",
+   "couleur": "bleu/beige",
+   "dimensions_estimees": {
+    "largeur_m": 0.4
+   },
+   "position_dans_piece": "sur la table",
+   "quantite": 1
+  },
+  {
+   "nom": "rideaux en soie vieux rose/mauve, embrasses",
+   "categorie": "textile",
+   "materiau": "soie",
+   "couleur": "vieux rose",
+   "dimensions_estimees": {
+    "hauteur_m": 4.0
+   },
+   "position_dans_piece": "de chaque côté des portes-fenêtres",
+   "quantite": 4
+  },
+  {
+   "nom": "tringle laiton à embouts",
+   "categorie": "objet",
+   "materiau": "laiton",
+   "couleur": "doré",
+   "dimensions_estimees": {
+    "largeur_m": 1.8
+   },
+   "position_dans_piece": "au-dessus des portes-fenêtres",
+   "quantite": 2
+  },
+  {
+   "nom": "garde-corps de balconnet fer forgé à volutes",
+   "categorie": "ferronnerie",
+   "materiau": "fer forgé",
+   "couleur": "noir",
+   "dimensions_estimees": {
+    "largeur_m": 1.2,
+    "hauteur_m": 0.9
+   },
+   "position_dans_piece": "devant chaque porte-fenêtre",
+   "quantite": 2
+  },
+  {
+   "nom": "commode Louis XV/Louis-Philippe 3 tiroirs, entrées laiton",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": {
+    "largeur_m": 1.2,
+    "hauteur_m": 0.9
+   },
+   "position_dans_piece": "trumeau entre les 2 portes-fenêtres",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau paysage sombre à cadre doré",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "vert sombre/brun",
+   "dimensions_estimees": {
+    "largeur_m": 0.7,
+    "hauteur_m": 0.55
+   },
+   "position_dans_piece": "au-dessus de la commode",
+   "quantite": 1
+  },
+  {
+   "nom": "petite lampe à pied et abat-jour",
+   "categorie": "luminaire",
+   "materiau": "métal, tissu",
+   "couleur": "bronze/crème",
+   "dimensions_estimees": {
+    "hauteur_m": 0.5
+   },
+   "position_dans_piece": "commode",
+   "quantite": 1
+  },
+  {
+   "nom": "boîte/sacoche noire",
+   "categorie": "objet",
+   "materiau": "cuir",
+   "couleur": "noir",
+   "dimensions_estimees": {},
+   "position_dans_piece": "commode",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur fonte à colonnes",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "blanc",
+   "dimensions_estimees": {
+    "largeur_m": 0.5,
+    "hauteur_m": 0.8
+   },
+   "position_dans_piece": "près des portes-fenêtres",
+   "quantite": 2
+  },
+  {
+   "nom": "cheminée Louis XV marbre blanc à cartouche sculpté",
+   "categorie": "cheminee",
+   "materiau": "marbre blanc",
+   "couleur": "blanc",
+   "dimensions_estimees": {
+    "largeur_m": 1.4,
+    "hauteur_m": 1.1
+   },
+   "position_dans_piece": "petit côté (mur de la cheminée)",
+   "quantite": 1
+  },
+  {
+   "nom": "foyer à plaque de fonte et pare-feu",
+   "categorie": "cheminee",
+   "materiau": "fonte",
+   "couleur": "noir",
+   "dimensions_estimees": {
+    "largeur_m": 0.8
+   },
+   "position_dans_piece": "cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "devant de foyer marbre blanc à bandes de marbre noir",
+   "categorie": "cheminee",
+   "materiau": "marbre",
+   "couleur": "blanc/noir",
+   "dimensions_estimees": {
+    "largeur_m": 1.6,
+    "profondeur_m": 0.5
+   },
+   "position_dans_piece": "sol devant la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "grand trumeau-miroir à cadre doré",
+   "categorie": "objet",
+   "materiau": "bois doré, glace",
+   "couleur": "or",
+   "dimensions_estimees": {
+    "largeur_m": 1.2,
+    "hauteur_m": 1.9
+   },
+   "position_dans_piece": "au-dessus de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "bougeoir et lampe sur la cheminée, cloche/photophore en verre",
+   "categorie": "objet",
+   "materiau": "métal, verre",
+   "couleur": "argent/transparent",
+   "dimensions_estimees": {
+    "hauteur_m": 0.4
+   },
+   "position_dans_piece": "tablette de cheminée",
+   "quantite": 3
+  },
+  {
+   "nom": "chaise Louis XV laquée crème, assise damassée",
+   "categorie": "mobilier",
+   "materiau": "bois laqué, tissu",
+   "couleur": "crème",
+   "dimensions_estimees": {
+    "hauteur_m": 0.95
+   },
+   "position_dans_piece": "de part et d'autre de la cheminée",
+   "quantite": 2
+  },
+  {
+   "nom": "plaid gris",
+   "categorie": "textile",
+   "materiau": "laine",
+   "couleur": "gris",
+   "dimensions_estimees": {},
+   "position_dans_piece": "sur une chaise près de la fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "buffet bas provençal à 4 portes moulurées, plateau galbé",
+   "categorie": "mobilier",
+   "materiau": "noyer/chêne",
+   "couleur": "brun miel",
+   "dimensions_estimees": {
+    "largeur_m": 2.2,
+    "profondeur_m": 0.55,
+    "hauteur_m": 1.0
+   },
+   "position_dans_piece": "mur opposé aux fenêtres",
+   "quantite": 1
+  },
+  {
+   "nom": "service à thé/café argent (théière, pot à lait) sur plateau",
+   "categorie": "objet",
+   "materiau": "argent",
+   "couleur": "argent",
+   "dimensions_estimees": {
+    "hauteur_m": 0.25
+   },
+   "position_dans_piece": "sur le buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "bougeoirs en cristal/argent",
+   "categorie": "objet",
+   "materiau": "cristal",
+   "couleur": "transparent",
+   "dimensions_estimees": {
+    "hauteur_m": 0.25
+   },
+   "position_dans_piece": "sur le buffet",
+   "quantite": 2
+  },
+  {
+   "nom": "plat/dessous-de-plat tressé",
+   "categorie": "objet",
+   "materiau": "fibre",
+   "couleur": "naturel",
+   "dimensions_estimees": {
+    "diametre_m": 0.35
+   },
+   "position_dans_piece": "sur le buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe à pied bronze, abat-jour plissé",
+   "categorie": "luminaire",
+   "materiau": "bronze",
+   "couleur": "noir/crème",
+   "dimensions_estimees": {
+    "hauteur_m": 0.6
+   },
+   "position_dans_piece": "sur le buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau (fontaine sur une place, arbres) cadre doré",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "vert/ocre",
+   "dimensions_estimees": {
+    "largeur_m": 0.8,
+    "hauteur_m": 1.0
+   },
+   "position_dans_piece": "au-dessus du buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "desserte ronde à plateau, chargée de bouteilles d'alcool (bar)",
+   "categorie": "mobilier",
+   "materiau": "acajou",
+   "couleur": "brun",
+   "dimensions_estimees": {
+    "diametre_m": 0.5,
+    "hauteur_m": 0.75
+   },
+   "position_dans_piece": "contre le petit côté, à gauche de la porte",
+   "quantite": 1
+  },
+  {
+   "nom": "bouteilles d'alcool et carafe",
+   "categorie": "objet",
+   "materiau": "verre",
+   "couleur": "ambre/transparent",
+   "dimensions_estimees": {
+    "hauteur_m": 0.3
+   },
+   "position_dans_piece": "sur la desserte",
+   "quantite": 8
+  },
+  {
+   "nom": "veste posée sur une chaise",
+   "categorie": "textile",
+   "materiau": "tissu",
+   "couleur": "noir",
+   "dimensions_estimees": {},
+   "position_dans_piece": "chaise en bout de table",
+   "quantite": 1
+  },
+  {
+   "nom": "commode 3 tiroirs + lampe",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": {
+    "largeur_m": 1.0
+   },
+   "position_dans_piece": "mur des fenêtres (droite, entre fenêtres)",
+   "quantite": 1
+  },
+  {
+   "nom": "tabouret/tablette d'appoint",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": {
+    "hauteur_m": 0.6
+   },
+   "position_dans_piece": "devant la porte-fenêtre",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Enfilade : salle à manger → pièce voisine par la porte double du petit côté (pièce avec porte-fenêtre et mobilier de salon)"
+ ],
+ "incertitudes": [
+  "La pièce voisine est-elle le couloir ouest/la pièce au fond de P22 ?",
+  "Niveau corrigé en 'etage' en P3 (D-012 : salle à manger d'étage, P42→P43 = 28 s)"
+ ]
+}

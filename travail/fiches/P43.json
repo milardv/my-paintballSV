@@ -1,0 +1,297 @@
+{
+ "id": "P43",
+ "zone": "int-salle-a-manger",
+ "niveau": "etage",
+ "piece": "salle à manger",
+ "orientation_vue": "vers le mur des fenêtres, cheminée à droite, depuis la porte d'entrée (angle)",
+ "murs_visibles": [
+  "mur des fenêtres",
+  "mur de la cheminée"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "mur opposé aux fenêtres, angle côté cheminée",
+   "donne_sur": "passage/couloir d'arrivée (porte double blanche à panneaux céladon, au premier plan)",
+   "dimensions_estimees": {
+    "largeur_m": 1.3,
+    "hauteur_m": 3.0
+   }
+  },
+  {
+   "type": "baie",
+   "mur": "mur des fenêtres",
+   "donne_sur": "balconnet sur façade, vue sur parc, collines et mer",
+   "dimensions_estimees": {
+    "largeur_m": 1.3,
+    "hauteur_m": 3.2,
+    "note": "porte-fenêtre 2 vantaux à imposte, 3 carreaux + imposte"
+   }
+  },
+  {
+   "type": "porte",
+   "mur": "angle mur cheminée / mur des fenêtres",
+   "donne_sur": "placard ou dégagement (porte à un vantail crème filets céladon, ouverte)",
+   "dimensions_estimees": {
+    "largeur_m": 0.7,
+    "hauteur_m": 2.4
+   }
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.6,
+  "largeur_m": 6.0,
+  "profondeur_m": 8.0
+ },
+ "sol": "parquet de chêne à bâtons rompus, ciré",
+ "plafond": "plafond blanc à décor de stuc rocaille Louis XV (coquilles, rinceaux, agrafes) en bordure et aux angles, corniche moulurée",
+ "murs_revetement": "boiseries rocaille Louis XV : grands panneaux à cadres chantournés vert céladon/vert amande, fonds peints jaune paille/abricot, pilastres étroits jaunes, agrafes et coquilles en relief ; dessus-de-porte cintrés à rocailles",
+ "elements": [
+  {
+   "nom": "lustre bronze doré rocaille 12 bras, bougies électriques",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": {
+    "diametre_m": 0.8,
+    "hauteur_m": 1.0
+   },
+   "position_dans_piece": "centre de la pièce, au-dessus de la table",
+   "quantite": 1
+  },
+  {
+   "nom": "grande table rectangulaire en chêne à rallonges, pieds galbés",
+   "categorie": "mobilier",
+   "materiau": "chêne",
+   "couleur": "brun miel",
+   "dimensions_estimees": {
+    "largeur_m": 3.0,
+    "profondeur_m": 1.1,
+    "hauteur_m": 0.76
+   },
+   "position_dans_piece": "centre, parallèle aux fenêtres",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise cannée Louis XV en hêtre/noyer",
+   "categorie": "mobilier",
+   "materiau": "bois, cannage",
+   "couleur": "brun miel",
+   "dimensions_estimees": {
+    "hauteur_m": 0.95
+   },
+   "position_dans_piece": "autour de la table",
+   "quantite": 8
+  },
+  {
+   "nom": "chaise contemporaine tapissée gris anthracite",
+   "categorie": "mobilier",
+   "materiau": "bois, tissu",
+   "couleur": "gris anthracite",
+   "dimensions_estimees": {
+    "hauteur_m": 0.95
+   },
+   "position_dans_piece": "autour de la table",
+   "quantite": 4
+  },
+  {
+   "nom": "vêtements/linge plié posés sur la table",
+   "categorie": "objet",
+   "materiau": "textile",
+   "couleur": "bleu/beige",
+   "dimensions_estimees": {
+    "largeur_m": 0.4
+   },
+   "position_dans_piece": "sur la table",
+   "quantite": 1
+  },
+  {
+   "nom": "rideaux en soie vieux rose/mauve, embrasses",
+   "categorie": "textile",
+   "materiau": "soie",
+   "couleur": "vieux rose",
+   "dimensions_estimees": {
+    "hauteur_m": 4.0
+   },
+   "position_dans_piece": "de chaque côté des portes-fenêtres",
+   "quantite": 4
+  },
+  {
+   "nom": "tringle laiton à embouts",
+   "categorie": "objet",
+   "materiau": "laiton",
+   "couleur": "doré",
+   "dimensions_estimees": {
+    "largeur_m": 1.8
+   },
+   "position_dans_piece": "au-dessus des portes-fenêtres",
+   "quantite": 2
+  },
+  {
+   "nom": "garde-corps de balconnet fer forgé à volutes",
+   "categorie": "ferronnerie",
+   "materiau": "fer forgé",
+   "couleur": "noir",
+   "dimensions_estimees": {
+    "largeur_m": 1.2,
+    "hauteur_m": 0.9
+   },
+   "position_dans_piece": "devant chaque porte-fenêtre",
+   "quantite": 2
+  },
+  {
+   "nom": "commode Louis XV/Louis-Philippe 3 tiroirs, entrées laiton",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": {
+    "largeur_m": 1.2,
+    "hauteur_m": 0.9
+   },
+   "position_dans_piece": "trumeau entre les 2 portes-fenêtres",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau paysage sombre à cadre doré",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "vert sombre/brun",
+   "dimensions_estimees": {
+    "largeur_m": 0.7,
+    "hauteur_m": 0.55
+   },
+   "position_dans_piece": "au-dessus de la commode",
+   "quantite": 1
+  },
+  {
+   "nom": "petite lampe à pied et abat-jour",
+   "categorie": "luminaire",
+   "materiau": "métal, tissu",
+   "couleur": "bronze/crème",
+   "dimensions_estimees": {
+    "hauteur_m": 0.5
+   },
+   "position_dans_piece": "commode",
+   "quantite": 1
+  },
+  {
+   "nom": "boîte/sacoche noire",
+   "categorie": "objet",
+   "materiau": "cuir",
+   "couleur": "noir",
+   "dimensions_estimees": {},
+   "position_dans_piece": "commode",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur fonte à colonnes",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "blanc",
+   "dimensions_estimees": {
+    "largeur_m": 0.5,
+    "hauteur_m": 0.8
+   },
+   "position_dans_piece": "près des portes-fenêtres",
+   "quantite": 2
+  },
+  {
+   "nom": "cheminée Louis XV marbre blanc à cartouche sculpté",
+   "categorie": "cheminee",
+   "materiau": "marbre blanc",
+   "couleur": "blanc",
+   "dimensions_estimees": {
+    "largeur_m": 1.4,
+    "hauteur_m": 1.1
+   },
+   "position_dans_piece": "petit côté (mur de la cheminée)",
+   "quantite": 1
+  },
+  {
+   "nom": "foyer à plaque de fonte et pare-feu",
+   "categorie": "cheminee",
+   "materiau": "fonte",
+   "couleur": "noir",
+   "dimensions_estimees": {
+    "largeur_m": 0.8
+   },
+   "position_dans_piece": "cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "devant de foyer marbre blanc à bandes de marbre noir",
+   "categorie": "cheminee",
+   "materiau": "marbre",
+   "couleur": "blanc/noir",
+   "dimensions_estimees": {
+    "largeur_m": 1.6,
+    "profondeur_m": 0.5
+   },
+   "position_dans_piece": "sol devant la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "grand trumeau-miroir à cadre doré",
+   "categorie": "objet",
+   "materiau": "bois doré, glace",
+   "couleur": "or",
+   "dimensions_estimees": {
+    "largeur_m": 1.2,
+    "hauteur_m": 1.9
+   },
+   "position_dans_piece": "au-dessus de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "bougeoir et lampe sur la cheminée, cloche/photophore en verre",
+   "categorie": "objet",
+   "materiau": "métal, verre",
+   "couleur": "argent/transparent",
+   "dimensions_estimees": {
+    "hauteur_m": 0.4
+   },
+   "position_dans_piece": "tablette de cheminée",
+   "quantite": 3
+  },
+  {
+   "nom": "chaise Louis XV laquée crème, assise damassée",
+   "categorie": "mobilier",
+   "materiau": "bois laqué, tissu",
+   "couleur": "crème",
+   "dimensions_estimees": {
+    "hauteur_m": 0.95
+   },
+   "position_dans_piece": "de part et d'autre de la cheminée",
+   "quantite": 2
+  },
+  {
+   "nom": "plaid gris",
+   "categorie": "textile",
+   "materiau": "laine",
+   "couleur": "gris",
+   "dimensions_estimees": {},
+   "position_dans_piece": "sur une chaise près de la fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "petit tableau à cadre doré",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "sombre",
+   "dimensions_estimees": {
+    "hauteur_m": 0.4
+   },
+   "position_dans_piece": "mur de la cheminée, à droite du trumeau",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Portes-fenêtres à balconnet : façade sans terrasse au droit de la pièce (nord ou latérale)",
+  "Vue sur parc et horizon dégagé : à recouper avec l'orientation des façades"
+ ],
+ "incertitudes": [
+  "Façade des fenêtres (nord, est ou ouest ?)",
+  "Porte d'angle près de la cheminée : placard ou office ?",
+  "Niveau corrigé en 'etage' en P3 (D-012 : salle à manger d'étage, P42→P43 = 28 s)"
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "id": "P05",
+ "zone": "int-palier-etage",
+ "niveau": "etage",
+ "piece": "Palier de l'étage / galerie haute de la cage d'escalier sous coupole",
+ "orientation_vue": "vers la galerie est supposée (tapisserie à droite)",
+ "murs_visibles": [
+  "arcades est",
+  "mur sud (tapisserie, à droite)",
+  "coupole"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "est (fond de galerie, côté nord)",
+   "donne_sur": "pièce non vue (porte à 2 vantaux dans niche cintrée)",
+   "dimensions_estimees": "porte double L 1.4 x H 2.8 m, niche cintrée H 3.6 m"
+  },
+  {
+   "type": "arcade",
+   "mur": "est",
+   "donne_sur": "galerie puis porte de la salle à manger d'étage (lustre doré, table, chaises)",
+   "dimensions_estimees": "arcade L 1.6 x H 3.5 m"
+  },
+  {
+   "type": "porte",
+   "mur": "est (dans galerie)",
+   "donne_sur": "salle à manger d'étage (P50-P51)",
+   "dimensions_estimees": "porte double L 1.3 x H 2.8 m"
+  },
+  {
+   "type": "fenetre",
+   "mur": "coupole",
+   "donne_sur": "oculus demi-lune",
+   "dimensions_estimees": "0.9 x 0.45 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 11.0,
+  "largeur_m": 9.0,
+  "profondeur_m": 9.0
+ },
+ "sol": "dallage marbre blanc veiné gris (Carrare) posé en losanges, cabochons ronds rouge (griotte) Ø 6 cm aux croisements, bandes d'encadrement en marbre rouge",
+ "plafond": "coupole en voûte en arc de cloître sur plan carré : caissons trapézoïdaux et triangulaires soulignés de filets gris-vert, puits de lumière vitré rectangulaire au sommet, 4 oculi en demi-lune (un par face) à la base de la voûte, corniche à denticules et frise d'oves",
+ "murs_revetement": "murs plâtre peints blanc cassé, panneaux moulurés soulignés de gris-vert (vert de gris clair), pilastres, arcades plein cintre sur piliers carrés, guirlandes et cartouches rocaille en stuc sur les écoinçons",
+ "elements": [
+  {
+   "nom": "guéridon à pieds tournés",
+   "categorie": "mobilier",
+   "materiau": "bois verni (merisier)",
+   "couleur": "brun",
+   "dimensions_estimees": "Ø 0.45 x H 0.8 m",
+   "position_dans_piece": "premier plan gauche, près de la porte de la bibliothèque",
+   "quantite": 1
+  },
+  {
+   "nom": "bouquet de roses blanches et feuillage dans un vase céramique céladon",
+   "categorie": "vegetation",
+   "materiau": "céramique, fleurs",
+   "couleur": "vert/blanc",
+   "dimensions_estimees": "H 0.6 m",
+   "position_dans_piece": "sur le guéridon",
+   "quantite": 1
+  },
+  {
+   "nom": "lanterne de galerie suspendue",
+   "categorie": "luminaire",
+   "materiau": "métal, verre",
+   "couleur": "doré",
+   "dimensions_estimees": "H 0.5 m",
+   "position_dans_piece": "plafond de la galerie est",
+   "quantite": 1
+  },
+  {
+   "nom": "appliques bronze doré 2 bras à bougies électriques",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": "H 0.4 m",
+   "position_dans_piece": "piliers et murs de la cage",
+   "quantite": 1
+  },
+  {
+   "nom": "rampe d'escalier en fer forgé à volutes et rinceaux, main courante laiton poli",
+   "categorie": "ferronnerie",
+   "materiau": "fer forgé noir, laiton",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "H 0.95 m",
+   "position_dans_piece": "autour de la trémie",
+   "quantite": 1
+  },
+  {
+   "nom": "barrière extensible de sécurité enfant en bois (croisillons)",
+   "categorie": "objet",
+   "materiau": "bois clair",
+   "couleur": "naturel",
+   "dimensions_estimees": "L 1.2-1.5 x H 0.9 m",
+   "position_dans_piece": "tête de la volée est",
+   "quantite": 1
+  },
+  {
+   "nom": "balustrade à balustres tournés",
+   "categorie": "architecture",
+   "materiau": "pierre/plâtre peint",
+   "couleur": "blanc",
+   "dimensions_estimees": "H 0.9 m, balustres H 0.55",
+   "position_dans_piece": "dans les arcades latérales, côté cage",
+   "quantite": 1
+  },
+  {
+   "nom": "grande tapisserie d'Aubusson (scène champêtre : villageois dansant sous des arbres, chaumière)",
+   "categorie": "tableau",
+   "materiau": "laine tissée, cadre bois sculpté de feuilles d'acanthe torsadées doré/brun",
+   "couleur": "bleu-vert, beige, brun",
+   "dimensions_estimees": "L 3.2 x H 2.0 m",
+   "position_dans_piece": "mur du fond de la cage (sud supposé), au-dessus du repos",
+   "quantite": 1
+  },
+  {
+   "nom": "porte double laquée blanche à panneaux moulurés filets gris-vert, poignée bec-de-cane noire",
+   "categorie": "architecture",
+   "materiau": "bois laqué",
+   "couleur": "blanc/gris-vert",
+   "dimensions_estimees": "1.4 x 2.8 m",
+   "position_dans_piece": "fond de la galerie est",
+   "quantite": 1
+  },
+  {
+   "nom": "cartouche rocaille central en stuc sur l'arcade",
+   "categorie": "moulure",
+   "materiau": "stuc",
+   "couleur": "blanc",
+   "dimensions_estimees": "0.8 m",
+   "position_dans_piece": "clé d'arcade",
+   "quantite": 1
+  },
+  {
+   "nom": "bandes de marbre rouge délimitant les travées",
+   "categorie": "architecture",
+   "materiau": "marbre rouge",
+   "couleur": "rouge brique",
+   "dimensions_estimees": "larg. 0.1 m",
+   "position_dans_piece": "sol",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "La porte de la salle à manger vue dans l'arcade est la porte nord-ouest de la salle à manger (P50 porte de droite, P51 porte de gauche) : pilier blanc, chaise paillée blanche",
+  "Guéridon aux fleurs = bouquet vu au premier plan, à côté de la porte de la bibliothèque"
+ ],
+ "incertitudes": [
+  "La porte double dans la niche cintrée pourrait être celle vue en P10-P12 si P09 regarde le même côté (voir P09)"
+ ]
+}

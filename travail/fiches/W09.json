@@ -1,0 +1,110 @@
+{
+  "id": "W09",
+  "zone": "int-escalier",
+  "niveau": "rdc",
+  "piece": "cage d'escalier (escalier impérial), vue plongeante",
+  "orientation_vue": "plongée verticale depuis le 2e niveau/le haut de la cage",
+  "murs_visibles": [
+    "cage d'escalier : volée centrale, 2 volées de retour, sol du vestibule et du palier"
+  ],
+  "ouvertures": [],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 10.0,
+    "largeur_m": 7.0,
+    "profondeur_m": 6.0
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre (vestibule et petit salon visibles en bas)",
+  "plafond": "(non visible)",
+  "murs_revetement": "limons blancs à moulure, rampes fer forgé",
+  "elements": [
+    {
+      "nom": "volée centrale droite, marbre blanc, tapis rouge à barres de laiton",
+      "categorie": "architecture",
+      "materiau": "marbre blanc",
+      "couleur": "blanc/rouge",
+      "dimensions_estimees": {
+        "largeur_m": 1.8,
+        "nombre_marches": 14,
+        "hauteur_marche_m": 0.16,
+        "giron_m": 0.32
+      },
+      "position_dans_piece": "axe nord-sud, du vestibule au palier intermédiaire (sud)",
+      "quantite": 1
+    },
+    {
+      "nom": "palier intermédiaire (repos) adossé au mur sud",
+      "categorie": "architecture",
+      "materiau": "marbre",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "largeur_m": 6.0,
+        "profondeur_m": 1.8
+      },
+      "position_dans_piece": "au sommet de la volée centrale",
+      "quantite": 1
+    },
+    {
+      "nom": "volées de retour (est et ouest) en marbre blanc, sans tapis sur la vue web",
+      "categorie": "architecture",
+      "materiau": "marbre blanc",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "nombre_marches": 14
+      },
+      "position_dans_piece": "de chaque côté de la volée centrale, montent vers le nord jusqu'au palier de l'étage",
+      "quantite": 2
+    },
+    {
+      "nom": "limon/garde-corps à angles arrondis entourant le vide de la cage (forme en U arrondi autour de la volée centrale)",
+      "categorie": "architecture",
+      "materiau": "plâtre/stuc",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "epaisseur_m": 0.2
+      },
+      "position_dans_piece": "autour du vide",
+      "quantite": 1
+    },
+    {
+      "nom": "rampe en fer forgé à volutes et rinceaux, main courante laiton poli",
+      "categorie": "ferronnerie",
+      "materiau": "fer forgé noir, laiton",
+      "couleur": "noir/or",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "sur tous les limons (volée centrale des 2 côtés, volées de retour côté vide, garde-corps de l'étage)",
+      "quantite": 1
+    },
+    {
+      "nom": "barres de maintien de tapis en laiton",
+      "categorie": "ferronnerie",
+      "materiau": "laiton",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "longueur_m": 1.0
+      },
+      "position_dans_piece": "à chaque contremarche de la volée centrale",
+      "quantite": 14
+    },
+    {
+      "nom": "fauteuil (vu de dessus) dans le petit salon/vestibule",
+      "categorie": "mobilier",
+      "materiau": "bois, tissu",
+      "couleur": "crème",
+      "dimensions_estimees": {},
+      "position_dans_piece": "bas gauche",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Forme déduite : ESCALIER IMPÉRIAL. 1 volée centrale droite (avec tapis rouge) montant du vestibule (nord) vers le palier intermédiaire au sud (tapisserie, P24/P41/P42), puis 2 volées de retour latérales parallèles montant vers le nord jusqu'au palier/galerie de l'étage, qui fait le tour du vide avec un garde-corps fer forgé à angles arrondis",
+    "Les passages RDC est et ouest (P23-P24, P42) sont sous les volées de retour (sous-faces rampantes plus basses vers le sud) ; le petit salon (P25-P26) est sous le palier intermédiaire",
+    "Sens : on monte en partant du vestibule vers le sud, demi-tour à gauche ou à droite au palier, on arrive à l'étage côté nord (au-dessus du vestibule)"
+  ],
+  "incertitudes": [
+    "Image web en plongée oblique : nombre de marches estimé (~14 + ~14 pour ~5 m de hauteur d'étage, à recouper avec la hauteur RDC 5 m → ~30 marches de 16-17 cm au total)",
+    "Les volées de retour ont-elles un tapis rouge (P24 en montre un) : la vue web peut être antérieure"
+  ]
+}

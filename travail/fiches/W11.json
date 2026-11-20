@@ -1,0 +1,194 @@
+{
+  "id": "W11",
+  "zone": "ext-facade-nord",
+  "niveau": "ext",
+  "piece": "façade nord (aérien), entrée, parking, tennis",
+  "orientation_vue": "Vue aérienne plongeante depuis le nord, axe de l'entrée, vers le sud",
+  "murs_visibles": [
+    "façade nord entière"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "avant-corps nord RDC",
+      "donne_sur": "vestibule",
+      "dimensions_estimees": "porte + perron"
+    },
+    {
+      "type": "fenetre",
+      "mur": "façade nord RDC",
+      "donne_sur": "pièces RDC nord",
+      "dimensions_estimees": "≈7 travées + pavillons"
+    },
+    {
+      "type": "fenetre",
+      "mur": "façade nord étage",
+      "donne_sur": "pièces étage nord",
+      "dimensions_estimees": "7 travées + pavillons, balconnets"
+    },
+    {
+      "type": "fenetre",
+      "mur": "façade nord attique",
+      "donne_sur": "attique",
+      "dimensions_estimees": "fenêtres à persiennes"
+    },
+    {
+      "type": "baie",
+      "mur": "soubassement",
+      "donne_sur": "sous-sol",
+      "dimensions_estimees": "soupiraux"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": 36.0,
+    "profondeur_m": null
+  },
+  "sol": "enrobé (cour d'entrée / parking), terrain de tennis en béton poreux rouge",
+  "plafond": "",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "avant-corps nord à 3 niveaux + toit pyramidal",
+      "categorie": "architecture",
+      "materiau": "pierre/tuiles",
+      "couleur": "",
+      "dimensions_estimees": "1 travée",
+      "position_dans_piece": "axe",
+      "quantite": 1
+    },
+    {
+      "nom": "ailes nord : 2 travées de chaque côté de l'avant-corps",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "entre avant-corps et pavillons",
+      "quantite": 2
+    },
+    {
+      "nom": "pavillons d'angle nord en saillie (1-2 travées), 2 niveaux + toit en pavillon bas",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angles NO et NE",
+      "quantite": 2
+    },
+    {
+      "nom": "terrasses à balustrade au-dessus des ailes (niveau attique)",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "de part et d'autre de l'avant-corps",
+      "quantite": 2
+    },
+    {
+      "nom": "perron nord avec murs d'échiffre et lampadaires",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "axe",
+      "quantite": 1
+    },
+    {
+      "nom": "pins d'Alep / pins parasols devant l'entrée",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "h≈12 m",
+      "position_dans_piece": "devant l'avant-corps, de part et d'autre du perron",
+      "quantite": 3
+    },
+    {
+      "nom": "if",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert sombre",
+      "dimensions_estimees": "",
+      "position_dans_piece": "gauche du perron (cf. P37)",
+      "quantite": 1
+    },
+    {
+      "nom": "voitures garées",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "noire, blanche, noire",
+      "dimensions_estimees": "",
+      "position_dans_piece": "cour d'entrée à gauche (est) de l'entrée",
+      "quantite": 3
+    },
+    {
+      "nom": "scooter",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "rouge",
+      "dimensions_estimees": "",
+      "position_dans_piece": "à côté des voitures",
+      "quantite": 1
+    },
+    {
+      "nom": "court de tennis (surface rouge, lignes blanches, grillage vert)",
+      "categorie": "architecture",
+      "materiau": "béton poreux / résine",
+      "couleur": "rouge brique",
+      "dimensions_estimees": "≈36 × 18 m",
+      "position_dans_piece": "à droite (ouest) du château",
+      "quantite": 1
+    },
+    {
+      "nom": "mur de soutènement + escalier le long du tennis",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "beige",
+      "dimensions_estimees": "",
+      "position_dans_piece": "entre le château et le tennis",
+      "quantite": 1
+    },
+    {
+      "nom": "palmiers (Trachycarpus / Washingtonia)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angle NO, près du tennis",
+      "quantite": 3
+    },
+    {
+      "nom": "massifs de buis / agaves",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pied du pavillon NO",
+      "quantite": 3
+    },
+    {
+      "nom": "escalier de service + massif de pierres",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pied du pavillon NE (gauche)",
+      "quantite": 1
+    },
+    {
+      "nom": "allée asphaltée bordée d'arbustes",
+      "categorie": "architecture",
+      "materiau": "enrobé",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "gauche (est)",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Vue du nord : est à gauche, ouest à droite",
+    "Tennis à l'ouest, parking à l'est (cf. P39, W02)"
+  ],
+  "incertitudes": [
+    "Nombre exact de travées des ailes nord (2 visibles de chaque côté + pavillon)"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "success": false,
+  "command": "build",
+  "data": {
+    "provenance": "/home/valm/IdeaProjects/chateau-saint-victor/travail/paintball-web-final.provenance.json"
+  },
+  "errors": [
+    {
+      "code": "COMMAND_FAILED",
+      "message": "Build failed (exit 1). See log: /home/valm/IdeaProjects/chateau-saint-victor/travail/paintball-web-final.log"
+    }
+  ],
+  "warnings": []
+}

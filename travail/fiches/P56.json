@@ -1,0 +1,137 @@
+{
+ "id": "P56",
+ "zone": "int-chambre-3",
+ "niveau": "etage",
+ "piece": "Chambre-3 : bureau / pièce à l'armoire et au tableau marine (bout de l'enfilade, porte sur le dégagement d'étage)",
+ "orientation_vue": "depuis l'entrée vers le fond : tableau marine, armoire à droite",
+ "murs_visibles": [
+  "mur gauche (fenêtres)",
+  "mur du fond (tableau)",
+  "mur droit (armoire, porte)"
+ ],
+ "ouvertures": [
+  {
+   "type": "fenetre",
+   "mur": "gauche",
+   "donne_sur": "extérieur",
+   "dimensions_estimees": "porte-fenêtre L 1.3 x H 3.3 m"
+  },
+  {
+   "type": "porte",
+   "mur": "droit (fond)",
+   "donne_sur": "dégagement d'étage (P57)",
+   "dimensions_estimees": "porte double L 1.2 x H 2.6 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 5.5,
+  "profondeur_m": 7.0
+ },
+ "sol": "parquet de Versailles chêne clair (panneaux carrés à entrelacs), ciré",
+ "plafond": "plafond blanc, corniche moulurée à feuillages, grande rosace en stuc rocaille",
+ "murs_revetement": "murs peints blanc cassé (papier à fine texture), plinthes ; portes laquées blanches à filets verts",
+ "elements": [
+  {
+   "nom": "grande armoire provençale à fronton chantourné, ferrures longues en laiton",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun rouge",
+   "dimensions_estimees": "1.7 x 0.65 x H 2.5 m",
+   "position_dans_piece": "mur droit",
+   "quantite": 1
+  },
+  {
+   "nom": "console Louis XV à plateau de marbre avec livres",
+   "categorie": "mobilier",
+   "materiau": "bois, marbre",
+   "couleur": "brun",
+   "dimensions_estimees": "0.8 x 0.4 m",
+   "position_dans_piece": "à droite de la porte",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise/fauteuil en rotin (bord)",
+   "categorie": "mobilier",
+   "materiau": "rotin",
+   "couleur": "naturel",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur droit, premier plan",
+   "quantite": 1
+  },
+  {
+   "nom": "commode à tiroirs (cadres photo, coupelle noire)",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "1.3 x 0.5 x H 0.85 m",
+   "position_dans_piece": "mur gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "portrait encadré (femme)",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "brun",
+   "dimensions_estimees": "0.4 x 0.55 m",
+   "position_dans_piece": "mur gauche au-dessus de la commode",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur gauche, sous la fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau marine",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "gris/bleu",
+   "dimensions_estimees": "1.9 x 1.3 m",
+   "position_dans_piece": "mur du fond",
+   "quantite": 1
+  },
+  {
+   "nom": "bureau, iMac, lampe, fauteuils, échiquier, pouf",
+   "categorie": "mobilier",
+   "materiau": "",
+   "couleur": "",
+   "dimensions_estimees": "",
+   "position_dans_piece": "fond",
+   "quantite": 1
+  },
+  {
+   "nom": "lustre 8 bras sur rosace rocaille",
+   "categorie": "luminaire",
+   "materiau": "fer/bronze",
+   "couleur": "doré",
+   "dimensions_estimees": "",
+   "position_dans_piece": "centre",
+   "quantite": 1
+  },
+  {
+   "nom": "rosace de plafond rocaille en stuc",
+   "categorie": "moulure",
+   "materiau": "stuc",
+   "couleur": "blanc",
+   "dimensions_estimees": "Ø 1.0 m",
+   "position_dans_piece": "plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "rideaux de lin écru",
+   "categorie": "textile",
+   "materiau": "lin",
+   "couleur": "écru",
+   "dimensions_estimees": "",
+   "position_dans_piece": "fenêtres",
+   "quantite": 4
+  }
+ ],
+ "indices_plan": [],
+ "incertitudes": []
+}

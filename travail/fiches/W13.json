@@ -1,0 +1,254 @@
+{
+  "id": "W13",
+  "zone": "ext-facade-sud",
+  "niveau": "ext",
+  "piece": "façade jardin (sud), vue rapprochée",
+  "orientation_vue": "Vue de face-biais depuis la terrasse/cour sud, partie centrale et est de la façade sud, vers le nord",
+  "murs_visibles": [
+    "façade sud : avant-corps central, aile est, pavillon SE ; une travée de l'aile ouest"
+  ],
+  "ouvertures": [
+    {
+      "type": "baie",
+      "mur": "avant-corps sud RDC",
+      "donne_sur": "salon central",
+      "dimensions_estimees": "2 baies à fronton cintré + 1 centrale, portes-fenêtres ≈1,3 × 3,2 m"
+    },
+    {
+      "type": "porte",
+      "mur": "avant-corps sud étage",
+      "donne_sur": "pièce d'étage centrale → balcon",
+      "dimensions_estimees": "porte-fenêtre ouverte"
+    },
+    {
+      "type": "fenetre",
+      "mur": "aile est sud RDC",
+      "donne_sur": "pièces RDC sud-est",
+      "dimensions_estimees": "portes-fenêtres, frontons triangulaires"
+    },
+    {
+      "type": "fenetre",
+      "mur": "aile est sud étage",
+      "donne_sur": "pièces étage sud-est",
+      "dimensions_estimees": "balconnets fonte"
+    },
+    {
+      "type": "porte",
+      "mur": "aile ouest RDC (gauche)",
+      "donne_sur": "pièce RDC sud-ouest",
+      "dimensions_estimees": "porte-fenêtre à petits bois rayonnants (éventail)"
+    },
+    {
+      "type": "fenetre",
+      "mur": "attique",
+      "donne_sur": "attique",
+      "dimensions_estimees": "persiennes, frontons cintrés au centre"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "",
+  "plafond": "",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "balcon à balustres en pierre",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "≈6 × 2 m",
+      "position_dans_piece": "étage avant-corps sud",
+      "quantite": 1
+    },
+    {
+      "nom": "parasol carré écru",
+      "categorie": "objet",
+      "materiau": "toile + bois",
+      "couleur": "écru",
+      "dimensions_estimees": "≈3 m",
+      "position_dans_piece": "sur le balcon",
+      "quantite": 1
+    },
+    {
+      "nom": "parasol carré",
+      "categorie": "objet",
+      "materiau": "toile",
+      "couleur": "écru",
+      "dimensions_estimees": "≈3 m",
+      "position_dans_piece": "terrasse, devant pavillon SE",
+      "quantite": 1
+    },
+    {
+      "nom": "jardinière de fleurs rouges (géraniums) posée sur la balustrade",
+      "categorie": "vegetation",
+      "materiau": "terre cuite",
+      "couleur": "rouge",
+      "dimensions_estimees": "≈40 cm",
+      "position_dans_piece": "angle gauche du balcon",
+      "quantite": 1
+    },
+    {
+      "nom": "frontons cintrés sur baies RDC de l'avant-corps et fenêtre d'étage centrale",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "avant-corps",
+      "quantite": 3
+    },
+    {
+      "nom": "frontons triangulaires sur baies RDC des pavillons d'angle",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pavillons SE et SO",
+      "quantite": 1
+    },
+    {
+      "nom": "fronton cintré sur fenêtre d'étage du pavillon",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pavillon SE",
+      "quantite": 1
+    },
+    {
+      "nom": "colonnes et pilastres à chapiteaux de l'avant-corps",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "RDC avant-corps",
+      "quantite": 1
+    },
+    {
+      "nom": "chaînes à refends",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angles des corps",
+      "quantite": 1
+    },
+    {
+      "nom": "corniche à modillons + denticules, balustrade d'acrotère",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "couronnement",
+      "quantite": 1
+    },
+    {
+      "nom": "appliques-lanternes sur potence",
+      "categorie": "luminaire",
+      "materiau": "métal noir + verre",
+      "couleur": "noir",
+      "dimensions_estimees": "≈40 cm",
+      "position_dans_piece": "trumeaux RDC",
+      "quantite": 3
+    },
+    {
+      "nom": "balconnets en fonte",
+      "categorie": "ferronnerie",
+      "materiau": "fonte",
+      "couleur": "noir",
+      "dimensions_estimees": "≈1,2 × 0,5 m",
+      "position_dans_piece": "fenêtres d'étage",
+      "quantite": 5
+    },
+    {
+      "nom": "porte-fenêtre à petits bois en éventail (imposte rayonnante)",
+      "categorie": "architecture",
+      "materiau": "bois peint",
+      "couleur": "blanc",
+      "dimensions_estimees": "≈1,4 × 3,2 m",
+      "position_dans_piece": "RDC aile ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "lampe de table d'extérieur (abat-jour)",
+      "categorie": "luminaire",
+      "materiau": "",
+      "couleur": "blanc",
+      "dimensions_estimees": "h≈50 cm",
+      "position_dans_piece": "terrasse, à gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "persiennes",
+      "categorie": "architecture",
+      "materiau": "bois",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "attique et étage est",
+      "quantite": 1
+    },
+    {
+      "nom": "souches de cheminée",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "toiture",
+      "quantite": 2
+    },
+    {
+      "nom": "lauriers-roses / pittosporum",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "h≈2 m",
+      "position_dans_piece": "premier plan, devant la terrasse",
+      "quantite": 1
+    },
+    {
+      "nom": "platane (feuilles au premier plan)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert clair",
+      "dimensions_estimees": "",
+      "position_dans_piece": "premier plan gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "massif rose (bougainvillée / laurier-rose)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "rose",
+      "dimensions_estimees": "",
+      "position_dans_piece": "droite",
+      "quantite": 1
+    },
+    {
+      "nom": "pots et bacs",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "terrasse",
+      "quantite": 2
+    },
+    {
+      "nom": "tour d'habitation moderne",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "arrière-plan droit (hors domaine)",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Baie centrale = salon d'axe RDC",
+    "Hauteur RDC estimée ≈5 m sous plafond (portes-fenêtres ≈3,2 m + imposte)"
+  ],
+  "incertitudes": [
+    "Hauteur sous plafond RDC à confirmer par l'intérieur"
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "P41",
+  "zone": "int-vestibule",
+  "niveau": "rdc",
+  "piece": "vestibule (axe de l'escalier)",
+  "orientation_vue": "vers le sud (escalier), depuis la porte d'entrée",
+  "murs_visibles": [
+    "est (porte double vers couloir est, fusil)",
+    "sud (colonnes, volée centrale, passages latéraux)",
+    "ouest (porte double vers couloir ouest, fusil)"
+  ],
+  "ouvertures": [
+    {
+      "type": "baie",
+      "mur": "sud, centre",
+      "donne_sur": "volée centrale de l'escalier entre 2 colonnes",
+      "dimensions_estimees": {
+        "largeur_m": 2.2,
+        "hauteur_m": 4.6
+      }
+    },
+    {
+      "type": "baie",
+      "mur": "sud, est",
+      "donne_sur": "passage est le long de l'escalier (P42)",
+      "dimensions_estimees": {
+        "largeur_m": 1.6,
+        "hauteur_m": 4.6
+      }
+    },
+    {
+      "type": "baie",
+      "mur": "sud, ouest",
+      "donne_sur": "passage ouest le long de l'escalier (P23)",
+      "dimensions_estimees": {
+        "largeur_m": 1.6,
+        "hauteur_m": 4.6
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "est",
+      "donne_sur": "couloir est (P36), porte à pictogramme bleu en face",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.3,
+        "note": "porte double ouverte, dessus-de-porte à panneau"
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "ouest",
+      "donne_sur": "couloir ouest (P22)",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.3
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": 8.0,
+    "profondeur_m": 6.5
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre",
+  "plafond": "plafond blanc plat, corniche à plusieurs ressauts avec frise d'oves/rinceaux",
+  "murs_revetement": "papier peint damassé grand motif floral, fond taupe/gris-beige, motif blanc cassé ; soubassement à panneaux moulurés blanc filets vert céladon (~1 m)",
+  "elements": [
+    {
+      "nom": "colonne à chapiteau composite (ionique à volutes + feuilles d'acanthe)",
+      "categorie": "architecture",
+      "materiau": "plâtre/stuc peint",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 4.6,
+        "diametre_m": 0.45
+      },
+      "position_dans_piece": "deux paires encadrant le départ de l'escalier (côté sud du vestibule)",
+      "quantite": 4
+    },
+    {
+      "nom": "pilastre à chapiteau composite",
+      "categorie": "architecture",
+      "materiau": "stuc",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 4.6,
+        "largeur_m": 0.45
+      },
+      "position_dans_piece": "encadrant la porte d'entrée (mur nord) et aux angles",
+      "quantite": 4
+    },
+    {
+      "nom": "lustre à pampilles bronze doré 12-16 bras, bougies électriques",
+      "categorie": "luminaire",
+      "materiau": "bronze doré, verre",
+      "couleur": "doré",
+      "dimensions_estimees": {
+        "diametre_m": 0.9,
+        "hauteur_m": 1.4
+      },
+      "position_dans_piece": "centre du vestibule, suspendu à une rosace",
+      "quantite": 1
+    },
+    {
+      "nom": "rosace de plafond à feuillages",
+      "categorie": "moulure",
+      "materiau": "plâtre",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "diametre_m": 0.9
+      },
+      "position_dans_piece": "plafond, au-dessus du lustre",
+      "quantite": 1
+    },
+    {
+      "nom": "grand tapis rouge à médaillons (motif type Boukhara/turkmène), bordure à rinceaux dorés",
+      "categorie": "tapis",
+      "materiau": "laine",
+      "couleur": "rouge carmin, médaillons bleu nuit/or",
+      "dimensions_estimees": {
+        "largeur_m": 4.0,
+        "profondeur_m": 3.2
+      },
+      "position_dans_piece": "centre du vestibule",
+      "quantite": 1
+    },
+    {
+      "nom": "table de milieu à plateau marbre, piètement bois doré à têtes de lion et entretoise ajourée",
+      "categorie": "mobilier",
+      "materiau": "marbre blanc veiné, bois doré",
+      "couleur": "blanc/or",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "profondeur_m": 0.7,
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "centre du tapis",
+      "quantite": 1
+    },
+    {
+      "nom": "vase métallique (étain/argent) avec bouquet de lys blancs",
+      "categorie": "objet",
+      "materiau": "métal, fleurs",
+      "couleur": "argent, blanc/vert",
+      "dimensions_estimees": {
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "sur la table de milieu",
+      "quantite": 1
+    },
+    {
+      "nom": "magazines/brochures",
+      "categorie": "objet",
+      "materiau": "papier",
+      "couleur": "bleu/blanc",
+      "dimensions_estimees": {
+        "largeur_m": 0.3
+      },
+      "position_dans_piece": "sur la table de milieu",
+      "quantite": 2
+    },
+    {
+      "nom": "fusil ancien accroché verticalement",
+      "categorie": "objet",
+      "materiau": "bois, acier",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "longueur_m": 1.5
+      },
+      "position_dans_piece": "trumeaux à côté des portes est et ouest",
+      "quantite": 2
+    },
+    {
+      "nom": "console Louis XVI laquée grise, plateau marbre",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, marbre",
+      "couleur": "gris/blanc",
+      "dimensions_estimees": {
+        "largeur_m": 1.0,
+        "hauteur_m": 0.85
+      },
+      "position_dans_piece": "passage est, mur est",
+      "quantite": 1
+    },
+    {
+      "nom": "statuette-candélabre bronze (personnage portant 4 lumières)",
+      "categorie": "luminaire",
+      "materiau": "bronze",
+      "couleur": "noir/doré",
+      "dimensions_estimees": {
+        "hauteur_m": 0.7
+      },
+      "position_dans_piece": "sur la console est",
+      "quantite": 1
+    },
+    {
+      "nom": "miroir doré haut",
+      "categorie": "objet",
+      "materiau": "bois doré",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "au-dessus des consoles des passages",
+      "quantite": 2
+    },
+    {
+      "nom": "console galbée acajou à plateau marbre + vase d'eucalyptus",
+      "categorie": "mobilier",
+      "materiau": "acajou, marbre",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "largeur_m": 1.0
+      },
+      "position_dans_piece": "passage ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "chevalet avec affiche de concert",
+      "categorie": "objet",
+      "materiau": "bois, papier",
+      "couleur": "naturel",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "devant le pilastre ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "fauteuil cabriolet tissu imprimé (dans le couloir ouest)",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, tissu",
+      "couleur": "gris/bleu",
+      "dimensions_estimees": {},
+      "position_dans_piece": "couloir ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "console dorée (bord droit)",
+      "categorie": "mobilier",
+      "materiau": "bois doré",
+      "couleur": "or",
+      "dimensions_estimees": {},
+      "position_dans_piece": "mur ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "applique/lanterne murale",
+      "categorie": "luminaire",
+      "materiau": "métal",
+      "couleur": "noir",
+      "dimensions_estimees": {},
+      "position_dans_piece": "bord gauche, mur est",
+      "quantite": 1
+    },
+    {
+      "nom": "tapisserie verdure au palier",
+      "categorie": "textile",
+      "materiau": "laine",
+      "couleur": "bleu/vert",
+      "dimensions_estimees": {
+        "largeur_m": 2.5
+      },
+      "position_dans_piece": "mur sud du palier intermédiaire, haut de la volée",
+      "quantite": 1
+    },
+    {
+      "nom": "vase avec pampas séchées",
+      "categorie": "vegetation",
+      "materiau": "céramique, végétal",
+      "couleur": "beige",
+      "dimensions_estimees": {
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "palier intermédiaire",
+      "quantite": 1
+    },
+    {
+      "nom": "tableau (cadre doré, ciel bleu) dans le couloir ouest",
+      "categorie": "tableau",
+      "materiau": "toile",
+      "couleur": "bleu",
+      "dimensions_estimees": {},
+      "position_dans_piece": "couloir ouest",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Composition symétrique : volée centrale dans l'axe, 2 passages latéraux sous les volées de retour, 2 portes vers couloirs est et ouest",
+    "La volée centrale monte vers le sud jusqu'au palier intermédiaire (tapisserie), d'où partent les volées de retour (escalier impérial, cf. W09)"
+  ],
+  "incertitudes": [
+    "Profondeur exacte du vestibule jusqu'aux colonnes"
+  ]
+}

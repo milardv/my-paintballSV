@@ -1,0 +1,211 @@
+{
+  "id": "P39",
+  "zone": "ext-facade-nord",
+  "niveau": "ext",
+  "piece": "façade nord, aile est et pavillon d'angle nord-est",
+  "orientation_vue": "Contre-plongée depuis le côté droit (est) du perron, vers l'est le long de la façade nord ; ciel à droite",
+  "murs_visibles": [
+    "façade nord : angle de l'avant-corps (gauche), aile est (3 travées), pavillon d'angle nord-est (1 travée, en saillie)"
+  ],
+  "ouvertures": [
+    {
+      "type": "fenetre",
+      "mur": "aile est façade nord, RDC",
+      "donne_sur": "pièces RDC côté nord-est",
+      "dimensions_estimees": "porte-fenêtre ≈1,3 × 3,0 m, garde-corps fonte, 2 travées"
+    },
+    {
+      "type": "fenetre",
+      "mur": "aile est façade nord, étage",
+      "donne_sur": "pièces étage côté nord-est",
+      "dimensions_estimees": "≈1,2 × 2,4 m, balconnets, 2 travées"
+    },
+    {
+      "type": "fenetre",
+      "mur": "aile est façade nord, attique",
+      "donne_sur": "attique",
+      "dimensions_estimees": "≈0,9 × 1,2 m, 2 travées"
+    },
+    {
+      "type": "fenetre",
+      "mur": "pavillon d'angle NE, RDC et étage",
+      "donne_sur": "pièce d'angle NE",
+      "dimensions_estimees": "1 travée, persiennes ouvertes"
+    },
+    {
+      "type": "baie",
+      "mur": "soubassement, sous la fenêtre de RDC gauche",
+      "donne_sur": "sous-sol / cave",
+      "dimensions_estimees": "soupirail ≈1,0 × 0,7 m"
+    },
+    {
+      "type": "baie",
+      "mur": "soubassement milieu",
+      "donne_sur": "sous-sol",
+      "dimensions_estimees": "petit soupirail ≈0,6 × 0,3 m"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "enrobé / pavés du parking",
+  "plafond": "ciel",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "soubassement en pierre (≈1,5 m) sous le RDC surélevé",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "beige taché",
+      "dimensions_estimees": "h≈1,5 m",
+      "position_dans_piece": "pied de façade",
+      "quantite": 1
+    },
+    {
+      "nom": "chaînes à refends",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angle avant-corps, angle et retour du pavillon NE",
+      "quantite": 3
+    },
+    {
+      "nom": "chambranles moulurés + corniche sur consoles au-dessus des fenêtres",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "toutes les fenêtres RDC et étage",
+      "quantite": 6
+    },
+    {
+      "nom": "garde-corps en fonte ouvragée (balconnet)",
+      "categorie": "ferronnerie",
+      "materiau": "fonte",
+      "couleur": "noir",
+      "dimensions_estimees": "≈1,2 × 0,6 m",
+      "position_dans_piece": "fenêtres RDC et étage",
+      "quantite": 6
+    },
+    {
+      "nom": "persiennes (volets persiennés) repliées en tableau",
+      "categorie": "architecture",
+      "materiau": "bois peint",
+      "couleur": "blanc cassé",
+      "dimensions_estimees": "",
+      "position_dans_piece": "fenêtres pavillon NE",
+      "quantite": 1
+    },
+    {
+      "nom": "grille ou porte de soupirail en métal avec pictogramme rond rouge (panneau « défense de stationner » / sortie de secours ?)",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "noir / disque rouge",
+      "dimensions_estimees": "≈1,0 × 0,7 m",
+      "position_dans_piece": "soubassement sous la 1re fenêtre",
+      "quantite": 1
+    },
+    {
+      "nom": "petit panneau rouge rectangulaire (signalisation)",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "rouge",
+      "dimensions_estimees": "≈15 × 10 cm",
+      "position_dans_piece": "soubassement, extrémité gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "tuyau de descente d'eau pluviale",
+      "categorie": "architecture",
+      "materiau": "fonte/zinc",
+      "couleur": "gris",
+      "dimensions_estimees": "Ø≈10 cm",
+      "position_dans_piece": "angle avant-corps / aile, toute hauteur",
+      "quantite": 1
+    },
+    {
+      "nom": "applique-lanterne sur potence",
+      "categorie": "luminaire",
+      "materiau": "métal noir + verre",
+      "couleur": "noir",
+      "dimensions_estimees": "≈30 cm",
+      "position_dans_piece": "angle du pavillon NE, h≈5 m",
+      "quantite": 1
+    },
+    {
+      "nom": "caméras de surveillance",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angle pavillon NE, sous bandeau d'étage",
+      "quantite": 2
+    },
+    {
+      "nom": "détecteur / spot",
+      "categorie": "luminaire",
+      "materiau": "",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "trumeau RDC aile est",
+      "quantite": 1
+    },
+    {
+      "nom": "lampadaire boule sur colonne fonte",
+      "categorie": "luminaire",
+      "materiau": "fonte peinte + globe opalin",
+      "couleur": "noir / globe blanc laiteux",
+      "dimensions_estimees": "h≈3,0 m, globe Ø≈40 cm, socle carré ≈40 cm",
+      "position_dans_piece": "sur les dés de pierre en tête des murs d'échiffre du perron nord, de part et d'autre",
+      "quantite": 2
+    },
+    {
+      "nom": "dé de pierre / socle du lampadaire en tête du parapet",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "blanc",
+      "dimensions_estimees": "≈0,6 × 0,6 m",
+      "position_dans_piece": "tête du mur d'échiffre droit",
+      "quantite": 1
+    },
+    {
+      "nom": "voitures garées le long de la façade",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "grise, noire",
+      "dimensions_estimees": "",
+      "position_dans_piece": "parking au pied de l'aile est",
+      "quantite": 2
+    },
+    {
+      "nom": "garde-corps métallique bas (barrière)",
+      "categorie": "ferronnerie",
+      "materiau": "métal",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "au loin, extrémité est",
+      "quantite": 1
+    },
+    {
+      "nom": "feuillus en fond",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "au-delà de l'angle NE",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Prise juste après P38 depuis l'extrémité droite du perron, vue vers la droite de la façade (est supposé)",
+    "Pavillon NE = angle avec la façade est (W17)",
+    "Fenêtres RDC aile est = pièces RDC nord-est (P1.int-rdc)"
+  ],
+  "incertitudes": [
+    "Sens est/ouest à confirmer : déduit de W11/W12 (parking à gauche de l'entrée vu du nord = côté est ?)",
+    "Usage du panneau rouge du soupirail"
+  ]
+}

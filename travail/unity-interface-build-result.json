@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "command": "build",
+  "data": {
+    "target": "StandaloneLinux64",
+    "logFile": "/home/valm/IdeaProjects/chateau-saint-victor/travail/unity-interface-build.log",
+    "version": null,
+    "editorErrors": [
+      {
+        "type": "license-error",
+        "raw": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "message": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "lineNumber": 302
+      },
+      {
+        "type": "license-error",
+        "raw": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "message": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "lineNumber": 303
+      },
+      {
+        "type": "license-error",
+        "raw": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "message": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "lineNumber": 304
+      }
+    ],
+    "provenance": "/home/valm/IdeaProjects/chateau-saint-victor/travail/unity-interface-build.provenance.json",
+    "outputPath": null
+  },
+  "errors": [],
+  "warnings": []
+}

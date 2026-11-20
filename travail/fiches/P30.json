@@ -1,0 +1,173 @@
+{
+  "id": "P30",
+  "zone": "int-salon-tableau",
+  "niveau": "rdc",
+  "piece": "salon bow-window (mur nord, « salon au tableau » = même pièce)",
+  "orientation_vue": "vers le nord (mur du tableau marine)",
+  "murs_visibles": [
+    "nord (marine, commode, 2 portes)",
+    "est (porte bois du billard)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "nord (partie ouest)",
+      "donne_sur": "petit salon sous palier : on voit le piano et une chaise",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.0
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "nord (partie est)",
+      "donne_sur": "petit salon sous palier, angle avec tableau du château (= porte blanche de P25)",
+      "dimensions_estimees": {
+        "largeur_m": 1.0,
+        "hauteur_m": 2.8,
+        "note": "porte simple blanche à panneaux, ouverte"
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "est (partie nord)",
+      "donne_sur": "salle de billard",
+      "dimensions_estimees": {
+        "largeur_m": 1.5,
+        "hauteur_m": 3.2,
+        "note": "vantail en bois naturel mouluré"
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": 8.0,
+    "profondeur_m": 7.5
+  },
+  "sol": "parquet de chêne à bâtons rompus (point de Hongrie ? non : bâtons rompus à 90°), ciré, teinte miel",
+  "plafond": "plafond blanc à grand caisson central à angles coupés (octogonal côté baie), double corniche à rais-de-cœur et frise d'acanthes, grande rosace rocaille",
+  "murs_revetement": "papier peint/tenture damassée gris perle très clair, soubassement à panneaux moulurés gris-bleu, plinthe gris-bleu",
+  "elements": [
+    {
+      "nom": "grand tableau marine (signé en bas à gauche)",
+      "categorie": "tableau",
+      "materiau": "huile, cadre doré",
+      "couleur": "bleu/gris",
+      "dimensions_estimees": {
+        "largeur_m": 2.6,
+        "hauteur_m": 1.4
+      },
+      "position_dans_piece": "mur nord, centre, bas du cadre à ~1.2 m",
+      "quantite": 1
+    },
+    {
+      "nom": "commode galbée Louis XV, 3 rangs de tiroirs, poignées et entrées en bronze doré",
+      "categorie": "mobilier",
+      "materiau": "noyer",
+      "couleur": "brun miel",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "profondeur_m": 0.6,
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "mur nord, centre",
+      "quantite": 1
+    },
+    {
+      "nom": "lampe potiche bleu et blanc",
+      "categorie": "luminaire",
+      "materiau": "porcelaine",
+      "couleur": "bleu/blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.75
+      },
+      "position_dans_piece": "sur la commode",
+      "quantite": 1
+    },
+    {
+      "nom": "dracaena (yucca) en cache-pot céramique émaillée bleu-vert",
+      "categorie": "vegetation",
+      "materiau": "plante, céramique",
+      "couleur": "vert/bleu",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "de part et d'autre de la commode",
+      "quantite": 2
+    },
+    {
+      "nom": "sabre accroché",
+      "categorie": "objet",
+      "materiau": "acier",
+      "couleur": "argent",
+      "dimensions_estimees": {
+        "longueur_m": 0.9
+      },
+      "position_dans_piece": "mur nord/est, entre la porte blanche et la porte du billard",
+      "quantite": 1
+    },
+    {
+      "nom": "boîtier détecteur/alarme",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": {},
+      "position_dans_piece": "en haut du mur nord, sous la corniche",
+      "quantite": 1
+    },
+    {
+      "nom": "piano droit et banquette (vus par la porte)",
+      "categorie": "mobilier",
+      "materiau": "bois",
+      "couleur": "brun",
+      "dimensions_estimees": {},
+      "position_dans_piece": "dans le petit salon",
+      "quantite": 1
+    },
+    {
+      "nom": "candélabre argenté à 5 bras",
+      "categorie": "luminaire",
+      "materiau": "métal argenté",
+      "couleur": "argent",
+      "dimensions_estimees": {},
+      "position_dans_piece": "sur le piano",
+      "quantite": 1
+    },
+    {
+      "nom": "soubassement à panneaux moulurés gris-bleu",
+      "categorie": "moulure",
+      "materiau": "bois",
+      "couleur": "gris-bleu",
+      "dimensions_estimees": {
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "mur nord",
+      "quantite": 4
+    },
+    {
+      "nom": "chambranles moulurés gris-bleu",
+      "categorie": "moulure",
+      "materiau": "bois",
+      "couleur": "gris-bleu",
+      "dimensions_estimees": {},
+      "position_dans_piece": "autour des 3 portes",
+      "quantite": 3
+    },
+    {
+      "nom": "dossier de bergère (premier plan)",
+      "categorie": "mobilier",
+      "materiau": "bois laqué",
+      "couleur": "gris",
+      "dimensions_estimees": {},
+      "position_dans_piece": "premier plan",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "« salon au tableau » = mur nord du salon bow-window (même parquet, même plafond, même commode qu'en P29)",
+    "Porte nord-ouest → piano/petit salon ; porte nord-est → petit salon (tableau du château) ; porte est → billard"
+  ],
+  "incertitudes": [
+    "Les deux portes nord donnent-elles sur la même pièce (petit salon) ? hypothèse oui"
+  ]
+}

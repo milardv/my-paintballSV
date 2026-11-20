@@ -1,0 +1,208 @@
+{
+ "id": "P47",
+ "zone": "int-chambre-1",
+ "niveau": "etage",
+ "piece": "Chambre-1 (chambre d'angle à l'est de la salle à manger d'étage, 2 portes-fenêtres)",
+ "orientation_vue": "depuis la porte de la salle à manger, vers le mur des fenêtres (angle) ; alcôve à gauche",
+ "murs_visibles": [
+  "mur gauche (commode, tableaux)",
+  "mur du fond (porte-fenêtre)",
+  "porte de communication (vantail droit)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "côté salle à manger",
+   "donne_sur": "salle à manger d'étage (P44-P46)",
+   "dimensions_estimees": "porte double L 1.3 x H 2.9 m"
+  },
+  {
+   "type": "fenetre",
+   "mur": "fond",
+   "donne_sur": "extérieur, garde-corps, arbres et ville",
+   "dimensions_estimees": "porte-fenêtre 2 vantaux + imposte L 1.2 x H 3.0 m"
+  },
+  {
+   "type": "porte",
+   "mur": "gauche (dans l'alcôve/renfoncement)",
+   "donne_sur": "petite porte (dégagement ou placard)",
+   "dimensions_estimees": "L 0.7 x H 2.2 m"
+  },
+  {
+   "type": "baie",
+   "mur": "gauche",
+   "donne_sur": "alcôve / dégagement (ouverture large sans porte)",
+   "dimensions_estimees": "L 1.8 x H 2.6 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 5.0,
+  "profondeur_m": 6.5
+ },
+ "sol": "parquet chêne à bâtons rompus en damier (panneaux carrés de lames, 'parquet mosaïque/Versailles simple'), miel",
+ "plafond": "plafond plat blanc, corniche à gorge moulurée, rosace en stuc feuillagée",
+ "murs_revetement": "murs peints crème/ivoire, plinthes",
+ "elements": [
+  {
+   "nom": "commode-buffet provençale en noyer à 2 portes et 2 tiroirs",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "1.4 x 0.5 x H 1.0 m",
+   "position_dans_piece": "mur gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe pied balustre laiton doré, abat-jour blanc",
+   "categorie": "luminaire",
+   "materiau": "laiton, tissu",
+   "couleur": "doré/blanc",
+   "dimensions_estimees": "H 0.7 m",
+   "position_dans_piece": "sur la commode",
+   "quantite": 1
+  },
+  {
+   "nom": "bouquet de fleurs séchées dans vase verre",
+   "categorie": "vegetation",
+   "materiau": "",
+   "couleur": "beige",
+   "dimensions_estimees": "H 0.5 m",
+   "position_dans_piece": "sur la commode",
+   "quantite": 1
+  },
+  {
+   "nom": "statuette en bronze",
+   "categorie": "objet",
+   "materiau": "bronze",
+   "couleur": "noir",
+   "dimensions_estimees": "H 0.3 m",
+   "position_dans_piece": "sur la commode",
+   "quantite": 1
+  },
+  {
+   "nom": "livres / albums empilés",
+   "categorie": "objet",
+   "materiau": "papier",
+   "couleur": "noir",
+   "dimensions_estimees": "",
+   "position_dans_piece": "sur la commode",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau à cadre doré (scène, église)",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "bleu/blanc",
+   "dimensions_estimees": "0.5 x 0.65 m",
+   "position_dans_piece": "mur gauche au-dessus de la commode",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau à cadre doré (nature morte, fruits)",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "vert/rouge",
+   "dimensions_estimees": "0.55 x 0.4 m",
+   "position_dans_piece": "mur du fond gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "lampadaire laiton, abat-jour plissé crème",
+   "categorie": "luminaire",
+   "materiau": "laiton",
+   "couleur": "doré",
+   "dimensions_estimees": "H 1.6 m",
+   "position_dans_piece": "angle gauche près de la fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise haute garnie tissu gris",
+   "categorie": "mobilier",
+   "materiau": "bois clair, tissu",
+   "couleur": "gris anthracite",
+   "dimensions_estimees": "0.45 x 0.5 x H 1.05 m",
+   "position_dans_piece": "premier plan gauche, et une autre près de la fenêtre",
+   "quantite": 2
+  },
+  {
+   "nom": "chaise médaillon garnie beige",
+   "categorie": "mobilier",
+   "materiau": "bois, tissu",
+   "couleur": "beige",
+   "dimensions_estimees": "",
+   "position_dans_piece": "à droite de la commode",
+   "quantite": 1
+  },
+  {
+   "nom": "table ronde nappée (nappe blanche, tissu damassé) avec tissu de velours bordeaux en tas",
+   "categorie": "mobilier",
+   "materiau": "bois, textile",
+   "couleur": "blanc/bordeaux",
+   "dimensions_estimees": "Ø 1.2 x H 0.75 m",
+   "position_dans_piece": "centre-droite, sur le tapis",
+   "quantite": 1
+  },
+  {
+   "nom": "tapis d'Orient rouge à franges",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge/rose",
+   "dimensions_estimees": "2.5 x 1.8 m",
+   "position_dans_piece": "sous la table ronde",
+   "quantite": 1
+  },
+  {
+   "nom": "lustre fer noir 5 bras, bougies électriques",
+   "categorie": "luminaire",
+   "materiau": "fer, laiton",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "Ø 0.6 m",
+   "position_dans_piece": "centre plafond, rosace",
+   "quantite": 1
+  },
+  {
+   "nom": "rosace de plafond en stuc à feuillages",
+   "categorie": "moulure",
+   "materiau": "stuc",
+   "couleur": "blanc",
+   "dimensions_estimees": "Ø 0.8 m",
+   "position_dans_piece": "plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "paire de rideaux en lin/velours vieux rose sur tringle laiton à anneaux",
+   "categorie": "textile",
+   "materiau": "tissu",
+   "couleur": "vieux rose/mauve",
+   "dimensions_estimees": "H 3.3 m",
+   "position_dans_piece": "chaque porte-fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "garde-corps en fer forgé à volutes",
+   "categorie": "ferronnerie",
+   "materiau": "fer",
+   "couleur": "noir",
+   "dimensions_estimees": "H 0.9 m",
+   "position_dans_piece": "devant chaque porte-fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "prise électrique",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur gauche, bas",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Pièce vue par la porte gauche de P44 (table ronde au tissu bordeaux)",
+  "Niveau étage : fenêtres à garde-corps avec vue au-dessus des cimes ; enfilade avec la salle à manger P44-P46 vue depuis le palier d'étage (P04-P06) ; P46->P47 = 8 s"
+ ],
+ "incertitudes": [
+  "L'alcôve gauche peut être un passage vers une autre pièce"
+ ]
+}

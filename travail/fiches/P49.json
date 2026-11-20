@@ -1,0 +1,170 @@
+{
+ "id": "P49",
+ "zone": "int-chambre-1",
+ "niveau": "etage",
+ "piece": "Chambre-1 (chambre d'angle à l'est de la salle à manger d'étage, 2 portes-fenêtres)",
+ "orientation_vue": "vers le mur droit (deuxième fenêtre) et le mur de la porte, niche à droite",
+ "murs_visibles": [
+  "mur de la fenêtre 2",
+  "mur droit (niche, radiateur)"
+ ],
+ "ouvertures": [
+  {
+   "type": "fenetre",
+   "mur": "fond",
+   "donne_sur": "extérieur, garde-corps, arbres d'automne",
+   "dimensions_estimees": "porte-fenêtre L 1.2 x H 3.0 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 5.0,
+  "profondeur_m": 6.5
+ },
+ "sol": "parquet chêne à bâtons rompus en damier (panneaux carrés de lames, 'parquet mosaïque/Versailles simple'), miel",
+ "plafond": "plafond plat blanc, corniche à gorge moulurée, rosace en stuc feuillagée",
+ "murs_revetement": "murs peints crème/ivoire, plinthes",
+ "elements": [
+  {
+   "nom": "armoire provençale noyer",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "1.2 x 0.55 x H 2.1 m",
+   "position_dans_piece": "angle gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "panetière murale à fuseaux",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "0.8 x 0.8 m",
+   "position_dans_piece": "à droite de la fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "pétrin sculpté avec linge plié",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "1.0 x 0.5 m",
+   "position_dans_piece": "sous la panetière",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise paillée/cannée",
+   "categorie": "mobilier",
+   "materiau": "bois, paille",
+   "couleur": "brun",
+   "dimensions_estimees": "",
+   "position_dans_piece": "à côté du pétrin",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise Louis-Philippe assise beige",
+   "categorie": "mobilier",
+   "materiau": "acajou",
+   "couleur": "brun",
+   "dimensions_estimees": "",
+   "position_dans_piece": "près de l'armoire",
+   "quantite": 1
+  },
+  {
+   "nom": "chaises cannées chargées de linge toile de Jouy rouge",
+   "categorie": "mobilier",
+   "materiau": "bois, canne",
+   "couleur": "brun/rouge",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur droit, devant la niche",
+   "quantite": 2
+  },
+  {
+   "nom": "niche cintrée murale avec étagère (bibelots, vierge, cadre bleu)",
+   "categorie": "architecture",
+   "materiau": "plâtre",
+   "couleur": "crème",
+   "dimensions_estimees": "0.6 x 1.8 m, prof. 0.3",
+   "position_dans_piece": "mur droit",
+   "quantite": 1
+  },
+  {
+   "nom": "petite statue (vierge/santon) et objet bleu",
+   "categorie": "objet",
+   "materiau": "plâtre/céramique",
+   "couleur": "blanc/bleu",
+   "dimensions_estimees": "H 0.2 m",
+   "position_dans_piece": "dans la niche",
+   "quantite": 2
+  },
+  {
+   "nom": "gravure encadrée (bâtiment) sous verre, cadre doré et marie-louise",
+   "categorie": "tableau",
+   "materiau": "papier, bois doré",
+   "couleur": "blanc/or",
+   "dimensions_estimees": "0.35 x 0.45 m",
+   "position_dans_piece": "mur droit, à côté de la niche",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur fonte à colonnes blanc",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "blanc",
+   "dimensions_estimees": "0.6 x H 0.8 m",
+   "position_dans_piece": "mur droit, sous la fenêtre ou près de la niche",
+   "quantite": 1
+  },
+  {
+   "nom": "corniche de plafond moulurée avec ornements d'angle",
+   "categorie": "moulure",
+   "materiau": "stuc",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "lustre fer noir (bord)",
+   "categorie": "luminaire",
+   "materiau": "fer",
+   "couleur": "noir",
+   "dimensions_estimees": "",
+   "position_dans_piece": "plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "table ronde nappée et tapis rouge (bord)",
+   "categorie": "mobilier",
+   "materiau": "textile",
+   "couleur": "",
+   "dimensions_estimees": "",
+   "position_dans_piece": "gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "paire de rideaux en lin/velours vieux rose sur tringle laiton à anneaux",
+   "categorie": "textile",
+   "materiau": "tissu",
+   "couleur": "vieux rose/mauve",
+   "dimensions_estimees": "H 3.3 m",
+   "position_dans_piece": "chaque porte-fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "garde-corps en fer forgé à volutes",
+   "categorie": "ferronnerie",
+   "materiau": "fer",
+   "couleur": "noir",
+   "dimensions_estimees": "H 0.9 m",
+   "position_dans_piece": "devant chaque porte-fenêtre",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Niveau étage : fenêtres à garde-corps avec vue au-dessus des cimes ; enfilade avec la salle à manger P44-P46 vue depuis le palier d'étage (P04-P06) ; P46->P47 = 8 s"
+ ],
+ "incertitudes": [
+  "Le mur droit avec la niche peut être celui de la porte vers la salle à manger"
+ ]
+}

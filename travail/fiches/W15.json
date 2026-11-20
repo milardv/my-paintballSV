@@ -1,0 +1,223 @@
+{
+  "id": "W15",
+  "zone": "ext-facade-sud",
+  "niveau": "ext",
+  "piece": "façade jardin, terrasse, tennis (aérien)",
+  "orientation_vue": "Vue aérienne oblique depuis le sud, vers le nord ; tennis à gauche (ouest), cour d'entrée hors champ au fond",
+  "murs_visibles": [
+    "façade sud entière",
+    "toiture",
+    "angle SO et SE"
+  ],
+  "ouvertures": [
+    {
+      "type": "baie",
+      "mur": "avant-corps sud RDC",
+      "donne_sur": "salon central",
+      "dimensions_estimees": "3 baies dans un avant-corps à pans coupés"
+    },
+    {
+      "type": "porte",
+      "mur": "avant-corps sud étage",
+      "donne_sur": "pièce centrale étage → balcon",
+      "dimensions_estimees": "3 portes-fenêtres sur balcon"
+    },
+    {
+      "type": "fenetre",
+      "mur": "façade sud RDC hors avant-corps",
+      "donne_sur": "pièces RDC",
+      "dimensions_estimees": "2 par aile + 1 par pavillon"
+    },
+    {
+      "type": "fenetre",
+      "mur": "étage",
+      "donne_sur": "pièces étage",
+      "dimensions_estimees": "2 par aile + 1 par pavillon"
+    },
+    {
+      "type": "fenetre",
+      "mur": "attique",
+      "donne_sur": "attique",
+      "dimensions_estimees": "3 au centre + 2 par aile + 1 aux retours des corps d'extrémité"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": 36.0,
+    "profondeur_m": null
+  },
+  "sol": "terrasse dallée, cour sablée",
+  "plafond": "",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "avant-corps sud à pans coupés (demi-hexagone) : colonnes au RDC, balcon balustré à l'étage",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "≈7 × 3 m",
+      "position_dans_piece": "axe sud",
+      "quantite": 1
+    },
+    {
+      "nom": "terrasse sud dallée (≈40 × 8 m) à balustrade, surélevée ≈1,2 m",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "beige clair",
+      "dimensions_estimees": "",
+      "position_dans_piece": "devant la façade sud",
+      "quantite": 1
+    },
+    {
+      "nom": "perron sud : ≈10 marches entre deux bacs circulaires",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "blanc",
+      "dimensions_estimees": "larg. ≈10 m",
+      "position_dans_piece": "axe",
+      "quantite": 1
+    },
+    {
+      "nom": "massifs en boule (lauriers) dans bacs circulaires maçonnés",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "Ø≈3 m",
+      "position_dans_piece": "de part et d'autre du perron",
+      "quantite": 2
+    },
+    {
+      "nom": "parasols carrés écrus",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "écru",
+      "dimensions_estimees": "≈3 × 3 m",
+      "position_dans_piece": "terrasse (2) + balcon (1)",
+      "quantite": 3
+    },
+    {
+      "nom": "chaises longues / transats",
+      "categorie": "mobilier",
+      "materiau": "",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "terrasse ouest",
+      "quantite": 2
+    },
+    {
+      "nom": "tables et chaises de jardin",
+      "categorie": "mobilier",
+      "materiau": "métal/teck",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "terrasse, sous parasols",
+      "quantite": 3
+    },
+    {
+      "nom": "salon d'extérieur (canapé + fauteuils + table basse)",
+      "categorie": "mobilier",
+      "materiau": "résine tressée",
+      "couleur": "gris anthracite / coussins écrus",
+      "dimensions_estimees": "",
+      "position_dans_piece": "terrasse, extrémité est",
+      "quantite": 1
+    },
+    {
+      "nom": "banquette/canapé",
+      "categorie": "mobilier",
+      "materiau": "",
+      "couleur": "écru",
+      "dimensions_estimees": "",
+      "position_dans_piece": "terrasse, devant baie est de l'avant-corps",
+      "quantite": 1
+    },
+    {
+      "nom": "pots de plantes et petits bacs",
+      "categorie": "vegetation",
+      "materiau": "terre cuite",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pied de façade sur la terrasse",
+      "quantite": 6
+    },
+    {
+      "nom": "grilles de soupirail dans le mur de terrasse",
+      "categorie": "ferronnerie",
+      "materiau": "métal",
+      "couleur": "noir",
+      "dimensions_estimees": "",
+      "position_dans_piece": "mur de terrasse",
+      "quantite": 2
+    },
+    {
+      "nom": "rampe/escalier balustré descendant vers l'est",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "extrémité est de la terrasse",
+      "quantite": 1
+    },
+    {
+      "nom": "court de tennis rouge avec grillage vert",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "rouge",
+      "dimensions_estimees": "",
+      "position_dans_piece": "ouest, en contrebas",
+      "quantite": 1
+    },
+    {
+      "nom": "palmiers (Phoenix canariensis et Washingtonia)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angle SO, près du tennis",
+      "quantite": 3
+    },
+    {
+      "nom": "massifs rouges/violets (bougainvillées, berbéris)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "rouge",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angle SO",
+      "quantite": 2
+    },
+    {
+      "nom": "buis en boule",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "Ø≈1,5 m",
+      "position_dans_piece": "angle SO, cour",
+      "quantite": 1
+    },
+    {
+      "nom": "piscine (voisine ?) rectangulaire",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "turquoise",
+      "dimensions_estimees": "",
+      "position_dans_piece": "arrière-plan haut gauche (nord-ouest)",
+      "quantite": 1
+    },
+    {
+      "nom": "verrière, 8 souches, toits en pavillon des pavillons d'angle",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "toiture",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Ordonnancement façade sud : pavillon (1) + aile (2) + avant-corps (3) + aile (2) + pavillon (1) = 9 travées",
+    "Pavillons d'angle sud plus bas (2 niveaux), corps central 3 niveaux"
+  ],
+  "incertitudes": [
+    "Piscine : appartient-elle au domaine ? (au-delà de la limite nord-ouest)"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+ "id": "P50",
+ "zone": "int-salle-a-manger",
+ "niveau": "etage",
+ "piece": "Salle à manger d'étage (= P44-P46), salon lambrissé vert et jaune",
+ "orientation_vue": "vers le mur de la cheminée (ouest supposé) : porte gauche vers la chambre à rayures, porte droite vers la galerie du palier",
+ "murs_visibles": [
+  "mur de la cheminée",
+  "mur droit (porte vers palier)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "cheminée, à gauche",
+   "donne_sur": "chambre-2 à rayures (P52-P54), enfilade",
+   "dimensions_estimees": "porte simple L 1.0 x H 2.6 m, ouverte"
+  },
+  {
+   "type": "porte",
+   "mur": "cheminée, à droite / mur droit",
+   "donne_sur": "galerie du palier d'étage (pilier blanc, sol marbre à cabochons, chaise paillée blanche)",
+   "dimensions_estimees": "porte double L 1.3 x H 2.8 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.2,
+  "largeur_m": 6.0,
+  "profondeur_m": 7.0
+ },
+ "sol": "parquet chêne point de Hongrie, miel clair",
+ "plafond": "plafond blanc à grands motifs rocaille en stuc (cartouches, rinceaux, coquilles) en bordure, corniche moulurée",
+ "murs_revetement": "boiseries Louis XV : panneaux à cadres chantournés vert céladon sur fond ocre-jaune, encadrements vert pâle, agrafes et coquilles sculptées, dessus-de-porte chantournés, soubassement à panneaux",
+ "elements": [
+  {
+   "nom": "cheminée Louis XVI en marbre blanc, frise à guirlande, consoles",
+   "categorie": "cheminee",
+   "materiau": "marbre blanc",
+   "couleur": "blanc",
+   "dimensions_estimees": "1.4 x 0.4 x H 1.1 m",
+   "position_dans_piece": "centre du mur",
+   "quantite": 1
+  },
+  {
+   "nom": "rideau/plaque de cheminée en fonte noire",
+   "categorie": "cheminee",
+   "materiau": "fonte",
+   "couleur": "noir",
+   "dimensions_estimees": "0.8 x 0.7 m",
+   "position_dans_piece": "foyer",
+   "quantite": 1
+  },
+  {
+   "nom": "foyer (dalle) en marbre blanc et ardoise en damier",
+   "categorie": "cheminee",
+   "materiau": "marbre, ardoise",
+   "couleur": "blanc/gris bleu",
+   "dimensions_estimees": "1.6 x 0.6 m",
+   "position_dans_piece": "devant la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "grand miroir à cadre doré mouluré",
+   "categorie": "objet",
+   "materiau": "bois doré, miroir",
+   "couleur": "or",
+   "dimensions_estimees": "1.0 x 2.0 m",
+   "position_dans_piece": "au-dessus de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "lanterne-photophore métal, bouteille verre, bougeoirs et bougies blanches",
+   "categorie": "objet",
+   "materiau": "métal, verre",
+   "couleur": "gris/blanc",
+   "dimensions_estimees": "H 0.3 m",
+   "position_dans_piece": "manteau",
+   "quantite": 4
+  },
+  {
+   "nom": "lampe colonne à abat-jour blanc",
+   "categorie": "luminaire",
+   "materiau": "métal",
+   "couleur": "blanc",
+   "dimensions_estimees": "H 0.5 m",
+   "position_dans_piece": "manteau, à droite",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau à cadre doré (marine, paysage sombre)",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "brun/bleu",
+   "dimensions_estimees": "0.5 x 0.4 m",
+   "position_dans_piece": "panneau à droite de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise Louis-Philippe à dossier ajouré, assise crème, coussin et plaid",
+   "categorie": "mobilier",
+   "materiau": "acajou, tissu",
+   "couleur": "brun/crème",
+   "dimensions_estimees": "H 0.9 m",
+   "position_dans_piece": "à gauche de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise médaillon Louis XV laquée crème garnie de tissu fleuri",
+   "categorie": "mobilier",
+   "materiau": "bois laqué, tissu",
+   "couleur": "crème/doré",
+   "dimensions_estimees": "H 0.95 m",
+   "position_dans_piece": "à droite de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur fonte (bord)",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "table (angle visible) et chaise grise",
+   "categorie": "mobilier",
+   "materiau": "bois, tissu",
+   "couleur": "brun/gris",
+   "dimensions_estimees": "",
+   "position_dans_piece": "premier plan droit",
+   "quantite": 1
+  },
+  {
+   "nom": "prise électrique",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "panneau à gauche de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "ornements d'angle rocaille en stuc au plafond",
+   "categorie": "moulure",
+   "materiau": "stuc",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "plafond",
+   "quantite": 4
+  }
+ ],
+ "indices_plan": [
+  "Même pièce que P44-P46 (salle à manger : même cheminée, miroir, boiseries vert/jaune)",
+  "Porte gauche -> chambre-2 (P52-P54), elle-même en enfilade vers la chambre-3 (P55-P57)",
+  "Porte droite -> galerie du palier d'étage : vue en P04-P05 depuis la porte de la bibliothèque",
+  "Niveau étage : fenêtres à garde-corps avec vue au-dessus des cimes ; enfilade avec la salle à manger P44-P46 vue depuis le palier d'étage (P04-P06) ; P46->P47 = 8 s"
+ ],
+ "incertitudes": [
+  "Le nom 'bureau' de photos.json ne convient pas : c'est la salle à manger (zone corrigée en int-salle-a-manger)"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "P11",
+ "zone": "int-palier-etage",
+ "niveau": "etage",
+ "piece": "Dégagement de l'étage (couloir partant du palier, côté ouest supposé)",
+ "orientation_vue": "dans l'axe du couloir, plus près de la porte du fond",
+ "murs_visibles": [
+  "mur du fond",
+  "mur droit (portes de placard)",
+  "mur gauche"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "fond",
+   "donne_sur": "pièce non vue",
+   "dimensions_estimees": "porte double L 1.4 x H 2.6 m"
+  },
+  {
+   "type": "porte",
+   "mur": "droit",
+   "donne_sur": "placard mural (portes à panneaux)",
+   "dimensions_estimees": "2 vantaux L 1.2 x H 2.8 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 2.0,
+  "profondeur_m": 5.0
+ },
+ "sol": "marbre blanc en losanges à cabochons rouges, bandes d'encadrement en marbre rouge (même dallage que le palier)",
+ "plafond": "voûte en berceau (arc surbaissé) blanche, arc doubleau mouluré à l'entrée",
+ "murs_revetement": "murs blancs à panneaux moulurés filets gris-vert, cimaise et plinthe gris-vert",
+ "elements": [
+  {
+   "nom": "lanterne suspendue (cage métallique)",
+   "categorie": "luminaire",
+   "materiau": "métal, verre",
+   "couleur": "doré",
+   "dimensions_estimees": "H 0.5 m",
+   "position_dans_piece": "plafond, gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "vêtements sur cintre (blouse) accrochés à la poignée du placard",
+   "categorie": "textile",
+   "materiau": "tissu",
+   "couleur": "gris/bleu",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur droit",
+   "quantite": 1
+  },
+  {
+   "nom": "panier en osier, bac à linge, cadre au sol",
+   "categorie": "objet",
+   "materiau": "",
+   "couleur": "",
+   "dimensions_estimees": "",
+   "position_dans_piece": "pied de la porte du fond",
+   "quantite": 3
+  },
+  {
+   "nom": "interrupteur",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur du fond, à gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "barrière extensible (bord)",
+   "categorie": "objet",
+   "materiau": "bois",
+   "couleur": "naturel",
+   "dimensions_estimees": "",
+   "position_dans_piece": "bas gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "poignée bec-de-cane noire et entrée de serrure",
+   "categorie": "ferronnerie",
+   "materiau": "fer",
+   "couleur": "noir",
+   "dimensions_estimees": "",
+   "position_dans_piece": "porte du fond",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Les portes de placard à droite apparaissent aussi en P12-P13"
+ ],
+ "incertitudes": [
+  "Photo floue (mouvement)"
+ ]
+}

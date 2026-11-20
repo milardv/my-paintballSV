@@ -1,0 +1,213 @@
+{
+ "id": "P19",
+ "zone": "int-escalier",
+ "niveau": "etage",
+ "piece": "Escalier d'honneur impérial (volée centrale RDC -> repos, puis deux volées latérales repos -> étage)",
+ "orientation_vue": "en descendant la volée centrale, vers le vestibule (porte d'entrée en face) et le couloir RDC à droite",
+ "murs_visibles": [
+  "vestibule RDC",
+  "mur droit (papier damassé, miroir)",
+  "plafond sous la galerie"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "nord RDC",
+   "donne_sur": "extérieur (porte d'entrée vitrée + imposte, panneau sortie de secours)",
+   "dimensions_estimees": "porte double L 1.6 x H 3.0 m"
+  },
+  {
+   "type": "porte",
+   "mur": "côté RDC (entre colonnes)",
+   "donne_sur": "couloir RDC / pièce (porte vitrée ouverte, P22)",
+   "dimensions_estimees": "porte vitrée L 1.0 x H 3.0 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.5,
+  "largeur_m": 6.0,
+  "profondeur_m": 6.0
+ },
+ "sol": "marches en marbre blanc veiné, tapis d'escalier rouge (larg. ~0.9 m) ; repos en dallage marbre blanc en losanges à cabochons rouges et encadrement marbre rouge",
+ "plafond": "plafond plat blanc du vestibule (sous la galerie de l'étage), corniche moulurée, rosace de lustre",
+ "murs_revetement": "papier peint damassé gris-beige à motifs floraux blancs, pilastres/colonnes blanches",
+ "elements": [
+  {
+   "nom": "colonnes à chapiteaux composites (ioniques à guirlandes)",
+   "categorie": "architecture",
+   "materiau": "plâtre/pierre peint",
+   "couleur": "blanc",
+   "dimensions_estimees": "Ø 0.45 x H 3.8 m",
+   "position_dans_piece": "de part et d'autre de la volée centrale",
+   "quantite": 2
+  },
+  {
+   "nom": "lustre bronze doré à pampilles",
+   "categorie": "luminaire",
+   "materiau": "bronze, cristal",
+   "couleur": "doré",
+   "dimensions_estimees": "Ø 0.8 m",
+   "position_dans_piece": "vestibule",
+   "quantite": 1
+  },
+  {
+   "nom": "grand miroir à cadre doré",
+   "categorie": "objet",
+   "materiau": "miroir, bois doré",
+   "couleur": "or",
+   "dimensions_estimees": "0.8 x 1.6 m",
+   "position_dans_piece": "mur droit, au-dessus de la console",
+   "quantite": 1
+  },
+  {
+   "nom": "console demi-lune Louis XVI dessus marbre blanc",
+   "categorie": "mobilier",
+   "materiau": "bois laqué, marbre",
+   "couleur": "blanc",
+   "dimensions_estimees": "1.2 x 0.45 x H 0.85 m",
+   "position_dans_piece": "mur droit",
+   "quantite": 1
+  },
+  {
+   "nom": "paire de candélabres en bronze patiné (figures)",
+   "categorie": "luminaire",
+   "materiau": "bronze",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "H 0.6 m",
+   "position_dans_piece": "sur la console",
+   "quantite": 2
+  },
+  {
+   "nom": "tapis rouge à médaillons",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge/noir/or",
+   "dimensions_estimees": "3.5 x 2.5 m",
+   "position_dans_piece": "vestibule",
+   "quantite": 1
+  },
+  {
+   "nom": "table basse avec plateau verre/marbre et dépliants",
+   "categorie": "mobilier",
+   "materiau": "bois doré",
+   "couleur": "or",
+   "dimensions_estimees": "1.0 x 0.6 m",
+   "position_dans_piece": "sur le tapis",
+   "quantite": 1
+  },
+  {
+   "nom": "bouquet de fleurs blanches",
+   "categorie": "vegetation",
+   "materiau": "fleurs",
+   "couleur": "blanc",
+   "dimensions_estimees": "H 0.5 m",
+   "position_dans_piece": "table basse",
+   "quantite": 1
+  },
+  {
+   "nom": "drapeau (rouge et blanc) sur hampe",
+   "categorie": "objet",
+   "materiau": "tissu",
+   "couleur": "rouge/blanc",
+   "dimensions_estimees": "H 2.0 m",
+   "position_dans_piece": "à droite de la porte d'entrée",
+   "quantite": 1
+  },
+  {
+   "nom": "fauteuil médaillon",
+   "categorie": "mobilier",
+   "materiau": "bois, tissu",
+   "couleur": "crème",
+   "dimensions_estimees": "",
+   "position_dans_piece": "près de la porte d'entrée",
+   "quantite": 1
+  },
+  {
+   "nom": "plante en pot",
+   "categorie": "vegetation",
+   "materiau": "",
+   "couleur": "vert",
+   "dimensions_estimees": "H 0.6 m",
+   "position_dans_piece": "près de la porte d'entrée",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau encadré (gravure)",
+   "categorie": "tableau",
+   "materiau": "",
+   "couleur": "",
+   "dimensions_estimees": "0.4 x 0.5 m",
+   "position_dans_piece": "mur près de la porte",
+   "quantite": 1
+  },
+  {
+   "nom": "panneau lumineux de sortie de secours",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "vert/blanc",
+   "dimensions_estimees": "0.35 x 0.15 m",
+   "position_dans_piece": "au-dessus de la porte d'entrée",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "à gauche de la porte d'entrée",
+   "quantite": 1
+  },
+  {
+   "nom": "fusil ancien accroché",
+   "categorie": "objet",
+   "materiau": "bois, métal",
+   "couleur": "brun",
+   "dimensions_estimees": "L 1.4 m",
+   "position_dans_piece": "pilier droit, entrée du couloir",
+   "quantite": 1
+  },
+  {
+   "nom": "vitrine/armoire en bois sombre",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun foncé",
+   "dimensions_estimees": "",
+   "position_dans_piece": "couloir RDC à droite",
+   "quantite": 1
+  },
+  {
+   "nom": "objets au sol (vases, bouteilles en verre)",
+   "categorie": "objet",
+   "materiau": "verre",
+   "couleur": "",
+   "dimensions_estimees": "",
+   "position_dans_piece": "pied de la colonne gauche",
+   "quantite": 3
+  },
+  {
+   "nom": "rampe d'escalier en fer forgé à volutes et rinceaux, main courante laiton poli",
+   "categorie": "ferronnerie",
+   "materiau": "fer forgé noir, laiton",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "H 0.95 m",
+   "position_dans_piece": "autour de la trémie",
+   "quantite": 1
+  },
+  {
+   "nom": "tapis d'escalier rouge (moquette) avec tringles",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge vermillon",
+   "dimensions_estimees": "larg. 0.9 m",
+   "position_dans_piece": "axe des volées",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Raccord avec P20-P22 (lot int-rdc) : vestibule et couloir RDC à papier damassé"
+ ],
+ "incertitudes": [
+  "Cette photo est prise depuis la volée centrale (entre étage et RDC) ; niveau 'etage' retenu pour l'escalier, le contenu vu est au RDC"
+ ]
+}

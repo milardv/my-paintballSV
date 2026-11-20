@@ -1,0 +1,43 @@
+{
+  "verification": {
+    "fini": true,
+    "ok": true,
+    "balles": true,
+    "peinture": true,
+    "couleurs": true,
+    "animation": true,
+    "pause": true,
+    "recharge": true,
+    "masse": true,
+    "fixation": true,
+    "chute": true,
+    "mobilier": 63,
+    "cibles": 8,
+    "clips": 4,
+    "impacts": 2,
+    "legerDistance": 0.962158203125,
+    "lourdDistance": 0.09619140625,
+    "erreur": ""
+  },
+  "state": {
+    "active": true,
+    "pause": false,
+    "thirdPerson": true,
+    "reload": false,
+    "finished": false,
+    "shots": 1,
+    "hits": 1,
+    "ammo": 50,
+    "projectiles": 0,
+    "impacts": 3,
+    "decals": 3,
+    "owner": 0,
+    "animation": -2089788878,
+    "seconds": 85.6630630493164,
+    "x": 8,
+    "y": -1.1700000762939453,
+    "z": 44,
+    "range": 12.97323989868164,
+    "ticks": 1016
+  }
+}

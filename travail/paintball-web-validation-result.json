@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "command": "build",
+  "data": {
+    "target": "WebGL",
+    "logFile": "/home/valm/IdeaProjects/chateau-saint-victor/travail/paintball-web-validation.log",
+    "version": null,
+    "editorErrors": [
+      {
+        "type": "license-error",
+        "raw": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "message": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "lineNumber": 299
+      },
+      {
+        "type": "license-error",
+        "raw": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "message": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "lineNumber": 300
+      },
+      {
+        "type": "license-error",
+        "raw": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "message": "[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)",
+        "lineNumber": 301
+      }
+    ],
+    "provenance": "/home/valm/IdeaProjects/chateau-saint-victor/travail/paintball-web-validation.provenance.json",
+    "outputPath": null
+  },
+  "errors": [],
+  "warnings": []
+}

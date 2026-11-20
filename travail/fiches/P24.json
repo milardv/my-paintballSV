@@ -1,0 +1,202 @@
+{
+  "id": "P24",
+  "zone": "int-couloir-rdc",
+  "niveau": "rdc",
+  "piece": "passage ouest de l'escalier, vers le petit salon sous palier",
+  "orientation_vue": "vers le sud",
+  "murs_visibles": [
+    "est (limon de l'escalier, soubassement à panneaux)",
+    "ouest (damas, porte)",
+    "sud (fond : fontaine, sabres)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "ouest",
+      "donne_sur": "pièce ouest",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.0,
+        "note": "porte double vert d'eau à filets dorés, poignée bec-de-cane laiton, un vantail ouvert"
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "sud (côté ouest)",
+      "donne_sur": "salon bow-window (P27)",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.0
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 4.5,
+    "largeur_m": 2.2,
+    "profondeur_m": 7.0
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre ; bandes rouges longitudinales et transversales",
+  "plafond": "plafond plat blanc au-delà de la sous-face de la volée",
+  "murs_revetement": "papier peint damassé grand motif floral, fond taupe/gris-beige, motif blanc cassé ; soubassement à panneaux moulurés blanc filets vert céladon (~1 m) ; limon de l'escalier peint blanc, panneaux à filets céladon",
+  "elements": [
+    {
+      "nom": "rampe fer forgé à volutes, main courante bois/laiton",
+      "categorie": "ferronnerie",
+      "materiau": "fer forgé",
+      "couleur": "noir",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "au-dessus à gauche, volée",
+      "quantite": 1
+    },
+    {
+      "nom": "tapisserie verdure (paysage bleu-vert, bordure ocre)",
+      "categorie": "textile",
+      "materiau": "laine",
+      "couleur": "bleu/vert/ocre",
+      "dimensions_estimees": {
+        "largeur_m": 2.5,
+        "hauteur_m": 1.8
+      },
+      "position_dans_piece": "mur sud du palier intermédiaire",
+      "quantite": 1
+    },
+    {
+      "nom": "bouquet de graminées/pampas séchées dans un vase",
+      "categorie": "vegetation",
+      "materiau": "végétal séché",
+      "couleur": "beige",
+      "dimensions_estimees": {
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "palier intermédiaire",
+      "quantite": 1
+    },
+    {
+      "nom": "panoplie de sabres sur panneau bois sombre",
+      "categorie": "objet",
+      "materiau": "bois, acier",
+      "couleur": "brun/argent",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 0.7
+      },
+      "position_dans_piece": "mur sud du petit salon",
+      "quantite": 1
+    },
+    {
+      "nom": "assiettes décoratives (faïence de Moustiers ?)",
+      "categorie": "objet",
+      "materiau": "faïence",
+      "couleur": "blanc/bleu",
+      "dimensions_estimees": {
+        "diametre_m": 0.25
+      },
+      "position_dans_piece": "mur sud, autour de la panoplie",
+      "quantite": 6
+    },
+    {
+      "nom": "fontaine murale à mufle de lion, dosseret marbre vert et vasque",
+      "categorie": "objet",
+      "materiau": "marbre vert, pierre",
+      "couleur": "vert sombre",
+      "dimensions_estimees": {
+        "largeur_m": 0.6,
+        "hauteur_m": 1.3
+      },
+      "position_dans_piece": "mur sud du petit salon, centre",
+      "quantite": 1
+    },
+    {
+      "nom": "fauteuil Louis XV rouge",
+      "categorie": "mobilier",
+      "materiau": "bois doré/laqué, velours",
+      "couleur": "rouge",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "petit salon",
+      "quantite": 2
+    },
+    {
+      "nom": "fauteuil Louis XV vert olive",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, tissu",
+      "couleur": "vert olive",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "petit salon",
+      "quantite": 1
+    },
+    {
+      "nom": "table d'appoint/chiffonnier sombre",
+      "categorie": "mobilier",
+      "materiau": "bois",
+      "couleur": "noir",
+      "dimensions_estimees": {
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "petit salon, mur sud",
+      "quantite": 1
+    },
+    {
+      "nom": "piano droit",
+      "categorie": "mobilier",
+      "materiau": "bois",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "largeur_m": 1.45
+      },
+      "position_dans_piece": "mur ouest, avant la porte du salon",
+      "quantite": 1
+    },
+    {
+      "nom": "candélabre argenté",
+      "categorie": "luminaire",
+      "materiau": "métal",
+      "couleur": "argent",
+      "dimensions_estimees": {},
+      "position_dans_piece": "sur le piano",
+      "quantite": 1
+    },
+    {
+      "nom": "lampadaire à abat-jour",
+      "categorie": "luminaire",
+      "materiau": "laiton",
+      "couleur": "doré/crème",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "dans le salon au fond",
+      "quantite": 1
+    },
+    {
+      "nom": "console marbre blanc et candélabre (premier plan)",
+      "categorie": "mobilier",
+      "materiau": "noyer, marbre",
+      "couleur": "brun",
+      "dimensions_estimees": {},
+      "position_dans_piece": "premier plan droite",
+      "quantite": 1
+    },
+    {
+      "nom": "applique-candélabre à bobèches",
+      "categorie": "luminaire",
+      "materiau": "bronze",
+      "couleur": "doré",
+      "dimensions_estimees": {},
+      "position_dans_piece": "mur ouest",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Escalier à gauche (est) : la volée de retour ouest monte vers le nord au-dessus du passage",
+    "Palier intermédiaire au sud avec tapisserie : volée centrale arrivant au sud",
+    "Fond sud : petit salon sous palier puis salon bow-window"
+  ],
+  "incertitudes": [
+    "Porte vert d'eau ouest : vers salle à manger ou autre salon"
+  ]
+}

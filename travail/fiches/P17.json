@@ -1,0 +1,175 @@
+{
+ "id": "P17",
+ "zone": "int-escalier",
+ "niveau": "etage",
+ "piece": "Escalier d'honneur impérial (volée centrale RDC -> repos, puis deux volées latérales repos -> étage)",
+ "orientation_vue": "depuis le repos intermédiaire vers le nord (entrée) en contre-plongée : galerie de l'étage, porte de la bibliothèque, coupole",
+ "murs_visibles": [
+  "mur nord de la cage (porte bibliothèque à l'étage)",
+  "arcades est et ouest",
+  "coupole"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "nord, étage",
+   "donne_sur": "bibliothèque (lambris sombre, plafond à caissons, lustre laiton, fenêtre) = P00-P03",
+   "dimensions_estimees": "porte double L 1.4 x H 3.0 m"
+  },
+  {
+   "type": "arcade",
+   "mur": "est et ouest, étage",
+   "donne_sur": "galeries latérales",
+   "dimensions_estimees": "arcades H 3.5 m"
+  },
+  {
+   "type": "porte",
+   "mur": "nord, RDC (vue sous la galerie)",
+   "donne_sur": "porte d'entrée vitrée du vestibule",
+   "dimensions_estimees": "porte double vitrée + imposte"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 11.0,
+  "largeur_m": 9.0,
+  "profondeur_m": 9.0
+ },
+ "sol": "marches en marbre blanc veiné, tapis d'escalier rouge (larg. ~0.9 m) ; repos en dallage marbre blanc en losanges à cabochons rouges et encadrement marbre rouge",
+ "plafond": "coupole en voûte en arc de cloître sur plan carré : caissons trapézoïdaux et triangulaires soulignés de filets gris-vert, puits de lumière vitré rectangulaire au sommet, 4 oculi en demi-lune (un par face) à la base de la voûte, corniche à denticules et frise d'oves",
+ "murs_revetement": "murs blancs à panneaux moulurés gris-vert, soubassement à table saillante suivant la pente, arcades à l'étage",
+ "elements": [
+  {
+   "nom": "dessus-de-porte peint (paysage marin) dans encadrement mouluré",
+   "categorie": "tableau",
+   "materiau": "huile sur toile",
+   "couleur": "bleu/vert",
+   "dimensions_estimees": "1.2 x 0.5 m",
+   "position_dans_piece": "au-dessus de la porte de la bibliothèque",
+   "quantite": 1
+  },
+  {
+   "nom": "chambranle et entablement mouluré de la porte de la bibliothèque",
+   "categorie": "moulure",
+   "materiau": "plâtre",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur nord étage",
+   "quantite": 1
+  },
+  {
+   "nom": "appliques bronze 3 bras de part et d'autre de la porte",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": "H 0.45 m",
+   "position_dans_piece": "mur nord étage",
+   "quantite": 2
+  },
+  {
+   "nom": "garde-corps fer forgé de la galerie nord (pont au-dessus du vestibule)",
+   "categorie": "ferronnerie",
+   "materiau": "fer, laiton",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "L 3.5 m",
+   "position_dans_piece": "galerie nord",
+   "quantite": 1
+  },
+  {
+   "nom": "lanternes de galerie",
+   "categorie": "luminaire",
+   "materiau": "métal, verre",
+   "couleur": "doré",
+   "dimensions_estimees": "",
+   "position_dans_piece": "galeries est/ouest",
+   "quantite": 2
+  },
+  {
+   "nom": "cadre/tableau et plante sur le palier nord",
+   "categorie": "objet",
+   "materiau": "",
+   "couleur": "",
+   "dimensions_estimees": "",
+   "position_dans_piece": "palier étage nord",
+   "quantite": 1
+  },
+  {
+   "nom": "panneau d'information (chevalet)",
+   "categorie": "objet",
+   "materiau": "",
+   "couleur": "jaune",
+   "dimensions_estimees": "",
+   "position_dans_piece": "palier étage droite",
+   "quantite": 1
+  },
+  {
+   "nom": "barrière extensible de sécurité enfant en bois (croisillons)",
+   "categorie": "objet",
+   "materiau": "bois clair",
+   "couleur": "naturel",
+   "dimensions_estimees": "L 1.2-1.5 x H 0.9 m",
+   "position_dans_piece": "tête de la volée gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "rampe d'escalier en fer forgé à volutes et rinceaux, main courante laiton poli",
+   "categorie": "ferronnerie",
+   "materiau": "fer forgé noir, laiton",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "H 0.95 m",
+   "position_dans_piece": "autour de la trémie",
+   "quantite": 1
+  },
+  {
+   "nom": "marches en marbre blanc (giron ~0.35, hauteur ~0.16 m)",
+   "categorie": "architecture",
+   "materiau": "marbre",
+   "couleur": "blanc",
+   "dimensions_estimees": "larg. volée centrale ~2.0 m, volées latérales ~1.5 m",
+   "position_dans_piece": "escalier",
+   "quantite": 1
+  },
+  {
+   "nom": "verrière zénithale et 4 oculi de la coupole",
+   "categorie": "architecture",
+   "materiau": "verre",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "colonnes ioniques du vestibule (RDC) sous la galerie",
+   "categorie": "architecture",
+   "materiau": "plâtre/pierre",
+   "couleur": "blanc",
+   "dimensions_estimees": "Ø 0.4 x H 3.5 m",
+   "position_dans_piece": "RDC, sous le pont",
+   "quantite": 2
+  },
+  {
+   "nom": "lustre du vestibule",
+   "categorie": "luminaire",
+   "materiau": "bronze, cristal",
+   "couleur": "doré",
+   "dimensions_estimees": "",
+   "position_dans_piece": "RDC",
+   "quantite": 1
+  },
+  {
+   "nom": "table basse avec bouquet, tapis rouge du vestibule",
+   "categorie": "mobilier",
+   "materiau": "",
+   "couleur": "rouge",
+   "dimensions_estimees": "",
+   "position_dans_piece": "RDC",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "La porte de l'étage en face du repos est celle de la bibliothèque (P03) : bibliothèque au-dessus du vestibule, côté façade d'entrée",
+  "La galerie nord forme un pont au-dessus du vestibule ; les deux volées latérales y aboutissent à ses extrémités"
+ ],
+ "incertitudes": [
+  "L'orientation 'nord = entrée' reste une hypothèse (D-003)"
+ ]
+}

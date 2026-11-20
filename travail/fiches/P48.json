@@ -1,0 +1,202 @@
+{
+ "id": "P48",
+ "zone": "int-chambre-1",
+ "niveau": "etage",
+ "piece": "Chambre-1 (chambre d'angle à l'est de la salle à manger d'étage, 2 portes-fenêtres)",
+ "orientation_vue": "depuis l'entrée vers l'angle des deux fenêtres",
+ "murs_visibles": [
+  "mur gauche (commode)",
+  "mur du fond (fenêtre 1)",
+  "mur droit (fenêtre 2, pétrin)"
+ ],
+ "ouvertures": [
+  {
+   "type": "fenetre",
+   "mur": "fond",
+   "donne_sur": "extérieur : cimes des arbres, collines au loin ; garde-corps",
+   "dimensions_estimees": "porte-fenêtre L 1.2 x H 3.0 m"
+  },
+  {
+   "type": "fenetre",
+   "mur": "droit",
+   "donne_sur": "extérieur : feuillage d'automne, garde-corps",
+   "dimensions_estimees": "porte-fenêtre L 1.3 x H 3.1 m"
+  },
+  {
+   "type": "porte",
+   "mur": "gauche (fond)",
+   "donne_sur": "petite porte laquée",
+   "dimensions_estimees": "L 0.7 x H 2.2 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 5.0,
+  "profondeur_m": 6.5
+ },
+ "sol": "parquet chêne à bâtons rompus en damier (panneaux carrés de lames, 'parquet mosaïque/Versailles simple'), miel",
+ "plafond": "plafond plat blanc, corniche à gorge moulurée, rosace en stuc feuillagée",
+ "murs_revetement": "murs peints crème/ivoire, plinthes",
+ "elements": [
+  {
+   "nom": "armoire provençale en noyer à 2 portes, corniche moulurée",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun miel",
+   "dimensions_estimees": "1.2 x 0.55 x H 2.1 m",
+   "position_dans_piece": "angle entre les deux fenêtres",
+   "quantite": 1
+  },
+  {
+   "nom": "panneau de bois appuyé contre l'armoire",
+   "categorie": "objet",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": "0.5 x 0.6 m",
+   "position_dans_piece": "pied de l'armoire",
+   "quantite": 1
+  },
+  {
+   "nom": "panetière provençale murale sculptée à fuseaux",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "0.8 x 0.3 x H 0.8 m",
+   "position_dans_piece": "mur droit, au-dessus du pétrin",
+   "quantite": 1
+  },
+  {
+   "nom": "pétrin/console sculpté (sculpture en bas-relief)",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "1.0 x 0.5 x H 0.85 m",
+   "position_dans_piece": "mur droit",
+   "quantite": 1
+  },
+  {
+   "nom": "linge plié sur le pétrin",
+   "categorie": "textile",
+   "materiau": "coton",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "pétrin",
+   "quantite": 1
+  },
+  {
+   "nom": "chaises Louis-Philippe à dossier ajouré, assise beige",
+   "categorie": "mobilier",
+   "materiau": "acajou, tissu",
+   "couleur": "brun/beige",
+   "dimensions_estimees": "H 0.9 m",
+   "position_dans_piece": "autour de la table ronde",
+   "quantite": 2
+  },
+  {
+   "nom": "table ronde nappée avec velours bordeaux",
+   "categorie": "mobilier",
+   "materiau": "textile",
+   "couleur": "blanc/bordeaux",
+   "dimensions_estimees": "Ø 1.2 m",
+   "position_dans_piece": "centre",
+   "quantite": 1
+  },
+  {
+   "nom": "panier en osier sous la table",
+   "categorie": "objet",
+   "materiau": "osier",
+   "couleur": "naturel",
+   "dimensions_estimees": "",
+   "position_dans_piece": "sous la table",
+   "quantite": 1
+  },
+  {
+   "nom": "tapis d'Orient rouge à franges bleues",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge/rose",
+   "dimensions_estimees": "3.0 x 2.0 m",
+   "position_dans_piece": "centre",
+   "quantite": 1
+  },
+  {
+   "nom": "lustre fer noir 5 bras",
+   "categorie": "luminaire",
+   "materiau": "fer",
+   "couleur": "noir",
+   "dimensions_estimees": "Ø 0.6 m",
+   "position_dans_piece": "centre plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "lampadaire laiton abat-jour plissé",
+   "categorie": "luminaire",
+   "materiau": "laiton",
+   "couleur": "doré/crème",
+   "dimensions_estimees": "H 1.6 m",
+   "position_dans_piece": "angle gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise grise et chaise médaillon",
+   "categorie": "mobilier",
+   "materiau": "",
+   "couleur": "gris/beige",
+   "dimensions_estimees": "",
+   "position_dans_piece": "angle gauche",
+   "quantite": 2
+  },
+  {
+   "nom": "tableau à cadre doré (nature morte)",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "",
+   "dimensions_estimees": "0.55 x 0.4 m",
+   "position_dans_piece": "mur du fond gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "porte laquée étroite dans le mur",
+   "categorie": "architecture",
+   "materiau": "bois laqué",
+   "couleur": "crème",
+   "dimensions_estimees": "0.7 x 2.2 m",
+   "position_dans_piece": "mur du fond, gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "linge à motifs toile de Jouy rouge (bord)",
+   "categorie": "textile",
+   "materiau": "coton",
+   "couleur": "rouge/blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "premier plan droit",
+   "quantite": 1
+  },
+  {
+   "nom": "paire de rideaux en lin/velours vieux rose sur tringle laiton à anneaux",
+   "categorie": "textile",
+   "materiau": "tissu",
+   "couleur": "vieux rose/mauve",
+   "dimensions_estimees": "H 3.3 m",
+   "position_dans_piece": "chaque porte-fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "garde-corps en fer forgé à volutes",
+   "categorie": "ferronnerie",
+   "materiau": "fer",
+   "couleur": "noir",
+   "dimensions_estimees": "H 0.9 m",
+   "position_dans_piece": "devant chaque porte-fenêtre",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Niveau étage : fenêtres à garde-corps avec vue au-dessus des cimes ; enfilade avec la salle à manger P44-P46 vue depuis le palier d'étage (P04-P06) ; P46->P47 = 8 s",
+  "Deux murs à fenêtres : chambre d'angle, probablement à l'extrémité est de l'enfilade de la façade (jardin supposé)"
+ ],
+ "incertitudes": [
+  "Orientation des deux façades de l'angle à confirmer avec le lot ext"
+ ]
+}

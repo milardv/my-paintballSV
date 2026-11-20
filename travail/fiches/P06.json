@@ -1,0 +1,120 @@
+{
+ "id": "P06",
+ "zone": "int-palier-etage",
+ "niveau": "etage",
+ "piece": "Palier de l'étage / galerie haute de la cage d'escalier sous coupole",
+ "orientation_vue": "vers le haut, coupole et angle sud-est (tapisserie à droite)",
+ "murs_visibles": [
+  "coupole",
+  "mur sud",
+  "arcades est"
+ ],
+ "ouvertures": [
+  {
+   "type": "fenetre",
+   "mur": "sommet coupole",
+   "donne_sur": "ciel (puits de lumière)",
+   "dimensions_estimees": "verrière rectangulaire ~1.6 x 1.0 m"
+  },
+  {
+   "type": "fenetre",
+   "mur": "coupole, faces sud et est",
+   "donne_sur": "ciel",
+   "dimensions_estimees": "oculi demi-lune 0.9 x 0.45 m, 4 au total"
+  },
+  {
+   "type": "porte",
+   "mur": "est",
+   "donne_sur": "salle à manger d'étage",
+   "dimensions_estimees": "porte double"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 11.0,
+  "largeur_m": 9.0,
+  "profondeur_m": 9.0
+ },
+ "sol": "dallage marbre blanc veiné gris (Carrare) posé en losanges, cabochons ronds rouge (griotte) Ø 6 cm aux croisements, bandes d'encadrement en marbre rouge",
+ "plafond": "coupole en voûte en arc de cloître sur plan carré : caissons trapézoïdaux et triangulaires soulignés de filets gris-vert, puits de lumière vitré rectangulaire au sommet, 4 oculi en demi-lune (un par face) à la base de la voûte, corniche à denticules et frise d'oves",
+ "murs_revetement": "murs plâtre peints blanc cassé, panneaux moulurés soulignés de gris-vert (vert de gris clair), pilastres, arcades plein cintre sur piliers carrés, guirlandes et cartouches rocaille en stuc sur les écoinçons",
+ "elements": [
+  {
+   "nom": "puits de lumière (verrière zénithale) à cadre mouluré",
+   "categorie": "architecture",
+   "materiau": "verre dépoli, bois/plâtre",
+   "couleur": "blanc",
+   "dimensions_estimees": "1.6 x 1.0 m",
+   "position_dans_piece": "sommet de la coupole",
+   "quantite": 1
+  },
+  {
+   "nom": "oculus en demi-lune avec petit-bois rayonnant",
+   "categorie": "architecture",
+   "materiau": "bois, verre",
+   "couleur": "blanc",
+   "dimensions_estimees": "0.9 x 0.45 m",
+   "position_dans_piece": "base de chaque face de la voûte",
+   "quantite": 4
+  },
+  {
+   "nom": "niche en cul-de-four (lunette aveugle) dans la voûte",
+   "categorie": "architecture",
+   "materiau": "plâtre",
+   "couleur": "blanc",
+   "dimensions_estimees": "0.9 m",
+   "position_dans_piece": "angles de la voûte",
+   "quantite": 2
+  },
+  {
+   "nom": "frise d'oves et de rais-de-cœur, corniche à modillons",
+   "categorie": "moulure",
+   "materiau": "stuc",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "base de la coupole",
+   "quantite": 1
+  },
+  {
+   "nom": "grande tapisserie d'Aubusson (scène champêtre : villageois dansant sous des arbres, chaumière)",
+   "categorie": "tableau",
+   "materiau": "laine tissée, cadre bois sculpté de feuilles d'acanthe torsadées doré/brun",
+   "couleur": "bleu-vert, beige, brun",
+   "dimensions_estimees": "L 3.2 x H 2.0 m",
+   "position_dans_piece": "mur du fond de la cage (sud supposé), au-dessus du repos",
+   "quantite": 1
+  },
+  {
+   "nom": "appliques bronze doré 2 bras à bougies électriques",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": "H 0.4 m",
+   "position_dans_piece": "piliers et murs de la cage",
+   "quantite": 1
+  },
+  {
+   "nom": "balustrade à balustres tournés",
+   "categorie": "architecture",
+   "materiau": "pierre/plâtre peint",
+   "couleur": "blanc",
+   "dimensions_estimees": "H 0.9 m, balustres H 0.55",
+   "position_dans_piece": "dans les arcades latérales, côté cage",
+   "quantite": 1
+  },
+  {
+   "nom": "table de salle à manger et chaises vues par la porte",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": "",
+   "position_dans_piece": "pièce voisine est",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Confirme la coupole carrée avec 4 oculi et verrière zénithale"
+ ],
+ "incertitudes": [
+  "Hauteur de la verrière au-dessus du sol de l'étage : ~6 m (estimation)"
+ ]
+}

@@ -1,0 +1,306 @@
+{
+  "id": "P21",
+  "zone": "int-vestibule",
+  "niveau": "rdc",
+  "piece": "vestibule",
+  "orientation_vue": "vers le nord-est puis nord-ouest (grand angle) depuis le bas de l'escalier, côté ouest",
+  "murs_visibles": [
+    "nord (porte d'entrée)",
+    "ouest (porte blanche, console, miroir, fenêtre)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "nord",
+      "donne_sur": "perron d'entrée",
+      "dimensions_estimees": {
+        "largeur_m": 1.5,
+        "hauteur_m": 3.2,
+        "note": "2 vantaux, petits bois en fer forgé à volutes dans les vitrages, serrure et verrou laiton"
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "ouest (partie sud)",
+      "donne_sur": "baie vers le couloir ouest (P22)",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.2,
+        "note": "porte double blanche à panneaux, filets céladon"
+      }
+    },
+    {
+      "type": "fenetre",
+      "mur": "ouest (partie nord)",
+      "donne_sur": "extérieur ouest, garde-corps fer forgé",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 3.0
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": 8.0,
+    "profondeur_m": 6.5
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre",
+  "plafond": "plafond blanc plat, corniche à plusieurs ressauts avec frise d'oves/rinceaux ; corniche à modillons et frise d'oves bien visible",
+  "murs_revetement": "papier peint damassé grand motif floral, fond taupe/gris-beige, motif blanc cassé ; soubassement à panneaux moulurés blanc filets vert céladon (~1 m)",
+  "elements": [
+    {
+      "nom": "colonne à chapiteau composite (ionique à volutes + feuilles d'acanthe)",
+      "categorie": "architecture",
+      "materiau": "plâtre/stuc peint",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 4.6,
+        "diametre_m": 0.45
+      },
+      "position_dans_piece": "deux paires encadrant le départ de l'escalier (côté sud du vestibule)",
+      "quantite": 4
+    },
+    {
+      "nom": "pilastre à chapiteau composite",
+      "categorie": "architecture",
+      "materiau": "stuc",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 4.6,
+        "largeur_m": 0.45
+      },
+      "position_dans_piece": "encadrant la porte d'entrée (mur nord) et aux angles",
+      "quantite": 4
+    },
+    {
+      "nom": "lustre à pampilles bronze doré 12-16 bras, bougies électriques",
+      "categorie": "luminaire",
+      "materiau": "bronze doré, verre",
+      "couleur": "doré",
+      "dimensions_estimees": {
+        "diametre_m": 0.9,
+        "hauteur_m": 1.4
+      },
+      "position_dans_piece": "centre du vestibule, suspendu à une rosace",
+      "quantite": 1
+    },
+    {
+      "nom": "rosace de plafond à feuillages",
+      "categorie": "moulure",
+      "materiau": "plâtre",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "diametre_m": 0.9
+      },
+      "position_dans_piece": "plafond, au-dessus du lustre",
+      "quantite": 1
+    },
+    {
+      "nom": "grand tapis rouge à médaillons (motif type Boukhara/turkmène), bordure à rinceaux dorés",
+      "categorie": "tapis",
+      "materiau": "laine",
+      "couleur": "rouge carmin, médaillons bleu nuit/or",
+      "dimensions_estimees": {
+        "largeur_m": 4.0,
+        "profondeur_m": 3.2
+      },
+      "position_dans_piece": "centre du vestibule",
+      "quantite": 1
+    },
+    {
+      "nom": "table de milieu à plateau marbre, piètement bois doré à têtes de lion et entretoise ajourée",
+      "categorie": "mobilier",
+      "materiau": "marbre blanc veiné, bois doré",
+      "couleur": "blanc/or",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "profondeur_m": 0.7,
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "centre du tapis",
+      "quantite": 1
+    },
+    {
+      "nom": "vase métallique (étain/argent) avec bouquet de lys blancs",
+      "categorie": "objet",
+      "materiau": "métal, fleurs",
+      "couleur": "argent, blanc/vert",
+      "dimensions_estimees": {
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "sur la table de milieu",
+      "quantite": 1
+    },
+    {
+      "nom": "magazines/brochures",
+      "categorie": "objet",
+      "materiau": "papier",
+      "couleur": "bleu/blanc",
+      "dimensions_estimees": {
+        "largeur_m": 0.3
+      },
+      "position_dans_piece": "sur la table de milieu",
+      "quantite": 2
+    },
+    {
+      "nom": "canon décoratif sur affût à roues",
+      "categorie": "objet",
+      "materiau": "fonte, bois",
+      "couleur": "gris/noir",
+      "dimensions_estimees": {
+        "longueur_m": 1.1
+      },
+      "position_dans_piece": "angle nord-ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "lanternes/photophores",
+      "categorie": "objet",
+      "materiau": "verre, laiton",
+      "couleur": "doré",
+      "dimensions_estimees": {
+        "hauteur_m": 0.35
+      },
+      "position_dans_piece": "sol près du canon",
+      "quantite": 3
+    },
+    {
+      "nom": "radiateur fonte",
+      "categorie": "objet",
+      "materiau": "fonte",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "largeur_m": 0.7,
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "mur nord à gauche de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "console marbre noir, piètement doré, cadre photo posé",
+      "categorie": "mobilier",
+      "materiau": "marbre, bois doré",
+      "couleur": "noir/or",
+      "dimensions_estimees": {
+        "largeur_m": 1.1
+      },
+      "position_dans_piece": "mur ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "cadre photo/affiche de concert",
+      "categorie": "objet",
+      "materiau": "papier, cadre noir",
+      "couleur": "noir",
+      "dimensions_estimees": {
+        "hauteur_m": 0.3
+      },
+      "position_dans_piece": "sur la console ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "lampe vase bleu cobalt, abat-jour crème",
+      "categorie": "luminaire",
+      "materiau": "céramique",
+      "couleur": "bleu/crème",
+      "dimensions_estimees": {
+        "hauteur_m": 0.65
+      },
+      "position_dans_piece": "console ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "miroir doré à fronton sculpté",
+      "categorie": "objet",
+      "materiau": "bois doré",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "hauteur_m": 1.1
+      },
+      "position_dans_piece": "au-dessus de la console",
+      "quantite": 1
+    },
+    {
+      "nom": "drapeau rouge/blanc sur hampe",
+      "categorie": "objet",
+      "materiau": "tissu",
+      "couleur": "rouge/blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 2.2
+      },
+      "position_dans_piece": "angle nord-est",
+      "quantite": 1
+    },
+    {
+      "nom": "chaise médaillon crème",
+      "categorie": "mobilier",
+      "materiau": "bois, tissu",
+      "couleur": "acajou/crème",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "mur est",
+      "quantite": 1
+    },
+    {
+      "nom": "radiateur fonte",
+      "categorie": "objet",
+      "materiau": "fonte",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "mur est près de l'angle",
+      "quantite": 1
+    },
+    {
+      "nom": "tableau encadré",
+      "categorie": "tableau",
+      "materiau": "papier, cadre",
+      "couleur": "rouge/beige",
+      "dimensions_estimees": {
+        "hauteur_m": 0.5
+      },
+      "position_dans_piece": "mur nord à gauche de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "rideaux rouges",
+      "categorie": "textile",
+      "materiau": "velours",
+      "couleur": "rouge",
+      "dimensions_estimees": {
+        "hauteur_m": 3.5
+      },
+      "position_dans_piece": "fenêtre ouest",
+      "quantite": 2
+    },
+    {
+      "nom": "main courante laiton et ferronnerie de la rampe",
+      "categorie": "ferronnerie",
+      "materiau": "laiton, fer forgé",
+      "couleur": "or/noir",
+      "dimensions_estimees": {},
+      "position_dans_piece": "premier plan à gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "pied de colonne à base moulurée",
+      "categorie": "architecture",
+      "materiau": "stuc",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.4
+      },
+      "position_dans_piece": "premier plan",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Porte double blanche du mur ouest = entrée du couloir ouest (P22)",
+    "Vue continue avec P20, prise 2 s après depuis le bas de la volée"
+  ],
+  "incertitudes": [
+    "Hauteur de plafond estimée d'après les portes (3.2 m) : 4.8-5.2 m"
+  ]
+}

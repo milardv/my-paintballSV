@@ -1,0 +1,190 @@
+{
+  "id": "W08",
+  "zone": "int-vestibule",
+  "niveau": "rdc",
+  "piece": "vestibule, vers le couloir est",
+  "orientation_vue": "vers l'est depuis le vestibule (escalier à droite = sud)",
+  "murs_visibles": [
+    "est du vestibule (fenêtre à rideaux, porte-manteau, baie du couloir)",
+    "départ de la volée centrale (droite)"
+  ],
+  "ouvertures": [
+    {
+      "type": "fenetre",
+      "mur": "est (partie nord)",
+      "donne_sur": "extérieur (porte-fenêtre, garde-corps, végétation)",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.2
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "est (partie sud)",
+      "donne_sur": "couloir est (lanterne au plafond), puis une porte double ouverte vers une pièce au fond",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.3
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": 8.0,
+    "profondeur_m": 6.5
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre",
+  "plafond": "plafond blanc plat, corniche à plusieurs ressauts avec frise d'oves/rinceaux",
+  "murs_revetement": "papier peint damassé grand motif floral, fond taupe/gris-beige, motif blanc cassé ; soubassement à panneaux moulurés blanc filets vert céladon (~1 m)",
+  "elements": [
+    {
+      "nom": "porte-manteau/vestiaire néo-Renaissance à miroir central, patères, fronton à pinacles",
+      "categorie": "mobilier",
+      "materiau": "noyer sculpté",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 2.6,
+        "profondeur_m": 0.45
+      },
+      "position_dans_piece": "mur est, entre fenêtre et porte du couloir",
+      "quantite": 1
+    },
+    {
+      "nom": "grande composition florale (anthuriums rouges, feuillages)",
+      "categorie": "vegetation",
+      "materiau": "fleurs, feuillage",
+      "couleur": "rouge/vert",
+      "dimensions_estimees": {
+        "largeur_m": 0.9,
+        "hauteur_m": 0.7
+      },
+      "position_dans_piece": "sur la table de milieu",
+      "quantite": 1
+    },
+    {
+      "nom": "palmier areca en pot",
+      "categorie": "vegetation",
+      "materiau": "plante",
+      "couleur": "vert",
+      "dimensions_estimees": {
+        "hauteur_m": 1.4
+      },
+      "position_dans_piece": "devant la fenêtre est",
+      "quantite": 1
+    },
+    {
+      "nom": "chaise médaillon crème",
+      "categorie": "mobilier",
+      "materiau": "bois, tissu",
+      "couleur": "crème",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "bord gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "table de milieu marbre et bois doré à cariatides",
+      "categorie": "mobilier",
+      "materiau": "marbre, bois doré",
+      "couleur": "blanc/or",
+      "dimensions_estimees": {
+        "largeur_m": 1.2
+      },
+      "position_dans_piece": "centre",
+      "quantite": 1
+    },
+    {
+      "nom": "tapis rouge à médaillons",
+      "categorie": "tapis",
+      "materiau": "laine",
+      "couleur": "rouge",
+      "dimensions_estimees": {},
+      "position_dans_piece": "centre",
+      "quantite": 1
+    },
+    {
+      "nom": "rideaux velours rouge framboise",
+      "categorie": "textile",
+      "materiau": "velours",
+      "couleur": "rouge",
+      "dimensions_estimees": {
+        "hauteur_m": 3.8
+      },
+      "position_dans_piece": "fenêtre est",
+      "quantite": 2
+    },
+    {
+      "nom": "fusil ancien accroché en biais",
+      "categorie": "objet",
+      "materiau": "bois, acier",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "longueur_m": 1.5
+      },
+      "position_dans_piece": "trumeau à droite de la porte du couloir",
+      "quantite": 1
+    },
+    {
+      "nom": "porte-parapluies en céramique crème avec parapluie noir",
+      "categorie": "objet",
+      "materiau": "céramique",
+      "couleur": "crème",
+      "dimensions_estimees": {
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "au pied du trumeau",
+      "quantite": 1
+    },
+    {
+      "nom": "lanterne de couloir à cage dorée",
+      "categorie": "luminaire",
+      "materiau": "laiton, verre",
+      "couleur": "doré",
+      "dimensions_estimees": {
+        "hauteur_m": 0.5
+      },
+      "position_dans_piece": "plafond du couloir est",
+      "quantite": 1
+    },
+    {
+      "nom": "miroir doré (reflet de la rampe d'escalier)",
+      "categorie": "objet",
+      "materiau": "bois doré",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "passage est",
+      "quantite": 1
+    },
+    {
+      "nom": "rampe fer forgé, main courante laiton, tapis rouge à barres laiton",
+      "categorie": "ferronnerie",
+      "materiau": "fer forgé, laiton",
+      "couleur": "noir/or",
+      "dimensions_estimees": {},
+      "position_dans_piece": "volée centrale, droite",
+      "quantite": 1
+    },
+    {
+      "nom": "colonne (fût et base)",
+      "categorie": "architecture",
+      "materiau": "stuc",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 4.6
+      },
+      "position_dans_piece": "droite",
+      "quantite": 2
+    }
+  ],
+  "indices_plan": [
+    "Confirme : couloir est accessible depuis le mur est du vestibule, dans l'axe d'une enfilade de portes (couloir → pièce suivante)",
+    "Porte-manteau à placer dans le vestibule (absent des photos Pixel ? masqué en P20/P21)"
+  ],
+  "incertitudes": [
+    "Image web (D-006), peut-être antérieure : mobilier différent de 2026 (composition florale vs lys)"
+  ]
+}

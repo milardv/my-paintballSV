@@ -1,0 +1,6505 @@
+{
+ "version": 1,
+ "repere": "D-003 : m, +X est, +Y sud, Z haut (Blender) ; glTF : Y haut, -Z sud",
+ "source": "scripts/composants/coque.py (relevé du 19/11 : plan-mesure.json, plans R07/R03/R18 ; graphe D-019)",
+ "niveaux": {
+  "rdc": 0.0,
+  "sous_dalle_etage": 5.05,
+  "etage": 5.35,
+  "attique": 10.3,
+  "naissance_coupole": 10.0,
+  "cle_coupole": 12.0
+ },
+ "murs_exterieurs": "bati.py ; nu intérieur = nu du gabarit − 0.60 m (non modélisés ici)",
+ "escalier": {
+  "type": "impérial (D-013, D-014)",
+  "volee_centrale": {
+   "contremarches": 19,
+   "hauteur": 0.1789,
+   "giron": 0.25,
+   "x": [
+    -0.95,
+    0.95
+   ],
+   "y_depart": -3.2,
+   "y_arrivee": 1.3
+  },
+  "repos": {
+   "z": 3.4,
+   "y": [
+    1.3,
+    2.7
+   ],
+   "x": [
+    -3.0,
+    3.0
+   ],
+   "epaisseur": 0.25
+  },
+  "volees_retour": {
+   "contremarches": 11,
+   "hauteur": 0.1773,
+   "giron": 0.275,
+   "x": [
+    1.55,
+    3.0
+   ],
+   "y_depart": 1.3,
+   "y_arrivee": -1.45
+  },
+  "garde_corps_hauteur": 0.95,
+  "marches": [
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -3.2,
+     -2.95
+    ],
+    "z": 0.179
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -2.95,
+     -2.7
+    ],
+    "z": 0.358
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -2.7,
+     -2.45
+    ],
+    "z": 0.537
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -2.45,
+     -2.2
+    ],
+    "z": 0.716
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -2.2,
+     -1.95
+    ],
+    "z": 0.895
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -1.95,
+     -1.7
+    ],
+    "z": 1.074
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -1.7,
+     -1.45
+    ],
+    "z": 1.253
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -1.45,
+     -1.2
+    ],
+    "z": 1.432
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -1.2,
+     -0.95
+    ],
+    "z": 1.611
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -0.95,
+     -0.7
+    ],
+    "z": 1.789
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -0.7,
+     -0.45
+    ],
+    "z": 1.968
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -0.45,
+     -0.2
+    ],
+    "z": 2.147
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     -0.2,
+     0.05
+    ],
+    "z": 2.326
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     0.05,
+     0.3
+    ],
+    "z": 2.505
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     0.3,
+     0.55
+    ],
+    "z": 2.684
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     0.55,
+     0.8
+    ],
+    "z": 2.863
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     0.8,
+     1.05
+    ],
+    "z": 3.042
+   },
+   {
+    "volee": "centrale",
+    "x": [
+     -0.95,
+     0.95
+    ],
+    "y": [
+     1.05,
+     1.3
+    ],
+    "z": 3.221
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     1.025,
+     1.3
+    ],
+    "z": 3.577
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     0.75,
+     1.025
+    ],
+    "z": 3.755
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     0.475,
+     0.75
+    ],
+    "z": 3.932
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     0.2,
+     0.475
+    ],
+    "z": 4.109
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     -0.075,
+     0.2
+    ],
+    "z": 4.286
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     -0.35,
+     -0.075
+    ],
+    "z": 4.464
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     -0.625,
+     -0.35
+    ],
+    "z": 4.641
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     -0.9,
+     -0.625
+    ],
+    "z": 4.818
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     -1.175,
+     -0.9
+    ],
+    "z": 4.995
+   },
+   {
+    "volee": "retour_est",
+    "x": [
+     1.55,
+     3.0
+    ],
+    "y": [
+     -1.45,
+     -1.175
+    ],
+    "z": 5.173
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     1.025,
+     1.3
+    ],
+    "z": 3.577
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     0.75,
+     1.025
+    ],
+    "z": 3.755
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     0.475,
+     0.75
+    ],
+    "z": 3.932
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     0.2,
+     0.475
+    ],
+    "z": 4.109
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     -0.075,
+     0.2
+    ],
+    "z": 4.286
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     -0.35,
+     -0.075
+    ],
+    "z": 4.464
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     -0.625,
+     -0.35
+    ],
+    "z": 4.641
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     -0.9,
+     -0.625
+    ],
+    "z": 4.818
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     -1.175,
+     -0.9
+    ],
+    "z": 4.995
+   },
+   {
+    "volee": "retour_ouest",
+    "x": [
+     -3.0,
+     -1.55
+    ],
+    "y": [
+     -1.45,
+     -1.175
+    ],
+    "z": 5.173
+   }
+  ]
+ },
+ "vantaux_convention": "objet porte_<a>_<b>[_g|_d], origine sur l'axe du gond, vantail fermé ; angle_ouverture_z_deg : rotation autour de Z Blender pour l'ouvrir vers 'vers' (dans Unity après import glTF : rotation autour de Y, signe à inverser)",
+ "pieces": [
+  {
+   "id": "vestibule",
+   "graphe": "R-vestibule",
+   "numero_plan": "26",
+   "nom": "Vestibule",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "sur",
+   "photos": [
+    "P19",
+    "P20",
+    "P21",
+    "P41",
+    "W08"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -3.0,
+     -3.7
+    ],
+    [
+     -3.0,
+     -5.45
+    ],
+    [
+     -2.7,
+     -5.45
+    ],
+    [
+     -2.7,
+     -8.1
+    ],
+    [
+     2.7,
+     -8.1
+    ],
+    [
+     2.7,
+     -5.45
+    ],
+    [
+     3.0,
+     -5.45
+    ],
+    [
+     3.0,
+     -3.7
+    ]
+   ],
+   "surface_m2": 24.81,
+   "rect_plan": [
+    [
+     -3.3,
+     -9.5,
+     3.3,
+     -3.45
+    ]
+   ],
+   "hauteur_sous_plafond": 5.0,
+   "sol": "marbre",
+   "fenetres_facade": [
+    "nord axe 0 (porte d'entrée)",
+    "retours est et ouest de l'avant-corps nord (rideaux rouges)"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_couloir_ouest_vestibule"
+    ],
+    "est": [
+     "mur_vestibule_couloir_est"
+    ],
+    "sud": [
+     "mur_vestibule_passage_ouest",
+     "mur_vestibule_escalier",
+     "mur_vestibule_passage_est"
+    ]
+   },
+   "objets": [
+    "mur_couloir_ouest_vestibule",
+    "mur_vestibule_couloir_est",
+    "mur_vestibule_escalier",
+    "mur_vestibule_passage_est",
+    "mur_vestibule_passage_ouest",
+    "plafond_vestibule",
+    "porte_vestibule_couloir_est_d",
+    "porte_vestibule_couloir_est_g",
+    "porte_vestibule_couloir_ouest_d",
+    "porte_vestibule_couloir_ouest_g",
+    "sol_vestibule"
+   ],
+   "portes": [
+    {
+     "nom": "porte_vestibule_couloir_ouest",
+     "type": "porte double",
+     "centre": [
+      -3.3,
+      -4.38,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.3,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "couloir_ouest"
+     ],
+     "vers": "couloir_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_vestibule_couloir_ouest_g",
+       "pivot": [
+        -3.515,
+        -5.026,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.29,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_vestibule_couloir_ouest_d",
+       "pivot": [
+        -3.515,
+        -3.734,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.29,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P21, P22, P41, R07"
+    },
+    {
+     "nom": "porte_vestibule_couloir_est",
+     "type": "porte double",
+     "centre": [
+      3.3,
+      -4.38,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.3,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "couloir_est"
+     ],
+     "vers": "couloir_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_vestibule_couloir_est_g",
+       "pivot": [
+        3.515,
+        -5.026,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.29,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_vestibule_couloir_est_d",
+       "pivot": [
+        3.515,
+        -3.734,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.29,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P36, P41, W08, R07"
+    },
+    {
+     "nom": "baie_vestibule_escalier_0",
+     "type": "baie",
+     "centre": [
+      0,
+      -3.45,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -3.45)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.9,
+     "hauteur": 4.6,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "escalier"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P41 (volée entre 2 colonnes)"
+    },
+    {
+     "nom": "baie_vestibule_passage_ouest_200",
+     "type": "baie",
+     "centre": [
+      -2.0,
+      -3.45,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -3.45)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.7,
+     "hauteur": 4.6,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "passage_ouest"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P23, P41"
+    },
+    {
+     "nom": "baie_vestibule_passage_est_200",
+     "type": "baie",
+     "centre": [
+      2.0,
+      -3.45,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -3.45)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.7,
+     "hauteur": 4.6,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "passage_est"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P41, P42"
+    }
+   ]
+  },
+  {
+   "id": "couloir_ouest",
+   "graphe": "R-couloir-ouest",
+   "numero_plan": "40",
+   "nom": "Couloir ouest",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "probable",
+   "photos": [
+    "P22"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -10.0,
+     -3.1
+    ],
+    [
+     -10.0,
+     -5.45
+    ],
+    [
+     -3.6,
+     -5.45
+    ],
+    [
+     -3.6,
+     -3.1
+    ]
+   ],
+   "surface_m2": 15.04,
+   "rect_plan": [
+    [
+     -10.3,
+     -9.5,
+     -3.3,
+     -2.95
+    ]
+   ],
+   "hauteur_sous_plafond": 4.5,
+   "sol": "marbre",
+   "fenetres_facade": [
+    "nord x=-8,7",
+    "nord x=-5,1 (balconnets)"
+   ],
+   "murs": {
+    "est": [
+     "mur_couloir_ouest_vestibule",
+     "mur_couloir_ouest_passage_ouest"
+    ],
+    "sud": [
+     "mur_couloir_ouest_salon_ouest"
+    ],
+    "ouest": [
+     "mur_piece_no_couloir_ouest"
+    ]
+   },
+   "objets": [
+    "mur_couloir_ouest_passage_ouest",
+    "mur_couloir_ouest_salon_ouest",
+    "mur_couloir_ouest_vestibule",
+    "mur_piece_no_couloir_ouest",
+    "plafond_couloir_ouest",
+    "porte_couloir_ouest_piece_no_d",
+    "porte_couloir_ouest_piece_no_g",
+    "porte_salon_ouest_couloir_ouest_d",
+    "porte_salon_ouest_couloir_ouest_g",
+    "porte_vestibule_couloir_ouest_d",
+    "porte_vestibule_couloir_ouest_g",
+    "sol_couloir_ouest"
+   ],
+   "portes": [
+    {
+     "nom": "porte_vestibule_couloir_ouest",
+     "type": "porte double",
+     "centre": [
+      -3.3,
+      -4.38,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.3,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "couloir_ouest"
+     ],
+     "vers": "couloir_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_vestibule_couloir_ouest_g",
+       "pivot": [
+        -3.515,
+        -5.026,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.29,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_vestibule_couloir_ouest_d",
+       "pivot": [
+        -3.515,
+        -3.734,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.29,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P21, P22, P41, R07"
+    },
+    {
+     "nom": "porte_salon_ouest_couloir_ouest",
+     "type": "porte double",
+     "centre": [
+      -6.93,
+      -2.95,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -2.95)",
+     "epaisseur_mur": 0.3,
+     "largeur": 1.6,
+     "hauteur": 3.4,
+     "cintree": false,
+     "relie": [
+      "salon_ouest",
+      "couloir_ouest"
+     ],
+     "vers": "couloir_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_ouest_couloir_ouest_g",
+       "pivot": [
+        -7.726,
+        -3.015,
+        0.0
+       ],
+       "largeur": 0.792,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_salon_ouest_couloir_ouest_d",
+       "pivot": [
+        -6.134,
+        -3.015,
+        0.0
+       ],
+       "largeur": 0.792,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R07"
+    },
+    {
+     "nom": "porte_couloir_ouest_piece_no",
+     "type": "porte double",
+     "centre": [
+      -10.3,
+      -4.35,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.28,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "couloir_ouest",
+      "piece_no"
+     ],
+     "vers": "piece_no",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_couloir_ouest_piece_no_g",
+       "pivot": [
+        -10.515,
+        -4.986,
+        0.0
+       ],
+       "largeur": 0.632,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_couloir_ouest_piece_no_d",
+       "pivot": [
+        -10.515,
+        -3.714,
+        0.0
+       ],
+       "largeur": 0.632,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P22, R07"
+    }
+   ]
+  },
+  {
+   "id": "couloir_est",
+   "graphe": "R-couloir-est",
+   "numero_plan": "27",
+   "nom": "Couloir est",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "sur",
+   "photos": [
+    "P36"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     3.6,
+     -3.1
+    ],
+    [
+     3.6,
+     -5.45
+    ],
+    [
+     10.0,
+     -5.45
+    ],
+    [
+     10.0,
+     -3.1
+    ]
+   ],
+   "surface_m2": 15.04,
+   "rect_plan": [
+    [
+     3.3,
+     -9.5,
+     10.3,
+     -2.95
+    ]
+   ],
+   "hauteur_sous_plafond": 4.5,
+   "sol": "marbre",
+   "fenetres_facade": [
+    "nord x=5,1",
+    "nord x=8,7 (balconnets)"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_vestibule_couloir_est",
+     "mur_passage_est_couloir_est"
+    ],
+    "sud": [
+     "mur_couloir_est_billard"
+    ],
+    "est": [
+     "mur_couloir_est_pavillon_ne"
+    ]
+   },
+   "objets": [
+    "mur_couloir_est_billard",
+    "mur_couloir_est_pavillon_ne",
+    "mur_passage_est_couloir_est",
+    "mur_vestibule_couloir_est",
+    "plafond_couloir_est",
+    "porte_billard_couloir_est_d",
+    "porte_billard_couloir_est_g",
+    "porte_couloir_est_pavillon_ne_d",
+    "porte_couloir_est_pavillon_ne_g",
+    "porte_vestibule_couloir_est_d",
+    "porte_vestibule_couloir_est_g",
+    "sol_couloir_est"
+   ],
+   "portes": [
+    {
+     "nom": "porte_vestibule_couloir_est",
+     "type": "porte double",
+     "centre": [
+      3.3,
+      -4.38,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.3,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "couloir_est"
+     ],
+     "vers": "couloir_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_vestibule_couloir_est_g",
+       "pivot": [
+        3.515,
+        -5.026,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.29,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_vestibule_couloir_est_d",
+       "pivot": [
+        3.515,
+        -3.734,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.29,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P36, P41, W08, R07"
+    },
+    {
+     "nom": "porte_billard_couloir_est",
+     "type": "porte double",
+     "centre": [
+      6.73,
+      -2.95,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -2.95)",
+     "epaisseur_mur": 0.3,
+     "largeur": 1.7,
+     "hauteur": 3.4,
+     "cintree": false,
+     "relie": [
+      "billard",
+      "couloir_est"
+     ],
+     "vers": "couloir_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_billard_couloir_est_g",
+       "pivot": [
+        5.884,
+        -3.015,
+        0.0
+       ],
+       "largeur": 0.842,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_billard_couloir_est_d",
+       "pivot": [
+        7.576,
+        -3.015,
+        0.0
+       ],
+       "largeur": 0.842,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P34, P35, R07"
+    },
+    {
+     "nom": "porte_couloir_est_pavillon_ne",
+     "type": "porte double",
+     "centre": [
+      10.3,
+      -4.33,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.27,
+     "hauteur": 3.2,
+     "cintree": false,
+     "relie": [
+      "couloir_est",
+      "pavillon_ne"
+     ],
+     "vers": "pavillon_ne",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_couloir_est_pavillon_ne_g",
+       "pivot": [
+        10.515,
+        -4.961,
+        0.0
+       ],
+       "largeur": 0.627,
+       "hauteur": 3.19,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_couloir_est_pavillon_ne_d",
+       "pivot": [
+        10.515,
+        -3.699,
+        0.0
+       ],
+       "largeur": 0.627,
+       "hauteur": 3.19,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R07"
+    }
+   ]
+  },
+  {
+   "id": "passage_ouest",
+   "graphe": "R-passage-ouest",
+   "numero_plan": "ouest de la volée",
+   "nom": "Passage ouest",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "sur",
+   "photos": [
+    "P23",
+    "P24"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -3.0,
+     1.3
+    ],
+    [
+     -3.0,
+     -3.2
+    ],
+    [
+     -0.95,
+     -3.2
+    ],
+    [
+     -0.95,
+     1.3
+    ]
+   ],
+   "surface_m2": 9.22,
+   "rect_plan": [
+    [
+     -3.3,
+     -3.45,
+     -0.95,
+     1.2999999999999998
+    ]
+   ],
+   "hauteur_sous_plafond": {
+    "min": 3.15,
+    "max": 5.05,
+    "note": "sous-face rampante de la volée de retour (basse au sud), vide de cage côté volée centrale"
+   },
+   "sol": "marbre",
+   "fenetres_facade": [],
+   "murs": {
+    "ouest": [
+     "mur_couloir_ouest_passage_ouest",
+     "mur_salon_ouest_passage_ouest"
+    ],
+    "nord": [
+     "mur_vestibule_passage_ouest"
+    ]
+   },
+   "objets": [
+    "mur_couloir_ouest_passage_ouest",
+    "mur_salon_ouest_passage_ouest",
+    "mur_vestibule_passage_ouest",
+    "porte_passage_ouest_salon_ouest_d",
+    "porte_passage_ouest_salon_ouest_g",
+    "sol_passage_ouest"
+   ],
+   "portes": [
+    {
+     "nom": "baie_vestibule_passage_ouest_200",
+     "type": "baie",
+     "centre": [
+      -2.0,
+      -3.45,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -3.45)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.7,
+     "hauteur": 4.6,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "passage_ouest"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P23, P41"
+    },
+    {
+     "nom": "porte_passage_ouest_salon_ouest",
+     "type": "porte double",
+     "centre": [
+      -3.3,
+      0.14,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "passage_ouest",
+      "salon_ouest"
+     ],
+     "vers": "salon_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_passage_ouest_salon_ouest_g",
+       "pivot": [
+        -3.515,
+        -0.506,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_passage_ouest_salon_ouest_d",
+       "pivot": [
+        -3.515,
+        0.786,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P23, P24, R07"
+    }
+   ]
+  },
+  {
+   "id": "passage_est",
+   "graphe": "R-passage-est",
+   "numero_plan": "est de la volée",
+   "nom": "Passage est",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "sur",
+   "photos": [
+    "P42"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     0.95,
+     1.3
+    ],
+    [
+     0.95,
+     -3.2
+    ],
+    [
+     3.0,
+     -3.2
+    ],
+    [
+     3.0,
+     1.3
+    ]
+   ],
+   "surface_m2": 9.22,
+   "rect_plan": [
+    [
+     0.95,
+     -3.45,
+     3.3,
+     1.2999999999999998
+    ]
+   ],
+   "hauteur_sous_plafond": {
+    "min": 3.15,
+    "max": 5.05,
+    "note": "sous-face rampante de la volée de retour (basse au sud), vide de cage côté volée centrale"
+   },
+   "sol": "marbre",
+   "fenetres_facade": [],
+   "murs": {
+    "est": [
+     "mur_passage_est_couloir_est",
+     "mur_passage_est_billard"
+    ],
+    "nord": [
+     "mur_vestibule_passage_est"
+    ]
+   },
+   "objets": [
+    "mur_passage_est_billard",
+    "mur_passage_est_couloir_est",
+    "mur_vestibule_passage_est",
+    "porte_passage_est_billard_d",
+    "porte_passage_est_billard_g",
+    "sol_passage_est"
+   ],
+   "portes": [
+    {
+     "nom": "baie_vestibule_passage_est_200",
+     "type": "baie",
+     "centre": [
+      2.0,
+      -3.45,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -3.45)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.7,
+     "hauteur": 4.6,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "passage_est"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P41, P42"
+    },
+    {
+     "nom": "porte_passage_est_billard",
+     "type": "porte double",
+     "centre": [
+      3.3,
+      0.14,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "passage_est",
+      "billard"
+     ],
+     "vers": "billard",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_passage_est_billard_g",
+       "pivot": [
+        3.515,
+        -0.506,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_passage_est_billard_d",
+       "pivot": [
+        3.515,
+        0.786,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P42, P26, R07"
+    }
+   ]
+  },
+  {
+   "id": "escalier",
+   "graphe": "escalier",
+   "numero_plan": "volée centrale",
+   "nom": "Escalier impérial",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "sur",
+   "photos": [
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "W09"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -0.95,
+     -3.2
+    ],
+    [
+     0.95,
+     -3.2
+    ],
+    [
+     0.95,
+     1.3
+    ],
+    [
+     -0.95,
+     1.3
+    ]
+   ],
+   "surface_m2": 8.55,
+   "rect_plan": [
+    [
+     -0.95,
+     -3.45,
+     0.95,
+     1.2999999999999998
+    ]
+   ],
+   "hauteur_sous_plafond": {
+    "min": null,
+    "max": 12.0,
+    "note": "cage ouverte jusqu'à la coupole (naissance 10.00, clé 12.00)"
+   },
+   "sol": "marbre",
+   "fenetres_facade": [
+    "verrière zénithale + 4 oculi de coupole"
+   ],
+   "murs": {
+    "nord": [
+     "mur_vestibule_escalier"
+    ]
+   },
+   "objets": [
+    "escalier_limons",
+    "escalier_repos",
+    "escalier_volee_centrale",
+    "escalier_volee_retour_est",
+    "escalier_volee_retour_ouest",
+    "garde_corps_escalier_est",
+    "garde_corps_escalier_ouest",
+    "mur_vestibule_escalier",
+    "sol_escalier"
+   ],
+   "portes": [
+    {
+     "nom": "baie_vestibule_escalier_0",
+     "type": "baie",
+     "centre": [
+      0,
+      -3.45,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -3.45)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.9,
+     "hauteur": 4.6,
+     "cintree": false,
+     "relie": [
+      "vestibule",
+      "escalier"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P41 (volée entre 2 colonnes)"
+    }
+   ]
+  },
+  {
+   "id": "petit_salon",
+   "graphe": "R-petit-salon",
+   "numero_plan": "central",
+   "nom": "Petit salon (sous le repos)",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "sur",
+   "photos": [
+    "P25",
+    "P26"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -3.0,
+     3.4
+    ],
+    [
+     -3.0,
+     1.3
+    ],
+    [
+     3.0,
+     1.3
+    ],
+    [
+     3.0,
+     3.4
+    ]
+   ],
+   "surface_m2": 12.6,
+   "rect_plan": [
+    [
+     -3.3,
+     1.2999999999999998,
+     3.3,
+     3.65
+    ]
+   ],
+   "hauteur_sous_plafond": {
+    "min": 3.15,
+    "max": 3.15,
+    "note": "sous-face du repos de l'escalier"
+   },
+   "sol": "marbre",
+   "fenetres_facade": [],
+   "murs": {
+    "ouest": [
+     "mur_salon_ouest_petit_salon"
+    ],
+    "est": [
+     "mur_petit_salon_billard"
+    ],
+    "sud": [
+     "mur_petit_salon_salon",
+     "mur_petit_salon_petit_salon",
+     "mur_petit_salon_petit_salon_24"
+    ],
+    "nord": [
+     "mur_petit_salon_petit_salon",
+     "mur_petit_salon_petit_salon_24"
+    ]
+   },
+   "objets": [
+    "escalier_repos",
+    "mur_petit_salon_billard",
+    "mur_petit_salon_petit_salon",
+    "mur_petit_salon_petit_salon_24",
+    "mur_petit_salon_salon",
+    "mur_salon_ouest_petit_salon",
+    "plafond_petit_salon",
+    "porte_petit_salon_salon_22",
+    "porte_petit_salon_salon_d",
+    "porte_petit_salon_salon_g",
+    "sol_petit_salon"
+   ],
+   "portes": [
+    {
+     "nom": "porte_petit_salon_salon",
+     "type": "porte double",
+     "centre": [
+      -2.2,
+      3.65,
+      0.0
+     ],
+     "mur": "parallèle à X (y = 3.65)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.2,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "petit_salon",
+      "salon"
+     ],
+     "vers": "salon",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_petit_salon_salon_g",
+       "pivot": [
+        -2.796,
+        3.815,
+        0.0
+       ],
+       "largeur": 0.592,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_petit_salon_salon_d",
+       "pivot": [
+        -1.604,
+        3.815,
+        0.0
+       ],
+       "largeur": 0.592,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P25, P27, P30"
+    },
+    {
+     "nom": "porte_petit_salon_salon_22",
+     "type": "porte",
+     "centre": [
+      2.2,
+      3.65,
+      0.0
+     ],
+     "mur": "parallèle à X (y = 3.65)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.0,
+     "hauteur": 2.8,
+     "cintree": false,
+     "relie": [
+      "petit_salon",
+      "salon"
+     ],
+     "vers": "salon",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_petit_salon_salon_22",
+       "pivot": [
+        1.704,
+        3.815,
+        0.0
+       ],
+       "largeur": 0.992,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P25, P30, P31"
+    }
+   ]
+  },
+  {
+   "id": "salon",
+   "graphe": "R-salon",
+   "numero_plan": "36",
+   "nom": "Salon bow-window",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "sur",
+   "photos": [
+    "P27",
+    "P28",
+    "P29",
+    "P30",
+    "P31"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -3.0,
+     3.9
+    ],
+    [
+     3.0,
+     3.9
+    ],
+    [
+     3.0,
+     5.45
+    ],
+    [
+     2.667,
+     5.45
+    ],
+    [
+     2.667,
+     6.179
+    ],
+    [
+     2.116,
+     6.179
+    ],
+    [
+     1.456,
+     8.3
+    ],
+    [
+     -1.456,
+     8.3
+    ],
+    [
+     -2.116,
+     6.179
+    ],
+    [
+     -2.667,
+     6.179
+    ],
+    [
+     -2.667,
+     5.45
+    ],
+    [
+     -3.0,
+     5.45
+    ]
+   ],
+   "surface_m2": 20.76,
+   "rect_plan": [
+    [
+     -3.3,
+     3.65,
+     3.3,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 5.0,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "sud x=-2,73 (pan coupé, porte-fenêtre)",
+    "sud x=0 (fenêtre)",
+    "sud x=2,73 (pan coupé, porte-fenêtre)"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_salon_ouest_salon"
+    ],
+    "est": [
+     "mur_salon_billard"
+    ],
+    "nord": [
+     "mur_petit_salon_salon"
+    ]
+   },
+   "objets": [
+    "mur_petit_salon_salon",
+    "mur_salon_billard",
+    "mur_salon_ouest_salon",
+    "plafond_salon",
+    "porte_petit_salon_salon_22",
+    "porte_petit_salon_salon_d",
+    "porte_petit_salon_salon_g",
+    "porte_salon_billard_d",
+    "porte_salon_billard_g",
+    "porte_salon_salon_ouest_d",
+    "porte_salon_salon_ouest_g",
+    "sol_salon"
+   ],
+   "portes": [
+    {
+     "nom": "porte_petit_salon_salon",
+     "type": "porte double",
+     "centre": [
+      -2.2,
+      3.65,
+      0.0
+     ],
+     "mur": "parallèle à X (y = 3.65)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.2,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "petit_salon",
+      "salon"
+     ],
+     "vers": "salon",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_petit_salon_salon_g",
+       "pivot": [
+        -2.796,
+        3.815,
+        0.0
+       ],
+       "largeur": 0.592,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_petit_salon_salon_d",
+       "pivot": [
+        -1.604,
+        3.815,
+        0.0
+       ],
+       "largeur": 0.592,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P25, P27, P30"
+    },
+    {
+     "nom": "porte_petit_salon_salon_22",
+     "type": "porte",
+     "centre": [
+      2.2,
+      3.65,
+      0.0
+     ],
+     "mur": "parallèle à X (y = 3.65)",
+     "epaisseur_mur": 0.5,
+     "largeur": 1.0,
+     "hauteur": 2.8,
+     "cintree": false,
+     "relie": [
+      "petit_salon",
+      "salon"
+     ],
+     "vers": "salon",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_petit_salon_salon_22",
+       "pivot": [
+        1.704,
+        3.815,
+        0.0
+       ],
+       "largeur": 0.992,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P25, P30, P31"
+    },
+    {
+     "nom": "porte_salon_billard",
+     "type": "porte double",
+     "centre": [
+      3.3,
+      4.28,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.2,
+     "cintree": false,
+     "relie": [
+      "salon",
+      "billard"
+     ],
+     "vers": "billard",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_billard_g",
+       "pivot": [
+        3.515,
+        3.634,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.19,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_salon_billard_d",
+       "pivot": [
+        3.515,
+        4.926,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.19,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P28-P32, R07"
+    },
+    {
+     "nom": "porte_salon_salon_ouest",
+     "type": "porte double",
+     "centre": [
+      -3.3,
+      4.28,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "salon",
+      "salon_ouest"
+     ],
+     "vers": "salon_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_salon_ouest_g",
+       "pivot": [
+        -3.515,
+        3.634,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_salon_salon_ouest_d",
+       "pivot": [
+        -3.515,
+        4.926,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P27, P28, R07"
+    }
+   ]
+  },
+  {
+   "id": "billard",
+   "graphe": "R-billard",
+   "numero_plan": "35",
+   "nom": "Billard",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "probable",
+   "photos": [
+    "P32",
+    "P33",
+    "P34",
+    "P35"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     3.6,
+     -2.8
+    ],
+    [
+     10.0,
+     -2.8
+    ],
+    [
+     10.0,
+     5.45
+    ],
+    [
+     3.6,
+     5.45
+    ]
+   ],
+   "surface_m2": 52.8,
+   "rect_plan": [
+    [
+     3.3,
+     -2.95,
+     10.3,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 5.0,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "sud x=5,25 (porte-fenêtre)",
+    "sud x=8,85 (porte-fenêtre)"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_passage_est_billard",
+     "mur_petit_salon_billard",
+     "mur_salon_billard"
+    ],
+    "nord": [
+     "mur_couloir_est_billard"
+    ],
+    "est": [
+     "mur_billard_pavillon_ne",
+     "mur_billard_degagement_est",
+     "mur_billard_salon_vert"
+    ]
+   },
+   "objets": [
+    "mur_billard_degagement_est",
+    "mur_billard_pavillon_ne",
+    "mur_billard_salon_vert",
+    "mur_couloir_est_billard",
+    "mur_passage_est_billard",
+    "mur_petit_salon_billard",
+    "mur_salon_billard",
+    "plafond_billard",
+    "porte_billard_couloir_est_d",
+    "porte_billard_couloir_est_g",
+    "porte_billard_degagement_est_d",
+    "porte_billard_degagement_est_g",
+    "porte_billard_salon_vert_d",
+    "porte_billard_salon_vert_g",
+    "porte_passage_est_billard_d",
+    "porte_passage_est_billard_g",
+    "porte_salon_billard_d",
+    "porte_salon_billard_g",
+    "sol_billard"
+   ],
+   "portes": [
+    {
+     "nom": "porte_passage_est_billard",
+     "type": "porte double",
+     "centre": [
+      3.3,
+      0.14,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "passage_est",
+      "billard"
+     ],
+     "vers": "billard",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_passage_est_billard_g",
+       "pivot": [
+        3.515,
+        -0.506,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_passage_est_billard_d",
+       "pivot": [
+        3.515,
+        0.786,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P42, P26, R07"
+    },
+    {
+     "nom": "porte_salon_billard",
+     "type": "porte double",
+     "centre": [
+      3.3,
+      4.28,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.2,
+     "cintree": false,
+     "relie": [
+      "salon",
+      "billard"
+     ],
+     "vers": "billard",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_billard_g",
+       "pivot": [
+        3.515,
+        3.634,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.19,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_salon_billard_d",
+       "pivot": [
+        3.515,
+        4.926,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.19,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P28-P32, R07"
+    },
+    {
+     "nom": "porte_billard_salon_vert",
+     "type": "porte double",
+     "centre": [
+      10.3,
+      4.35,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.4,
+     "cintree": false,
+     "relie": [
+      "billard",
+      "salon_vert"
+     ],
+     "vers": "salon_vert",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_billard_salon_vert_g",
+       "pivot": [
+        10.515,
+        3.704,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_billard_salon_vert_d",
+       "pivot": [
+        10.515,
+        4.996,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P31, P33, W07, R07"
+    },
+    {
+     "nom": "porte_billard_degagement_est",
+     "type": "porte double",
+     "centre": [
+      10.3,
+      0.14,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.34,
+     "hauteur": 3.4,
+     "cintree": false,
+     "relie": [
+      "billard",
+      "degagement_est"
+     ],
+     "vers": "degagement_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_billard_degagement_est_g",
+       "pivot": [
+        10.515,
+        -0.526,
+        0.0
+       ],
+       "largeur": 0.662,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_billard_degagement_est_d",
+       "pivot": [
+        10.515,
+        0.806,
+        0.0
+       ],
+       "largeur": 0.662,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P33, P34, R07"
+    },
+    {
+     "nom": "porte_billard_couloir_est",
+     "type": "porte double",
+     "centre": [
+      6.73,
+      -2.95,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -2.95)",
+     "epaisseur_mur": 0.3,
+     "largeur": 1.7,
+     "hauteur": 3.4,
+     "cintree": false,
+     "relie": [
+      "billard",
+      "couloir_est"
+     ],
+     "vers": "couloir_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_billard_couloir_est_g",
+       "pivot": [
+        5.884,
+        -3.015,
+        0.0
+       ],
+       "largeur": 0.842,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_billard_couloir_est_d",
+       "pivot": [
+        7.576,
+        -3.015,
+        0.0
+       ],
+       "largeur": 0.842,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P34, P35, R07"
+    }
+   ]
+  },
+  {
+   "id": "salon_ouest",
+   "graphe": "R-salon-ouest",
+   "numero_plan": "37",
+   "nom": "Salon ouest",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "incertain",
+   "photos": [],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -10.0,
+     -2.8
+    ],
+    [
+     -3.6,
+     -2.8
+    ],
+    [
+     -3.6,
+     5.45
+    ],
+    [
+     -10.0,
+     5.45
+    ]
+   ],
+   "surface_m2": 52.8,
+   "rect_plan": [
+    [
+     -10.3,
+     -2.95,
+     -3.3,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 5.0,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "sud x=-8,85",
+    "sud x=-5,25"
+   ],
+   "murs": {
+    "est": [
+     "mur_salon_ouest_passage_ouest",
+     "mur_salon_ouest_petit_salon",
+     "mur_salon_ouest_salon"
+    ],
+    "nord": [
+     "mur_couloir_ouest_salon_ouest"
+    ],
+    "ouest": [
+     "mur_piece_no_salon_ouest",
+     "mur_pavillon_so_salon_ouest"
+    ]
+   },
+   "objets": [
+    "mur_couloir_ouest_salon_ouest",
+    "mur_pavillon_so_salon_ouest",
+    "mur_piece_no_salon_ouest",
+    "mur_salon_ouest_passage_ouest",
+    "mur_salon_ouest_petit_salon",
+    "mur_salon_ouest_salon",
+    "plafond_salon_ouest",
+    "porte_passage_ouest_salon_ouest_d",
+    "porte_passage_ouest_salon_ouest_g",
+    "porte_salon_ouest_couloir_ouest_d",
+    "porte_salon_ouest_couloir_ouest_g",
+    "porte_salon_ouest_pavillon_so_43_d",
+    "porte_salon_ouest_pavillon_so_43_g",
+    "porte_salon_ouest_pavillon_so_d",
+    "porte_salon_ouest_pavillon_so_g",
+    "porte_salon_salon_ouest_d",
+    "porte_salon_salon_ouest_g",
+    "sol_salon_ouest"
+   ],
+   "portes": [
+    {
+     "nom": "porte_passage_ouest_salon_ouest",
+     "type": "porte double",
+     "centre": [
+      -3.3,
+      0.14,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "passage_ouest",
+      "salon_ouest"
+     ],
+     "vers": "salon_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_passage_ouest_salon_ouest_g",
+       "pivot": [
+        -3.515,
+        -0.506,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_passage_ouest_salon_ouest_d",
+       "pivot": [
+        -3.515,
+        0.786,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P23, P24, R07"
+    },
+    {
+     "nom": "porte_salon_salon_ouest",
+     "type": "porte double",
+     "centre": [
+      -3.3,
+      4.28,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "salon",
+      "salon_ouest"
+     ],
+     "vers": "salon_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_salon_ouest_g",
+       "pivot": [
+        -3.515,
+        3.634,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_salon_salon_ouest_d",
+       "pivot": [
+        -3.515,
+        4.926,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P27, P28, R07"
+    },
+    {
+     "nom": "porte_salon_ouest_couloir_ouest",
+     "type": "porte double",
+     "centre": [
+      -6.93,
+      -2.95,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -2.95)",
+     "epaisseur_mur": 0.3,
+     "largeur": 1.6,
+     "hauteur": 3.4,
+     "cintree": false,
+     "relie": [
+      "salon_ouest",
+      "couloir_ouest"
+     ],
+     "vers": "couloir_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_ouest_couloir_ouest_g",
+       "pivot": [
+        -7.726,
+        -3.015,
+        0.0
+       ],
+       "largeur": 0.792,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_salon_ouest_couloir_ouest_d",
+       "pivot": [
+        -6.134,
+        -3.015,
+        0.0
+       ],
+       "largeur": 0.792,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R07"
+    },
+    {
+     "nom": "porte_salon_ouest_pavillon_so",
+     "type": "porte double",
+     "centre": [
+      -10.3,
+      0.11,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "salon_ouest",
+      "pavillon_so"
+     ],
+     "vers": "pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_ouest_pavillon_so_g",
+       "pivot": [
+        -10.515,
+        -0.536,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_salon_ouest_pavillon_so_d",
+       "pivot": [
+        -10.515,
+        0.756,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R07"
+    },
+    {
+     "nom": "porte_salon_ouest_pavillon_so_43",
+     "type": "porte double",
+     "centre": [
+      -10.3,
+      4.29,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "salon_ouest",
+      "pavillon_so"
+     ],
+     "vers": "pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_ouest_pavillon_so_43_g",
+       "pivot": [
+        -10.515,
+        3.644,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_salon_ouest_pavillon_so_43_d",
+       "pivot": [
+        -10.515,
+        4.936,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R07"
+    }
+   ]
+  },
+  {
+   "id": "piece_no",
+   "graphe": "R-piece-no",
+   "numero_plan": "39",
+   "nom": "Pièce nord-ouest",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "incertain",
+   "photos": [],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -15.8,
+     -2.2
+    ],
+    [
+     -15.8,
+     -6.3
+    ],
+    [
+     -10.9,
+     -6.3
+    ],
+    [
+     -10.9,
+     -5.45
+    ],
+    [
+     -10.6,
+     -5.45
+    ],
+    [
+     -10.6,
+     -2.2
+    ]
+   ],
+   "surface_m2": 21.06,
+   "rect_plan": [
+    [
+     -17.0,
+     -9.5,
+     -10.3,
+     -2.1
+    ]
+   ],
+   "hauteur_sous_plafond": 4.5,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "nord x=-14,4",
+    "ouest y=-6,9"
+   ],
+   "murs": {
+    "est": [
+     "mur_piece_no_couloir_ouest",
+     "mur_piece_no_salon_ouest"
+    ],
+    "sud": [
+     "mur_piece_no_pavillon_so"
+    ]
+   },
+   "objets": [
+    "mur_piece_no_couloir_ouest",
+    "mur_piece_no_pavillon_so",
+    "mur_piece_no_salon_ouest",
+    "plafond_piece_no",
+    "porte_couloir_ouest_piece_no_d",
+    "porte_couloir_ouest_piece_no_g",
+    "porte_piece_no_pavillon_so_d",
+    "porte_piece_no_pavillon_so_g",
+    "sol_piece_no"
+   ],
+   "portes": [
+    {
+     "nom": "porte_couloir_ouest_piece_no",
+     "type": "porte double",
+     "centre": [
+      -10.3,
+      -4.35,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.28,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "couloir_ouest",
+      "piece_no"
+     ],
+     "vers": "piece_no",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_couloir_ouest_piece_no_g",
+       "pivot": [
+        -10.515,
+        -4.986,
+        0.0
+       ],
+       "largeur": 0.632,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_couloir_ouest_piece_no_d",
+       "pivot": [
+        -10.515,
+        -3.714,
+        0.0
+       ],
+       "largeur": 0.632,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P22, R07"
+    },
+    {
+     "nom": "porte_piece_no_pavillon_so",
+     "type": "porte double",
+     "centre": [
+      -13.38,
+      -2.1,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -2.10)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.45,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "piece_no",
+      "pavillon_so"
+     ],
+     "vers": "pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_piece_no_pavillon_so_g",
+       "pivot": [
+        -14.101,
+        -2.085,
+        0.0
+       ],
+       "largeur": 0.717,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_piece_no_pavillon_so_d",
+       "pivot": [
+        -12.659,
+        -2.085,
+        0.0
+       ],
+       "largeur": 0.717,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R07"
+    }
+   ]
+  },
+  {
+   "id": "pavillon_so",
+   "graphe": "R-pavillon-so",
+   "numero_plan": "38",
+   "nom": "Pavillon SO (non vu)",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     -15.8,
+     -2.0
+    ],
+    [
+     -10.6,
+     -2.0
+    ],
+    [
+     -10.6,
+     5.45
+    ],
+    [
+     -10.9,
+     5.45
+    ],
+    [
+     -10.9,
+     6.3
+    ],
+    [
+     -15.8,
+     6.3
+    ]
+   ],
+   "surface_m2": 42.9,
+   "rect_plan": [
+    [
+     -17.0,
+     -2.1,
+     -10.3,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 5.0,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "sud x=-14,4",
+    "ouest y=6,9"
+   ],
+   "murs": {
+    "est": [
+     "mur_pavillon_so_salon_ouest"
+    ],
+    "nord": [
+     "mur_piece_no_pavillon_so"
+    ]
+   },
+   "objets": [
+    "mur_pavillon_so_salon_ouest",
+    "mur_piece_no_pavillon_so",
+    "plafond_pavillon_so",
+    "porte_piece_no_pavillon_so_d",
+    "porte_piece_no_pavillon_so_g",
+    "porte_salon_ouest_pavillon_so_43_d",
+    "porte_salon_ouest_pavillon_so_43_g",
+    "porte_salon_ouest_pavillon_so_d",
+    "porte_salon_ouest_pavillon_so_g",
+    "sol_pavillon_so"
+   ],
+   "portes": [
+    {
+     "nom": "porte_piece_no_pavillon_so",
+     "type": "porte double",
+     "centre": [
+      -13.38,
+      -2.1,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -2.10)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.45,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "piece_no",
+      "pavillon_so"
+     ],
+     "vers": "pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_piece_no_pavillon_so_g",
+       "pivot": [
+        -14.101,
+        -2.085,
+        0.0
+       ],
+       "largeur": 0.717,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_piece_no_pavillon_so_d",
+       "pivot": [
+        -12.659,
+        -2.085,
+        0.0
+       ],
+       "largeur": 0.717,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R07"
+    },
+    {
+     "nom": "porte_salon_ouest_pavillon_so",
+     "type": "porte double",
+     "centre": [
+      -10.3,
+      0.11,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "salon_ouest",
+      "pavillon_so"
+     ],
+     "vers": "pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_ouest_pavillon_so_g",
+       "pivot": [
+        -10.515,
+        -0.536,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_salon_ouest_pavillon_so_d",
+       "pivot": [
+        -10.515,
+        0.756,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R07"
+    },
+    {
+     "nom": "porte_salon_ouest_pavillon_so_43",
+     "type": "porte double",
+     "centre": [
+      -10.3,
+      4.29,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "salon_ouest",
+      "pavillon_so"
+     ],
+     "vers": "pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salon_ouest_pavillon_so_43_g",
+       "pivot": [
+        -10.515,
+        3.644,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_salon_ouest_pavillon_so_43_d",
+       "pivot": [
+        -10.515,
+        4.936,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R07"
+    }
+   ]
+  },
+  {
+   "id": "pavillon_ne",
+   "graphe": "R-pavillon-ne",
+   "numero_plan": "28/29/30",
+   "nom": "Pavillon NE (non vu)",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     10.6,
+     -2.82
+    ],
+    [
+     10.6,
+     -5.45
+    ],
+    [
+     10.9,
+     -5.45
+    ],
+    [
+     10.9,
+     -6.3
+    ],
+    [
+     15.8,
+     -6.3
+    ],
+    [
+     15.8,
+     -2.82
+    ]
+   ],
+   "surface_m2": 19.36,
+   "rect_plan": [
+    [
+     10.3,
+     -9.5,
+     17.0,
+     -2.72
+    ],
+    [
+     10.3,
+     -2.72,
+     11.6,
+     -0.93
+    ]
+   ],
+   "hauteur_sous_plafond": 4.5,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "nord x=14,4",
+    "est y=-6,9"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_couloir_est_pavillon_ne",
+     "mur_billard_pavillon_ne"
+    ],
+    "sud": [
+     "mur_pavillon_ne_bloc_est",
+     "mur_pavillon_ne_degagement_est"
+    ],
+    "est": [
+     "mur_pavillon_ne_bloc_est_27"
+    ]
+   },
+   "objets": [
+    "mur_billard_pavillon_ne",
+    "mur_couloir_est_pavillon_ne",
+    "mur_pavillon_ne_bloc_est",
+    "mur_pavillon_ne_bloc_est_27",
+    "mur_pavillon_ne_degagement_est",
+    "plafond_pavillon_ne",
+    "porte_couloir_est_pavillon_ne_d",
+    "porte_couloir_est_pavillon_ne_g",
+    "porte_pavillon_ne_bloc_est",
+    "porte_pavillon_ne_degagement_est",
+    "sol_pavillon_ne"
+   ],
+   "portes": [
+    {
+     "nom": "porte_couloir_est_pavillon_ne",
+     "type": "porte double",
+     "centre": [
+      10.3,
+      -4.33,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.27,
+     "hauteur": 3.2,
+     "cintree": false,
+     "relie": [
+      "couloir_est",
+      "pavillon_ne"
+     ],
+     "vers": "pavillon_ne",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_couloir_est_pavillon_ne_g",
+       "pivot": [
+        10.515,
+        -4.961,
+        0.0
+       ],
+       "largeur": 0.627,
+       "hauteur": 3.19,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_couloir_est_pavillon_ne_d",
+       "pivot": [
+        10.515,
+        -3.699,
+        0.0
+       ],
+       "largeur": 0.627,
+       "hauteur": 3.19,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R07"
+    },
+    {
+     "nom": "porte_pavillon_ne_bloc_est",
+     "type": "porte",
+     "centre": [
+      13.68,
+      -2.72,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -2.72)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.3,
+     "cintree": false,
+     "relie": [
+      "pavillon_ne",
+      "bloc_est"
+     ],
+     "vers": "bloc_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_pavillon_ne_bloc_est",
+       "pivot": [
+        13.234,
+        -2.705,
+        0.0
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.29,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R07 (0,61 m au plan)"
+    },
+    {
+     "nom": "porte_pavillon_ne_degagement_est",
+     "type": "porte",
+     "centre": [
+      11.08,
+      -0.93,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -0.93)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.95,
+     "hauteur": 2.5,
+     "cintree": false,
+     "relie": [
+      "pavillon_ne",
+      "degagement_est"
+     ],
+     "vers": "degagement_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_pavillon_ne_degagement_est",
+       "pivot": [
+        10.609,
+        -0.915,
+        0.0
+       ],
+       "largeur": 0.942,
+       "hauteur": 2.49,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R07"
+    }
+   ]
+  },
+  {
+   "id": "bloc_est",
+   "graphe": "R-bloc-est",
+   "numero_plan": "31/32",
+   "nom": "Bloc est (non vu)",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     11.7,
+     -1.03
+    ],
+    [
+     11.7,
+     -2.62
+    ],
+    [
+     15.8,
+     -2.62
+    ],
+    [
+     15.8,
+     -1.03
+    ]
+   ],
+   "surface_m2": 6.52,
+   "rect_plan": [
+    [
+     11.6,
+     -2.72,
+     17.0,
+     -0.93
+    ]
+   ],
+   "hauteur_sous_plafond": 4.5,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "est y=-2,3",
+    "est y=2,3"
+   ],
+   "murs": {
+    "nord": [
+     "mur_pavillon_ne_bloc_est"
+    ],
+    "ouest": [
+     "mur_pavillon_ne_bloc_est_27"
+    ],
+    "sud": [
+     "mur_bloc_est_degagement_est"
+    ]
+   },
+   "objets": [
+    "mur_bloc_est_degagement_est",
+    "mur_pavillon_ne_bloc_est",
+    "mur_pavillon_ne_bloc_est_27",
+    "plafond_bloc_est",
+    "porte_pavillon_ne_bloc_est",
+    "sol_bloc_est"
+   ],
+   "portes": [
+    {
+     "nom": "porte_pavillon_ne_bloc_est",
+     "type": "porte",
+     "centre": [
+      13.68,
+      -2.72,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -2.72)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.3,
+     "cintree": false,
+     "relie": [
+      "pavillon_ne",
+      "bloc_est"
+     ],
+     "vers": "bloc_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_pavillon_ne_bloc_est",
+       "pivot": [
+        13.234,
+        -2.705,
+        0.0
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.29,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R07 (0,61 m au plan)"
+    }
+   ]
+  },
+  {
+   "id": "degagement_est",
+   "graphe": "R-degagement-est",
+   "numero_plan": "33",
+   "nom": "Dégagement est + sanitaires",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "incertain",
+   "photos": [],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     10.6,
+     2.3
+    ],
+    [
+     10.6,
+     -0.83
+    ],
+    [
+     15.8,
+     -0.83
+    ],
+    [
+     15.8,
+     2.3
+    ]
+   ],
+   "surface_m2": 16.28,
+   "rect_plan": [
+    [
+     10.3,
+     -0.93,
+     17.0,
+     2.4
+    ]
+   ],
+   "hauteur_sous_plafond": 4.5,
+   "sol": "marbre",
+   "fenetres_facade": [],
+   "murs": {
+    "ouest": [
+     "mur_billard_degagement_est"
+    ],
+    "nord": [
+     "mur_pavillon_ne_degagement_est",
+     "mur_bloc_est_degagement_est"
+    ],
+    "sud": [
+     "mur_degagement_est_salon_vert"
+    ]
+   },
+   "objets": [
+    "mur_billard_degagement_est",
+    "mur_bloc_est_degagement_est",
+    "mur_degagement_est_salon_vert",
+    "mur_pavillon_ne_degagement_est",
+    "plafond_degagement_est",
+    "porte_billard_degagement_est_d",
+    "porte_billard_degagement_est_g",
+    "porte_pavillon_ne_degagement_est",
+    "sol_degagement_est"
+   ],
+   "portes": [
+    {
+     "nom": "porte_billard_degagement_est",
+     "type": "porte double",
+     "centre": [
+      10.3,
+      0.14,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.34,
+     "hauteur": 3.4,
+     "cintree": false,
+     "relie": [
+      "billard",
+      "degagement_est"
+     ],
+     "vers": "degagement_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_billard_degagement_est_g",
+       "pivot": [
+        10.515,
+        -0.526,
+        0.0
+       ],
+       "largeur": 0.662,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_billard_degagement_est_d",
+       "pivot": [
+        10.515,
+        0.806,
+        0.0
+       ],
+       "largeur": 0.662,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P33, P34, R07"
+    },
+    {
+     "nom": "porte_pavillon_ne_degagement_est",
+     "type": "porte",
+     "centre": [
+      11.08,
+      -0.93,
+      0.0
+     ],
+     "mur": "parallèle à X (y = -0.93)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.95,
+     "hauteur": 2.5,
+     "cintree": false,
+     "relie": [
+      "pavillon_ne",
+      "degagement_est"
+     ],
+     "vers": "degagement_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_pavillon_ne_degagement_est",
+       "pivot": [
+        10.609,
+        -0.915,
+        0.0
+       ],
+       "largeur": 0.942,
+       "hauteur": 2.49,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R07"
+    }
+   ]
+  },
+  {
+   "id": "salon_vert",
+   "graphe": "R-salon-vert",
+   "numero_plan": "34",
+   "nom": "Salon vert (pavillon SE)",
+   "niveau": "rdc",
+   "z_sol": 0.0,
+   "certitude": "incertain",
+   "photos": [
+    "W07",
+    "W14"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     10.6,
+     2.5
+    ],
+    [
+     15.8,
+     2.5
+    ],
+    [
+     15.8,
+     6.3
+    ],
+    [
+     10.9,
+     6.3
+    ],
+    [
+     10.9,
+     5.45
+    ],
+    [
+     10.6,
+     5.45
+    ]
+   ],
+   "surface_m2": 19.5,
+   "rect_plan": [
+    [
+     10.3,
+     2.4,
+     17.0,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 5.0,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "sud x=14,4",
+    "est y=6,9"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_billard_salon_vert"
+    ],
+    "nord": [
+     "mur_degagement_est_salon_vert"
+    ]
+   },
+   "objets": [
+    "mur_billard_salon_vert",
+    "mur_degagement_est_salon_vert",
+    "plafond_salon_vert",
+    "porte_billard_salon_vert_d",
+    "porte_billard_salon_vert_g",
+    "sol_salon_vert"
+   ],
+   "portes": [
+    {
+     "nom": "porte_billard_salon_vert",
+     "type": "porte double",
+     "centre": [
+      10.3,
+      4.35,
+      0.0
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.3,
+     "hauteur": 3.4,
+     "cintree": false,
+     "relie": [
+      "billard",
+      "salon_vert"
+     ],
+     "vers": "salon_vert",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_billard_salon_vert_g",
+       "pivot": [
+        10.515,
+        3.704,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_billard_salon_vert_d",
+       "pivot": [
+        10.515,
+        4.996,
+        0.0
+       ],
+       "largeur": 0.642,
+       "hauteur": 3.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P31, P33, W07, R07"
+    }
+   ]
+  },
+  {
+   "id": "bibliotheque",
+   "graphe": "E-bibliotheque",
+   "numero_plan": "41",
+   "nom": "Bibliothèque",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "sur",
+   "photos": [
+    "P00",
+    "P01",
+    "P02",
+    "P03"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -3.0,
+     -3.3
+    ],
+    [
+     -3.0,
+     -5.45
+    ],
+    [
+     -2.7,
+     -5.45
+    ],
+    [
+     -2.7,
+     -8.1
+    ],
+    [
+     2.7,
+     -8.1
+    ],
+    [
+     2.7,
+     -5.45
+    ],
+    [
+     3.0,
+     -5.45
+    ],
+    [
+     3.0,
+     -3.3
+    ]
+   ],
+   "surface_m2": 27.21,
+   "rect_plan": [
+    [
+     -3.3,
+     -9.5,
+     3.3,
+     -3.15
+    ]
+   ],
+   "hauteur_sous_plafond": 4.6,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "nord axe 0",
+    "retours est et ouest de l'avant-corps nord"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_etage_nord_ouest_bibliotheque"
+    ],
+    "est": [
+     "mur_bibliotheque_etage_nord_est"
+    ],
+    "sud": [
+     "mur_bibliotheque_palier"
+    ]
+   },
+   "objets": [
+    "mur_bibliotheque_etage_nord_est",
+    "mur_bibliotheque_palier",
+    "mur_etage_nord_ouest_bibliotheque",
+    "plafond_bibliotheque",
+    "porte_palier_bibliotheque_d",
+    "porte_palier_bibliotheque_g",
+    "sol_bibliotheque"
+   ],
+   "portes": [
+    {
+     "nom": "porte_palier_bibliotheque",
+     "type": "porte double",
+     "centre": [
+      0,
+      -3.15,
+      5.35
+     ],
+     "mur": "parallèle à X (y = -3.15)",
+     "epaisseur_mur": 0.3,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "palier",
+      "bibliotheque"
+     ],
+     "vers": "bibliotheque",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_palier_bibliotheque_g",
+       "pivot": [
+        -0.646,
+        -3.215,
+        5.35
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_palier_bibliotheque_d",
+       "pivot": [
+        0.646,
+        -3.215,
+        5.35
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P03, P04, P17, P18, R03, R21"
+    }
+   ]
+  },
+  {
+   "id": "palier",
+   "graphe": "E-palier",
+   "numero_plan": "palier",
+   "nom": "Palier, galeries et cage sous coupole",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "sur",
+   "photos": [
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -5.5,
+     -1.45
+    ],
+    [
+     -5.5,
+     -3.0
+    ],
+    [
+     5.4,
+     -3.0
+    ],
+    [
+     5.4,
+     -1.45
+    ]
+   ],
+   "surface_m2": 16.9,
+   "rect_plan": [
+    [
+     -5.6,
+     -3.15,
+     5.5,
+     -1.45
+    ]
+   ],
+   "hauteur_sous_plafond": {
+    "min": 4.65,
+    "max": 6.65,
+    "note": "galerie nord et paliers d'arrivée sous la coupole de la cage"
+   },
+   "sol": "marbre",
+   "fenetres_facade": [
+    "verrière + 4 oculi"
+   ],
+   "murs": {
+    "nord": [
+     "mur_etage_nord_ouest_palier",
+     "mur_bibliotheque_palier",
+     "mur_etage_nord_est_palier"
+    ],
+    "ouest": [
+     "mur_etage_ouest_palier"
+    ],
+    "est": [
+     "mur_palier_etage_est"
+    ]
+   },
+   "objets": [
+    "coupole_cage",
+    "coupole_puits_vitre",
+    "garde_corps_escalier_est",
+    "garde_corps_escalier_ouest",
+    "mur_bibliotheque_palier",
+    "mur_etage_nord_est_palier",
+    "mur_etage_nord_ouest_palier",
+    "mur_etage_ouest_palier",
+    "mur_palier_etage_est",
+    "plafond_palier",
+    "porte_palier_bibliotheque_d",
+    "porte_palier_bibliotheque_g",
+    "sol_palier"
+   ],
+   "portes": [
+    {
+     "nom": "porte_palier_bibliotheque",
+     "type": "porte double",
+     "centre": [
+      0,
+      -3.15,
+      5.35
+     ],
+     "mur": "parallèle à X (y = -3.15)",
+     "epaisseur_mur": 0.3,
+     "largeur": 1.3,
+     "hauteur": 3.0,
+     "cintree": false,
+     "relie": [
+      "palier",
+      "bibliotheque"
+     ],
+     "vers": "bibliotheque",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_palier_bibliotheque_g",
+       "pivot": [
+        -0.646,
+        -3.215,
+        5.35
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_palier_bibliotheque_d",
+       "pivot": [
+        0.646,
+        -3.215,
+        5.35
+       ],
+       "largeur": 0.642,
+       "hauteur": 2.99,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P03, P04, P17, P18, R03, R21"
+    },
+    {
+     "nom": "baie_palier_etage_ouest_230",
+     "type": "arcade",
+     "centre": [
+      -5.6,
+      -2.3,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -5.60)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.6,
+     "hauteur": 3.0,
+     "cintree": true,
+     "relie": [
+      "palier",
+      "etage_ouest"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P09, P10, R03"
+    },
+    {
+     "nom": "baie_palier_etage_est_250",
+     "type": "arcade",
+     "centre": [
+      5.5,
+      -2.5,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 5.50)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.0,
+     "hauteur": 3.0,
+     "cintree": true,
+     "relie": [
+      "palier",
+      "etage_est"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P05 (niche cintrée), R03 (1,39 m au plan ; resserrée devant le volume de l'escalier des combles)"
+    }
+   ]
+  },
+  {
+   "id": "vide_cage",
+   "graphe": "escalier",
+   "numero_plan": "cage",
+   "nom": "Escalier impérial",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "sur",
+   "photos": [
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "W09"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -3.0,
+     -1.45
+    ],
+    [
+     3.0,
+     -1.45
+    ],
+    [
+     3.0,
+     2.7
+    ],
+    [
+     -3.0,
+     2.7
+    ]
+   ],
+   "surface_m2": 24.9,
+   "rect_plan": [
+    [
+     -3.3,
+     -1.45,
+     3.3,
+     2.85
+    ]
+   ],
+   "hauteur_sous_plafond": {
+    "min": null,
+    "max": 6.65,
+    "note": "trémie de la cage"
+   },
+   "sol": null,
+   "fenetres_facade": [
+    "verrière zénithale + 4 oculi de coupole"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_galerie_ouest_vide_cage",
+     "mur_chambre_3_vide_cage"
+    ],
+    "est": [
+     "mur_vide_cage_galerie_est",
+     "mur_vide_cage_salle_a_manger"
+    ],
+    "sud": [
+     "mur_vide_cage_chambre_2"
+    ]
+   },
+   "objets": [
+    "mur_chambre_3_vide_cage",
+    "mur_galerie_ouest_vide_cage",
+    "mur_vide_cage_chambre_2",
+    "mur_vide_cage_galerie_est",
+    "mur_vide_cage_salle_a_manger"
+   ],
+   "portes": [
+    {
+     "nom": "baie_vide_cage_galerie_est_5",
+     "type": "arcade",
+     "centre": [
+      3.3,
+      -0.05,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.35,
+     "hauteur": 3.5,
+     "cintree": true,
+     "relie": [
+      "vide_cage",
+      "galerie_est"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": true,
+     "vantaux": [],
+     "preuve": "P15, P16, R03 (arcade à balustrade au-dessus de la volée)"
+    },
+    {
+     "nom": "baie_vide_cage_galerie_ouest_5",
+     "type": "arcade",
+     "centre": [
+      -3.3,
+      -0.05,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.35,
+     "hauteur": 3.5,
+     "cintree": true,
+     "relie": [
+      "vide_cage",
+      "galerie_ouest"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": true,
+     "vantaux": [],
+     "preuve": "P15, P16, R03 (arcade à balustrade au-dessus de la volée)"
+    }
+   ]
+  },
+  {
+   "id": "galerie_est",
+   "graphe": "E-palier",
+   "numero_plan": "45/50",
+   "nom": "Palier, galeries et cage sous coupole",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "sur",
+   "photos": [
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     3.6,
+     0.6
+    ],
+    [
+     3.6,
+     -0.65
+    ],
+    [
+     11.4,
+     -0.65
+    ],
+    [
+     11.4,
+     0.6
+    ]
+   ],
+   "surface_m2": 17.31,
+   "rect_plan": [
+    [
+     3.3,
+     -0.75,
+     11.5,
+     0.7
+    ],
+    [
+     3.3,
+     -1.45,
+     5.5,
+     -0.75
+    ],
+    [
+     5.5,
+     -1.95,
+     10.3,
+     -0.75
+    ],
+    [
+     10.3,
+     0.7,
+     11.5,
+     2.4
+    ]
+   ],
+   "hauteur_sous_plafond": 4.6,
+   "sol": "marbre",
+   "fenetres_facade": [
+    "verrière + 4 oculi"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_vide_cage_galerie_est",
+     "mur_salle_a_manger_galerie_est"
+    ],
+    "sud": [
+     "mur_galerie_est_salle_a_manger",
+     "mur_galerie_est_chambre_1"
+    ],
+    "est": [
+     "mur_galerie_est_etage_pavillon_ne",
+     "mur_galerie_est_etage_escalier_est"
+    ],
+    "nord": [
+     "mur_etage_est_galerie_est",
+     "mur_etage_pavillon_ne_galerie_est"
+    ]
+   },
+   "objets": [
+    "mur_etage_est_galerie_est",
+    "mur_etage_pavillon_ne_galerie_est",
+    "mur_galerie_est_chambre_1",
+    "mur_galerie_est_etage_escalier_est",
+    "mur_galerie_est_etage_pavillon_ne",
+    "mur_galerie_est_salle_a_manger",
+    "mur_salle_a_manger_galerie_est",
+    "mur_vide_cage_galerie_est",
+    "plafond_galerie_est",
+    "porte_galerie_est_etage_escalier_est",
+    "porte_galerie_est_salle_a_manger_d",
+    "porte_galerie_est_salle_a_manger_g",
+    "sol_galerie_est"
+   ],
+   "portes": [
+    {
+     "nom": "porte_galerie_est_salle_a_manger",
+     "type": "porte double",
+     "centre": [
+      4.17,
+      0.7,
+      5.35
+     ],
+     "mur": "parallèle à X (y = 0.70)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.4,
+     "hauteur": 2.8,
+     "cintree": false,
+     "relie": [
+      "galerie_est",
+      "salle_a_manger"
+     ],
+     "vers": "salle_a_manger",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_galerie_est_salle_a_manger_g",
+       "pivot": [
+        3.474,
+        0.715,
+        5.35
+       ],
+       "largeur": 0.692,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_galerie_est_salle_a_manger_d",
+       "pivot": [
+        4.866,
+        0.715,
+        5.35
+       ],
+       "largeur": 0.692,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P05, P43, P50, P51, R03"
+    },
+    {
+     "nom": "porte_galerie_est_etage_escalier_est",
+     "type": "porte",
+     "centre": [
+      11.5,
+      0.0,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 11.50)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "galerie_est",
+      "etage_escalier_est"
+     ],
+     "vers": "etage_escalier_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_galerie_est_etage_escalier_est",
+       "pivot": [
+        11.515,
+        -0.446,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "baie_vide_cage_galerie_est_5",
+     "type": "arcade",
+     "centre": [
+      3.3,
+      -0.05,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.35,
+     "hauteur": 3.5,
+     "cintree": true,
+     "relie": [
+      "vide_cage",
+      "galerie_est"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": true,
+     "vantaux": [],
+     "preuve": "P15, P16, R03 (arcade à balustrade au-dessus de la volée)"
+    }
+   ]
+  },
+  {
+   "id": "galerie_ouest",
+   "graphe": "E-palier",
+   "numero_plan": "55",
+   "nom": "Palier, galeries et cage sous coupole",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "sur",
+   "photos": [
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -10.0,
+     0.6
+    ],
+    [
+     -10.0,
+     -0.65
+    ],
+    [
+     -3.6,
+     -0.65
+    ],
+    [
+     -3.6,
+     0.6
+    ]
+   ],
+   "surface_m2": 9.33,
+   "rect_plan": [
+    [
+     -10.3,
+     -0.75,
+     -3.3,
+     0.7
+    ],
+    [
+     -5.6,
+     -1.45,
+     -3.3,
+     -0.75
+    ]
+   ],
+   "hauteur_sous_plafond": 4.6,
+   "sol": "marbre",
+   "fenetres_facade": [
+    "verrière + 4 oculi"
+   ],
+   "murs": {
+    "est": [
+     "mur_galerie_ouest_vide_cage"
+    ],
+    "sud": [
+     "mur_galerie_ouest_chambre_3"
+    ],
+    "ouest": [
+     "mur_etage_bloc_ouest_galerie_ouest",
+     "mur_etage_ouest_galerie_ouest"
+    ],
+    "nord": [
+     "mur_etage_ouest_galerie_ouest_33"
+    ]
+   },
+   "objets": [
+    "mur_etage_bloc_ouest_galerie_ouest",
+    "mur_etage_ouest_galerie_ouest",
+    "mur_etage_ouest_galerie_ouest_33",
+    "mur_galerie_ouest_chambre_3",
+    "mur_galerie_ouest_vide_cage",
+    "plafond_galerie_ouest",
+    "porte_galerie_ouest_chambre_3_d",
+    "porte_galerie_ouest_chambre_3_g",
+    "porte_galerie_ouest_etage_bloc_ouest",
+    "sol_galerie_ouest"
+   ],
+   "portes": [
+    {
+     "nom": "porte_galerie_ouest_chambre_3",
+     "type": "porte double",
+     "centre": [
+      -4.59,
+      0.7,
+      5.35
+     ],
+     "mur": "parallèle à X (y = 0.70)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.4,
+     "hauteur": 2.8,
+     "cintree": false,
+     "relie": [
+      "galerie_ouest",
+      "chambre_3"
+     ],
+     "vers": "chambre_3",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_galerie_ouest_chambre_3_g",
+       "pivot": [
+        -5.286,
+        0.715,
+        5.35
+       ],
+       "largeur": 0.692,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_galerie_ouest_chambre_3_d",
+       "pivot": [
+        -3.894,
+        0.715,
+        5.35
+       ],
+       "largeur": 0.692,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P07-P09, P57, R03"
+    },
+    {
+     "nom": "porte_galerie_ouest_etage_bloc_ouest",
+     "type": "porte",
+     "centre": [
+      -10.3,
+      0.0,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.09,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "galerie_ouest",
+      "etage_bloc_ouest"
+     ],
+     "vers": "etage_bloc_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_galerie_ouest_etage_bloc_ouest",
+       "pivot": [
+        -10.515,
+        -0.541,
+        5.35
+       ],
+       "largeur": 1.082,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "baie_vide_cage_galerie_ouest_5",
+     "type": "arcade",
+     "centre": [
+      -3.3,
+      -0.05,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.35,
+     "hauteur": 3.5,
+     "cintree": true,
+     "relie": [
+      "vide_cage",
+      "galerie_ouest"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": true,
+     "vantaux": [],
+     "preuve": "P15, P16, R03 (arcade à balustrade au-dessus de la volée)"
+    }
+   ]
+  },
+  {
+   "id": "salle_a_manger",
+   "graphe": "E-salle-a-manger",
+   "numero_plan": "49",
+   "nom": "Salle à manger",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "probable",
+   "photos": [
+    "P43",
+    "P44",
+    "P45",
+    "P46",
+    "P50",
+    "P51"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     3.6,
+     0.8
+    ],
+    [
+     10.0,
+     0.8
+    ],
+    [
+     10.0,
+     5.45
+    ],
+    [
+     3.6,
+     5.45
+    ]
+   ],
+   "surface_m2": 29.76,
+   "rect_plan": [
+    [
+     3.3,
+     0.7,
+     10.3,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 4.6,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "sud x=5,25 (porte-fenêtre, balconnet)",
+    "sud x=8,85 (porte-fenêtre, balconnet)"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_vide_cage_salle_a_manger",
+     "mur_chambre_2_salle_a_manger"
+    ],
+    "nord": [
+     "mur_galerie_est_salle_a_manger"
+    ],
+    "est": [
+     "mur_salle_a_manger_galerie_est",
+     "mur_salle_a_manger_chambre_1"
+    ]
+   },
+   "objets": [
+    "mur_chambre_2_salle_a_manger",
+    "mur_galerie_est_salle_a_manger",
+    "mur_salle_a_manger_chambre_1",
+    "mur_salle_a_manger_galerie_est",
+    "mur_vide_cage_salle_a_manger",
+    "plafond_salle_a_manger",
+    "porte_galerie_est_salle_a_manger_d",
+    "porte_galerie_est_salle_a_manger_g",
+    "porte_salle_a_manger_chambre_1",
+    "porte_salle_a_manger_chambre_2",
+    "sol_salle_a_manger"
+   ],
+   "portes": [
+    {
+     "nom": "porte_galerie_est_salle_a_manger",
+     "type": "porte double",
+     "centre": [
+      4.17,
+      0.7,
+      5.35
+     ],
+     "mur": "parallèle à X (y = 0.70)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.4,
+     "hauteur": 2.8,
+     "cintree": false,
+     "relie": [
+      "galerie_est",
+      "salle_a_manger"
+     ],
+     "vers": "salle_a_manger",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_galerie_est_salle_a_manger_g",
+       "pivot": [
+        3.474,
+        0.715,
+        5.35
+       ],
+       "largeur": 0.692,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_galerie_est_salle_a_manger_d",
+       "pivot": [
+        4.866,
+        0.715,
+        5.35
+       ],
+       "largeur": 0.692,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P05, P43, P50, P51, R03"
+    },
+    {
+     "nom": "porte_salle_a_manger_chambre_2",
+     "type": "porte",
+     "centre": [
+      3.3,
+      4.83,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 0.9,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "salle_a_manger",
+      "chambre_2"
+     ],
+     "vers": "chambre_2",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salle_a_manger_chambre_2",
+       "pivot": [
+        3.085,
+        4.384,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P50, P52, P53, R03"
+    },
+    {
+     "nom": "porte_salle_a_manger_chambre_1",
+     "type": "porte",
+     "centre": [
+      10.3,
+      4.82,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 0.9,
+     "hauteur": 2.9,
+     "cintree": false,
+     "relie": [
+      "salle_a_manger",
+      "chambre_1"
+     ],
+     "vers": "chambre_1",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salle_a_manger_chambre_1",
+       "pivot": [
+        10.515,
+        4.374,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.89,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P44, P45, P47, R03"
+    }
+   ]
+  },
+  {
+   "id": "chambre_1",
+   "graphe": "E-chambre-1",
+   "numero_plan": "48",
+   "nom": "Chambre 1 (angle SE)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "probable",
+   "photos": [
+    "P47",
+    "P48",
+    "P49"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     10.6,
+     2.5
+    ],
+    [
+     15.8,
+     2.5
+    ],
+    [
+     15.8,
+     6.3
+    ],
+    [
+     10.9,
+     6.3
+    ],
+    [
+     10.9,
+     5.45
+    ],
+    [
+     10.6,
+     5.45
+    ]
+   ],
+   "surface_m2": 19.5,
+   "rect_plan": [
+    [
+     10.3,
+     2.4,
+     17.0,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 4.0,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "sud x=14,4",
+    "est y=6,9"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_salle_a_manger_chambre_1"
+    ],
+    "nord": [
+     "mur_galerie_est_chambre_1",
+     "mur_etage_escalier_est_chambre_1"
+    ]
+   },
+   "objets": [
+    "mur_etage_escalier_est_chambre_1",
+    "mur_galerie_est_chambre_1",
+    "mur_salle_a_manger_chambre_1",
+    "plafond_chambre_1",
+    "porte_chambre_1_etage_escalier_est_d",
+    "porte_chambre_1_etage_escalier_est_g",
+    "porte_salle_a_manger_chambre_1",
+    "sol_chambre_1"
+   ],
+   "portes": [
+    {
+     "nom": "porte_salle_a_manger_chambre_1",
+     "type": "porte",
+     "centre": [
+      10.3,
+      4.82,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 0.9,
+     "hauteur": 2.9,
+     "cintree": false,
+     "relie": [
+      "salle_a_manger",
+      "chambre_1"
+     ],
+     "vers": "chambre_1",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salle_a_manger_chambre_1",
+       "pivot": [
+        10.515,
+        4.374,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.89,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P44, P45, P47, R03"
+    },
+    {
+     "nom": "porte_chambre_1_etage_escalier_est",
+     "type": "porte double",
+     "centre": [
+      14.92,
+      2.4,
+      5.35
+     ],
+     "mur": "parallèle à X (y = 2.40)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.6,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "chambre_1",
+      "etage_escalier_est"
+     ],
+     "vers": "etage_escalier_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_chambre_1_etage_escalier_est_g",
+       "pivot": [
+        14.124,
+        2.385,
+        5.35
+       ],
+       "largeur": 0.792,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_chambre_1_etage_escalier_est_d",
+       "pivot": [
+        15.716,
+        2.385,
+        5.35
+       ],
+       "largeur": 0.792,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  },
+  {
+   "id": "chambre_2",
+   "graphe": "E-chambre-2",
+   "numero_plan": "51",
+   "nom": "Chambre 2 à rayures",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "probable",
+   "photos": [
+    "P52",
+    "P53",
+    "P54"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -3.0,
+     3.0
+    ],
+    [
+     3.0,
+     3.0
+    ],
+    [
+     3.0,
+     5.45
+    ],
+    [
+     2.667,
+     5.45
+    ],
+    [
+     2.667,
+     6.179
+    ],
+    [
+     -2.667,
+     6.179
+    ],
+    [
+     -2.667,
+     5.45
+    ],
+    [
+     -3.0,
+     5.45
+    ]
+   ],
+   "surface_m2": 18.59,
+   "rect_plan": [
+    [
+     -3.3,
+     2.85,
+     3.3,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 4.0,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "sud x=-2,73",
+    "sud x=0",
+    "sud x=2,73 (balcon du bow)"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_chambre_3_chambre_2"
+    ],
+    "est": [
+     "mur_chambre_2_salle_a_manger"
+    ],
+    "nord": [
+     "mur_vide_cage_chambre_2"
+    ]
+   },
+   "objets": [
+    "mur_chambre_2_salle_a_manger",
+    "mur_chambre_3_chambre_2",
+    "mur_vide_cage_chambre_2",
+    "plafond_chambre_2",
+    "porte_chambre_2_chambre_3",
+    "porte_salle_a_manger_chambre_2",
+    "sol_chambre_2"
+   ],
+   "portes": [
+    {
+     "nom": "porte_salle_a_manger_chambre_2",
+     "type": "porte",
+     "centre": [
+      3.3,
+      4.83,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 0.9,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "salle_a_manger",
+      "chambre_2"
+     ],
+     "vers": "chambre_2",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_salle_a_manger_chambre_2",
+       "pivot": [
+        3.085,
+        4.384,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P50, P52, P53, R03"
+    },
+    {
+     "nom": "porte_chambre_2_chambre_3",
+     "type": "porte",
+     "centre": [
+      -3.3,
+      4.77,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 0.9,
+     "hauteur": 2.4,
+     "cintree": false,
+     "relie": [
+      "chambre_2",
+      "chambre_3"
+     ],
+     "vers": "chambre_3",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_chambre_2_chambre_3",
+       "pivot": [
+        -3.515,
+        4.324,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P52, P54, P55, R03"
+    }
+   ]
+  },
+  {
+   "id": "chambre_3",
+   "graphe": "E-chambre-3",
+   "numero_plan": "52",
+   "nom": "Chambre 3 (bureau, marine)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "probable",
+   "photos": [
+    "P55",
+    "P56",
+    "P57"
+   ],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     -10.0,
+     0.8
+    ],
+    [
+     -3.6,
+     0.8
+    ],
+    [
+     -3.6,
+     5.45
+    ],
+    [
+     -10.0,
+     5.45
+    ]
+   ],
+   "surface_m2": 29.76,
+   "rect_plan": [
+    [
+     -10.3,
+     0.7,
+     -3.3,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 4.0,
+   "sol": "parquet",
+   "fenetres_facade": [
+    "sud x=-8,85",
+    "sud x=-5,25"
+   ],
+   "murs": {
+    "est": [
+     "mur_chambre_3_vide_cage",
+     "mur_chambre_3_chambre_2"
+    ],
+    "nord": [
+     "mur_galerie_ouest_chambre_3"
+    ],
+    "ouest": [
+     "mur_etage_bloc_ouest_chambre_3",
+     "mur_etage_pavillon_so_chambre_3"
+    ]
+   },
+   "objets": [
+    "mur_chambre_3_chambre_2",
+    "mur_chambre_3_vide_cage",
+    "mur_etage_bloc_ouest_chambre_3",
+    "mur_etage_pavillon_so_chambre_3",
+    "mur_galerie_ouest_chambre_3",
+    "plafond_chambre_3",
+    "porte_chambre_2_chambre_3",
+    "porte_chambre_3_etage_pavillon_so_d",
+    "porte_chambre_3_etage_pavillon_so_g",
+    "porte_galerie_ouest_chambre_3_d",
+    "porte_galerie_ouest_chambre_3_g",
+    "sol_chambre_3"
+   ],
+   "portes": [
+    {
+     "nom": "porte_galerie_ouest_chambre_3",
+     "type": "porte double",
+     "centre": [
+      -4.59,
+      0.7,
+      5.35
+     ],
+     "mur": "parallèle à X (y = 0.70)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.4,
+     "hauteur": 2.8,
+     "cintree": false,
+     "relie": [
+      "galerie_ouest",
+      "chambre_3"
+     ],
+     "vers": "chambre_3",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_galerie_ouest_chambre_3_g",
+       "pivot": [
+        -5.286,
+        0.715,
+        5.35
+       ],
+       "largeur": 0.692,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_galerie_ouest_chambre_3_d",
+       "pivot": [
+        -3.894,
+        0.715,
+        5.35
+       ],
+       "largeur": 0.692,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "P07-P09, P57, R03"
+    },
+    {
+     "nom": "porte_chambre_2_chambre_3",
+     "type": "porte",
+     "centre": [
+      -3.3,
+      4.77,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -3.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 0.9,
+     "hauteur": 2.4,
+     "cintree": false,
+     "relie": [
+      "chambre_2",
+      "chambre_3"
+     ],
+     "vers": "chambre_3",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_chambre_2_chambre_3",
+       "pivot": [
+        -3.515,
+        4.324,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P52, P54, P55, R03"
+    },
+    {
+     "nom": "porte_chambre_3_etage_pavillon_so",
+     "type": "porte double",
+     "centre": [
+      -10.3,
+      4.19,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.26,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "chambre_3",
+      "etage_pavillon_so"
+     ],
+     "vers": "etage_pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_chambre_3_etage_pavillon_so_g",
+       "pivot": [
+        -10.515,
+        3.564,
+        5.35
+       ],
+       "largeur": 0.622,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_chambre_3_etage_pavillon_so_d",
+       "pivot": [
+        -10.515,
+        4.816,
+        5.35
+       ],
+       "largeur": 0.622,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_est",
+   "graphe": "E-est",
+   "numero_plan": "43",
+   "nom": "(non vu, porte en niche P05)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     5.6,
+     -2.05
+    ],
+    [
+     5.6,
+     -5.45
+    ],
+    [
+     10.0,
+     -5.45
+    ],
+    [
+     10.0,
+     -2.05
+    ]
+   ],
+   "surface_m2": 14.96,
+   "rect_plan": [
+    [
+     5.5,
+     -9.5,
+     10.3,
+     -1.95
+    ]
+   ],
+   "hauteur_sous_plafond": 4.6,
+   "sol": "neutre",
+   "fenetres_facade": [],
+   "murs": {
+    "est": [
+     "mur_etage_est_etage_pavillon_ne"
+    ],
+    "ouest": [
+     "mur_etage_nord_est_etage_est",
+     "mur_palier_etage_est"
+    ],
+    "sud": [
+     "mur_etage_est_galerie_est"
+    ]
+   },
+   "objets": [
+    "mur_etage_est_etage_pavillon_ne",
+    "mur_etage_est_galerie_est",
+    "mur_etage_nord_est_etage_est",
+    "mur_palier_etage_est",
+    "plafond_etage_est",
+    "porte_etage_est_etage_pavillon_ne",
+    "porte_etage_nord_est_etage_est",
+    "sol_etage_est"
+   ],
+   "portes": [
+    {
+     "nom": "baie_palier_etage_est_250",
+     "type": "arcade",
+     "centre": [
+      5.5,
+      -2.5,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 5.50)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.0,
+     "hauteur": 3.0,
+     "cintree": true,
+     "relie": [
+      "palier",
+      "etage_est"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P05 (niche cintrée), R03 (1,39 m au plan ; resserrée devant le volume de l'escalier des combles)"
+    },
+    {
+     "nom": "porte_etage_nord_est_etage_est",
+     "type": "porte",
+     "centre": [
+      5.5,
+      -4.64,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 5.50)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "etage_nord_est",
+      "etage_est"
+     ],
+     "vers": "etage_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_nord_est_etage_est",
+       "pivot": [
+        5.515,
+        -5.086,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "porte_etage_est_etage_pavillon_ne",
+     "type": "porte",
+     "centre": [
+      10.3,
+      -4.74,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.0,
+     "hauteur": 2.8,
+     "cintree": false,
+     "relie": [
+      "etage_est",
+      "etage_pavillon_ne"
+     ],
+     "vers": "etage_pavillon_ne",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_est_etage_pavillon_ne",
+       "pivot": [
+        10.515,
+        -5.236,
+        5.35
+       ],
+       "largeur": 0.992,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_ouest",
+   "graphe": "E-ouest",
+   "numero_plan": "57",
+   "nom": "(non vu)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     -10.0,
+     -0.85
+    ],
+    [
+     -10.0,
+     -5.45
+    ],
+    [
+     -5.7,
+     -5.45
+    ],
+    [
+     -5.7,
+     -0.85
+    ]
+   ],
+   "surface_m2": 19.78,
+   "rect_plan": [
+    [
+     -10.3,
+     -9.5,
+     -5.6,
+     -0.75
+    ]
+   ],
+   "hauteur_sous_plafond": 4.6,
+   "sol": "neutre",
+   "fenetres_facade": [],
+   "murs": {
+    "ouest": [
+     "mur_etage_pavillon_no_etage_ouest",
+     "mur_etage_bloc_ouest_etage_ouest"
+    ],
+    "est": [
+     "mur_etage_ouest_etage_nord_ouest",
+     "mur_etage_ouest_palier",
+     "mur_etage_ouest_galerie_ouest"
+    ],
+    "sud": [
+     "mur_etage_ouest_galerie_ouest_33"
+    ]
+   },
+   "objets": [
+    "mur_etage_bloc_ouest_etage_ouest",
+    "mur_etage_ouest_etage_nord_ouest",
+    "mur_etage_ouest_galerie_ouest",
+    "mur_etage_ouest_galerie_ouest_33",
+    "mur_etage_ouest_palier",
+    "mur_etage_pavillon_no_etage_ouest",
+    "plafond_etage_ouest",
+    "porte_etage_nord_ouest_etage_ouest",
+    "porte_etage_ouest_etage_pavillon_no",
+    "sol_etage_ouest"
+   ],
+   "portes": [
+    {
+     "nom": "baie_palier_etage_ouest_230",
+     "type": "arcade",
+     "centre": [
+      -5.6,
+      -2.3,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -5.60)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.6,
+     "hauteur": 3.0,
+     "cintree": true,
+     "relie": [
+      "palier",
+      "etage_ouest"
+     ],
+     "vers": null,
+     "ouvrable": null,
+     "garde_corps": false,
+     "vantaux": [],
+     "preuve": "P09, P10, R03"
+    },
+    {
+     "nom": "porte_etage_nord_ouest_etage_ouest",
+     "type": "porte",
+     "centre": [
+      -5.6,
+      -4.67,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -5.60)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "etage_nord_ouest",
+      "etage_ouest"
+     ],
+     "vers": "etage_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_nord_ouest_etage_ouest",
+       "pivot": [
+        -5.615,
+        -5.116,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "porte_etage_ouest_etage_pavillon_no",
+     "type": "porte",
+     "centre": [
+      -10.3,
+      -4.91,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 0.9,
+     "hauteur": 2.7,
+     "cintree": false,
+     "relie": [
+      "etage_ouest",
+      "etage_pavillon_no"
+     ],
+     "vers": "etage_pavillon_no",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_ouest_etage_pavillon_no",
+       "pivot": [
+        -10.515,
+        -5.356,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.69,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P10-P12, R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_nord_ouest",
+   "graphe": "E-nord-ouest",
+   "numero_plan": "58",
+   "nom": "(non vu)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     -5.5,
+     -3.3
+    ],
+    [
+     -5.5,
+     -5.45
+    ],
+    [
+     -3.6,
+     -5.45
+    ],
+    [
+     -3.6,
+     -3.3
+    ]
+   ],
+   "surface_m2": 4.09,
+   "rect_plan": [
+    [
+     -5.6,
+     -9.5,
+     -3.3,
+     -3.15
+    ]
+   ],
+   "hauteur_sous_plafond": 4.6,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "nord x=-8,7",
+    "nord x=-5,1"
+   ],
+   "murs": {
+    "est": [
+     "mur_etage_nord_ouest_bibliotheque"
+    ],
+    "sud": [
+     "mur_etage_nord_ouest_palier"
+    ],
+    "ouest": [
+     "mur_etage_ouest_etage_nord_ouest"
+    ]
+   },
+   "objets": [
+    "mur_etage_nord_ouest_bibliotheque",
+    "mur_etage_nord_ouest_palier",
+    "mur_etage_ouest_etage_nord_ouest",
+    "plafond_etage_nord_ouest",
+    "porte_etage_nord_ouest_etage_ouest",
+    "sol_etage_nord_ouest"
+   ],
+   "portes": [
+    {
+     "nom": "porte_etage_nord_ouest_etage_ouest",
+     "type": "porte",
+     "centre": [
+      -5.6,
+      -4.67,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -5.60)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "etage_nord_ouest",
+      "etage_ouest"
+     ],
+     "vers": "etage_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_nord_ouest_etage_ouest",
+       "pivot": [
+        -5.615,
+        -5.116,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_nord_est",
+   "graphe": "E-nord-est",
+   "numero_plan": "42",
+   "nom": "(non vu)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     3.6,
+     -3.3
+    ],
+    [
+     3.6,
+     -5.45
+    ],
+    [
+     5.4,
+     -5.45
+    ],
+    [
+     5.4,
+     -3.3
+    ]
+   ],
+   "surface_m2": 3.87,
+   "rect_plan": [
+    [
+     3.3,
+     -9.5,
+     5.5,
+     -3.15
+    ]
+   ],
+   "hauteur_sous_plafond": 4.6,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "nord x=5,1",
+    "nord x=8,7"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_bibliotheque_etage_nord_est"
+    ],
+    "sud": [
+     "mur_etage_nord_est_palier"
+    ],
+    "est": [
+     "mur_etage_nord_est_etage_est"
+    ]
+   },
+   "objets": [
+    "mur_bibliotheque_etage_nord_est",
+    "mur_etage_nord_est_etage_est",
+    "mur_etage_nord_est_palier",
+    "plafond_etage_nord_est",
+    "porte_etage_nord_est_etage_est",
+    "sol_etage_nord_est"
+   ],
+   "portes": [
+    {
+     "nom": "porte_etage_nord_est_etage_est",
+     "type": "porte",
+     "centre": [
+      5.5,
+      -4.64,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 5.50)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "etage_nord_est",
+      "etage_est"
+     ],
+     "vers": "etage_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_nord_est_etage_est",
+       "pivot": [
+        5.515,
+        -5.086,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_pavillon_ne",
+   "graphe": "E-pavillon-ne",
+   "numero_plan": "44 (cuisine)",
+   "nom": "Pavillon NE (non vu)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     10.6,
+     -2.4
+    ],
+    [
+     10.6,
+     -5.45
+    ],
+    [
+     10.9,
+     -5.45
+    ],
+    [
+     10.9,
+     -6.3
+    ],
+    [
+     15.8,
+     -6.3
+    ],
+    [
+     15.8,
+     -2.4
+    ]
+   ],
+   "surface_m2": 21.18,
+   "rect_plan": [
+    [
+     10.3,
+     -9.5,
+     17.0,
+     -2.3
+    ],
+    [
+     10.3,
+     -2.3,
+     11.5,
+     -0.75
+    ]
+   ],
+   "hauteur_sous_plafond": 4.0,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "nord x=14,4",
+    "est y=-6,9"
+   ],
+   "murs": {
+    "ouest": [
+     "mur_etage_est_etage_pavillon_ne",
+     "mur_galerie_est_etage_pavillon_ne"
+    ],
+    "sud": [
+     "mur_etage_pavillon_ne_etage_bloc_est",
+     "mur_etage_pavillon_ne_galerie_est"
+    ],
+    "est": [
+     "mur_etage_pavillon_ne_etage_bloc_est_39"
+    ]
+   },
+   "objets": [
+    "mur_etage_est_etage_pavillon_ne",
+    "mur_etage_pavillon_ne_etage_bloc_est",
+    "mur_etage_pavillon_ne_etage_bloc_est_39",
+    "mur_etage_pavillon_ne_galerie_est",
+    "mur_galerie_est_etage_pavillon_ne",
+    "plafond_etage_pavillon_ne",
+    "porte_etage_est_etage_pavillon_ne",
+    "porte_etage_pavillon_ne_etage_bloc_est",
+    "porte_etage_pavillon_ne_etage_bloc_est_154",
+    "sol_etage_pavillon_ne"
+   ],
+   "portes": [
+    {
+     "nom": "porte_etage_est_etage_pavillon_ne",
+     "type": "porte",
+     "centre": [
+      10.3,
+      -4.74,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.0,
+     "hauteur": 2.8,
+     "cintree": false,
+     "relie": [
+      "etage_est",
+      "etage_pavillon_ne"
+     ],
+     "vers": "etage_pavillon_ne",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_est_etage_pavillon_ne",
+       "pivot": [
+        10.515,
+        -5.236,
+        5.35
+       ],
+       "largeur": 0.992,
+       "hauteur": 2.79,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "porte_etage_pavillon_ne_etage_bloc_est",
+     "type": "porte",
+     "centre": [
+      11.5,
+      -1.44,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 11.50)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.4,
+     "cintree": false,
+     "relie": [
+      "etage_pavillon_ne",
+      "etage_bloc_est"
+     ],
+     "vers": "etage_bloc_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_pavillon_ne_etage_bloc_est",
+       "pivot": [
+        11.515,
+        -1.886,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.39,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "porte_etage_pavillon_ne_etage_bloc_est_154",
+     "type": "porte",
+     "centre": [
+      15.35,
+      -2.3,
+      5.35
+     ],
+     "mur": "parallèle à X (y = -2.30)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.4,
+     "cintree": false,
+     "relie": [
+      "etage_pavillon_ne",
+      "etage_bloc_est"
+     ],
+     "vers": "etage_bloc_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_pavillon_ne_etage_bloc_est_154",
+       "pivot": [
+        14.904,
+        -2.285,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_bloc_est",
+   "graphe": "E-bloc-est",
+   "numero_plan": "46/47",
+   "nom": "Bloc est (non vu)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     11.6,
+     -0.85
+    ],
+    [
+     11.6,
+     -2.2
+    ],
+    [
+     15.8,
+     -2.2
+    ],
+    [
+     15.8,
+     -0.85
+    ]
+   ],
+   "surface_m2": 5.67,
+   "rect_plan": [
+    [
+     11.5,
+     -2.3,
+     17.0,
+     -0.75
+    ]
+   ],
+   "hauteur_sous_plafond": 4.0,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "est y=-2,3",
+    "est y=2,3"
+   ],
+   "murs": {
+    "nord": [
+     "mur_etage_pavillon_ne_etage_bloc_est"
+    ],
+    "ouest": [
+     "mur_etage_pavillon_ne_etage_bloc_est_39"
+    ],
+    "sud": [
+     "mur_etage_bloc_est_etage_escalier_est"
+    ]
+   },
+   "objets": [
+    "mur_etage_bloc_est_etage_escalier_est",
+    "mur_etage_pavillon_ne_etage_bloc_est",
+    "mur_etage_pavillon_ne_etage_bloc_est_39",
+    "plafond_etage_bloc_est",
+    "porte_etage_pavillon_ne_etage_bloc_est",
+    "porte_etage_pavillon_ne_etage_bloc_est_154",
+    "sol_etage_bloc_est"
+   ],
+   "portes": [
+    {
+     "nom": "porte_etage_pavillon_ne_etage_bloc_est",
+     "type": "porte",
+     "centre": [
+      11.5,
+      -1.44,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 11.50)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.4,
+     "cintree": false,
+     "relie": [
+      "etage_pavillon_ne",
+      "etage_bloc_est"
+     ],
+     "vers": "etage_bloc_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_pavillon_ne_etage_bloc_est",
+       "pivot": [
+        11.515,
+        -1.886,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.39,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "porte_etage_pavillon_ne_etage_bloc_est_154",
+     "type": "porte",
+     "centre": [
+      15.35,
+      -2.3,
+      5.35
+     ],
+     "mur": "parallèle à X (y = -2.30)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.4,
+     "cintree": false,
+     "relie": [
+      "etage_pavillon_ne",
+      "etage_bloc_est"
+     ],
+     "vers": "etage_bloc_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_pavillon_ne_etage_bloc_est_154",
+       "pivot": [
+        14.904,
+        -2.285,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.39,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_escalier_est",
+   "graphe": "E-escalier-est",
+   "numero_plan": "escalier latéral est",
+   "nom": "etage_escalier_est",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "",
+   "photos": [],
+   "ferme": false,
+   "polygone_interieur": [
+    [
+     11.6,
+     2.3
+    ],
+    [
+     11.6,
+     -0.65
+    ],
+    [
+     15.8,
+     -0.65
+    ],
+    [
+     15.8,
+     2.3
+    ]
+   ],
+   "surface_m2": 12.39,
+   "rect_plan": [
+    [
+     11.5,
+     -0.75,
+     17.0,
+     2.4
+    ]
+   ],
+   "hauteur_sous_plafond": 4.0,
+   "sol": "neutre",
+   "fenetres_facade": [],
+   "murs": {
+    "ouest": [
+     "mur_galerie_est_etage_escalier_est"
+    ],
+    "nord": [
+     "mur_etage_bloc_est_etage_escalier_est"
+    ],
+    "sud": [
+     "mur_etage_escalier_est_chambre_1"
+    ]
+   },
+   "objets": [
+    "mur_etage_bloc_est_etage_escalier_est",
+    "mur_etage_escalier_est_chambre_1",
+    "mur_galerie_est_etage_escalier_est",
+    "plafond_etage_escalier_est",
+    "porte_chambre_1_etage_escalier_est_d",
+    "porte_chambre_1_etage_escalier_est_g",
+    "porte_galerie_est_etage_escalier_est",
+    "sol_etage_escalier_est"
+   ],
+   "portes": [
+    {
+     "nom": "porte_galerie_est_etage_escalier_est",
+     "type": "porte",
+     "centre": [
+      11.5,
+      0.0,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = 11.50)",
+     "epaisseur_mur": 0.2,
+     "largeur": 0.9,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "galerie_est",
+      "etage_escalier_est"
+     ],
+     "vers": "etage_escalier_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_galerie_est_etage_escalier_est",
+       "pivot": [
+        11.515,
+        -0.446,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "porte_chambre_1_etage_escalier_est",
+     "type": "porte double",
+     "centre": [
+      14.92,
+      2.4,
+      5.35
+     ],
+     "mur": "parallèle à X (y = 2.40)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.6,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "chambre_1",
+      "etage_escalier_est"
+     ],
+     "vers": "etage_escalier_est",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_chambre_1_etage_escalier_est_g",
+       "pivot": [
+        14.124,
+        2.385,
+        5.35
+       ],
+       "largeur": 0.792,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": -90
+      },
+      {
+       "objet": "porte_chambre_1_etage_escalier_est_d",
+       "pivot": [
+        15.716,
+        2.385,
+        5.35
+       ],
+       "largeur": 0.792,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_pavillon_no",
+   "graphe": "E-pavillon-no",
+   "numero_plan": "56",
+   "nom": "Pavillon NO (non vu)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     -15.8,
+     -1.9
+    ],
+    [
+     -15.8,
+     -6.3
+    ],
+    [
+     -10.9,
+     -6.3
+    ],
+    [
+     -10.9,
+     -5.45
+    ],
+    [
+     -10.6,
+     -5.45
+    ],
+    [
+     -10.6,
+     -1.9
+    ]
+   ],
+   "surface_m2": 22.62,
+   "rect_plan": [
+    [
+     -17.0,
+     -9.5,
+     -10.3,
+     -1.8
+    ]
+   ],
+   "hauteur_sous_plafond": 4.0,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "nord x=-14,4",
+    "ouest y=-6,9"
+   ],
+   "murs": {
+    "est": [
+     "mur_etage_pavillon_no_etage_ouest"
+    ],
+    "sud": [
+     "mur_etage_pavillon_no_etage_bloc_ouest"
+    ]
+   },
+   "objets": [
+    "mur_etage_pavillon_no_etage_bloc_ouest",
+    "mur_etage_pavillon_no_etage_ouest",
+    "plafond_etage_pavillon_no",
+    "porte_etage_ouest_etage_pavillon_no",
+    "sol_etage_pavillon_no"
+   ],
+   "portes": [
+    {
+     "nom": "porte_etage_ouest_etage_pavillon_no",
+     "type": "porte",
+     "centre": [
+      -10.3,
+      -4.91,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 0.9,
+     "hauteur": 2.7,
+     "cintree": false,
+     "relie": [
+      "etage_ouest",
+      "etage_pavillon_no"
+     ],
+     "vers": "etage_pavillon_no",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_ouest_etage_pavillon_no",
+       "pivot": [
+        -10.515,
+        -5.356,
+        5.35
+       ],
+       "largeur": 0.892,
+       "hauteur": 2.69,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "P10-P12, R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_bloc_ouest",
+   "graphe": "E-bloc-ouest",
+   "numero_plan": "54",
+   "nom": "Bloc ouest (non vu)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     -15.8,
+     0.8
+    ],
+    [
+     -15.8,
+     -1.7
+    ],
+    [
+     -10.6,
+     -1.7
+    ],
+    [
+     -10.6,
+     0.8
+    ]
+   ],
+   "surface_m2": 13.0,
+   "rect_plan": [
+    [
+     -17.0,
+     -1.8,
+     -10.3,
+     0.9
+    ]
+   ],
+   "hauteur_sous_plafond": 4.0,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "ouest y=-2,3",
+    "ouest y=2,3"
+   ],
+   "murs": {
+    "est": [
+     "mur_etage_bloc_ouest_etage_ouest",
+     "mur_etage_bloc_ouest_galerie_ouest",
+     "mur_etage_bloc_ouest_chambre_3"
+    ],
+    "nord": [
+     "mur_etage_pavillon_no_etage_bloc_ouest"
+    ],
+    "sud": [
+     "mur_etage_bloc_ouest_etage_pavillon_so"
+    ]
+   },
+   "objets": [
+    "mur_etage_bloc_ouest_chambre_3",
+    "mur_etage_bloc_ouest_etage_ouest",
+    "mur_etage_bloc_ouest_etage_pavillon_so",
+    "mur_etage_bloc_ouest_galerie_ouest",
+    "mur_etage_pavillon_no_etage_bloc_ouest",
+    "plafond_etage_bloc_ouest",
+    "porte_etage_bloc_ouest_etage_pavillon_so",
+    "porte_galerie_ouest_etage_bloc_ouest",
+    "sol_etage_bloc_ouest"
+   ],
+   "portes": [
+    {
+     "nom": "porte_galerie_ouest_etage_bloc_ouest",
+     "type": "porte",
+     "centre": [
+      -10.3,
+      0.0,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.09,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "galerie_ouest",
+      "etage_bloc_ouest"
+     ],
+     "vers": "etage_bloc_ouest",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_galerie_ouest_etage_bloc_ouest",
+       "pivot": [
+        -10.515,
+        -0.541,
+        5.35
+       ],
+       "largeur": 1.082,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "porte_etage_bloc_ouest_etage_pavillon_so",
+     "type": "porte",
+     "centre": [
+      -11.46,
+      0.9,
+      5.35
+     ],
+     "mur": "parallèle à X (y = 0.90)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.2,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "etage_bloc_ouest",
+      "etage_pavillon_so"
+     ],
+     "vers": "etage_pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_bloc_ouest_etage_pavillon_so",
+       "pivot": [
+        -12.056,
+        0.915,
+        5.35
+       ],
+       "largeur": 1.192,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  },
+  {
+   "id": "etage_pavillon_so",
+   "graphe": "E-pavillon-so",
+   "numero_plan": "53",
+   "nom": "Pavillon SO (non vu)",
+   "niveau": "etage",
+   "z_sol": 5.35,
+   "certitude": "non-vu",
+   "photos": [],
+   "ferme": true,
+   "polygone_interieur": [
+    [
+     -15.8,
+     1.0
+    ],
+    [
+     -10.6,
+     1.0
+    ],
+    [
+     -10.6,
+     5.45
+    ],
+    [
+     -10.9,
+     5.45
+    ],
+    [
+     -10.9,
+     6.3
+    ],
+    [
+     -15.8,
+     6.3
+    ]
+   ],
+   "surface_m2": 27.3,
+   "rect_plan": [
+    [
+     -17.0,
+     0.9,
+     -10.3,
+     9.5
+    ]
+   ],
+   "hauteur_sous_plafond": 4.0,
+   "sol": "neutre",
+   "fenetres_facade": [
+    "sud x=-14,4",
+    "ouest y=6,9"
+   ],
+   "murs": {
+    "est": [
+     "mur_etage_pavillon_so_chambre_3"
+    ],
+    "nord": [
+     "mur_etage_bloc_ouest_etage_pavillon_so"
+    ]
+   },
+   "objets": [
+    "mur_etage_bloc_ouest_etage_pavillon_so",
+    "mur_etage_pavillon_so_chambre_3",
+    "plafond_etage_pavillon_so",
+    "porte_chambre_3_etage_pavillon_so_d",
+    "porte_chambre_3_etage_pavillon_so_g",
+    "porte_etage_bloc_ouest_etage_pavillon_so",
+    "sol_etage_pavillon_so"
+   ],
+   "portes": [
+    {
+     "nom": "porte_chambre_3_etage_pavillon_so",
+     "type": "porte double",
+     "centre": [
+      -10.3,
+      4.19,
+      5.35
+     ],
+     "mur": "parallèle à Y (x = -10.30)",
+     "epaisseur_mur": 0.6,
+     "largeur": 1.26,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "chambre_3",
+      "etage_pavillon_so"
+     ],
+     "vers": "etage_pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_chambre_3_etage_pavillon_so_g",
+       "pivot": [
+        -10.515,
+        3.564,
+        5.35
+       ],
+       "largeur": 0.622,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      },
+      {
+       "objet": "porte_chambre_3_etage_pavillon_so_d",
+       "pivot": [
+        -10.515,
+        4.816,
+        5.35
+       ],
+       "largeur": 0.622,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": -90
+      }
+     ],
+     "preuve": "R03"
+    },
+    {
+     "nom": "porte_etage_bloc_ouest_etage_pavillon_so",
+     "type": "porte",
+     "centre": [
+      -11.46,
+      0.9,
+      5.35
+     ],
+     "mur": "parallèle à X (y = 0.90)",
+     "epaisseur_mur": 0.2,
+     "largeur": 1.2,
+     "hauteur": 2.6,
+     "cintree": false,
+     "relie": [
+      "etage_bloc_ouest",
+      "etage_pavillon_so"
+     ],
+     "vers": "etage_pavillon_so",
+     "ouvrable": true,
+     "garde_corps": false,
+     "vantaux": [
+      {
+       "objet": "porte_etage_bloc_ouest_etage_pavillon_so",
+       "pivot": [
+        -12.056,
+        0.915,
+        5.35
+       ],
+       "largeur": 1.192,
+       "hauteur": 2.59,
+       "angle_ouverture_z_deg": 90
+      }
+     ],
+     "preuve": "R03"
+    }
+   ]
+  }
+ ]
+}

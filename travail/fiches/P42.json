@@ -1,0 +1,213 @@
+{
+  "id": "P42",
+  "zone": "int-couloir-rdc",
+  "niveau": "rdc",
+  "piece": "passage est le long de l'escalier",
+  "orientation_vue": "vers le sud",
+  "murs_visibles": [
+    "est (damas, console, miroir, porte)",
+    "ouest (limon de la volée centrale, rampe)",
+    "sud (petit salon : fontaine, sabres, porte vers salon)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "est",
+      "donne_sur": "pièce/couloir est (porte blanche à panneaux)",
+      "dimensions_estimees": {
+        "largeur_m": 1.0,
+        "hauteur_m": 3.0
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "sud (fond, côté est)",
+      "donne_sur": "salon bow-window (rideaux jaunes, porte-fenêtre)",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 3.0,
+        "note": "porte double ouverte"
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 4.5,
+    "largeur_m": 2.2,
+    "profondeur_m": 7.0
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre",
+  "plafond": "sous-face lisse de la volée de retour est (rampante), puis vide de la cage au-dessus de la volée centrale",
+  "murs_revetement": "papier peint damassé grand motif floral, fond taupe/gris-beige, motif blanc cassé ; soubassement à panneaux moulurés blanc filets vert céladon (~1 m) ; limon et mur d'échiffre blancs à panneaux céladon",
+  "elements": [
+    {
+      "nom": "console demi-lune Louis XVI laquée blanche, plateau marbre, ceinture ajourée, pieds cannelés",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, marbre",
+      "couleur": "blanc/gris",
+      "dimensions_estimees": {
+        "largeur_m": 1.1,
+        "hauteur_m": 0.85
+      },
+      "position_dans_piece": "mur est",
+      "quantite": 1
+    },
+    {
+      "nom": "statuette-candélabre bronze (page portant 4 bras de lumière)",
+      "categorie": "luminaire",
+      "materiau": "bronze patiné",
+      "couleur": "noir/doré",
+      "dimensions_estimees": {
+        "hauteur_m": 0.75
+      },
+      "position_dans_piece": "sur la console",
+      "quantite": 1
+    },
+    {
+      "nom": "miroir rectangulaire à cadre doré fin",
+      "categorie": "objet",
+      "materiau": "bois doré",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "largeur_m": 0.75,
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "au-dessus de la console",
+      "quantite": 1
+    },
+    {
+      "nom": "rampe fer forgé à grandes volutes, main courante bois",
+      "categorie": "ferronnerie",
+      "materiau": "fer forgé",
+      "couleur": "noir",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "volée centrale à droite et volée de retour au-dessus",
+      "quantite": 2
+    },
+    {
+      "nom": "tapis d'escalier rouge à barres de laiton",
+      "categorie": "tapis",
+      "materiau": "laine, laiton",
+      "couleur": "rouge/or",
+      "dimensions_estimees": {
+        "largeur_m": 1.0
+      },
+      "position_dans_piece": "marches de la volée centrale",
+      "quantite": 1
+    },
+    {
+      "nom": "tapisserie verdure à bordure",
+      "categorie": "textile",
+      "materiau": "laine",
+      "couleur": "bleu-vert",
+      "dimensions_estimees": {
+        "largeur_m": 2.6,
+        "hauteur_m": 2.0
+      },
+      "position_dans_piece": "mur sud du palier intermédiaire",
+      "quantite": 1
+    },
+    {
+      "nom": "vase et pampas séchées",
+      "categorie": "vegetation",
+      "materiau": "céramique, végétal",
+      "couleur": "beige",
+      "dimensions_estimees": {
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "palier",
+      "quantite": 1
+    },
+    {
+      "nom": "poteaux de guidage laiton avec cordon velours rouge",
+      "categorie": "objet",
+      "materiau": "laiton, velours",
+      "couleur": "or/rouge",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "pied de l'escalier, premier plan droit",
+      "quantite": 2
+    },
+    {
+      "nom": "fontaine murale marbre vert à mufle",
+      "categorie": "objet",
+      "materiau": "marbre",
+      "couleur": "vert",
+      "dimensions_estimees": {
+        "hauteur_m": 1.4
+      },
+      "position_dans_piece": "mur sud du petit salon",
+      "quantite": 1
+    },
+    {
+      "nom": "panoplie de sabres",
+      "categorie": "objet",
+      "materiau": "acier, bois",
+      "couleur": "argent/brun",
+      "dimensions_estimees": {
+        "largeur_m": 1.2
+      },
+      "position_dans_piece": "mur sud du petit salon",
+      "quantite": 1
+    },
+    {
+      "nom": "assiettes faïence",
+      "categorie": "objet",
+      "materiau": "faïence",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "diametre_m": 0.25
+      },
+      "position_dans_piece": "mur sud",
+      "quantite": 3
+    },
+    {
+      "nom": "fauteuils Louis XV rouge et olive",
+      "categorie": "mobilier",
+      "materiau": "bois, tissu",
+      "couleur": "rouge/olive",
+      "dimensions_estimees": {},
+      "position_dans_piece": "petit salon",
+      "quantite": 2
+    },
+    {
+      "nom": "chevet noir",
+      "categorie": "mobilier",
+      "materiau": "bois",
+      "couleur": "noir",
+      "dimensions_estimees": {},
+      "position_dans_piece": "petit salon",
+      "quantite": 1
+    },
+    {
+      "nom": "tableau étroit à cadre doré",
+      "categorie": "tableau",
+      "materiau": "toile",
+      "couleur": "sombre",
+      "dimensions_estimees": {
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "mur est, entre la porte et le petit salon",
+      "quantite": 1
+    },
+    {
+      "nom": "plante en pot (monstera)",
+      "categorie": "vegetation",
+      "materiau": "plante",
+      "couleur": "vert",
+      "dimensions_estimees": {},
+      "position_dans_piece": "dans le salon, vu au fond",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Symétrique de P23/P24 : passage est sous la volée de retour est, la volée centrale à droite (ouest)",
+    "Au fond, la porte sud-est du petit salon vers le salon bow-window ; fontaine et sabres à droite du fond (centre)",
+    "Porte blanche sur le mur est du passage : vers la salle à manger ou une pièce est (P43 suit 28 s après)"
+  ],
+  "incertitudes": [
+    "Destination de la porte est du passage (salle à manger ? couloir de service ?)"
+  ]
+}

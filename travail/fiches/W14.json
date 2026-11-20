@@ -1,0 +1,114 @@
+{
+  "id": "W14",
+  "zone": "int-salon-vert",
+  "niveau": "rdc",
+  "piece": "salon vert (détail de la cheminée)",
+  "orientation_vue": "contre-plongée sur la tablette de cheminée",
+  "murs_visibles": [
+    "mur de la cheminée (dans le trumeau : reflet du mur opposé avec portes et dessus-de-porte en stuc)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "mur opposé à la cheminée (reflet)",
+      "donne_sur": "porte double vert pâle, panneau « sortie » au-dessus",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.2
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "(non visible)",
+  "plafond": "blanc à corniche et grande rosace rocaille (reflet)",
+  "murs_revetement": "boiseries vert d'eau et crème à filets dorés ; dessus-de-porte en stuc à guirlandes (reflet)",
+  "elements": [
+    {
+      "nom": "pendule « cavalier en armure terrassant un guerrier » : groupe en bronze patiné brun, socle en bronze doré à trophées d'armes, cadran émail blanc chiffres romains, base marbre noir",
+      "categorie": "objet",
+      "materiau": "bronze patiné, bronze doré, émail, marbre noir",
+      "couleur": "brun/or/noir/blanc",
+      "dimensions_estimees": {
+        "largeur_m": 0.55,
+        "hauteur_m": 0.7,
+        "profondeur_m": 0.22
+      },
+      "position_dans_piece": "centre de la tablette de cheminée",
+      "quantite": 1
+    },
+    {
+      "nom": "candélabre « chevalier en armure » portant un bouquet de 6 lumières en bronze doré, socle à plaques sculptées et marbre noir",
+      "categorie": "luminaire",
+      "materiau": "bronze patiné et doré, marbre noir",
+      "couleur": "brun/or/noir",
+      "dimensions_estimees": {
+        "hauteur_m": 0.9,
+        "base_m": 0.2
+      },
+      "position_dans_piece": "aux deux extrémités de la tablette",
+      "quantite": 2
+    },
+    {
+      "nom": "bougies électriques blanches à flamme",
+      "categorie": "luminaire",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.12
+      },
+      "position_dans_piece": "bobèches des candélabres",
+      "quantite": 12
+    },
+    {
+      "nom": "tablette de cheminée en marbre brèche rose et rouge, moulurée, rocaille sculptée sous la tablette",
+      "categorie": "cheminee",
+      "materiau": "marbre",
+      "couleur": "rose/rouge",
+      "dimensions_estimees": {
+        "largeur_m": 1.7,
+        "profondeur_m": 0.4
+      },
+      "position_dans_piece": "mur de la cheminée",
+      "quantite": 1
+    },
+    {
+      "nom": "trumeau-miroir à cadre doré mouluré (baguette à perles) et consoles d'angle à feuillages",
+      "categorie": "objet",
+      "materiau": "bois doré",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "largeur_m": 1.6
+      },
+      "position_dans_piece": "au-dessus de la tablette",
+      "quantite": 1
+    },
+    {
+      "nom": "panneau « sortie de secours »",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "vert",
+      "dimensions_estimees": {},
+      "position_dans_piece": "au-dessus de la porte opposée (reflet)",
+      "quantite": 1
+    },
+    {
+      "nom": "abat-jour crème (lampadaire)",
+      "categorie": "luminaire",
+      "materiau": "tissu",
+      "couleur": "crème",
+      "dimensions_estimees": {},
+      "position_dans_piece": "bord gauche",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Le reflet montre en face de la cheminée une porte double sous un dessus-de-porte en stuc à guirlandes, avec issue de secours : la pièce donne sur un dégagement de circulation"
+  ],
+  "incertitudes": [
+    "Image web (D-006)"
+  ]
+}

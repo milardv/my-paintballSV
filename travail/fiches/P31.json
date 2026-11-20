@@ -1,0 +1,120 @@
+{
+  "id": "P31",
+  "zone": "int-salon-tableau",
+  "niveau": "rdc",
+  "piece": "salon bow-window, angle nord-est",
+  "orientation_vue": "vers le nord-est (porte blanche et porte du billard)",
+  "murs_visibles": [
+    "nord (marine, commode, porte blanche)",
+    "est (porte double bois ouverte vers billard)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "nord (partie est)",
+      "donne_sur": "petit salon sous palier (tableau du château sur damas)",
+      "dimensions_estimees": {
+        "largeur_m": 1.0,
+        "hauteur_m": 2.8
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "est",
+      "donne_sur": "salle de billard en enfilade (cheminée, lustre, porte au fond vers pièce suivante à l'est)",
+      "dimensions_estimees": {
+        "largeur_m": 1.6,
+        "hauteur_m": 3.2,
+        "note": "porte double en bois naturel à panneaux côté billard, dessus-de-porte mouluré"
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": 8.0,
+    "profondeur_m": 7.5
+  },
+  "sol": "parquet de chêne à bâtons rompus (point de Hongrie ? non : bâtons rompus à 90°), ciré, teinte miel",
+  "plafond": "plafond blanc à grand caisson central à angles coupés (octogonal côté baie), double corniche à rais-de-cœur et frise d'acanthes, grande rosace rocaille",
+  "murs_revetement": "papier peint/tenture damassée gris perle très clair, soubassement à panneaux moulurés gris-bleu, plinthe gris-bleu",
+  "elements": [
+    {
+      "nom": "tableau marine",
+      "categorie": "tableau",
+      "materiau": "toile",
+      "couleur": "bleu/gris",
+      "dimensions_estimees": {
+        "largeur_m": 2.6
+      },
+      "position_dans_piece": "mur nord",
+      "quantite": 1
+    },
+    {
+      "nom": "commode Louis XV à bronzes",
+      "categorie": "mobilier",
+      "materiau": "noyer",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "largeur_m": 1.3
+      },
+      "position_dans_piece": "mur nord",
+      "quantite": 1
+    },
+    {
+      "nom": "lampe potiche bleu et blanc",
+      "categorie": "luminaire",
+      "materiau": "porcelaine",
+      "couleur": "bleu/blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.75
+      },
+      "position_dans_piece": "commode",
+      "quantite": 1
+    },
+    {
+      "nom": "dracaena en cache-pot émaillé",
+      "categorie": "vegetation",
+      "materiau": "plante",
+      "couleur": "vert",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "à droite de la commode",
+      "quantite": 1
+    },
+    {
+      "nom": "sabre",
+      "categorie": "objet",
+      "materiau": "acier",
+      "couleur": "argent",
+      "dimensions_estimees": {
+        "longueur_m": 0.9
+      },
+      "position_dans_piece": "trumeau entre les deux portes",
+      "quantite": 1
+    },
+    {
+      "nom": "boîtier détecteur",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": {},
+      "position_dans_piece": "haut du mur nord",
+      "quantite": 1
+    },
+    {
+      "nom": "plante (bord droit)",
+      "categorie": "vegetation",
+      "materiau": "plante",
+      "couleur": "vert",
+      "dimensions_estimees": {},
+      "position_dans_piece": "à droite de la porte du billard",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Enfilade sud : salon bow-window → billard → pièce est (table, fenêtre à rideaux)",
+    "La porte blanche nord-est = porte gauche de P25"
+  ],
+  "incertitudes": []
+}

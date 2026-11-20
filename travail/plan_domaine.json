@@ -1,0 +1,30 @@
+{
+ "source": "Relevé du 18/11/2026 : polygone de propriété de Valentin (Google Earth) recalé par moindres carrés sur l'orthophoto IGN (écart moyen 2,5 m), tracés sur l'orthophoto IGN 12,5 cm et le LiDAR HD redressés dans le repère D-003 (outils/plan_domaine_controle.py). Indications de Valentin : entrée en bas sur la route, grille en fer noir ; maison du gardien et des deux soldats à droite en entrant ; local piscine ; pétanque derrière la maison du gardien ; grange du jardinier à côté de la camionnette ; tennis au niveau de la terrasse.",
+ "limite": [[-33.4, -29.1], [-15.3, -30.0], [11.9, -31.5], [24.0, -33.5], [33.5, -26.0], [37.5, -6.5], [41.0, 12.0], [46.0, 24.0], [58.4, 38.4], [72.0, 61.1], [92.1, 73.2], [108.6, 86.8], [116.9, 96.9], [121.5, 104.0], [121.5, 118.0], [113.4, 126.8], [100.7, 139.6], [81.9, 142.8], [65.8, 142.7], [53.8, 141.4], [41.9, 141.1], [23.8, 131.8], [21.0, 127.0], [16.0, 121.0], [15.0, 113.0], [12.0, 108.5], [2.5, 107.4], [-8.5, 107.4], [-19.5, 105.9], [-25.2, 99.7], [-30.2, 91.1], [-33.6, 76.4], [-35.4, 37.6], [-39.6, -13.0], [-39.8, -22.2]],
+ "portail": {"centre": [121.5, 111.5], "largeur": 5.2, "angle_deg": 90, "note": "grille en fer noir entre deux piliers, murs courbes blancs de part et d'autre (vue Google 9-10)"},
+ "portail_nord": {"centre": [24.0, -33.5], "largeur": 4.6, "angle_deg": 12, "note": "sortie secondaire de la cour nord, fermée"},
+ "plateforme_ouest": {"note": "tennis et abords au niveau de la terrasse (LiDAR : 0 à +0,3), murs de soutènement vers la cour sud et la cour nord", "z": -0.02,
+   "polygone": [[-38.0, -24.0], [-16.3, -24.0], [-16.3, -9.45], [-18.0, -9.45], [-18.0, 7.6], [-38.0, 7.6]]},
+ "tennis": {"enceinte": [-32.0, -20.0, -19.3, 6.8], "court_double": [-31.1, -18.48, -20.13, 5.29], "filet_y": -6.6},
+ "escaliers_tennis": [
+   {"nom": "nord_est", "haut": [-16.3, -20.2], "bas": [-13.9, -20.2], "largeur": 2.0, "marches": 8, "z_haut": -0.02, "z_bas": -1.3, "note": "de la cour nord (derrière la maison) au tennis"},
+   {"nom": "sud_ouest", "haut": [-22.8, 7.6], "bas": [-22.8, 10.9], "largeur": 2.2, "marches": 10, "z_haut": -0.02, "z_bas": -1.57, "note": "de la cour sablée sud au tennis, le long de la terrasse"}
+ ],
+ "piscine": {"note": "haricot : lobe nord étroit en pointe, grand lobe sud, creux à l'est (orthophoto IGN, Google 3-7)",
+   "contour": [[8.8, 58.6], [6.0, 60.0], [3.0, 62.6], [1.1, 66.0], [0.1, 70.0], [0.0, 74.5], [0.6, 79.0], [2.3, 83.0], [5.0, 86.4], [8.6, 88.6], [12.0, 90.3], [14.6, 93.0], [17.6, 94.6], [21.0, 94.2], [24.0, 91.8], [25.9, 88.0], [26.6, 83.5], [26.0, 79.3], [24.2, 76.3], [21.3, 74.5], [17.6, 73.2], [14.2, 71.4], [11.8, 68.6], [10.6, 65.2], [10.4, 61.8], [10.0, 59.4]],
+   "presquile": [22.5, 68.8]},
+ "local_piscine": {"centre": [23.5, 114.6], "dimensions": [10.0, 6.4], "angle_deg": -3, "hauteur": 2.9, "note": "toit plat à motif circulaire (Google 8-9), au bout de l'allée près de la piscine"},
+ "allees": {
+   "est": {"largeur": 6.0, "points": [[24.5, -32.5], [27.5, -27.0], [28.6, -15.0], [28.8, 0.0], [29.2, 12.0], [31.0, 19.0]]},
+   "arc": {"largeur": 5.6, "points": [[31.0, 19.0], [36.0, 25.0], [43.0, 30.5], [50.0, 36.5], [53.5, 45.0], [55.5, 55.0], [56.0, 65.0], [55.0, 75.0], [52.5, 85.0], [47.5, 92.5], [42.5, 100.0], [38.5, 106.0], [36.5, 112.0], [39.0, 118.0], [46.0, 121.5], [60.0, 123.0], [80.0, 123.0], [95.0, 121.5], [104.0, 118.5], [111.0, 114.5], [117.0, 112.0], [124.0, 111.5]]},
+   "service": {"largeur": 3.6, "points": [[55.2, 57.5], [62.0, 62.5], [72.0, 69.0], [82.0, 75.0], [90.0, 80.0], [97.0, 85.5], [102.0, 91.0]]},
+   "local_piscine": {"largeur": 3.0, "points": [[36.0, 112.5], [30.0, 113.5]]}
+ },
+ "gardien": {"centre": [104.0, 103.5], "dimensions": [9.5, 15.0], "angle_deg": 6, "hauteur": 3.3, "porte": "sud", "note": "plain-pied, toit plat, enduit clair, véranda à menuiseries rouges (Google 9-10)"},
+ "petanque": {"centre": [90.5, 104.5], "dimensions": [4.0, 13.0], "angle_deg": 6},
+ "grange": {"centre": [83.4, 88.0], "dimensions": [5.6, 10.0], "angle_deg": 8, "hauteur": 3.2, "ouverture": "ouest", "note": "toit en tôle ondulée rouge, tracteur tondeuse et outils"},
+ "camionnette": {"centre": [74.0, 76.5], "angle_deg": 82},
+ "benne": {"centre": [76.0, 94.0], "angle_deg": 20},
+ "massif_rond_est": {"centre": [21.5, 18.5], "rayon": 4.2},
+ "paves_verre": {"note": "devant chaque porte-fenêtre des ailes et devant le portique (drone)", "points": [[-8.85, 10.05], [-5.25, 10.05], [5.25, 10.05], [8.85, 10.05], [0.0, 13.3]]}
+}

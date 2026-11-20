@@ -1,0 +1,133 @@
+{
+ "id": "P10",
+ "zone": "int-palier-etage",
+ "niveau": "etage",
+ "piece": "Dégagement de l'étage (couloir partant du palier, côté ouest supposé)",
+ "orientation_vue": "dans l'axe du couloir vers la porte double cintrée du fond",
+ "murs_visibles": [
+  "mur droit (radiateur, applique)",
+  "mur du fond (porte cintrée)",
+  "mur gauche (arcade)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "fond",
+   "donne_sur": "pièce non vue (porte double fermée)",
+   "dimensions_estimees": "porte double L 1.4 x H 2.6 m, imposte cintrée aveugle H 1.0 m"
+  },
+  {
+   "type": "arcade",
+   "mur": "gauche",
+   "donne_sur": "palier / cage d'escalier",
+   "dimensions_estimees": "arcade plein cintre H 3.5 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 2.0,
+  "profondeur_m": 5.0
+ },
+ "sol": "marbre blanc en losanges à cabochons rouges, bandes d'encadrement en marbre rouge (même dallage que le palier)",
+ "plafond": "voûte en berceau (arc surbaissé) blanche, arc doubleau mouluré à l'entrée",
+ "murs_revetement": "murs blancs à panneaux moulurés filets gris-vert, cimaise et plinthe gris-vert",
+ "elements": [
+  {
+   "nom": "applique bronze doré à 4 bras feuillagés, bougies électriques",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": "H 0.55 m",
+   "position_dans_piece": "mur droit, à 2.2 m",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur à colonnes peint blanc avec tuyau d'alimentation",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "blanc",
+   "dimensions_estimees": "L 1.0 x H 0.9 m",
+   "position_dans_piece": "mur droit",
+   "quantite": 1
+  },
+  {
+   "nom": "console/table bois sombre",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun foncé",
+   "dimensions_estimees": "0.9 x 0.4 x H 0.8 m",
+   "position_dans_piece": "mur droit, premier plan",
+   "quantite": 1
+  },
+  {
+   "nom": "bouquet (roses blanches, vertes, fleurs rouges) dans vase crème",
+   "categorie": "vegetation",
+   "materiau": "fleurs, céramique",
+   "couleur": "blanc/vert/rouge",
+   "dimensions_estimees": "H 0.6 m",
+   "position_dans_piece": "sur la console",
+   "quantite": 1
+  },
+  {
+   "nom": "bougie LED dans photophore doré",
+   "categorie": "luminaire",
+   "materiau": "métal",
+   "couleur": "or",
+   "dimensions_estimees": "H 0.15 m",
+   "position_dans_piece": "console",
+   "quantite": 1
+  },
+  {
+   "nom": "dessous-de-plat / napperon en dentelle",
+   "categorie": "textile",
+   "materiau": "coton",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "console",
+   "quantite": 1
+  },
+  {
+   "nom": "panier à linge en osier + bac à linge plastique",
+   "categorie": "objet",
+   "materiau": "osier, plastique",
+   "couleur": "naturel/blanc",
+   "dimensions_estimees": "Ø 0.4 x H 0.6 m",
+   "position_dans_piece": "pied de la porte du fond, à droite",
+   "quantite": 1
+  },
+  {
+   "nom": "cadre (gravure florale) posé au sol",
+   "categorie": "tableau",
+   "materiau": "bois, verre",
+   "couleur": "blanc/rouge",
+   "dimensions_estimees": "0.3 x 0.4 m",
+   "position_dans_piece": "pied de la porte du fond",
+   "quantite": 1
+  },
+  {
+   "nom": "interrupteur",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur du fond, gauche de la porte",
+   "quantite": 1
+  },
+  {
+   "nom": "plaque de propreté/tirette laiton sur vantail",
+   "categorie": "ferronnerie",
+   "materiau": "laiton",
+   "couleur": "doré",
+   "dimensions_estimees": "0.2 m",
+   "position_dans_piece": "porte du fond",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Prolonge P09 (couloir de droite)",
+  "La porte double du fond réapparaît en P11 et P12"
+ ],
+ "incertitudes": [
+  "Longueur du couloir ~5 m"
+ ]
+}

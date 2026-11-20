@@ -1,0 +1,184 @@
+{
+  "id": "P23",
+  "zone": "int-couloir-rdc",
+  "niveau": "rdc",
+  "piece": "passage ouest le long de l'escalier (sous la volée de retour ouest)",
+  "orientation_vue": "vers le sud, depuis l'angle sud-ouest du vestibule (photo bougée)",
+  "murs_visibles": [
+    "ouest (damas, console, miroir)",
+    "sous-face rampante de la volée de retour"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "ouest du passage",
+      "donne_sur": "pièce ouest (porte vert pâle filets dorés, ouverte)",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.0
+      }
+    },
+    {
+      "type": "baie",
+      "mur": "fond sud",
+      "donne_sur": "petit salon sous palier puis salon bow-window (rideaux jaunes)",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 2.6
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 4.0,
+    "largeur_m": 2.0,
+    "profondeur_m": 6.0
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre",
+  "plafond": "sous-face lisse blanche de la volée de retour, rampante (plus basse vers le sud)",
+  "murs_revetement": "papier peint damassé grand motif floral, fond taupe/gris-beige, motif blanc cassé ; soubassement à panneaux moulurés blanc filets vert céladon (~1 m)",
+  "elements": [
+    {
+      "nom": "console galbée Louis-Philippe, plateau marbre blanc",
+      "categorie": "mobilier",
+      "materiau": "noyer, marbre",
+      "couleur": "brun/blanc",
+      "dimensions_estimees": {
+        "largeur_m": 1.0,
+        "hauteur_m": 0.85
+      },
+      "position_dans_piece": "mur ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "miroir haut à cadre doré fin",
+      "categorie": "objet",
+      "materiau": "bois doré, glace",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "largeur_m": 0.6,
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "au-dessus de la console",
+      "quantite": 1
+    },
+    {
+      "nom": "candélabre 5 lumières bronze sur socle noir",
+      "categorie": "luminaire",
+      "materiau": "bronze",
+      "couleur": "doré/noir",
+      "dimensions_estimees": {
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "console",
+      "quantite": 1
+    },
+    {
+      "nom": "grand vase verre transparent avec branchages d'eucalyptus",
+      "categorie": "vegetation",
+      "materiau": "verre, végétal",
+      "couleur": "vert gris",
+      "dimensions_estimees": {
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "console",
+      "quantite": 1
+    },
+    {
+      "nom": "piano droit",
+      "categorie": "mobilier",
+      "materiau": "bois laqué brun",
+      "couleur": "acajou",
+      "dimensions_estimees": {
+        "largeur_m": 1.45,
+        "hauteur_m": 1.25,
+        "profondeur_m": 0.6
+      },
+      "position_dans_piece": "au fond, mur ouest du petit salon",
+      "quantite": 1
+    },
+    {
+      "nom": "chaise de piano/chaise gondole grise",
+      "categorie": "mobilier",
+      "materiau": "bois, tissu",
+      "couleur": "gris",
+      "dimensions_estimees": {
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "devant le piano",
+      "quantite": 1
+    },
+    {
+      "nom": "candélabres argentés sur le piano",
+      "categorie": "luminaire",
+      "materiau": "métal argenté",
+      "couleur": "argent",
+      "dimensions_estimees": {
+        "hauteur_m": 0.5
+      },
+      "position_dans_piece": "sur le piano",
+      "quantite": 2
+    },
+    {
+      "nom": "tableau à cadre doré",
+      "categorie": "tableau",
+      "materiau": "toile",
+      "couleur": "sombre",
+      "dimensions_estimees": {
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "au-dessus du piano",
+      "quantite": 1
+    },
+    {
+      "nom": "lampadaire à abat-jour",
+      "categorie": "luminaire",
+      "materiau": "laiton",
+      "couleur": "doré/crème",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "au fond, dans le salon",
+      "quantite": 1
+    },
+    {
+      "nom": "fusil décoratif",
+      "categorie": "objet",
+      "materiau": "bois, acier",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "longueur_m": 1.5
+      },
+      "position_dans_piece": "pilastre à droite",
+      "quantite": 1
+    },
+    {
+      "nom": "affiche de concert sur chevalet",
+      "categorie": "objet",
+      "materiau": "papier",
+      "couleur": "bleu/brun",
+      "dimensions_estimees": {
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "premier plan droite",
+      "quantite": 1
+    },
+    {
+      "nom": "détecteur d'alarme",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": {},
+      "position_dans_piece": "pilastre à droite, en hauteur",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Le miroir reflète la rampe fer forgé et la tapisserie du palier : la volée de retour ouest est au-dessus du passage",
+    "Porte vert pâle à droite (ouest) donnant sur une pièce ouest (salle à manger ? à confirmer)",
+    "Au fond : piano puis salon à rideaux jaunes = salon bow-window (P27)"
+  ],
+  "incertitudes": [
+    "Photo floue",
+    "Où mène la porte vert pâle ouest ?"
+  ]
+}

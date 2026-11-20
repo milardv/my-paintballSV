@@ -1,0 +1,122 @@
+{
+ "id": "P18",
+ "zone": "int-escalier",
+ "niveau": "etage",
+ "piece": "Escalier d'honneur impérial (volée centrale RDC -> repos, puis deux volées latérales repos -> étage)",
+ "orientation_vue": "depuis le repos, dans l'axe de la volée centrale qui descend vers le vestibule et la porte d'entrée (nord)",
+ "murs_visibles": [
+  "mur nord (porte bibliothèque à l'étage)",
+  "volées latérales gauche et droite",
+  "vestibule en contrebas"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "nord, étage",
+   "donne_sur": "bibliothèque",
+   "dimensions_estimees": "porte double H 3.0 m"
+  },
+  {
+   "type": "porte",
+   "mur": "nord, RDC",
+   "donne_sur": "extérieur (porte d'entrée vitrée, imposte)",
+   "dimensions_estimees": "porte double vitrée L 1.6 x H 3.0 m + imposte"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 11.0,
+  "largeur_m": 9.0,
+  "profondeur_m": 9.0
+ },
+ "sol": "marches en marbre blanc veiné, tapis d'escalier rouge (larg. ~0.9 m) ; repos en dallage marbre blanc en losanges à cabochons rouges et encadrement marbre rouge",
+ "plafond": "coupole en voûte en arc de cloître sur plan carré : caissons trapézoïdaux et triangulaires soulignés de filets gris-vert, puits de lumière vitré rectangulaire au sommet, 4 oculi en demi-lune (un par face) à la base de la voûte, corniche à denticules et frise d'oves",
+ "murs_revetement": "murs blancs à panneaux moulurés gris-vert, soubassement à table saillante suivant la pente, arcades à l'étage",
+ "elements": [
+  {
+   "nom": "volée centrale large en marbre blanc avec tapis rouge, ~13 marches",
+   "categorie": "architecture",
+   "materiau": "marbre",
+   "couleur": "blanc/rouge",
+   "dimensions_estimees": "larg. 2.0 m, long. 4.5 m",
+   "position_dans_piece": "du repos au vestibule",
+   "quantite": 1
+  },
+  {
+   "nom": "départ de rampe en volute sur base de marbre",
+   "categorie": "ferronnerie",
+   "materiau": "fer forgé, laiton, marbre",
+   "couleur": "noir/doré/blanc",
+   "dimensions_estimees": "H 1.0 m",
+   "position_dans_piece": "pied/haut des volées",
+   "quantite": 1
+  },
+  {
+   "nom": "deux volées latérales montant vers la galerie nord",
+   "categorie": "architecture",
+   "materiau": "marbre",
+   "couleur": "blanc",
+   "dimensions_estimees": "larg. 1.5 m",
+   "position_dans_piece": "gauche et droite",
+   "quantite": 2
+  },
+  {
+   "nom": "rampe d'escalier en fer forgé à volutes et rinceaux, main courante laiton poli",
+   "categorie": "ferronnerie",
+   "materiau": "fer forgé noir, laiton",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "H 0.95 m",
+   "position_dans_piece": "autour de la trémie",
+   "quantite": 1
+  },
+  {
+   "nom": "tapis d'escalier rouge (moquette) avec tringles",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge vermillon",
+   "dimensions_estimees": "larg. 0.9 m",
+   "position_dans_piece": "axe des volées",
+   "quantite": 1
+  },
+  {
+   "nom": "dessus-de-porte peint (marine)",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "bleu",
+   "dimensions_estimees": "1.2 x 0.5 m",
+   "position_dans_piece": "au-dessus de la porte de la bibliothèque",
+   "quantite": 1
+  },
+  {
+   "nom": "appliques bronze 3 bras",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur nord étage",
+   "quantite": 2
+  },
+  {
+   "nom": "barrière extensible de sécurité enfant en bois (croisillons)",
+   "categorie": "objet",
+   "materiau": "bois clair",
+   "couleur": "naturel",
+   "dimensions_estimees": "L 1.2-1.5 x H 0.9 m",
+   "position_dans_piece": "tête de la volée gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "vestibule RDC : colonnes à chapiteaux composites, papier peint damassé, tapis rouge à médaillons, table basse, bouquet, lustre, rideau rouge, drapeau, fauteuil médaillon, plante, porte d'entrée vitrée",
+   "categorie": "architecture",
+   "materiau": "",
+   "couleur": "",
+   "dimensions_estimees": "",
+   "position_dans_piece": "RDC en contrebas",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Escalier impérial : volée centrale vestibule -> repos (sud), deux volées latérales repos -> galerie nord de l'étage",
+  "La bibliothèque est au-dessus de la porte d'entrée"
+ ],
+ "incertitudes": []
+}

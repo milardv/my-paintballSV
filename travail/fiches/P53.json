@@ -1,0 +1,179 @@
+{
+ "id": "P53",
+ "zone": "int-chambre-2",
+ "niveau": "etage",
+ "piece": "Chambre-2 à rayures (salle de jeux d'enfants), en enfilade entre la salle à manger et la chambre-3",
+ "orientation_vue": "vers le mur de la cheminée (mur intérieur, opposé aux fenêtres)",
+ "murs_visibles": [
+  "mur de la cheminée",
+  "embrasure de porte (droite)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "droite",
+   "donne_sur": "salle à manger (embrasure)",
+   "dimensions_estimees": "L 1.0 x H 2.6 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 4.5,
+  "profondeur_m": 7.5
+ },
+ "sol": "parquet de Versailles (panneaux carrés à entrelacs) chêne, patiné",
+ "plafond": "plafond plat blanc, double corniche à filets, rosace de lustre",
+ "murs_revetement": "papier peint (ou tenture) à rayures verticales larges or, beige et gris-taupe ; soubassement/plinthes vert d'eau ; dessus de cheminée en boiserie (trumeau à guirlande)",
+ "elements": [
+  {
+   "nom": "cheminée Louis XV en marbre blanc à consoles sculptées",
+   "categorie": "cheminee",
+   "materiau": "marbre blanc",
+   "couleur": "blanc",
+   "dimensions_estimees": "1.2 x 0.35 x H 1.05 m",
+   "position_dans_piece": "centre du mur",
+   "quantite": 1
+  },
+  {
+   "nom": "trumeau en boiserie à guirlande sculptée au-dessus de la cheminée",
+   "categorie": "moulure",
+   "materiau": "bois peint",
+   "couleur": "beige/doré",
+   "dimensions_estimees": "0.8 x 1.4 m",
+   "position_dans_piece": "au-dessus de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "grande plante verte (Ficus/philodendron) en cache-pot osier",
+   "categorie": "vegetation",
+   "materiau": "végétal, osier",
+   "couleur": "vert",
+   "dimensions_estimees": "H 1.2 m",
+   "position_dans_piece": "sur la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "plante araignée (chlorophytum)",
+   "categorie": "vegetation",
+   "materiau": "végétal",
+   "couleur": "vert/blanc",
+   "dimensions_estimees": "0.4 m",
+   "position_dans_piece": "sur la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau abstrait bouquet de fleurs bleu-violet",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "bleu/jaune",
+   "dimensions_estimees": "0.5 x 0.6 m",
+   "position_dans_piece": "mur, à droite de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau portrait sombre",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "bleu nuit",
+   "dimensions_estimees": "0.35 x 0.5 m",
+   "position_dans_piece": "mur, à gauche de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "table de chevet Directoire à tiroir et entretoise en X",
+   "categorie": "mobilier",
+   "materiau": "acajou",
+   "couleur": "brun rouge",
+   "dimensions_estimees": "0.45 x 0.35 x H 0.7 m",
+   "position_dans_piece": "à droite",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe en rotin forme œuf",
+   "categorie": "luminaire",
+   "materiau": "rotin",
+   "couleur": "brun",
+   "dimensions_estimees": "H 0.4 m",
+   "position_dans_piece": "sur la table de chevet",
+   "quantite": 1
+  },
+  {
+   "nom": "canapé/marquise Louis XV laqué blanc, tissu fleuri crème, coussin",
+   "categorie": "mobilier",
+   "materiau": "bois laqué, tissu",
+   "couleur": "blanc/crème",
+   "dimensions_estimees": "1.3 x 0.7 x H 1.0 m",
+   "position_dans_piece": "premier plan droit",
+   "quantite": 1
+  },
+  {
+   "nom": "petite table d'enfant et 2 chaises d'enfant laquées blanches",
+   "categorie": "mobilier",
+   "materiau": "bois laqué",
+   "couleur": "blanc",
+   "dimensions_estimees": "0.7 x 0.5 x H 0.5 m",
+   "position_dans_piece": "devant la cheminée",
+   "quantite": 3
+  },
+  {
+   "nom": "livre sur la petite table",
+   "categorie": "objet",
+   "materiau": "papier",
+   "couleur": "beige",
+   "dimensions_estimees": "",
+   "position_dans_piece": "table enfant",
+   "quantite": 1
+  },
+  {
+   "nom": "arrosoir en métal émaillé blanc",
+   "categorie": "objet",
+   "materiau": "métal",
+   "couleur": "blanc",
+   "dimensions_estimees": "H 0.35 m",
+   "position_dans_piece": "foyer",
+   "quantite": 1
+  },
+  {
+   "nom": "console/bureau bois sombre avec jouets, veilleuse/humidificateur blanc",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": "1.0 x 0.45 m",
+   "position_dans_piece": "à gauche de la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "jouets (seaux, boîtes)",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "multicolore",
+   "dimensions_estimees": "",
+   "position_dans_piece": "console",
+   "quantite": 6
+  },
+  {
+   "nom": "chaise paillée (bord)",
+   "categorie": "mobilier",
+   "materiau": "paille",
+   "couleur": "naturel",
+   "dimensions_estimees": "",
+   "position_dans_piece": "bas gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "bille/jouet au sol",
+   "categorie": "objet",
+   "materiau": "",
+   "couleur": "",
+   "dimensions_estimees": "",
+   "position_dans_piece": "sol",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Cheminée adossée au mur de refend côté palier/cage (mur sud de la cage = mur de la tapisserie ?)"
+ ],
+ "incertitudes": [
+  "Mur de cheminée possiblement mitoyen de la cage d'escalier"
+ ]
+}

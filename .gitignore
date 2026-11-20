@@ -1,0 +1,49 @@
+# Unity : générés
+unity/Library/
+unity/Temp/
+unity/Logs/
+unity/obj/
+unity/UserSettings/
+unity/*.csproj
+unity/*.sln
+unity/*.blob
+unity/.vs/
+unity/.idea/
+
+# Builds et publication (régénérés par outils/build-rapide.sh)
+build/
+publication/
+serveur/node_modules/
+serveur/target/
+serveur/build/
+serveur/jeu/
+serveur/.wrangler/
+serveur/.dev.vars
+serveur/wrangler.toml
+
+# Photos (sources et relevés) : restent en local
+sources/
+travail/vignettes/
+travail/releve-*/
+travail/apercu/
+travail/analyse/
+travail/verif-jeu/
+travail/build-rapide/
+travail/avant_*/
+assets/oeuvres-releve-*/
+
+# Sorties régénérables (Blender, rendus, graphe)
+export/
+rendus/
+graphify-out/
+logs/
+temp/
+
+# Divers
+*.bak
+*.blend1
+*.log
+*.pyc
+__pycache__/
+.env
+.DS_Store

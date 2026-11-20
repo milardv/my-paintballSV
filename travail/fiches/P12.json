@@ -1,0 +1,84 @@
+{
+ "id": "P12",
+ "zone": "int-palier-etage",
+ "niveau": "etage",
+ "piece": "Dégagement de l'étage (couloir partant du palier, côté ouest supposé)",
+ "orientation_vue": "au fond du couloir, vers la gauche : porte ouverte sur une pièce claire, porte cintrée au centre, placards à droite",
+ "murs_visibles": [
+  "mur du fond",
+  "mur droit",
+  "mur gauche (porte ouverte)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "gauche",
+   "donne_sur": "pièce claire avec porte-fenêtre à petits bois, parquet (chambre-3/bureau ou chambre-2 probable)",
+   "dimensions_estimees": "porte double L 1.3 x H 2.8 m, ouverte"
+  },
+  {
+   "type": "porte",
+   "mur": "fond",
+   "donne_sur": "pièce non vue",
+   "dimensions_estimees": "porte double cintrée L 1.4 x H 2.6 m"
+  },
+  {
+   "type": "porte",
+   "mur": "droit",
+   "donne_sur": "placard / pièce",
+   "dimensions_estimees": "porte double L 1.3 x H 2.8 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 2.0,
+  "profondeur_m": 5.0
+ },
+ "sol": "marbre blanc en losanges à cabochons rouges, bandes d'encadrement en marbre rouge (même dallage que le palier)",
+ "plafond": "voûte en berceau (arc surbaissé) blanche, arc doubleau mouluré à l'entrée",
+ "murs_revetement": "murs blancs à panneaux moulurés filets gris-vert, cimaise et plinthe gris-vert",
+ "elements": [
+  {
+   "nom": "suspension en fer forgé (anneau) - lanterne",
+   "categorie": "luminaire",
+   "materiau": "fer",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "Ø 0.3 m",
+   "position_dans_piece": "plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "tirettes laiton des vantaux",
+   "categorie": "ferronnerie",
+   "materiau": "laiton",
+   "couleur": "doré",
+   "dimensions_estimees": "",
+   "position_dans_piece": "portes",
+   "quantite": 2
+  },
+  {
+   "nom": "interrupteur",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur droit",
+   "quantite": 1
+  },
+  {
+   "nom": "pile de linge / t-shirt turquoise sur meuble",
+   "categorie": "textile",
+   "materiau": "coton",
+   "couleur": "turquoise",
+   "dimensions_estimees": "",
+   "position_dans_piece": "premier plan bas gauche",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "La pièce vue par la porte gauche a une porte-fenêtre à petits bois et parquet clair : correspond aux pièces P52-P57"
+ ],
+ "incertitudes": [
+  "Photo floue ; distribution exacte des 3 portes à confirmer"
+ ]
+}

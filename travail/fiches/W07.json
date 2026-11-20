@@ -1,0 +1,300 @@
+{
+  "id": "W07",
+  "zone": "int-salon-vert",
+  "niveau": "rdc",
+  "piece": "salon vert à pan coupé (« salon des boiseries vertes »)",
+  "orientation_vue": "face à la cheminée (mur plat), le pan coupé/arrondi à droite",
+  "murs_visibles": [
+    "mur de la cheminée (porte à gauche, porte double à droite)",
+    "pan coupé arrondi (droite)",
+    "mur des fenêtres (gauche, porte-fenêtre à rideaux)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "mur de la cheminée, gauche",
+      "donne_sur": "dégagement puis porte vitrée à ferronnerie (vers vestibule/entrée ?)",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.2,
+        "note": "porte double vert pâle à filets dorés, un vantail ouvert"
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "mur de la cheminée, droite",
+      "donne_sur": "pièce voisine (porte double fermée vert pâle, filets dorés)",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.2
+      }
+    },
+    {
+      "type": "baie",
+      "mur": "mur gauche",
+      "donne_sur": "extérieur, rideaux de soie rayée",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.6
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": 7.5,
+    "profondeur_m": 8.0
+  },
+  "sol": "parquet de chêne à bâtons rompus/à fougère, ciré blond",
+  "plafond": "plafond blanc à corniche moulurée, rosace (reflet dans le trumeau)",
+  "murs_revetement": "boiseries Louis XVI : panneaux à fonds vert d'eau/céladon, cadres crème à filets dorés, dessus-de-porte sculptés de guirlandes et trophées en stuc blanc, mur courbe (pan coupé arrondi) lambrissé",
+  "elements": [
+    {
+      "nom": "cheminée Louis XV en marbre rose/brèche rouge, linteau galbé à cartouche",
+      "categorie": "cheminee",
+      "materiau": "marbre brèche rose",
+      "couleur": "rose/rouge",
+      "dimensions_estimees": {
+        "largeur_m": 1.6,
+        "hauteur_m": 1.15
+      },
+      "position_dans_piece": "mur principal, centre",
+      "quantite": 1
+    },
+    {
+      "nom": "trumeau-miroir monumental à cadre doré, fronton à guirlandes et cintre",
+      "categorie": "objet",
+      "materiau": "bois doré, glace",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "largeur_m": 1.6,
+        "hauteur_m": 2.6
+      },
+      "position_dans_piece": "au-dessus de la cheminée",
+      "quantite": 1
+    },
+    {
+      "nom": "pendule « cavalier terrassant un ennemi » bronze patiné sur socle marbre noir et bronze doré (W14)",
+      "categorie": "objet",
+      "materiau": "bronze, marbre noir",
+      "couleur": "brun/noir/or",
+      "dimensions_estimees": {
+        "largeur_m": 0.6,
+        "hauteur_m": 0.65
+      },
+      "position_dans_piece": "centre de la tablette de cheminée",
+      "quantite": 1
+    },
+    {
+      "nom": "paire de candélabres : chevalier en armure portant un bouquet de 5-6 lumières dorées, socles marbre noir et bronze doré",
+      "categorie": "luminaire",
+      "materiau": "bronze patiné, bronze doré, marbre noir",
+      "couleur": "brun/or/noir",
+      "dimensions_estimees": {
+        "hauteur_m": 0.85
+      },
+      "position_dans_piece": "de part et d'autre de la pendule",
+      "quantite": 2
+    },
+    {
+      "nom": "pelle et pincettes de cheminée sur serviteur",
+      "categorie": "ferronnerie",
+      "materiau": "fer, laiton",
+      "couleur": "noir/doré",
+      "dimensions_estimees": {
+        "hauteur_m": 0.7
+      },
+      "position_dans_piece": "à droite du foyer",
+      "quantite": 1
+    },
+    {
+      "nom": "grand tapis persan rouge/rose à médaillon",
+      "categorie": "tapis",
+      "materiau": "laine",
+      "couleur": "rouge/rose/bleu",
+      "dimensions_estimees": {
+        "largeur_m": 4.0,
+        "profondeur_m": 3.0
+      },
+      "position_dans_piece": "devant la cheminée",
+      "quantite": 1
+    },
+    {
+      "nom": "fauteuil Louis XV laqué crème, tissu fleuri lilas",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, tissu",
+      "couleur": "crème/lilas",
+      "dimensions_estimees": {
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "autour de la table basse",
+      "quantite": 4
+    },
+    {
+      "nom": "tables gigognes en acajou",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "largeur_m": 0.6,
+        "hauteur_m": 0.55
+      },
+      "position_dans_piece": "centre du groupe de fauteuils",
+      "quantite": 1
+    },
+    {
+      "nom": "lampadaire bouillotte laiton à abat-jour crème",
+      "categorie": "luminaire",
+      "materiau": "laiton",
+      "couleur": "doré/crème",
+      "dimensions_estimees": {
+        "hauteur_m": 1.7
+      },
+      "position_dans_piece": "à gauche de la cheminée",
+      "quantite": 1
+    },
+    {
+      "nom": "lustre bronze doré (partie basse visible)",
+      "categorie": "luminaire",
+      "materiau": "bronze doré",
+      "couleur": "doré",
+      "dimensions_estimees": {
+        "diametre_m": 0.9
+      },
+      "position_dans_piece": "plafond, centre",
+      "quantite": 1
+    },
+    {
+      "nom": "rideaux soie rayée crème/rose à embrasses à glands",
+      "categorie": "textile",
+      "materiau": "soie",
+      "couleur": "crème/rose",
+      "dimensions_estimees": {
+        "hauteur_m": 4.0
+      },
+      "position_dans_piece": "porte-fenêtre gauche",
+      "quantite": 2
+    },
+    {
+      "nom": "console Louis XVI à tiroir et tablette, pieds fuselés",
+      "categorie": "mobilier",
+      "materiau": "acajou/noyer",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "largeur_m": 1.0,
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "mur gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "photophore/bougie sous verre",
+      "categorie": "objet",
+      "materiau": "verre",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.25
+      },
+      "position_dans_piece": "console gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "miroir doré (bord gauche)",
+      "categorie": "objet",
+      "materiau": "bois doré",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "hauteur_m": 1.5
+      },
+      "position_dans_piece": "mur gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "tableau paysage urbain/coucher de soleil à cadre doré",
+      "categorie": "tableau",
+      "materiau": "huile",
+      "couleur": "ocre/bleu",
+      "dimensions_estimees": {
+        "largeur_m": 0.6,
+        "hauteur_m": 0.75
+      },
+      "position_dans_piece": "pan coupé arrondi",
+      "quantite": 1
+    },
+    {
+      "nom": "lampe à pied abat-jour crème sur guéridon",
+      "categorie": "luminaire",
+      "materiau": "céramique",
+      "couleur": "crème",
+      "dimensions_estimees": {
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "devant le pan coupé",
+      "quantite": 1
+    },
+    {
+      "nom": "table rectangulaire acajou à pieds tournés (bureau/table à jeu)",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun rouge",
+      "dimensions_estimees": {
+        "largeur_m": 1.6,
+        "profondeur_m": 0.9,
+        "hauteur_m": 0.76
+      },
+      "position_dans_piece": "droite, devant le pan coupé",
+      "quantite": 1
+    },
+    {
+      "nom": "chaise à dossier ajouré en acajou, assise velours rouge",
+      "categorie": "mobilier",
+      "materiau": "acajou, velours",
+      "couleur": "brun/rouge",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "autour de la table",
+      "quantite": 4
+    },
+    {
+      "nom": "panneau « sortie » (reflet)",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "vert",
+      "dimensions_estimees": {},
+      "position_dans_piece": "au-dessus d'une porte (reflet dans le trumeau)",
+      "quantite": 1
+    },
+    {
+      "nom": "dessus-de-porte à trophées/guirlandes en stuc",
+      "categorie": "moulure",
+      "materiau": "stuc",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "largeur_m": 1.5,
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "au-dessus des 2 portes",
+      "quantite": 2
+    },
+    {
+      "nom": "soubassement lambrissé à filets dorés",
+      "categorie": "moulure",
+      "materiau": "bois",
+      "couleur": "crème/or",
+      "dimensions_estimees": {
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "pourtour",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Pan coupé arrondi : pièce d'angle du château (angle d'une façade)",
+    "Par la porte gauche ouverte on voit une porte vitrée à ferronnerie (semblable à la porte d'entrée P20) : pièce peut-être voisine du vestibule ou d'une entrée latérale",
+    "Table et chaises rouges : correspond probablement à la pièce vue au fond du billard (P31-P33 : table, porte-fenêtre à voilages) → salon vert à l'angle sud-est ?"
+  ],
+  "incertitudes": [
+    "Position dans le plan : angle sud-est (après le billard) ou angle ouest ?",
+    "Image web : décor éventuellement modifié depuis"
+  ]
+}

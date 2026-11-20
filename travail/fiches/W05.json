@@ -1,0 +1,167 @@
+{
+  "id": "W05",
+  "zone": "ext-jardin",
+  "niveau": "ext",
+  "piece": "façade sud et parc (aérien face jardin)",
+  "orientation_vue": "Vue aérienne basse depuis le sud au-dessus du bassin, axe du château, vers le nord",
+  "murs_visibles": [
+    "façade sud entière"
+  ],
+  "ouvertures": [
+    {
+      "type": "baie",
+      "mur": "avant-corps sud RDC",
+      "donne_sur": "salon central",
+      "dimensions_estimees": "portique"
+    },
+    {
+      "type": "fenetre",
+      "mur": "façade sud",
+      "donne_sur": "pièces sud",
+      "dimensions_estimees": "9 travées RDC/étage, 7 attique"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "pelouse, cour sablée",
+  "plafond": "ciel",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "parasols carrés écrus",
+      "categorie": "objet",
+      "materiau": "toile + bois",
+      "couleur": "blanc écru",
+      "dimensions_estimees": "≈3 × 3 m",
+      "position_dans_piece": "terrasse sud (2) et balcon de l'avant-corps (1), plus un 4e",
+      "quantite": 4
+    },
+    {
+      "nom": "tables et chaises de terrasse",
+      "categorie": "mobilier",
+      "materiau": "métal/teck",
+      "couleur": "noir/bois",
+      "dimensions_estimees": "",
+      "position_dans_piece": "terrasse sud sous les parasols",
+      "quantite": 4
+    },
+    {
+      "nom": "perron sud ≈9 marches",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "blanc",
+      "dimensions_estimees": "larg. ≈12 m",
+      "position_dans_piece": "axe",
+      "quantite": 1
+    },
+    {
+      "nom": "massifs en boule (laurier / pittosporum)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "Ø≈2,5 m",
+      "position_dans_piece": "de part et d'autre du perron",
+      "quantite": 2
+    },
+    {
+      "nom": "if conique de grande taille",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert sombre",
+      "dimensions_estimees": "h≈12 m, Ø≈7 m",
+      "position_dans_piece": "pelouse, à gauche (ouest) de l'axe, près de la cour",
+      "quantite": 1
+    },
+    {
+      "nom": "bassin haricot (extrémité)",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "premier plan bas",
+      "quantite": 1
+    },
+    {
+      "nom": "mât de drapeau (drapeau bleu et blanc type finlandais + 2e drapeau)",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "blanc",
+      "dimensions_estimees": "h≈8 m",
+      "position_dans_piece": "premier plan droit, près du bassin",
+      "quantite": 2
+    },
+    {
+      "nom": "graminées (pennisetum / miscanthus)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert clair",
+      "dimensions_estimees": "Ø≈1,5 m",
+      "position_dans_piece": "pied du mât",
+      "quantite": 1
+    },
+    {
+      "nom": "massif bordé de pierres blanches",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pied du mât",
+      "quantite": 1
+    },
+    {
+      "nom": "buis taillés en boule et en cylindre",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert foncé",
+      "dimensions_estimees": "",
+      "position_dans_piece": "bord droit de la cour sablée",
+      "quantite": 4
+    },
+    {
+      "nom": "feuillus arrondis (micocouliers, chênes verts)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "bords est et ouest",
+      "quantite": 4
+    },
+    {
+      "nom": "palmiers",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "derrière le château, ouest",
+      "quantite": 2
+    },
+    {
+      "nom": "verrière + souches de cheminée",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "toiture",
+      "quantite": 7
+    },
+    {
+      "nom": "plaque de regard au sol",
+      "categorie": "objet",
+      "materiau": "fonte",
+      "couleur": "rouille",
+      "dimensions_estimees": "≈0,6 × 0,6 m",
+      "position_dans_piece": "pelouse, entre bassin et cour",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Axe nord-sud du parc : bassin → pelouse → cour → perron sud",
+    "Cohérent avec W01, W16"
+  ],
+  "incertitudes": [
+    "Drapeaux variables selon la date"
+  ]
+}

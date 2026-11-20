@@ -1,0 +1,84 @@
+# Copier en wrangler.toml (non versionné) et renseigner les valeurs du compte Cloudflare.
+name = "paintball-saint-victor"
+main = "build/index.js"
+compatibility_date = "2026-11-01"
+# Adresse publique : <nom>.marseille-tech.workers.dev ; pas d'URL de prévisualisation.
+workers_dev = true
+preview_urls = false
+
+[build]
+command = "worker-build --release"
+
+[vars]
+ADMIN_EMAIL = "admin@exemple.fr"
+# Origine publique du Worker (redirection OAuth, contrôle Origin). En local, .dev.vars la remplace.
+ORIGINE = "https://paintball-saint-victor.marseille-tech.workers.dev"
+# Identifiant du client OAuth Google (public). Le secret passe par `wrangler secret put GOOGLE_CLIENT_SECRET`.
+GOOGLE_CLIENT_ID = "<id client OAuth Google>"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "paintball"
+database_id = "<id de la base D1>"
+migrations_dir = "migrations"
+
+# Build WebGL préparé par `npm run preparer-jeu` (morceaux de 20 Mio, recollés par le Worker).
+[assets]
+directory = "./jeu"
+binding = "ASSETS"
+run_worker_first = true
+
+[durable_objects]
+bindings = [{ name = "SALLE", class_name = "Salle" }]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Salle"]
+
+# Limitation de débit par adresse IP (ou par compte pour les tickets).
+[[ratelimits]]
+name = "LIMITE_AUTH"
+namespace_id = "<id>"
+simple = { limit = 20, period = 60 }
+
+[[ratelimits]]
+name = "LIMITE_API"
+namespace_id = "<id>"
+simple = { limit = 60, period = 60 }
+
+[observability]
+enabled = true
+
+# Environnement de mesure (worker et base séparés) : `wrangler deploy --env mesure`.
+# Connexion des bots par /auth/dev avec l'en-tête X-Cle-Mesure (`wrangler secret put CLE_MESURE --env mesure`).
+[env.mesure]
+name = "paintball-saint-victor-mesure"
+
+[env.mesure.vars]
+ADMIN_EMAIL = "admin@charge.test"
+ORIGINE = "https://paintball-saint-victor-mesure.example.workers.dev"
+GOOGLE_CLIENT_ID = "<id client OAuth Google>"
+
+[[env.mesure.d1_databases]]
+binding = "DB"
+database_name = "paintball-mesure"
+database_id = "<id de la base D1>"
+migrations_dir = "migrations"
+
+[env.mesure.assets]
+directory = "./jeu"
+binding = "ASSETS"
+run_worker_first = true
+
+[env.mesure.durable_objects]
+bindings = [{ name = "SALLE", class_name = "Salle" }]
+
+[[env.mesure.ratelimits]]
+name = "LIMITE_AUTH"
+namespace_id = "<id>"
+simple = { limit = 20, period = 60 }
+
+[[env.mesure.ratelimits]]
+name = "LIMITE_API"
+namespace_id = "<id>"
+simple = { limit = 600, period = 60 }

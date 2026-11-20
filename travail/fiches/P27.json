@@ -1,0 +1,268 @@
+{
+  "id": "P27",
+  "zone": "int-salon-bow-window",
+  "niveau": "rdc",
+  "piece": "salon bow-window (grand salon côté jardin, avant-corps central sud)",
+  "orientation_vue": "vers le sud (la baie), depuis la porte nord-ouest (seuil depuis le petit salon)",
+  "murs_visibles": [
+    "baie sud à pans coupés (3 travées)",
+    "mur ouest (porte vert d'eau)"
+  ],
+  "ouvertures": [
+    {
+      "type": "baie",
+      "mur": "sud-ouest (pan coupé)",
+      "donne_sur": "terrasse jardin",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.6,
+        "note": "porte-fenêtre à 2 vantaux, imposte, volets intérieurs repliés"
+      }
+    },
+    {
+      "type": "fenetre",
+      "mur": "sud (centre de la baie)",
+      "donne_sur": "jardin (pins parasols, cyprès)",
+      "dimensions_estimees": {
+        "largeur_m": 1.5,
+        "hauteur_m": 2.6,
+        "allege_m": 0.9
+      }
+    },
+    {
+      "type": "baie",
+      "mur": "sud-est (pan coupé)",
+      "donne_sur": "terrasse jardin",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.6
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "ouest",
+      "donne_sur": "pièce ouest (ou passage ouest) : porte double vert d'eau à filets dorés",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.0
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": 8.0,
+    "profondeur_m": 7.5
+  },
+  "sol": "parquet de chêne à bâtons rompus (point de Hongrie ? non : bâtons rompus à 90°), ciré, teinte miel",
+  "plafond": "plafond blanc à grand caisson central à angles coupés (octogonal côté baie), double corniche à rais-de-cœur et frise d'acanthes, grande rosace rocaille",
+  "murs_revetement": "papier peint/tenture damassée gris perle très clair, soubassement à panneaux moulurés gris-bleu, plinthe gris-bleu",
+  "elements": [
+    {
+      "nom": "lustre bronze doré à 12 bras, fût balustre",
+      "categorie": "luminaire",
+      "materiau": "bronze doré",
+      "couleur": "doré",
+      "dimensions_estimees": {
+        "diametre_m": 0.9,
+        "hauteur_m": 1.2
+      },
+      "position_dans_piece": "centre du salon",
+      "quantite": 1
+    },
+    {
+      "nom": "rosace rocaille",
+      "categorie": "moulure",
+      "materiau": "plâtre",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "diametre_m": 1.2
+      },
+      "position_dans_piece": "plafond central",
+      "quantite": 1
+    },
+    {
+      "nom": "bergère Louis XVI capitonnée velours gris argent, bois laqué gris",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, velours",
+      "couleur": "gris argent",
+      "dimensions_estimees": {
+        "largeur_m": 0.7,
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "groupe central face à la baie",
+      "quantite": 4
+    },
+    {
+      "nom": "table basse verre et métal à double plateau (gigogne)",
+      "categorie": "mobilier",
+      "materiau": "verre, métal noir",
+      "couleur": "noir/transparent",
+      "dimensions_estimees": {
+        "largeur_m": 0.8,
+        "hauteur_m": 0.45
+      },
+      "position_dans_piece": "centre du groupe de bergères",
+      "quantite": 1
+    },
+    {
+      "nom": "plateau de fruits secs/pot-pourri rouge",
+      "categorie": "objet",
+      "materiau": "bois, végétal",
+      "couleur": "rouge",
+      "dimensions_estimees": {
+        "largeur_m": 0.5
+      },
+      "position_dans_piece": "sur la table basse",
+      "quantite": 1
+    },
+    {
+      "nom": "radiateur à colonnes avec cache",
+      "categorie": "objet",
+      "materiau": "fonte",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "sous la fenêtre centrale de la baie",
+      "quantite": 1
+    },
+    {
+      "nom": "maquette de voilier trois-mâts",
+      "categorie": "objet",
+      "materiau": "bois",
+      "couleur": "brun/blanc",
+      "dimensions_estimees": {
+        "longueur_m": 0.6,
+        "hauteur_m": 0.5
+      },
+      "position_dans_piece": "sur le radiateur, fenêtre centrale",
+      "quantite": 1
+    },
+    {
+      "nom": "lampe en céramique blanche à abat-jour crème",
+      "categorie": "luminaire",
+      "materiau": "céramique",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.6
+      },
+      "position_dans_piece": "sur le radiateur, de part et d'autre de la maquette",
+      "quantite": 2
+    },
+    {
+      "nom": "sabre accroché",
+      "categorie": "objet",
+      "materiau": "acier",
+      "couleur": "argent",
+      "dimensions_estimees": {
+        "longueur_m": 0.9
+      },
+      "position_dans_piece": "trumeaux de part et d'autre de la fenêtre centrale",
+      "quantite": 2
+    },
+    {
+      "nom": "store bateau en soie jaune",
+      "categorie": "textile",
+      "materiau": "soie",
+      "couleur": "jaune or",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 0.5
+      },
+      "position_dans_piece": "fenêtre centrale",
+      "quantite": 1
+    },
+    {
+      "nom": "rideaux soie rayée/moirée or et gris, retenus par embrasses, cantonnières bouffantes jaune",
+      "categorie": "textile",
+      "materiau": "soie",
+      "couleur": "or/gris",
+      "dimensions_estimees": {
+        "hauteur_m": 3.8
+      },
+      "position_dans_piece": "portes-fenêtres de la baie",
+      "quantite": 4
+    },
+    {
+      "nom": "tringle laiton",
+      "categorie": "objet",
+      "materiau": "laiton",
+      "couleur": "doré",
+      "dimensions_estimees": {
+        "largeur_m": 1.8
+      },
+      "position_dans_piece": "au-dessus des portes-fenêtres",
+      "quantite": 2
+    },
+    {
+      "nom": "lampadaire bouillotte à 2 bras, abat-jour crème, pied tripode laiton",
+      "categorie": "luminaire",
+      "materiau": "laiton",
+      "couleur": "doré/crème",
+      "dimensions_estimees": {
+        "hauteur_m": 1.7
+      },
+      "position_dans_piece": "près de la porte nord-ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "plinthe gris-bleu",
+      "categorie": "moulure",
+      "materiau": "bois peint",
+      "couleur": "gris-bleu",
+      "dimensions_estimees": {
+        "hauteur_m": 0.2
+      },
+      "position_dans_piece": "pourtour",
+      "quantite": 1
+    },
+    {
+      "nom": "palmier d'intérieur (kentia) en pot",
+      "categorie": "vegetation",
+      "materiau": "plante",
+      "couleur": "vert",
+      "dimensions_estimees": {
+        "hauteur_m": 1.8
+      },
+      "position_dans_piece": "premier plan gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "cadre/tableau étroit",
+      "categorie": "tableau",
+      "materiau": "toile",
+      "couleur": "sombre",
+      "dimensions_estimees": {
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "trumeau à droite de la baie sud-est",
+      "quantite": 1
+    },
+    {
+      "nom": "prise électrique murale",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": {},
+      "position_dans_piece": "plinthe près du lampadaire",
+      "quantite": 1
+    },
+    {
+      "nom": "chambranle de porte mouluré gris-bleu",
+      "categorie": "moulure",
+      "materiau": "bois peint",
+      "couleur": "gris-bleu",
+      "dimensions_estimees": {},
+      "position_dans_piece": "premier plan droite",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Baie à 3 pans = bow-window de l'avant-corps central de la façade jardin (W01)",
+    "Vue prise depuis la porte sud-ouest du petit salon (P25)"
+  ],
+  "incertitudes": [
+    "Pans coupés à 45° ou baie en arc ? (plafond à angles coupés → pans coupés)"
+  ]
+}

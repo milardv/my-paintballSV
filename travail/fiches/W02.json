@@ -1,0 +1,181 @@
+{
+  "id": "W02",
+  "zone": "ext-facade-est",
+  "niveau": "ext",
+  "piece": "angle sud-est et façade est, terrasse",
+  "orientation_vue": "Vue 3/4 depuis le sud-est au niveau du sol, vers le nord-ouest ; façade est de face à droite, pavillon d'angle sud-est à gauche",
+  "murs_visibles": [
+    "façade est (≈3-4 travées)",
+    "retour de la façade sud (pavillon SE)"
+  ],
+  "ouvertures": [
+    {
+      "type": "fenetre",
+      "mur": "façade est RDC",
+      "donne_sur": "pièces RDC côté est",
+      "dimensions_estimees": "portes-fenêtres sur terrasse"
+    },
+    {
+      "type": "fenetre",
+      "mur": "façade est étage",
+      "donne_sur": "pièces étage est",
+      "dimensions_estimees": "fenêtres à volets persiennés, frontons cintrés"
+    },
+    {
+      "type": "arcade",
+      "mur": "pavillon SE, étage côté est",
+      "donne_sur": "loggia / terrasse du pavillon",
+      "dimensions_estimees": "2-3 arcades avec statue"
+    },
+    {
+      "type": "porte",
+      "mur": "façade est RDC, extrémité nord",
+      "donne_sur": "intérieur (ouverte, personnes à côté)",
+      "dimensions_estimees": "porte-fenêtre"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "allée sablée / gravier, massif planté",
+  "plafond": "ciel",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "olivier (Olea europaea) au tronc tortueux",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert argenté",
+      "dimensions_estimees": "h≈5 m, Ø couronne ≈5 m",
+      "position_dans_piece": "massif au pied de la terrasse est, devant la façade est",
+      "quantite": 1
+    },
+    {
+      "nom": "massif bas (lavandes, romarins) autour de l'olivier, bordure de pierres",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pied de terrasse est",
+      "quantite": 1
+    },
+    {
+      "nom": "terrasse est surélevée à balustrade (prolongement de la terrasse sud)",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "h≈1,2 m",
+      "position_dans_piece": "le long de la façade est",
+      "quantite": 1
+    },
+    {
+      "nom": "escalier latéral descendant de la terrasse vers le jardin (≈8 marches)",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "blanc",
+      "dimensions_estimees": "larg. ≈3 m",
+      "position_dans_piece": "extrémité sud de la terrasse, côté jardin",
+      "quantite": 1
+    },
+    {
+      "nom": "laurier-rose / pittosporum en boule",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert foncé, fleurs roses",
+      "dimensions_estimees": "Ø≈3 m",
+      "position_dans_piece": "angle SE, devant le pavillon",
+      "quantite": 1
+    },
+    {
+      "nom": "loggia à arcades avec balustrade et statue blanche",
+      "categorie": "architecture",
+      "materiau": "pierre / marbre",
+      "couleur": "blanc",
+      "dimensions_estimees": "statue h≈1,5 m",
+      "position_dans_piece": "étage du pavillon SE, face est",
+      "quantite": 1
+    },
+    {
+      "nom": "souche de cheminée haute",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "toiture, côté est",
+      "quantite": 2
+    },
+    {
+      "nom": "mât / antenne",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "gris",
+      "dimensions_estimees": "h≈5 m",
+      "position_dans_piece": "faîte central",
+      "quantite": 1
+    },
+    {
+      "nom": "balustrade de couronnement + modillons",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "attique",
+      "quantite": 1
+    },
+    {
+      "nom": "persiennes",
+      "categorie": "architecture",
+      "materiau": "bois",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "fenêtres façade est",
+      "quantite": 1
+    },
+    {
+      "nom": "voitures garées",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "grise, noire",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pied de la façade est, côté nord",
+      "quantite": 2
+    },
+    {
+      "nom": "palmiers (Phoenix / Washingtonia)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "à gauche, au sud-est dans le jardin",
+      "quantite": 2
+    },
+    {
+      "nom": "pins",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "h≈15 m",
+      "position_dans_piece": "derrière la façade est (nord-est)",
+      "quantite": 1
+    },
+    {
+      "nom": "borne / petit élément sombre",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "noir",
+      "dimensions_estimees": "",
+      "position_dans_piece": "massif au pied de la terrasse",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Même façade que W17 (façade est)",
+    "Parking le long de l'est = cohérent avec W12 (voitures à droite) et P39"
+  ],
+  "incertitudes": [
+    "La loggia à statue est-elle bien sur le pavillon SE ou sur le corps principal ?",
+    "Orientation cardinale supposée (D-003)"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "P13",
+ "zone": "int-palier-etage",
+ "niveau": "etage",
+ "piece": "Dégagement de l'étage (couloir partant du palier, côté ouest supposé)",
+ "orientation_vue": "vers une porte ouverte sur une chambre (fenêtre, rideau, radiateur), balustrade de la cage à gauche",
+ "murs_visibles": [
+  "mur gauche (balustrade sur cage)",
+  "mur du fond (porte ouverte)",
+  "mur droit (placards)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "fond",
+   "donne_sur": "pièce avec porte-fenêtre, rideau, radiateur, parquet, petit meuble",
+   "dimensions_estimees": "porte double L 1.3 x H 2.8 m"
+  },
+  {
+   "type": "arcade",
+   "mur": "gauche",
+   "donne_sur": "cage d'escalier (tapisserie visible)",
+   "dimensions_estimees": "arcade avec balustrade"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 2.0,
+  "profondeur_m": 5.0
+ },
+ "sol": "marbre blanc en losanges à cabochons rouges, bandes d'encadrement en marbre rouge (même dallage que le palier)",
+ "plafond": "voûte en berceau (arc surbaissé) blanche, arc doubleau mouluré à l'entrée",
+ "murs_revetement": "murs blancs à panneaux moulurés filets gris-vert, cimaise et plinthe gris-vert",
+ "elements": [
+  {
+   "nom": "balustrade à balustres",
+   "categorie": "architecture",
+   "materiau": "pierre/plâtre",
+   "couleur": "blanc",
+   "dimensions_estimees": "H 0.9 m",
+   "position_dans_piece": "gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "meuble à dessus de marbre gris avec linge (t-shirt turquoise, papiers)",
+   "categorie": "mobilier",
+   "materiau": "bois, marbre",
+   "couleur": "gris",
+   "dimensions_estimees": "0.8 x 0.4 m",
+   "position_dans_piece": "premier plan gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "portes de placard à panneaux moulurés",
+   "categorie": "architecture",
+   "materiau": "bois laqué",
+   "couleur": "blanc/gris-vert",
+   "dimensions_estimees": "1.3 x 2.8 m",
+   "position_dans_piece": "mur droit",
+   "quantite": 2
+  },
+  {
+   "nom": "radiateur et rideau de la pièce voisine",
+   "categorie": "objet",
+   "materiau": "",
+   "couleur": "beige",
+   "dimensions_estimees": "",
+   "position_dans_piece": "pièce voisine",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "La pièce au fond (porte-fenêtre, rideau beige sur tringle, radiateur, petit chevet) peut être la chambre-3 (P55 : radiateur sous fenêtre, rideaux crème)"
+ ],
+ "incertitudes": [
+  "Relation P12/P13 : même pièce vue sous deux angles ou deux portes différentes"
+ ]
+}

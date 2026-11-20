@@ -1,0 +1,181 @@
+{
+ "id": "P46",
+ "zone": "int-salle-a-manger",
+ "niveau": "etage",
+ "piece": "salle à manger",
+ "orientation_vue": "vers le mur du buffet (opposé aux fenêtres) et l'angle de la porte double",
+ "murs_visibles": [
+  "mur du buffet",
+  "petit côté à porte double"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "mur du buffet, côté cheminée (premier plan gauche)",
+   "donne_sur": "porte d'entrée de la pièce, double blanche ouverte",
+   "dimensions_estimees": {
+    "largeur_m": 1.3,
+    "hauteur_m": 3.0
+   }
+  },
+  {
+   "type": "porte",
+   "mur": "mur du buffet, extrémité opposée",
+   "donne_sur": "placard en boiserie (porte double fermée, à panneaux chantournés)",
+   "dimensions_estimees": {
+    "largeur_m": 1.1,
+    "hauteur_m": 3.0
+   }
+  },
+  {
+   "type": "porte",
+   "mur": "petit côté",
+   "donne_sur": "pièce voisine (porte double ouverte, dessus-de-porte cintré)",
+   "dimensions_estimees": {
+    "largeur_m": 1.4,
+    "hauteur_m": 3.0
+   }
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.6,
+  "largeur_m": 6.0,
+  "profondeur_m": 8.0
+ },
+ "sol": "parquet de chêne à bâtons rompus, ciré",
+ "plafond": "plafond blanc à décor de stuc rocaille Louis XV (coquilles, rinceaux, agrafes) en bordure et aux angles, corniche moulurée",
+ "murs_revetement": "boiseries rocaille Louis XV : grands panneaux à cadres chantournés vert céladon/vert amande, fonds peints jaune paille/abricot, pilastres étroits jaunes, agrafes et coquilles en relief ; dessus-de-porte cintrés à rocailles",
+ "elements": [
+  {
+   "nom": "buffet bas provençal 4 portes",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun miel",
+   "dimensions_estimees": {
+    "largeur_m": 2.2,
+    "hauteur_m": 1.0
+   },
+   "position_dans_piece": "mur du buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe à pied en céramique corail/terre cuite, abat-jour rose saumon",
+   "categorie": "luminaire",
+   "materiau": "céramique",
+   "couleur": "corail/rose",
+   "dimensions_estimees": {
+    "hauteur_m": 0.65
+   },
+   "position_dans_piece": "extrémité gauche du buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "dessous-de-plat tressé",
+   "categorie": "objet",
+   "materiau": "fibre",
+   "couleur": "naturel",
+   "dimensions_estimees": {
+    "diametre_m": 0.35
+   },
+   "position_dans_piece": "buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "photophore verre et bougeoir",
+   "categorie": "objet",
+   "materiau": "verre",
+   "couleur": "transparent",
+   "dimensions_estimees": {
+    "hauteur_m": 0.2
+   },
+   "position_dans_piece": "buffet",
+   "quantite": 2
+  },
+  {
+   "nom": "service à thé argent",
+   "categorie": "objet",
+   "materiau": "argent",
+   "couleur": "argent",
+   "dimensions_estimees": {},
+   "position_dans_piece": "buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe bronze à abat-jour plissé blanc",
+   "categorie": "luminaire",
+   "materiau": "bronze",
+   "couleur": "noir/blanc",
+   "dimensions_estimees": {
+    "hauteur_m": 0.6
+   },
+   "position_dans_piece": "extrémité droite du buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau : fontaine sur une place ombragée",
+   "categorie": "tableau",
+   "materiau": "huile, cadre doré sculpté",
+   "couleur": "vert/ocre",
+   "dimensions_estimees": {
+    "largeur_m": 0.75,
+    "hauteur_m": 0.95
+   },
+   "position_dans_piece": "au-dessus du buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "desserte-bar et bouteilles",
+   "categorie": "mobilier",
+   "materiau": "acajou, verre",
+   "couleur": "brun",
+   "dimensions_estimees": {
+    "diametre_m": 0.5
+   },
+   "position_dans_piece": "angle, devant le placard",
+   "quantite": 1
+  },
+  {
+   "nom": "chaises cannées et chaise grise avec veste",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun/gris",
+   "dimensions_estimees": {},
+   "position_dans_piece": "premier plan droite",
+   "quantite": 3
+  },
+  {
+   "nom": "prise électrique",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": {},
+   "position_dans_piece": "soubassement, près de la porte",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau (pièce voisine)",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "sombre",
+   "dimensions_estimees": {},
+   "position_dans_piece": "visible par la porte",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe de la pièce voisine",
+   "categorie": "luminaire",
+   "materiau": "céramique",
+   "couleur": "blanc",
+   "dimensions_estimees": {},
+   "position_dans_piece": "pièce voisine",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Porte d'entrée de la salle à manger dans l'angle mur du buffet / mur de la cheminée",
+  "Porte double du petit côté vers une pièce voisine"
+ ],
+ "incertitudes": [
+  "Niveau corrigé en 'etage' en P3 (D-012 : salle à manger d'étage, P42→P43 = 28 s)"
+ ]
+}

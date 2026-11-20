@@ -1,0 +1,40 @@
+{
+  "plateforme": "Linux x86_64",
+  "interface": "3D plein écran, sans photos ni réservation",
+  "resolutions": [
+    {
+      "taille": [
+        1920,
+        1080
+      ],
+      "controles": 10,
+      "reussi": true,
+      "preuves": "rendus/interface-immersive-1920"
+    },
+    {
+      "taille": [
+        1280,
+        720
+      ],
+      "controles": 10,
+      "reussi": true,
+      "preuves": "rendus/interface-immersive-1280"
+    },
+    {
+      "taille": [
+        2560,
+        1080
+      ],
+      "controles": 10,
+      "reussi": true,
+      "preuves": "rendus/interface-immersive-large"
+    }
+  ],
+  "peripheriques": "Événements uGUI clavier/pointeur simulés ; aucune manette physique testée.",
+  "parcours": true,
+  "revue_visuelle": {
+    "disposition": "ship",
+    "perimetre": "Corrections de contraste des commandes, sortie, reprise et aide ; navigation clavier explicite.",
+    "constat": "Toutes les corrections examinées sont résolues aux trois résolutions."
+  }
+}

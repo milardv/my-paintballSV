@@ -1,0 +1,13 @@
+{
+  "name": "paintball-serveur",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "charge": "node outils/charge.mjs",
+    "preparer-jeu": "node outils/preparer-jeu.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

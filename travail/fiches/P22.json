@@ -1,0 +1,213 @@
+{
+  "id": "P22",
+  "zone": "int-couloir-rdc",
+  "niveau": "rdc",
+  "piece": "vestibule (mur ouest) → couloir ouest en enfilade",
+  "orientation_vue": "vers l'ouest, depuis le vestibule, à travers la porte double ouverte",
+  "murs_visibles": [
+    "ouest du vestibule",
+    "couloir ouest : mur sud (portes), mur nord (fenêtres)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "ouest du vestibule",
+      "donne_sur": "couloir ouest",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.3,
+        "note": "porte double à panneaux, chambranle mouluré, dessus-de-porte à panneau"
+      }
+    },
+    {
+      "type": "fenetre",
+      "mur": "nord du couloir",
+      "donne_sur": "façade nord (balconnets fer forgé)",
+      "dimensions_estimees": {
+        "largeur_m": 1.1,
+        "hauteur_m": 3.0,
+        "note": "au moins 2 portes-fenêtres"
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "fond (ouest) du couloir",
+      "donne_sur": "pièce ouest (bureau/salon ? mobilier sombre, porte-fenêtre au fond)",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 2.8
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "sud du couloir",
+      "donne_sur": "pièces ouest du RDC (salle à manger ?)",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 3.0
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 4.5,
+    "largeur_m": 2.2,
+    "profondeur_m": 9.0
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre ; dans le couloir, bandes rouges longitudinales le long des murs",
+  "plafond": "couloir : plafond blanc, panneaux moulurés ; vestibule : corniche",
+  "murs_revetement": "papier peint damassé grand motif floral, fond taupe/gris-beige, motif blanc cassé ; soubassement à panneaux moulurés blanc filets vert céladon (~1 m) ; dans le couloir, damas + panneaux muraux à filets",
+  "elements": [
+    {
+      "nom": "fusil ancien à silex (décor) accroché en biais",
+      "categorie": "objet",
+      "materiau": "bois, acier",
+      "couleur": "brun/noir",
+      "dimensions_estimees": {
+        "longueur_m": 1.5
+      },
+      "position_dans_piece": "mur ouest du vestibule, à gauche de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "chevalet en bois avec affiche de concert 2026",
+      "categorie": "objet",
+      "materiau": "pin, papier",
+      "couleur": "naturel/noir",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "à gauche de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "détecteur/alarme (boîtier blanc à voyant rouge)",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.1
+      },
+      "position_dans_piece": "pilastre à gauche, à ~3 m",
+      "quantite": 1
+    },
+    {
+      "nom": "pilastre/colonne engagée",
+      "categorie": "architecture",
+      "materiau": "stuc",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 4.6
+      },
+      "position_dans_piece": "à gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "console demi-lune marbre noir, piètement doré à guirlande et urne",
+      "categorie": "mobilier",
+      "materiau": "marbre, bois doré",
+      "couleur": "noir/or",
+      "dimensions_estimees": {
+        "largeur_m": 1.1,
+        "hauteur_m": 0.85
+      },
+      "position_dans_piece": "à droite de la porte (mur ouest, côté nord)",
+      "quantite": 1
+    },
+    {
+      "nom": "affiche/cadre « Bel Canto »",
+      "categorie": "objet",
+      "materiau": "papier",
+      "couleur": "noir/or",
+      "dimensions_estimees": {
+        "hauteur_m": 0.35
+      },
+      "position_dans_piece": "sur la console",
+      "quantite": 1
+    },
+    {
+      "nom": "lampe bleu nuit à abat-jour crème",
+      "categorie": "luminaire",
+      "materiau": "céramique",
+      "couleur": "bleu/crème",
+      "dimensions_estimees": {
+        "hauteur_m": 0.65
+      },
+      "position_dans_piece": "console",
+      "quantite": 1
+    },
+    {
+      "nom": "miroir doré à fronton sculpté",
+      "categorie": "objet",
+      "materiau": "bois doré",
+      "couleur": "or",
+      "dimensions_estimees": {
+        "largeur_m": 0.6,
+        "hauteur_m": 1.1
+      },
+      "position_dans_piece": "au-dessus de la console",
+      "quantite": 1
+    },
+    {
+      "nom": "lanterne de couloir à cage dorée",
+      "categorie": "luminaire",
+      "materiau": "laiton, verre",
+      "couleur": "doré",
+      "dimensions_estimees": {
+        "hauteur_m": 0.5
+      },
+      "position_dans_piece": "plafond du couloir",
+      "quantite": 1
+    },
+    {
+      "nom": "fauteuil cabriolet Louis XV, tissu imprimé floral",
+      "categorie": "mobilier",
+      "materiau": "bois laqué gris, tissu",
+      "couleur": "gris/bleu",
+      "dimensions_estimees": {
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "le long des murs du couloir",
+      "quantite": 4
+    },
+    {
+      "nom": "radiateur fonte",
+      "categorie": "objet",
+      "materiau": "fonte",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "mur nord du couloir sous fenêtre",
+      "quantite": 1
+    },
+    {
+      "nom": "store/rideau voilage",
+      "categorie": "textile",
+      "materiau": "voile",
+      "couleur": "écru",
+      "dimensions_estimees": {
+        "hauteur_m": 2.8
+      },
+      "position_dans_piece": "fenêtres du couloir",
+      "quantite": 2
+    },
+    {
+      "nom": "table/meuble sombre et fauteuils",
+      "categorie": "mobilier",
+      "materiau": "bois",
+      "couleur": "sombre",
+      "dimensions_estimees": {},
+      "position_dans_piece": "pièce au fond du couloir",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Couloir ouest le long de la façade nord (fenêtres à droite = nord, cf. W08 symétrique et P36)",
+    "Le couloir aboutit à l'ouest à une pièce éclairée par une porte-fenêtre (façade ouest)",
+    "Symétrique du couloir est (P36)"
+  ],
+  "incertitudes": [
+    "Destination des portes du mur sud du couloir ouest",
+    "Nature de la pièce au fond ouest (bureau ? salon vert W07 ?)"
+  ]
+}

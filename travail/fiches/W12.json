@@ -1,0 +1,183 @@
+{
+  "id": "W12",
+  "zone": "ext-emprise",
+  "niveau": "ext",
+  "piece": "emprise (vue zénithale)",
+  "orientation_vue": "Vue zénithale ; dans l'image : façade jardin (sud) à GAUCHE, façade d'entrée (nord) à DROITE, tennis en HAUT (ouest), terrasse latérale en BAS (est). Rotation : le nord est à droite de l'image",
+  "murs_visibles": [
+    "toitures"
+  ],
+  "ouvertures": [],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": 22.0,
+    "profondeur_m": 44.0
+  },
+  "sol": "cours sablées, enrobé, tennis",
+  "plafond": "",
+  "murs_revetement": "",
+  "elements": [
+    {
+      "nom": "emprise principale rectangulaire allongée (≈44 m est-ouest × ≈20 m nord-sud hors saillies ; ratio image ≈ 2:1)",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "centre",
+      "quantite": 1
+    },
+    {
+      "nom": "saillie de l'avant-corps nord (entrée) avec toit pyramidal",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "≈9 m large, ≈3 m de saillie",
+      "position_dans_piece": "côté droit de l'image (nord), milieu",
+      "quantite": 1
+    },
+    {
+      "nom": "avant-corps sud (jardin) à pans coupés + balcon",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "≈7 m large, ≈2,5 m saillie",
+      "position_dans_piece": "côté gauche de l'image (sud), milieu",
+      "quantite": 1
+    },
+    {
+      "nom": "verrière à 4 pans",
+      "categorie": "architecture",
+      "materiau": "verre",
+      "couleur": "gris",
+      "dimensions_estimees": "≈5 × 4 m",
+      "position_dans_piece": "centre exact du toit",
+      "quantite": 1
+    },
+    {
+      "nom": "souches de cheminée en 4 paires symétriques (axe long)",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "blanc",
+      "dimensions_estimees": "≈1,2 × 0,8 m",
+      "position_dans_piece": "2 rangées parallèles aux façades longues, aux ¼, ½-, ½+, ¾ de la longueur",
+      "quantite": 8
+    },
+    {
+      "nom": "toits en pavillon bas des pavillons d'angle",
+      "categorie": "architecture",
+      "materiau": "tuiles canal",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "4 angles (2 en haut, 3 croupes en bas = extrémité est à 3 corps ?)",
+      "quantite": 4
+    },
+    {
+      "nom": "terrasse sud avec 4 parasols, tables, chaises, salons",
+      "categorie": "mobilier",
+      "materiau": "",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "côté gauche (sud) de l'emprise",
+      "quantite": 1
+    },
+    {
+      "nom": "massifs ronds en bacs encadrant le perron sud",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "Ø≈3 m",
+      "position_dans_piece": "gauche, milieu",
+      "quantite": 2
+    },
+    {
+      "nom": "terrasse est avec mobilier (tables, chaises), escalier vers le bas",
+      "categorie": "mobilier",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "bas de l'image (est)",
+      "quantite": 1
+    },
+    {
+      "nom": "escalier/rampe à balustrade descendant de la terrasse est",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "bas-droit",
+      "quantite": 1
+    },
+    {
+      "nom": "court de tennis",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "rouge",
+      "dimensions_estimees": "≈34 × 17 m",
+      "position_dans_piece": "en haut (ouest), en contrebas",
+      "quantite": 1
+    },
+    {
+      "nom": "massifs, palmiers, agave, cactées",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "coin haut-gauche (SO) et autour du tennis",
+      "quantite": 6
+    },
+    {
+      "nom": "palmier nain (chamaerops) isolé",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angle SO de la terrasse",
+      "quantite": 1
+    },
+    {
+      "nom": "cour sablée sud",
+      "categorie": "architecture",
+      "materiau": "sable",
+      "couleur": "beige",
+      "dimensions_estimees": "",
+      "position_dans_piece": "toute la partie gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "parking nord : ≈10 voitures en épi le long du talus",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "droite (nord-est)",
+      "quantite": 10
+    },
+    {
+      "nom": "arbre isolé (pin) devant l'entrée",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "droite, devant l'avant-corps nord",
+      "quantite": 1
+    },
+    {
+      "nom": "massif de rocaille (cactées, agaves) en arc",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "droite-haut (NO), bord de la cour d'entrée",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Référence d'emprise pour P2.emprise ; nord à droite de l'image si D-003",
+    "Verrière centrale au-dessus de l'escalier/hall"
+  ],
+  "incertitudes": [
+    "Échelle : déduite de la largeur de la façade (≈36 m) ; à recaler",
+    "Forme exacte de l'extrémité est (3 croupes en bas de l'image) vs ouest (pavillons)",
+    "Cardinalité réelle non vérifiée"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "P36",
+  "zone": "int-couloir-rdc",
+  "niveau": "rdc",
+  "piece": "couloir est (le long de la façade nord)",
+  "orientation_vue": "vers l'ouest, en direction du vestibule",
+  "murs_visibles": [
+    "sud (porte blanche à pictogramme)",
+    "nord (portes-fenêtres à balconnet)",
+    "ouest (baie vers le vestibule)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "sud",
+      "donne_sur": "local : toilettes/vestiaire (pictogramme bleu sur la porte)",
+      "dimensions_estimees": {
+        "largeur_m": 0.9,
+        "hauteur_m": 2.8
+      }
+    },
+    {
+      "type": "fenetre",
+      "mur": "nord",
+      "donne_sur": "façade nord, balconnet fer forgé ; vue sur l'avant-corps du vestibule (rideau rouge, volets persiennés)",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 3.2,
+        "note": "porte-fenêtre à 2 vantaux, 4 carreaux par vantail, crémone laiton"
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "ouest",
+      "donne_sur": "vestibule (porte double ouverte, chambranle à corniche)",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.3
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 4.5,
+    "largeur_m": 2.4,
+    "profondeur_m": 6.0
+  },
+  "sol": "marbre blanc à dalles en diagonale, cabochons rouges, encadrement rouge formant un tapis de pierre",
+  "plafond": "plafond blanc à panneau mouluré rectangulaire, corniche",
+  "murs_revetement": "papier peint damassé grand motif floral, fond taupe/gris-beige, motif blanc cassé ; soubassement à panneaux moulurés blanc filets vert céladon (~1 m) ; soubassement à panneaux, filets céladon",
+  "elements": [
+    {
+      "nom": "panneau lumineux « sortie » (flèche droite)",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "vert/blanc",
+      "dimensions_estimees": {
+        "largeur_m": 0.35
+      },
+      "position_dans_piece": "au-dessus de la baie vers le vestibule",
+      "quantite": 1
+    },
+    {
+      "nom": "pictogramme/plaque bleue sur porte",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "bleu",
+      "dimensions_estimees": {
+        "largeur_m": 0.15,
+        "hauteur_m": 0.2
+      },
+      "position_dans_piece": "porte sud",
+      "quantite": 1
+    },
+    {
+      "nom": "garde-corps fer forgé à volutes (balconnet)",
+      "categorie": "ferronnerie",
+      "materiau": "fer forgé",
+      "couleur": "noir",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "devant les portes-fenêtres nord",
+      "quantite": 2
+    },
+    {
+      "nom": "chambranle à corniche (dessus-de-porte à ressauts)",
+      "categorie": "moulure",
+      "materiau": "bois peint",
+      "couleur": "blanc/céladon",
+      "dimensions_estimees": {
+        "largeur_m": 2.0
+      },
+      "position_dans_piece": "baie ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "panneaux de soubassement moulurés",
+      "categorie": "moulure",
+      "materiau": "bois",
+      "couleur": "blanc/céladon",
+      "dimensions_estimees": {
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "pourtour",
+      "quantite": 6
+    },
+    {
+      "nom": "plinthe",
+      "categorie": "moulure",
+      "materiau": "bois",
+      "couleur": "céladon",
+      "dimensions_estimees": {
+        "hauteur_m": 0.15
+      },
+      "position_dans_piece": "pourtour",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Couloir est symétrique du couloir ouest (P22), longeant la façade nord ; la fenêtre montre l'avant-corps du vestibule",
+    "Prise après le billard : le couloir est relie vestibule et billard / pièces est",
+    "Vu depuis l'est : au fond, le vestibule (tapis rouge, table, miroir doré, rideau rouge) puis la porte du couloir ouest en enfilade"
+  ],
+  "incertitudes": [
+    "Le couloir est mène-t-il directement au billard ou à une pièce intermédiaire (salle à manger) ?"
+  ]
+}

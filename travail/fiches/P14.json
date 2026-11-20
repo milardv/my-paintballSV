@@ -1,0 +1,92 @@
+{
+ "id": "P14",
+ "zone": "int-escalier",
+ "niveau": "etage",
+ "piece": "Escalier d'honneur impérial (volée centrale RDC -> repos, puis deux volées latérales repos -> étage)",
+ "orientation_vue": "depuis la tête de la volée ouest, regard plongeant vers le repos et la tapisserie (sud)",
+ "murs_visibles": [
+  "mur sud (tapisserie)",
+  "volée latérale",
+  "trémie"
+ ],
+ "ouvertures": [],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 11.0,
+  "largeur_m": 9.0,
+  "profondeur_m": 9.0
+ },
+ "sol": "marches en marbre blanc veiné, tapis d'escalier rouge (larg. ~0.9 m) ; repos en dallage marbre blanc en losanges à cabochons rouges et encadrement marbre rouge",
+ "plafond": "coupole en voûte en arc de cloître sur plan carré : caissons trapézoïdaux et triangulaires soulignés de filets gris-vert, puits de lumière vitré rectangulaire au sommet, 4 oculi en demi-lune (un par face) à la base de la voûte, corniche à denticules et frise d'oves",
+ "murs_revetement": "murs blancs à panneaux moulurés gris-vert, soubassement à table saillante suivant la pente, arcades à l'étage",
+ "elements": [
+  {
+   "nom": "grande tapisserie d'Aubusson (scène champêtre : villageois dansant sous des arbres, chaumière)",
+   "categorie": "tableau",
+   "materiau": "laine tissée, cadre bois sculpté de feuilles d'acanthe torsadées doré/brun",
+   "couleur": "bleu-vert, beige, brun",
+   "dimensions_estimees": "L 3.2 x H 2.0 m",
+   "position_dans_piece": "mur du fond de la cage (sud supposé), au-dessus du repos",
+   "quantite": 1
+  },
+  {
+   "nom": "marches en marbre blanc (giron ~0.35, hauteur ~0.16 m)",
+   "categorie": "architecture",
+   "materiau": "marbre",
+   "couleur": "blanc",
+   "dimensions_estimees": "larg. volée centrale ~2.0 m, volées latérales ~1.5 m",
+   "position_dans_piece": "escalier",
+   "quantite": 1
+  },
+  {
+   "nom": "tapis d'escalier rouge (moquette) avec tringles",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge vermillon",
+   "dimensions_estimees": "larg. 0.9 m",
+   "position_dans_piece": "axe des volées",
+   "quantite": 1
+  },
+  {
+   "nom": "rampe d'escalier en fer forgé à volutes et rinceaux, main courante laiton poli",
+   "categorie": "ferronnerie",
+   "materiau": "fer forgé noir, laiton",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "H 0.95 m",
+   "position_dans_piece": "autour de la trémie",
+   "quantite": 1
+  },
+  {
+   "nom": "bouquet d'herbes de la pampa séchées dans une amphore en terre cuite sur support métal",
+   "categorie": "vegetation",
+   "materiau": "terre cuite, herbes séchées",
+   "couleur": "beige/ocre",
+   "dimensions_estimees": "H 1.6 m (amphore 0.6)",
+   "position_dans_piece": "repos intermédiaire, sous la tapisserie",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise cannée ancienne",
+   "categorie": "mobilier",
+   "materiau": "bois, canne",
+   "couleur": "brun",
+   "dimensions_estimees": "0.45 x 0.45 x H 0.9 m",
+   "position_dans_piece": "angle du repos, contre le mur",
+   "quantite": 1
+  },
+  {
+   "nom": "bord du repos : dallage losanges marbre clair à cabochons rouges, encadrement rouge",
+   "categorie": "architecture",
+   "materiau": "marbre",
+   "couleur": "blanc/rouge",
+   "dimensions_estimees": "repos ~2.0 x 6.0 m",
+   "position_dans_piece": "palier intermédiaire",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Le repos (palier intermédiaire) est adossé au mur de la tapisserie ; les deux volées latérales y aboutissent"
+ ],
+ "incertitudes": [
+  "Photo floue ; volée de gauche (est) ou droite (ouest) incertaine"
+ ]
+}

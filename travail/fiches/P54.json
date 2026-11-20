@@ -1,0 +1,191 @@
+{
+ "id": "P54",
+ "zone": "int-chambre-2",
+ "niveau": "etage",
+ "piece": "Chambre-2 à rayures (salle de jeux d'enfants), en enfilade entre la salle à manger et la chambre-3",
+ "orientation_vue": "depuis l'entrée côté salle à manger, dans l'axe de la pièce vers la porte d'enfilade (chambre-3)",
+ "murs_visibles": [
+  "mur gauche (fenêtres)",
+  "mur du fond (porte)",
+  "mur droit (cheminée)"
+ ],
+ "ouvertures": [
+  {
+   "type": "fenetre",
+   "mur": "gauche",
+   "donne_sur": "extérieur (jardin supposé), arbres",
+   "dimensions_estimees": "porte-fenêtre 2 vantaux + imposte L 1.2 x H 3.2 m"
+  },
+  {
+   "type": "fenetre",
+   "mur": "gauche (2e, plus loin)",
+   "donne_sur": "extérieur",
+   "dimensions_estimees": "fenêtre L 1.0 x H 2.4 m avec lambrequin"
+  },
+  {
+   "type": "porte",
+   "mur": "fond",
+   "donne_sur": "chambre-3 (P55-P57) : table, tapis",
+   "dimensions_estimees": "porte L 0.9 x H 2.4 m, ouverte"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 4.5,
+  "profondeur_m": 7.5
+ },
+ "sol": "parquet de Versailles (panneaux carrés à entrelacs) chêne, patiné",
+ "plafond": "plafond plat blanc, double corniche à filets, rosace de lustre",
+ "murs_revetement": "papier peint (ou tenture) à rayures verticales larges or, beige et gris-taupe ; soubassement/plinthes vert d'eau ; dessus de cheminée en boiserie (trumeau à guirlande)",
+ "elements": [
+  {
+   "nom": "lustre bronze doré 8 feux sur chaîne",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": "Ø 0.6 x H 1.0 m",
+   "position_dans_piece": "centre, rosace",
+   "quantite": 1
+  },
+  {
+   "nom": "rosace de plafond",
+   "categorie": "moulure",
+   "materiau": "stuc",
+   "couleur": "blanc",
+   "dimensions_estimees": "Ø 0.5 m",
+   "position_dans_piece": "plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "rideaux lin taupe sur tringle, embrasses",
+   "categorie": "textile",
+   "materiau": "lin",
+   "couleur": "taupe",
+   "dimensions_estimees": "H 3.4 m",
+   "position_dans_piece": "fenêtres",
+   "quantite": 2
+  },
+  {
+   "nom": "lambrequin en bois sculpté au-dessus de la 2e fenêtre",
+   "categorie": "moulure",
+   "materiau": "bois",
+   "couleur": "beige",
+   "dimensions_estimees": "1.0 x 0.3 m",
+   "position_dans_piece": "2e fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur bas le long des fenêtres + tuyauterie",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "blanc",
+   "dimensions_estimees": "1.2 x 0.4 m",
+   "position_dans_piece": "sous fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "cheminée marbre blanc + plantes",
+   "categorie": "cheminee",
+   "materiau": "marbre",
+   "couleur": "blanc",
+   "dimensions_estimees": "1.2 m",
+   "position_dans_piece": "mur droit",
+   "quantite": 1
+  },
+  {
+   "nom": "bergère en velours",
+   "categorie": "mobilier",
+   "materiau": "velours",
+   "couleur": "vieux rose",
+   "dimensions_estimees": "",
+   "position_dans_piece": "angle fond gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "château de jouet bleu",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "bleu",
+   "dimensions_estimees": "",
+   "position_dans_piece": "fond",
+   "quantite": 1
+  },
+  {
+   "nom": "console bois sombre à 2 plateaux chargée de jouets",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": "1.2 x 0.4 x H 0.85 m",
+   "position_dans_piece": "fond droit",
+   "quantite": 1
+  },
+  {
+   "nom": "cheval à bascule en bois clair",
+   "categorie": "objet",
+   "materiau": "bois",
+   "couleur": "naturel",
+   "dimensions_estimees": "0.8 x H 0.6 m",
+   "position_dans_piece": "sol, centre",
+   "quantite": 1
+  },
+  {
+   "nom": "tricycle/porteur et jouets en plastique",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc/bleu",
+   "dimensions_estimees": "",
+   "position_dans_piece": "près de la fenêtre",
+   "quantite": 5
+  },
+  {
+   "nom": "camion de pompiers jouet",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "rouge",
+   "dimensions_estimees": "0.4 m",
+   "position_dans_piece": "sol",
+   "quantite": 2
+  },
+  {
+   "nom": "chaise paillée bois clair",
+   "categorie": "mobilier",
+   "materiau": "hêtre, paille",
+   "couleur": "naturel",
+   "dimensions_estimees": "",
+   "position_dans_piece": "centre",
+   "quantite": 1
+  },
+  {
+   "nom": "table et chaises d'enfant blanches",
+   "categorie": "mobilier",
+   "materiau": "bois laqué",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "devant la cheminée",
+   "quantite": 3
+  },
+  {
+   "nom": "arrosoir blanc",
+   "categorie": "objet",
+   "materiau": "métal",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "devant la cheminée",
+   "quantite": 1
+  },
+  {
+   "nom": "espagnolettes laiton",
+   "categorie": "ferronnerie",
+   "materiau": "laiton",
+   "couleur": "doré",
+   "dimensions_estimees": "H 3 m",
+   "position_dans_piece": "fenêtres",
+   "quantite": 2
+  }
+ ],
+ "indices_plan": [
+  "Pièce étroite et longue (~4.5 x 7.5 m) entre salle à manger et chambre-3",
+  "Fenêtres sur la même façade que la salle à manger"
+ ],
+ "incertitudes": []
+}

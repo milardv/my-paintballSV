@@ -1,0 +1,924 @@
+{
+  "version": 1,
+  "repere": {
+    "ref": "D-003",
+    "unite": "m",
+    "x": "est",
+    "y": "sud (façade jardin)",
+    "z": "haut",
+    "origine": "centre de l'emprise du château, RDC = 0 (terrasse sud ≈ 0)"
+  },
+  "echelle": {
+    "longueur_facade_sud_m": {
+      "valeur": 36.0,
+      "source": "W01 (proportions de baies : porte-fenêtre ≈1,4 × 3,8 m) + W12 (toit 355 px pour une demi-façade, voitures 15 px/m au sol, rapport toit/sol ≈1,3)",
+      "incertitude": "±3 m (±8 %) ; toutes les cotes en dépendent"
+    },
+    "profondeur_ns_m": {
+      "valeur": 18.9,
+      "source": "W12 : rapport profondeur/longueur ≈0,5 au bout est",
+      "incertitude": "±2,5 m"
+    },
+    "w12": {
+      "nord": "droite de l'image",
+      "ouest": "haut",
+      "sol_px_par_m": {
+        "tennis": 12.7,
+        "voitures": 15.0
+      },
+      "toit_px_par_m_bas_image": 19.7,
+      "note": "caméra légèrement inclinée : le haut de l'image (ouest) est comprimé ; déplacement des toits par le relief important"
+    },
+    "controles": [
+      "court de tennis 23,77 × 10,97 m (W12)",
+      "voitures ≈4,5 m (W12)",
+      "marches ≈16 cm (W01, W15, P38)",
+      "porte-fenêtre RDC ≈3,8 m (W01)"
+    ]
+  },
+  "emprise": {
+    "polygone": [
+      [
+        -18.0,
+        9.45
+      ],
+      [
+        -10.8,
+        9.45
+      ],
+      [
+        -10.8,
+        8.75
+      ],
+      [
+        -3.96,
+        8.75
+      ],
+      [
+        -3.96,
+        9.35
+      ],
+      [
+        -3.1,
+        9.35
+      ],
+      [
+        -2.3,
+        11.25
+      ],
+      [
+        2.3,
+        11.25
+      ],
+      [
+        3.1,
+        9.35
+      ],
+      [
+        3.96,
+        9.35
+      ],
+      [
+        3.96,
+        8.75
+      ],
+      [
+        10.8,
+        8.75
+      ],
+      [
+        10.8,
+        9.45
+      ],
+      [
+        18.0,
+        9.45
+      ],
+      [
+        18.0,
+        -9.45
+      ],
+      [
+        10.8,
+        -9.45
+      ],
+      [
+        10.8,
+        -8.75
+      ],
+      [
+        4.0,
+        -8.75
+      ],
+      [
+        4.0,
+        -12.45
+      ],
+      [
+        -4.0,
+        -12.45
+      ],
+      [
+        -4.0,
+        -8.75
+      ],
+      [
+        -10.8,
+        -8.75
+      ],
+      [
+        -10.8,
+        -9.45
+      ],
+      [
+        -18.0,
+        -9.45
+      ]
+    ],
+    "note": "nu des murs au RDC, sens anti-horaire depuis l'angle SO"
+  },
+  "corps": {
+    "corps_principal": {
+      "rect": [
+        -10.8,
+        -8.75,
+        10.8,
+        8.75
+      ],
+      "niveaux": "RDC, étage, attique",
+      "note": "ailes entre pavillons, 3 niveaux (W01, W11)"
+    },
+    "pavillons": {
+      "SO": {
+        "rect": [
+          -18.0,
+          3.85,
+          -10.8,
+          9.45
+        ]
+      },
+      "SE": {
+        "rect": [
+          10.8,
+          3.85,
+          18.0,
+          9.45
+        ]
+      },
+      "NO": {
+        "rect": [
+          -18.0,
+          -9.45,
+          -10.8,
+          -3.85
+        ]
+      },
+      "NE": {
+        "rect": [
+          10.8,
+          -9.45,
+          18.0,
+          -3.85
+        ]
+      },
+      "niveaux": "RDC, étage ; toit en croupe bas au-dessus de la corniche d'étage",
+      "source": "W01, W15, W11, W12 (4 croupes d'angle)",
+      "incertitude": "±0,8 m sur chaque côté"
+    },
+    "blocs_extremites": {
+      "ouest": {
+        "rect": [
+          -18.0,
+          -3.85,
+          -10.8,
+          3.85
+        ]
+      },
+      "est": {
+        "rect": [
+          10.8,
+          -3.85,
+          18.0,
+          3.85
+        ]
+      },
+      "niveaux": "RDC, étage, attique (montent comme le corps central), croupe vers l'extérieur",
+      "source": "W12 (croupe centrale aux deux bouts), W17 (2 fenêtres d'attique au centre de la face est), W15",
+      "incertitude": "±1 m ; affleurement avec les pavillons supposé (W12)"
+    },
+    "avant_corps_sud": {
+      "rect": [
+        -3.96,
+        8.75,
+        3.96,
+        9.35
+      ],
+      "bow": "pans coupés + portique à 2 colonnes, saillie jusqu'à y=11.25, face de 4,6 m",
+      "balcon_etage": "sur le bow, balustres pierre",
+      "niveaux": "RDC, étage, attique, toit pyramidal/croupe",
+      "source": "W01, W15, W16",
+      "incertitude": "saillie du bow ±0,8 m"
+    },
+    "avant_corps_nord": {
+      "rect": [
+        -4.0,
+        -12.45,
+        4.0,
+        -8.75
+      ],
+      "niveaux": "RDC (porte), étage, attique, toit pyramidal",
+      "source": "W11, P38, W12 (D-011)",
+      "incertitude": "saillie approfondie de 2,5 m (choix du 18/11 pour agrandir la bibliothèque) ; relevé W11 : 1,2 m ±0,6"
+    }
+  },
+  "terrasse": {
+    "polygone": [
+      [
+        -19.5,
+        14.0
+      ],
+      [
+        -7.5,
+        14.0
+      ],
+      [
+        -7.5,
+        14.7
+      ],
+      [
+        7.5,
+        14.7
+      ],
+      [
+        7.5,
+        14.0
+      ],
+      [
+        22.0,
+        14.0
+      ],
+      [
+        22.0,
+        -1.8
+      ],
+      [
+        18.0,
+        -1.8
+      ],
+      [
+        18.0,
+        9.45
+      ],
+      [
+        -18.0,
+        9.45
+      ],
+      [
+        -18.0,
+        7.6
+      ],
+      [
+        -19.5,
+        7.6
+      ]
+    ],
+    "niveau_z": -0.05,
+    "balustrade": "balustres pierre sur mur bahut, tout le pourtour sud et est ; soupiraux grillagés dans le mur de face (W01)",
+    "source": "W12, W15, W01 ; retour est (x = 20) et raccord ouest à la plateforme du tennis (y = 7,6) : LiDAR HD, drone ; élargie le 18/11 à la demande de Valentin (bord sud 14, retour est 22)",
+    "incertitude": "bord sud ±2 m, bord est ±1,5 m"
+  },
+  "perron_sud": {
+    "polygone": [
+      [
+        -7.5,
+        14.7
+      ],
+      [
+        7.5,
+        14.7
+      ],
+      [
+        9.5,
+        18.05
+      ],
+      [
+        -9.5,
+        18.05
+      ]
+    ],
+    "marches": {
+      "valeur": 10,
+      "source": "LiDAR HD : 1,55 m de dénivelé sur 3,4 m (profil d'axe)",
+      "incertitude": "±1 marche"
+    },
+    "hauteur_m": {
+      "valeur": 1.55,
+      "source": "10 × 15,5 cm, LiDAR HD (terrasse 26,85 m NGF, cour 25,30)",
+      "incertitude": "±0,1 m"
+    },
+    "giron_m": {
+      "valeur": 0.335,
+      "source": "LiDAR HD : perron de y = 14,7 à ~18",
+      "incertitude": "±0,05"
+    },
+    "largeur_haut_m": {
+      "valeur": 15.0,
+      "source": "W01 (rapportée à la façade, correction de distance)",
+      "incertitude": "±2,5 m"
+    },
+    "largeur_bas_m": {
+      "valeur": 19.0,
+      "source": "W01, W15 : marches évasées entre murs d'échiffre courbes",
+      "incertitude": "±3 m"
+    },
+    "massifs": {
+      "centres": [
+        [
+          -11.5,
+          16.3
+        ],
+        [
+          11.5,
+          16.3
+        ]
+      ],
+      "diametre_m": 3.5,
+      "nature": "lauriers-roses en massifs ronds bordés de pierre, vasque blanche à côté",
+      "source": "W12 (écart 310 px sol), W15, W01",
+      "incertitude": "±1,5 m"
+    }
+  },
+  "perron_nord": {
+    "polygone": [
+      [
+        -3.0,
+        -12.45
+      ],
+      [
+        3.0,
+        -12.45
+      ],
+      [
+        3.0,
+        -16.62
+      ],
+      [
+        -3.0,
+        -16.62
+      ]
+    ],
+    "palier_m": {
+      "valeur": 1.2,
+      "source": "P38 (palier devant la porte)",
+      "incertitude": "±0,4"
+    },
+    "marches": {
+      "valeur": 9,
+      "source": "P38, fiche P38 (9 ou 10)",
+      "incertitude": "±1 marche"
+    },
+    "hauteur_m": {
+      "valeur": 1.44,
+      "source": "9 × 16 cm",
+      "incertitude": "±0,3 m"
+    },
+    "largeur_m": {
+      "valeur": 6.0,
+      "source": "P38, W11 (entre murs d'échiffre bas)",
+      "incertitude": "±1,5 m"
+    },
+    "lampadaires": "2 globes blancs sur mâts noirs de part et d'autre du bas du perron (P38)"
+  },
+  "escalier_terrasse_est": {
+    "rect": [
+      18.0,
+      -4.8,
+      22.0,
+      -1.8
+    ],
+    "sens": "descend vers le nord, de la terrasse est vers la cour/parking",
+    "marches": {
+      "valeur": 8,
+      "source": "W12 (bandes de marches x_img 562-612)",
+      "incertitude": "±2"
+    },
+    "source": "W12, LiDAR HD (marches de y = -1,2 à -3,5 le long de la façade est)",
+    "incertitude": "±1,5 m en position"
+  },
+  "travees": {
+    "sud": {
+      "rdc": {
+        "valeur": 9,
+        "source": "W01, W15, D-011",
+        "incertitude": "sûr"
+      },
+      "etage": {
+        "valeur": 9,
+        "source": "W01",
+        "incertitude": "sûr"
+      },
+      "attique": {
+        "valeur": 7,
+        "source": "W01",
+        "incertitude": "sûr"
+      },
+      "axes_x": [
+        -14.4,
+        -8.85,
+        -5.25,
+        -2.73,
+        0,
+        2.73,
+        5.25,
+        8.85,
+        14.4
+      ],
+      "axes_attique_x": [
+        -8.85,
+        -5.25,
+        -2.73,
+        0,
+        2.73,
+        5.25,
+        8.85
+      ],
+      "entraxe_ailes_m": {
+        "valeur": 3.6,
+        "source": "W01 (128 px zoom / façade 1290)",
+        "incertitude": "±0,4"
+      },
+      "entraxe_avant_corps_m": {
+        "valeur": 2.73,
+        "source": "W01",
+        "incertitude": "±0,3"
+      },
+      "composition": "pavillon 1 | aile 2 | avant-corps 3 (pans coupés) | aile 2 | pavillon 1"
+    },
+    "nord": {
+      "rdc": {
+        "valeur": 7,
+        "source": "W11, P39",
+        "incertitude": "±0 (porte au centre)"
+      },
+      "etage": {
+        "valeur": 7,
+        "source": "W11",
+        "incertitude": "sûr"
+      },
+      "attique": {
+        "valeur": 5,
+        "source": "W11 (2 par aile + axe avant-corps)",
+        "incertitude": "±1"
+      },
+      "axes_x": [
+        -14.4,
+        -8.7,
+        -5.1,
+        0,
+        5.1,
+        8.7,
+        14.4
+      ],
+      "entraxe_ailes_m": {
+        "valeur": 3.6,
+        "source": "W11 (même rythme que le sud)",
+        "incertitude": "±0,4"
+      },
+      "composition": "pavillon 1 | aile 2 | avant-corps 1 (porte, tables nues de part et d'autre) | aile 2 | pavillon 1",
+      "soupiraux": "sous les fenêtres RDC des ailes (P39, W11)"
+    },
+    "est": {
+      "rdc": {
+        "valeur": 4,
+        "source": "W17",
+        "incertitude": "±1"
+      },
+      "etage": {
+        "valeur": 4,
+        "source": "W17",
+        "incertitude": "±1"
+      },
+      "attique": {
+        "valeur": 2,
+        "source": "W17 (bloc central)",
+        "incertitude": "±1"
+      },
+      "axes_y": [
+        -6.9,
+        -2.3,
+        2.3,
+        6.9
+      ],
+      "entraxe_m": {
+        "valeur": 4.6,
+        "source": "W17 (perspective corrigée), profondeur 18,9 m",
+        "incertitude": "±0,6"
+      },
+      "composition": "pavillon NE 1 | bloc central 2 (3 niveaux) | pavillon SE 1 ; persiennes, frontons triangulaires au RDC"
+    },
+    "ouest": {
+      "rdc": {
+        "valeur": 4,
+        "source": "symétrie de l'est (aucune vue frontale ; W15 et W11 en biais)",
+        "incertitude": "±1"
+      },
+      "axes_y": [
+        -6.9,
+        -2.3,
+        2.3,
+        6.9
+      ],
+      "composition": "comme l'est (supposé)"
+    }
+  },
+  "niveaux": {
+    "cour_sablee_sud": {
+      "valeur": -1.55,
+      "source": "LiDAR HD : 25,30 m NGF, RDC 26,85",
+      "incertitude": "±0,1"
+    },
+    "cour_nord_parking": {
+      "valeur": -1.44,
+      "source": "9 marches du perron nord × 16 cm (P38)",
+      "incertitude": "±0,3"
+    },
+    "tennis": {
+      "valeur": -0.02,
+      "source": "LiDAR HD (0 à +0,3 sur la plateforme ouest) et Valentin : au niveau de la terrasse",
+      "incertitude": "±0,1"
+    },
+    "terrasse_sud": {
+      "valeur": -0.05,
+      "source": "W01 : portes-fenêtres de plain-pied",
+      "incertitude": "±0,1"
+    },
+    "soubassement": {
+      "valeur": "de -1,3 (sud) / -1,45 (nord) à 0",
+      "source": "perrons, soupiraux W11/P39",
+      "incertitude": "±0,3"
+    },
+    "rdc_sol": {
+      "valeur": 0.0,
+      "source": "D-003",
+      "incertitude": "référence"
+    },
+    "bandeau_rdc_etage": {
+      "valeur": 5.25,
+      "source": "W01 (rapport hauteur/largeur de façade)",
+      "incertitude": "±0,5"
+    },
+    "etage_sol": {
+      "valeur": 5.35,
+      "source": "bandeau + 0,1",
+      "incertitude": "±0,5"
+    },
+    "corniche_etage_pavillons": {
+      "valeur": 10.1,
+      "source": "W01 (corniche des pavillons au niveau de la base de l'attique)",
+      "incertitude": "±0,8"
+    },
+    "attique_sol": {
+      "valeur": 10.3,
+      "source": "W01",
+      "incertitude": "±0,8"
+    },
+    "corniche_attique": {
+      "valeur": 14.0,
+      "source": "W01 (corniche à modillons)",
+      "incertitude": "±1,0"
+    },
+    "balustrade_attique_haut": {
+      "valeur": 15.0,
+      "source": "W01, W15 (balustrade ≈1 m sur la corniche)",
+      "incertitude": "±0,8"
+    },
+    "faitage_pavillons": {
+      "valeur": 11.9,
+      "source": "croupes basses W15/W10, pente ≈27° sur 5,6 m",
+      "incertitude": "±0,8"
+    },
+    "faitage_principal": {
+      "valeur": 17.3,
+      "source": "W15, W10 : croupes en tuiles canal derrière la balustrade, pente ≈27°",
+      "incertitude": "±1,2"
+    },
+    "faitage_avant_corps": {
+      "valeur": 17.0,
+      "source": "W15 (croupe sud), W11 (pyramide nord)",
+      "incertitude": "±1,2"
+    },
+    "verriere_haut": {
+      "valeur": 18.0,
+      "source": "W15, W11 : lanterne vitrée dépassant le faîtage",
+      "incertitude": "±1,2"
+    },
+    "souches_haut": {
+      "valeur": 17.5,
+      "source": "W01, W15 : ≈2,5 m au-dessus de la balustrade",
+      "incertitude": "±1,0"
+    },
+    "hauteurs_sous_plafond_estimees": {
+      "rdc": 4.9,
+      "etage": 4.6,
+      "attique": 3.3,
+      "note": "planchers ≈0,4 m ; à recouper avec les fiches intérieures"
+    }
+  },
+  "toiture": {
+    "souches": [
+      {
+        "x": -10.3,
+        "y": -4.1,
+        "section_m": [
+          1.1,
+          1.4
+        ],
+        "haut_z": 17.5
+      },
+      {
+        "x": -10.3,
+        "y": 4.1,
+        "section_m": [
+          1.1,
+          1.4
+        ],
+        "haut_z": 17.5
+      },
+      {
+        "x": -3.3,
+        "y": -4.1,
+        "section_m": [
+          1.1,
+          1.4
+        ],
+        "haut_z": 17.5
+      },
+      {
+        "x": -3.3,
+        "y": 4.1,
+        "section_m": [
+          1.1,
+          1.4
+        ],
+        "haut_z": 17.5
+      },
+      {
+        "x": 3.3,
+        "y": -4.1,
+        "section_m": [
+          1.1,
+          1.4
+        ],
+        "haut_z": 17.5
+      },
+      {
+        "x": 3.3,
+        "y": 4.1,
+        "section_m": [
+          1.1,
+          1.4
+        ],
+        "haut_z": 17.5
+      },
+      {
+        "x": 10.3,
+        "y": -4.1,
+        "section_m": [
+          1.1,
+          1.4
+        ],
+        "haut_z": 17.5
+      },
+      {
+        "x": 10.3,
+        "y": 4.1,
+        "section_m": [
+          1.1,
+          1.4
+        ],
+        "haut_z": 17.5
+      }
+    ],
+    "souches_source": "W15 (x : ±3,6 / ±11,1), W01 (±3,0 / ±9,3), W12 (2 rangées à ±74 px du centre ≈ ±4,1 m)",
+    "souches_incertitude": "x ±1,5 m, y ±1,0 m, section ±0,3 m ; 4 paires symétriques (D-011), chapeau mouluré",
+    "conduit_metallique": {
+      "x": 16.0,
+      "y": -5.0,
+      "diametre_m": 0.3,
+      "haut_z": 17.0,
+      "source": "W11, W15 (tuyau sur le bloc NE)",
+      "incertitude": "±2 m"
+    },
+    "verriere": {
+      "centre": [
+        0.0,
+        0.0
+      ],
+      "longueur_ns_m": 6.5,
+      "largeur_eo_m": 2.8,
+      "hauteur_m": 1.8,
+      "forme": "lanterne à 4 pans (2 longs pans + croupes vitrées), ossature métallique, épi",
+      "source": "W12 (120×55 px, échelle toit ≈19 px/m), W15, W11 (≈2,5 m vue de face)",
+      "incertitude": "±1 m sur la longueur, ±0,5 m sur la largeur"
+    },
+    "pente_tuiles_deg": {
+      "valeur": 27,
+      "source": "tuiles canal, W15/W10",
+      "incertitude": "±5"
+    },
+    "balustrade_attique": "tout le pourtour de l'attique, avec acrotères sous les souches",
+    "epi_paratonnerre": {
+      "x": 0.0,
+      "y": 0.5,
+      "haut_z": 22.0,
+      "source": "W01 (mât au-dessus de la verrière)",
+      "incertitude": "±1,5 m"
+    }
+  },
+  "abords": {
+    "tennis": {
+      "enceinte": [
+        -32.0,
+        -20.0,
+        -19.3,
+        6.8
+      ],
+      "court_double": [
+        -31.1,
+        -18.48,
+        -20.13,
+        5.29
+      ],
+      "court_simple_largeur_m": 8.23,
+      "filet_y": -6.6,
+      "axe": "N-S",
+      "surface": "résine rouge brique, lignes blanches",
+      "source": "orthophoto IGN et LiDAR HD (plan_domaine.json)",
+      "incertitude": "position ±3 m (écart au pignon ouest supposé 2,5 m), dimensions de l'enceinte ±1,5 m",
+      "abords": "plateforme au niveau de la terrasse, grillage vert, escaliers vers la cour nord et la cour sud"
+    },
+    "cour_nord_parking": {
+      "polygone": [
+        [
+          -20,
+          -10.45
+        ],
+        [
+          30,
+          -10.45
+        ],
+        [
+          30,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ]
+      ],
+      "voitures_le_long_facade_nord": {
+        "rect": [
+          10.8,
+          -14.25,
+          17.5,
+          -9.45
+        ],
+        "nombre": 3,
+        "orientation": "en épi, nez vers la façade"
+      },
+      "rangee_nord_est": {
+        "de": [
+          1.0,
+          -21.0
+        ],
+        "a": [
+          16.0,
+          -27.0
+        ],
+        "nombre": 6,
+        "orientation": "en bataille, axe ≈N-S incliné 20°"
+      },
+      "sol": "gravier clair / enrobé",
+      "source": "W12 (voitures ≈15 px/m), W11",
+      "incertitude": "±4 m",
+      "arbre_devant_entree": {
+        "x": 8.0,
+        "y": -15.5,
+        "diametre_couronne_m": 8,
+        "espece": "pin / cyprès",
+        "source": "W12, W11",
+        "incertitude": "±3 m"
+      }
+    },
+    "allees": {
+      "allee_est": {
+        "axe": [
+          [
+            26,
+            20
+          ],
+          [
+            26,
+            -30
+          ]
+        ],
+        "largeur_m": 6,
+        "nature": "voie sablée reliant cour sablée sud et cour nord",
+        "source": "W16, W12 (bas droite)",
+        "incertitude": "±4 m"
+      },
+      "allee_ouest": {
+        "axe": [
+          [
+            -24,
+            20
+          ],
+          [
+            -42,
+            20
+          ],
+          [
+            -42,
+            -30
+          ]
+        ],
+        "largeur_m": 5,
+        "nature": "sable, contourne le tennis au sud-ouest (palmiers, massifs ronds)",
+        "source": "W12 (haut gauche), W16",
+        "incertitude": "±5 m"
+      },
+      "acces_route": "par le nord-est (W11 : route qui descend vers l'est)"
+    },
+    "cour_sablee_sud": {
+      "polygone": [
+        [
+          -36,
+          12.0
+        ],
+        [
+          34,
+          12.0
+        ],
+        [
+          34,
+          30.5
+        ],
+        [
+          -36,
+          30.5
+        ]
+      ],
+      "platanes": {
+        "alignements_x": [
+          -30,
+          30
+        ],
+        "de_y": 25,
+        "a_y": 55,
+        "entraxe_m": 8,
+        "source": "W16",
+        "incertitude": "±5 m ; nombre exact inconnu"
+      },
+      "source": "W16, W12 (gauche)",
+      "incertitude": "±5 m sur les limites"
+    },
+    "pelouse_bassin": {
+      "bassin": {
+        "centre": [
+          5.0,
+          75.0
+        ],
+        "dimensions_m": [
+          22,
+          15
+        ],
+        "forme": "ovale bordé de pierre, jet central",
+        "source": "W10 (au fond, vu du nord)",
+        "incertitude": "±20 m en position, ±6 m en taille"
+      },
+      "pelouse": "au sud de la cour sablée (W01, W10)"
+    },
+    "piscine": {
+      "note": "piscine voisine retirée : hors du domaine (limite de propriété, plan_domaine.json)"
+    },
+    "palmiers": [
+      {
+        "x": -22,
+        "y": 13,
+        "source": "W12, W15"
+      },
+      {
+        "x": -21,
+        "y": 17,
+        "source": "W16"
+      }
+    ],
+    "oliviers_haie_est": {
+      "x": 21.5,
+      "de_y": 6,
+      "a_y": -1,
+      "source": "W17, W02",
+      "incertitude": "±2 m"
+    }
+  }
+}

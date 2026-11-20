@@ -1,0 +1,2194 @@
+{
+ "projet": "Château Saint-Victor — exploration",
+ "phases": [
+  {
+   "id": "P0",
+   "titre": "Préparation",
+   "taches": [
+    {
+     "id": "P0.1",
+     "titre": "Extraire et inventorier les photos",
+     "statut": "fait",
+     "maj": "2026-11-15T19:35:54",
+     "note": "58 photos Pixel + 18 web (W01-W18)"
+    },
+    {
+     "id": "P0.2",
+     "titre": "Triage par zone",
+     "statut": "fait",
+     "maj": "2026-11-15T19:35:54",
+     "note": "Triage par zone, à confirmer en P1"
+    }
+   ]
+  },
+  {
+   "id": "P1",
+   "titre": "Analyse des photos (parallèle par zone)",
+   "taches": [
+    {
+     "id": "P1.ext",
+     "titre": "Fiches extérieur : façades, toiture, jardin",
+     "statut": "fait",
+     "maj": "2026-11-15T19:47:50",
+     "agent": "analyse-ext",
+     "note": "18 fiches ext. (P37-P40, W01-W06, W10-W13, W15-W18) ; orientation et ordonnance fixées (décision)"
+    },
+    {
+     "id": "P1.int-rdc",
+     "titre": "Fiches intérieur RDC",
+     "statut": "fait",
+     "maj": "2026-11-15T19:52:12",
+     "agent": "int-rdc",
+     "note": "27 fiches ; escalier impérial ; vestibule en avant-corps nord, couloirs E/O façade nord, petit salon sous palier, salon bow-window sud centre, billard à l'est ; orientation billard, salle à manger et salon vert à arbitrer en P3"
+    },
+    {
+     "id": "P1.int-etage",
+     "titre": "Fiches intérieur étage",
+     "statut": "fait",
+     "maj": "2026-11-15T19:50:35",
+     "agent": "int-etage",
+     "note": "31 fiches (P00-P19, P47-P57) ; P44-P57 à l'étage (enfilade ch1-SàM-ch2-ch3) ; escalier impérial ; bibliothèque au-dessus du vestibule"
+    },
+    {
+     "id": "P1.inventaire",
+     "titre": "Inventaire consolidé des éléments (mobilier, décors, végétation)",
+     "statut": "fait",
+     "maj": "2026-11-15T19:57:15",
+     "agent": "plan",
+     "note": "inventaire.json : 757 éléments dédupliqués sur 23 pièces/zones, priorités 1/2/3 (scripts/inventaire.py)"
+    }
+   ]
+  },
+  {
+   "id": "P2",
+   "titre": "Extérieur",
+   "taches": [
+    {
+     "id": "P2.emprise",
+     "titre": "Emprise et volumes (vue zénithale W12)",
+     "statut": "fait",
+     "maj": "2026-11-15T19:52:30",
+     "agent": "emprise",
+     "note": "gabarit.json + emprise.png : 36 × 18,9 m, niveaux, travées 9/7/4/4, 8 souches, verrière, abords (±8 %)"
+    },
+    {
+     "id": "P2.facade-sud",
+     "titre": "Façade jardin (sud)",
+     "statut": "fait",
+     "maj": "2026-11-15T20:48:53",
+     "agent": "bati",
+     "note": "bati.glb (4,7 Mo) : sud 9/9/7 baies, bow à pans coupés, portique 2 colonnes, balcon z=5,35 ; rendus bati, bati_sud_aerien, bati_detail"
+    },
+    {
+     "id": "P2.facade-nord",
+     "titre": "Façade d'entrée (nord)",
+     "statut": "fait",
+     "maj": "2026-11-15T20:48:53",
+     "agent": "bati",
+     "note": "dans bati.glb : nord 7/7/5, porte d'entrée à pilastres et inscription, tables, soupiraux ; rendus bati_nord, bati_nord_sol"
+    },
+    {
+     "id": "P2.facades-laterales",
+     "titre": "Façades est et ouest",
+     "statut": "fait",
+     "maj": "2026-11-15T20:48:53",
+     "agent": "bati",
+     "note": "dans bati.glb : est/ouest 4/4/2, persiennes, frontons pavillons ; ouest par symétrie ; rendu bati_est"
+    },
+    {
+     "id": "P2.toiture",
+     "titre": "Toiture, souches, verrière, balustrades",
+     "statut": "fait",
+     "maj": "2026-11-15T20:22:27",
+     "agent": "toiture",
+     "note": "toiture.glb (7,6 Mo) : tuiles, souches, verrière, balustrades d'attique ; 4 rendus"
+    },
+    {
+     "id": "P2.terrasse",
+     "titre": "Terrasse, perron, balustres",
+     "statut": "fait",
+     "maj": "2026-11-15T20:18:21",
+     "agent": "terrasse",
+     "note": "terrasse.glb (16,6 Mo, 291 objets, 219 balustres instanciés) : terrasse sud + retour est balustrés, perron sud évasé 8 marches, bacs ronds à lauriers-roses, escalier est rampant, perron nord 9 marches + 2 lampadaires, dallage CC0, 4 parasols, salons, transats ; 5 rendus"
+    },
+    {
+     "id": "P2.jardin",
+     "titre": "Parc : pelouse, bassin, mâts, allées",
+     "statut": "fait",
+     "maj": "2026-11-15T20:22:26",
+     "agent": "parc",
+     "note": "parc.glb (26 Mo) : terrain, cours, bassin, tennis, parking, piscine, haies, végétation ; rendus/parc.png"
+    },
+    {
+     "id": "P2.vegetation",
+     "titre": "Végétation : platanes, pins, cyprès, palmiers, olivier",
+     "statut": "fait",
+     "maj": "2026-11-15T20:22:26",
+     "agent": "parc",
+     "note": "parc.glb (26 Mo) : terrain, cours, bassin, tennis, parking, piscine, haies, végétation ; rendus/parc.png"
+    },
+    {
+     "id": "P2.annexes",
+     "titre": "Tennis, parking, piscine, voitures, mobilier extérieur",
+     "statut": "fait",
+     "maj": "2026-11-15T20:22:27",
+     "agent": "parc",
+     "note": "parc.glb (26 Mo) : terrain, cours, bassin, tennis, parking, piscine, haies, végétation ; rendus/parc.png"
+    },
+    {
+     "id": "P2.assemblage",
+     "titre": "Assemblage extérieur et rendus de contrôle",
+     "statut": "fait",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Neuf composants assemblés dans export/chateau.blend ; extérieur contrôlé dans les captures Linux entrée/jardin."
+    }
+   ]
+  },
+  {
+   "id": "P3",
+   "titre": "Plan intérieur",
+   "taches": [
+    {
+     "id": "P3.graphe",
+     "titre": "Graphe des pièces (enchaînement des photos)",
+     "statut": "fait",
+     "maj": "2026-11-15T20:01:05",
+     "agent": "plan",
+     "note": "graphe.json : 34 pièces/volumes (20 vus), 36 liaisons avec preuves ; P43-P46 corrigées en étage"
+    },
+    {
+     "id": "P3.plan",
+     "titre": "Plan RDC + étage proposé (SVG)",
+     "statut": "fait",
+     "maj": "2026-11-15T20:00:59",
+     "agent": "plan",
+     "note": "plan-rdc.svg + plan-etage.svg (pièces, portes, fenêtres sur axes de travées, escalier, photos et directions)"
+    },
+    {
+     "id": "P3.validation",
+     "titre": "VALIDATION du plan par Valentin",
+     "statut": "fait",
+     "maj": "2026-11-15T20:04:48",
+     "note": "Validé par Valentin dans l'app, sans correction"
+    }
+   ]
+  },
+  {
+   "id": "P4",
+   "titre": "Intérieur (parallèle par pièce)",
+   "taches": [
+    {
+     "id": "P4.coque",
+     "titre": "Coque : murs, planchers, ouvertures depuis le plan validé",
+     "statut": "fait",
+     "maj": "2026-11-15T20:47:41",
+     "agent": "coque",
+     "note": "coque.glb (3,8 Mo, 197 objets) + travail/coque.json (37 pièces, 35 ouvertures, pivots des vantaux) ; escalier impérial praticable (0,179/0,177) ; 11 rendus ; repère D-003 en miroir signalé (attente)"
+    },
+    {
+     "id": "P4.vestibule",
+     "titre": "Vestibule + escalier d'honneur",
+     "statut": "a-valider",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Décor piece_circulations intégré et contrôlé dans le player ; rendu vestibule.png."
+    },
+    {
+     "id": "P4.palier",
+     "titre": "Palier étage + coupole",
+     "statut": "a-valider",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Décor piece_circulations intégré ; escalier et accès à la galerie testés dans le player."
+    },
+    {
+     "id": "P4.salons",
+     "titre": "Salons (vert, bow-window, tableau)",
+     "statut": "a-valider",
+     "maj": "2026-11-16T08:40:53",
+     "agent": "integration",
+     "note": "Tableau marin du salon recale sur la photo source P30, texture integree a sa toile et dimensions corrigees a 2,60 x 1,40 m."
+    },
+    {
+     "id": "P4.billard",
+     "titre": "Salle de billard",
+     "statut": "a-valider",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Décor piece_salons intégré ; vue billard du player contrôlée."
+    },
+    {
+     "id": "P4.salle-a-manger",
+     "titre": "Salle à manger",
+     "statut": "a-valider",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Décor piece_reception intégré ; vue salle_a_manger du player contrôlée."
+    },
+    {
+     "id": "P4.bibliotheque",
+     "titre": "Bibliothèque",
+     "statut": "a-valider",
+     "maj": "2026-11-16T08:40:53",
+     "agent": "integration",
+     "note": "Bibliotheques agrandies a 2,80 m de large et 3,05 m de haut, selon les vues source P00-P03."
+    },
+    {
+     "id": "P4.bureau",
+     "titre": "Bureau",
+     "statut": "a-valider",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "P50/P51 rattachées à la salle à manger selon D-012 ; pièces non vues meublées sobrement dans piece_salons."
+    },
+    {
+     "id": "P4.chambres",
+     "titre": "Chambres",
+     "statut": "a-valider",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Décor piece_chambres intégré ; trois vues de chambres du player contrôlées."
+    },
+    {
+     "id": "P4.couloirs",
+     "titre": "Couloirs et petit salon",
+     "statut": "a-valider",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Décor piece_circulations intégré : passages, couloirs et petit salon."
+    },
+    {
+     "id": "P4.assemblage",
+     "titre": "Assemblage intérieur et rendus de contrôle",
+     "statut": "fait",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Quatre ensembles de décors intégrés ; douze captures du player contrôlées. Entrée, escalier et galerie traversés avec le CharacterController."
+    }
+   ]
+  },
+  {
+   "id": "P5",
+   "titre": "Jeu Unity",
+   "taches": [
+    {
+     "id": "P5.import",
+     "titre": "Import, collisions, LOD",
+     "statut": "fait",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Synchronisation automatique des neuf GLB ; scène reconstruite avant chaque build. Références Unity : 0 erreur, 0 avertissement."
+    },
+    {
+     "id": "P5.eclairage",
+     "titre": "Lumière, ciel, son d'ambiance",
+     "statut": "fait",
+     "maj": "2026-11-15T21:34:58",
+     "agent": "integration",
+     "note": "Intensités des vingt sources glTF adaptées à URP ; surexposition corrigée et captures Linux contrôlées."
+    },
+    {
+     "id": "P5.controle",
+     "titre": "Contrôleur d'exploration, portes, interactions",
+     "statut": "fait",
+     "maj": "2026-11-16T16:06:15",
+     "agent": "gameplay",
+     "note": "Paintball solo WebGL : POV/3e personne, robot anime CC0, tirs avec gravite/trainee, impacts colores, rechargement, pause, score et mobilier mobile. Verification Chrome : tous les controles passent, dont animation et collision joueur-caisse."
+    },
+    {
+     "id": "P5.build",
+     "titre": "Build Linux",
+     "statut": "fait",
+     "maj": "2026-11-16T16:06:15",
+     "agent": "gameplay",
+     "note": "Build WebGL reussi 116,2 Mo ; Chrome sans erreur, ecran de resultat apres 90 s teste, 282 textures compressees et dependances GLB du decor retirees. Serveur local sur localhost:8086."
+    }
+   ]
+  }
+ ],
+ "photos": [
+  {
+   "id": "P00",
+   "fichier": "sources/pixel/PXL_20261115_134758722.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-bibliotheque",
+   "note": "Bibliothèque boisée : piano, canapé, tapis persan, plafond à caissons blancs",
+   "statut": "analysee"
+  },
+  {
+   "id": "P01",
+   "fichier": "sources/pixel/PXL_20261115_134800139.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-bibliotheque",
+   "note": "Bibliothèque boisée : piano, canapé, tapis persan, plafond à caissons blancs",
+   "statut": "analysee"
+  },
+  {
+   "id": "P02",
+   "fichier": "sources/pixel/PXL_20261115_134801383.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-bibliotheque",
+   "note": "Bibliothèque boisée : piano, canapé, tapis persan, plafond à caissons blancs",
+   "statut": "analysee"
+  },
+  {
+   "id": "P03",
+   "fichier": "sources/pixel/PXL_20261115_134802432.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-bibliotheque",
+   "note": "Bibliothèque boisée : piano, canapé, tapis persan, plafond à caissons blancs",
+   "statut": "analysee"
+  },
+  {
+   "id": "P04",
+   "fichier": "sources/pixel/PXL_20261115_134803941.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P05",
+   "fichier": "sources/pixel/PXL_20261115_134805523.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P06",
+   "fichier": "sources/pixel/PXL_20261115_134806440.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P07",
+   "fichier": "sources/pixel/PXL_20261115_134807316.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P08",
+   "fichier": "sources/pixel/PXL_20261115_134808289.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P09",
+   "fichier": "sources/pixel/PXL_20261115_134809191.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P10",
+   "fichier": "sources/pixel/PXL_20261115_134810413.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P11",
+   "fichier": "sources/pixel/PXL_20261115_134811618.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P12",
+   "fichier": "sources/pixel/PXL_20261115_134813160.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P13",
+   "fichier": "sources/pixel/PXL_20261115_134814198.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-palier-etage",
+   "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+   "statut": "analysee"
+  },
+  {
+   "id": "P14",
+   "fichier": "sources/pixel/PXL_20261115_134819568.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-escalier",
+   "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+   "statut": "analysee"
+  },
+  {
+   "id": "P15",
+   "fichier": "sources/pixel/PXL_20261115_134820902.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-escalier",
+   "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+   "statut": "analysee"
+  },
+  {
+   "id": "P16",
+   "fichier": "sources/pixel/PXL_20261115_134827403.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-escalier",
+   "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+   "statut": "analysee"
+  },
+  {
+   "id": "P17",
+   "fichier": "sources/pixel/PXL_20261115_134829607.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-escalier",
+   "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+   "statut": "analysee"
+  },
+  {
+   "id": "P18",
+   "fichier": "sources/pixel/PXL_20261115_134830740.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-escalier",
+   "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+   "statut": "analysee"
+  },
+  {
+   "id": "P19",
+   "fichier": "sources/pixel/PXL_20261115_134835845.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-escalier",
+   "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+   "statut": "analysee"
+  },
+  {
+   "id": "P20",
+   "fichier": "sources/pixel/PXL_20261115_134837236.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-vestibule",
+   "note": "Depuis l'escalier vers le vestibule : colonnes, rideaux rouges",
+   "statut": "analysee"
+  },
+  {
+   "id": "P21",
+   "fichier": "sources/pixel/PXL_20261115_134839324.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-vestibule",
+   "note": "Vestibule : colonnes, tapis rouge, lustre",
+   "statut": "analysee"
+  },
+  {
+   "id": "P22",
+   "fichier": "sources/pixel/PXL_20261115_134842520.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-couloir-rdc",
+   "note": "Couloir RDC : papier peint damassé, sol marbre à cabochons, fusil",
+   "statut": "analysee"
+  },
+  {
+   "id": "P23",
+   "fichier": "sources/pixel/PXL_20261115_134843815.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-couloir-rdc",
+   "note": "Couloir RDC : papier peint damassé, sol marbre à cabochons, fusil",
+   "statut": "analysee"
+  },
+  {
+   "id": "P24",
+   "fichier": "sources/pixel/PXL_20261115_134845421.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-couloir-rdc",
+   "note": "Couloir RDC : papier peint damassé, sol marbre à cabochons, fusil",
+   "statut": "analysee"
+  },
+  {
+   "id": "P25",
+   "fichier": "sources/pixel/PXL_20261115_134849070.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-petit-salon",
+   "note": "Petit salon/antichambre damassé, guéridon, fauteuils rouges",
+   "statut": "analysee"
+  },
+  {
+   "id": "P26",
+   "fichier": "sources/pixel/PXL_20261115_134850135.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-petit-salon",
+   "note": "Petit salon : desserte, banquette rouge",
+   "statut": "analysee"
+  },
+  {
+   "id": "P27",
+   "fichier": "sources/pixel/PXL_20261115_134852823.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salon-bow-window",
+   "note": "Salon à bow-window (avant-corps jardin), parquet, lustre",
+   "statut": "analysee"
+  },
+  {
+   "id": "P28",
+   "fichier": "sources/pixel/PXL_20261115_134853848.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salon-bow-window",
+   "note": "Salon à bow-window (avant-corps jardin), parquet, lustre",
+   "statut": "analysee"
+  },
+  {
+   "id": "P29",
+   "fichier": "sources/pixel/PXL_20261115_134855200.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salon-bow-window",
+   "note": "Salon à bow-window (avant-corps jardin), parquet, lustre",
+   "statut": "analysee"
+  },
+  {
+   "id": "P30",
+   "fichier": "sources/pixel/PXL_20261115_134858525.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salon-bow-window",
+   "note": "Pièce au grand tableau marine, commode, vers billard",
+   "statut": "analysee"
+  },
+  {
+   "id": "P31",
+   "fichier": "sources/pixel/PXL_20261115_134859823.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salon-bow-window",
+   "note": "Grand tableau marine, enfilade vers le billard",
+   "statut": "analysee"
+  },
+  {
+   "id": "P32",
+   "fichier": "sources/pixel/PXL_20261115_134902746.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-billard",
+   "note": "Salle de billard : plafond à caissons peints, cheminée bois, tapis",
+   "statut": "analysee"
+  },
+  {
+   "id": "P33",
+   "fichier": "sources/pixel/PXL_20261115_134903984.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-billard",
+   "note": "Salle de billard : plafond à caissons peints, cheminée bois, tapis",
+   "statut": "analysee"
+  },
+  {
+   "id": "P34",
+   "fichier": "sources/pixel/PXL_20261115_134905147.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-billard",
+   "note": "Salle de billard : plafond à caissons peints, cheminée bois, tapis",
+   "statut": "analysee"
+  },
+  {
+   "id": "P35",
+   "fichier": "sources/pixel/PXL_20261115_134907133.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-billard",
+   "note": "Salle de billard : plafond à caissons peints, cheminée bois, tapis",
+   "statut": "analysee"
+  },
+  {
+   "id": "P36",
+   "fichier": "sources/pixel/PXL_20261115_134915969.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-couloir-rdc",
+   "note": "Couloir vers billard, fenêtres sur balconnet",
+   "statut": "analysee"
+  },
+  {
+   "id": "P37",
+   "fichier": "sources/pixel/PXL_20261115_134938249.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "ext-facade-nord",
+   "note": "Façade d'entrée (nord) : perron, porte bois sculptée, lampadaires",
+   "statut": "analysee"
+  },
+  {
+   "id": "P38",
+   "fichier": "sources/pixel/PXL_20261115_134942650.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "ext-facade-nord",
+   "note": "Façade d'entrée (nord) : perron, porte bois sculptée, lampadaires",
+   "statut": "analysee"
+  },
+  {
+   "id": "P39",
+   "fichier": "sources/pixel/PXL_20261115_134947390.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "ext-facade-nord",
+   "note": "Façade d'entrée (nord) : perron, porte bois sculptée, lampadaires",
+   "statut": "analysee"
+  },
+  {
+   "id": "P40",
+   "fichier": "sources/pixel/PXL_20261115_134955028.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "ext-facade-nord",
+   "note": "Façade d'entrée (nord) : perron, porte bois sculptée, lampadaires",
+   "statut": "analysee"
+  },
+  {
+   "id": "P41",
+   "fichier": "sources/pixel/PXL_20261115_135008588.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-vestibule",
+   "note": "Vestibule d'entrée axe escalier : tapis, table dorée, colonnes",
+   "statut": "analysee"
+  },
+  {
+   "id": "P42",
+   "fichier": "sources/pixel/PXL_20261115_135019503.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-couloir-rdc",
+   "note": "Couloir le long de l'escalier, console miroir",
+   "statut": "analysee"
+  },
+  {
+   "id": "P43",
+   "fichier": "sources/pixel/PXL_20261115_135047473.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salle-a-manger",
+   "note": "Salle à manger : lambris vert/jaune, longue table, buffets",
+   "statut": "analysee"
+  },
+  {
+   "id": "P44",
+   "fichier": "sources/pixel/PXL_20261115_135048437.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salle-a-manger",
+   "note": "Salle à manger : lambris vert/jaune, longue table, buffets",
+   "statut": "analysee"
+  },
+  {
+   "id": "P45",
+   "fichier": "sources/pixel/PXL_20261115_135050087.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salle-a-manger",
+   "note": "Salle à manger : lambris vert/jaune, longue table, buffets",
+   "statut": "analysee"
+  },
+  {
+   "id": "P46",
+   "fichier": "sources/pixel/PXL_20261115_135051313.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salle-a-manger",
+   "note": "Salle à manger : lambris vert/jaune, longue table, buffets",
+   "statut": "analysee"
+  },
+  {
+   "id": "P47",
+   "fichier": "sources/pixel/PXL_20261115_135059351.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-chambre-1",
+   "note": "Chambre : lit, tapis, armoire, 2 fenêtres",
+   "statut": "analysee"
+  },
+  {
+   "id": "P48",
+   "fichier": "sources/pixel/PXL_20261115_135100590.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-chambre-1",
+   "note": "Chambre : lit, tapis, armoire, 2 fenêtres",
+   "statut": "analysee"
+  },
+  {
+   "id": "P49",
+   "fichier": "sources/pixel/PXL_20261115_135102000.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-chambre-1",
+   "note": "Chambre : lit, tapis, armoire, 2 fenêtres",
+   "statut": "analysee"
+  },
+  {
+   "id": "P50",
+   "fichier": "sources/pixel/PXL_20261115_135108463.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salle-a-manger",
+   "note": "Bureau : cheminée marbre blanc, grande table, lambris",
+   "statut": "analysee"
+  },
+  {
+   "id": "P51",
+   "fichier": "sources/pixel/PXL_20261115_135109922.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-salle-a-manger",
+   "note": "Bureau : cheminée marbre blanc, grande table, lambris",
+   "statut": "analysee"
+  },
+  {
+   "id": "P52",
+   "fichier": "sources/pixel/PXL_20261115_135112459.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-chambre-2",
+   "note": "Chambre à rayures : cheminée, jouets",
+   "statut": "analysee"
+  },
+  {
+   "id": "P53",
+   "fichier": "sources/pixel/PXL_20261115_135114713.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-chambre-2",
+   "note": "Chambre à rayures : cheminée, jouets",
+   "statut": "analysee"
+  },
+  {
+   "id": "P54",
+   "fichier": "sources/pixel/PXL_20261115_135115711.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-chambre-2",
+   "note": "Chambre à rayures : cheminée, jouets",
+   "statut": "analysee"
+  },
+  {
+   "id": "P55",
+   "fichier": "sources/pixel/PXL_20261115_135122461.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-chambre-3",
+   "note": "Pièce à l'armoire et tableau marine",
+   "statut": "analysee"
+  },
+  {
+   "id": "P56",
+   "fichier": "sources/pixel/PXL_20261115_135123195.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-chambre-3",
+   "note": "Pièce à l'armoire et tableau marine",
+   "statut": "analysee"
+  },
+  {
+   "id": "P57",
+   "fichier": "sources/pixel/PXL_20261115_135125273.jpg",
+   "source": "pixel",
+   "taille": [
+    3072,
+    4080
+   ],
+   "zone": "int-chambre-3",
+   "note": "Pièce à l'armoire et tableau marine",
+   "statut": "analysee"
+  },
+  {
+   "id": "W01",
+   "fichier": "sources/web/1.webp",
+   "source": "web",
+   "taille": [
+    960,
+    720
+   ],
+   "zone": "ext-facade-sud",
+   "note": "Façade jardin (sud) frontale : perron, balcon central, balustrade terrasse",
+   "statut": "analysee"
+  },
+  {
+   "id": "W02",
+   "fichier": "sources/web/2.png",
+   "source": "web",
+   "taille": [
+    768,
+    512
+   ],
+   "zone": "ext-facade-est",
+   "note": "Angle 3/4, olivier, terrasse balustrée",
+   "statut": "analysee"
+  },
+  {
+   "id": "W03",
+   "fichier": "sources/web/3.webp",
+   "source": "web",
+   "taille": [
+    1091,
+    605
+   ],
+   "zone": "ext-jardin",
+   "note": "Vue aérienne du parc : pelouse, bassin en haricot, mât, allée",
+   "statut": "analysee"
+  },
+  {
+   "id": "W04",
+   "fichier": "sources/web/4.webp",
+   "source": "web",
+   "taille": [
+    1649,
+    591
+   ],
+   "zone": "ext-toiture",
+   "note": "Toiture : tuiles canal, souches de cheminée, verrière, balustrades ; vue mer",
+   "statut": "analysee"
+  },
+  {
+   "id": "W05",
+   "fichier": "sources/web/5.webp",
+   "source": "web",
+   "taille": [
+    743,
+    588
+   ],
+   "zone": "ext-jardin",
+   "note": "Aérien face jardin : bassin, mâts, pelouse, perron",
+   "statut": "analysee"
+  },
+  {
+   "id": "W06",
+   "fichier": "sources/web/6.webp",
+   "source": "web",
+   "taille": [
+    1608,
+    835
+   ],
+   "zone": "ext-facade-nord",
+   "note": "Plaque « Château Saint-Victor », chapiteaux, porte et imposte fer forgé",
+   "statut": "analysee"
+  },
+  {
+   "id": "W07",
+   "fichier": "sources/web/7.webp",
+   "source": "web",
+   "taille": [
+    1920,
+    977
+   ],
+   "zone": "int-salon-vert",
+   "note": "Salon vert à pan coupé : cheminée marbre rose, trumeau doré, pendule",
+   "statut": "analysee"
+  },
+  {
+   "id": "W08",
+   "fichier": "sources/web/8.webp",
+   "source": "web",
+   "taille": [
+    1920,
+    1003
+   ],
+   "zone": "int-vestibule",
+   "note": "Vestibule : rideaux rouges, porte-manteau, escalier fer forgé",
+   "statut": "analysee"
+  },
+  {
+   "id": "W09",
+   "fichier": "sources/web/9.webp",
+   "source": "web",
+   "taille": [
+    1920,
+    991
+   ],
+   "zone": "int-escalier",
+   "note": "Cage d'escalier vue de dessus : forme, marbre à cabochons",
+   "statut": "analysee"
+  },
+  {
+   "id": "W10",
+   "fichier": "sources/web/10.webp",
+   "source": "web",
+   "taille": [
+    1919,
+    706
+   ],
+   "zone": "ext-toiture",
+   "note": "Toiture côté jardin : verrière, 9 souches, croupes",
+   "statut": "analysee"
+  },
+  {
+   "id": "W11",
+   "fichier": "sources/web/11.webp",
+   "source": "web",
+   "taille": [
+    1886,
+    972
+   ],
+   "zone": "ext-facade-nord",
+   "note": "Aérien façade nord : entrée, parking, tennis",
+   "statut": "analysee"
+  },
+  {
+   "id": "W12",
+   "fichier": "sources/web/12.webp",
+   "source": "web",
+   "taille": [
+    1005,
+    940
+   ],
+   "zone": "ext-emprise",
+   "note": "Vue zénithale : emprise exacte, toitures, terrasses, tennis, parking",
+   "statut": "analysee"
+  },
+  {
+   "id": "W13",
+   "fichier": "sources/web/13.webp",
+   "source": "web",
+   "taille": [
+    1917,
+    885
+   ],
+   "zone": "ext-facade-sud",
+   "note": "Façade jardin rapprochée : ferronneries, parasols",
+   "statut": "analysee"
+  },
+  {
+   "id": "W14",
+   "fichier": "sources/web/14.webp",
+   "source": "web",
+   "taille": [
+    1917,
+    912
+   ],
+   "zone": "int-salon-vert",
+   "note": "Détail pendule cavalier et candélabres",
+   "statut": "analysee"
+  },
+  {
+   "id": "W15",
+   "fichier": "sources/web/15.webp",
+   "source": "web",
+   "taille": [
+    1491,
+    817
+   ],
+   "zone": "ext-facade-sud",
+   "note": "Aérien façade jardin + terrasse, tennis, piscine",
+   "statut": "analysee"
+  },
+  {
+   "id": "W16",
+   "fichier": "sources/web/16.webp",
+   "source": "web",
+   "taille": [
+    1718,
+    879
+   ],
+   "zone": "ext-jardin",
+   "note": "Aérien large : platanes, cour sablée, palmiers",
+   "statut": "analysee"
+  },
+  {
+   "id": "W17",
+   "fichier": "sources/web/17.webp",
+   "source": "web",
+   "taille": [
+    1819,
+    975
+   ],
+   "zone": "ext-facade-est",
+   "note": "Façade latérale : volets persiennés, lanternes",
+   "statut": "analysee"
+  },
+  {
+   "id": "W18",
+   "fichier": "sources/web/18.webp",
+   "source": "web",
+   "taille": [
+    916,
+    693
+   ],
+   "zone": "ext-jardin",
+   "note": "Aérien très large du parc",
+   "statut": "analysee"
+  }
+ ],
+ "rendus": [
+  {
+   "t": "2026-11-15T19:52:30",
+   "chemin": "rendus/emprise.png",
+   "legende": "Emprise (W12)"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "chemin": "rendus/terrasse.png",
+   "legende": "Terrasse : vue aérienne sud (cf. W15), château en masse grise de contexte"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "chemin": "rendus/terrasse_sud_sol.png",
+   "legende": "Terrasse : perron sud évasé depuis la cour sablée (cf. W01/W13)"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "chemin": "rendus/terrasse_detail.png",
+   "legende": "Terrasse : détail balustrade, dés, dallage, mobilier teck"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "chemin": "rendus/terrasse_nord.png",
+   "legende": "Perron nord : 9 marches, palier, échiffres, lampadaires boule (cf. P40)"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "chemin": "rendus/terrasse_est.png",
+   "legende": "Escalier est vers le parking, balustrades rampantes"
+  },
+  {
+   "t": "2026-11-15T20:22:27",
+   "chemin": "rendus/parc.png",
+   "legende": "Parc complet"
+  },
+  {
+   "t": "2026-11-15T20:22:27",
+   "chemin": "rendus/toiture.png",
+   "legende": "Toiture vue du sud"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_rdc.png",
+   "legende": "Coque RDC éclatée (étage et plafonds retirés), vue du sud-est"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_etage.png",
+   "legende": "Coque étage (plafonds et coupole retirés), vue du sud-est"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_rdc_plan.png",
+   "legende": "Coque RDC vue de dessus (sud en haut, est à droite)"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_etage_plan.png",
+   "legende": "Coque étage vue de dessus (sud en haut, est à droite)"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_coupe_ns.png",
+   "legende": "Coupe nord-sud dans l'axe (moitié est), cage, volées, coupole"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_cage_so.png",
+   "legende": "Cage d'escalier impérial ouverte, vue du sud-ouest"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_cage.png",
+   "legende": "Cage d'escalier ouverte, vue plongeante du nord-ouest"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_escalier.png",
+   "legende": "Volée centrale depuis la porte d'entrée (cf. P41)"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_escalier_repos.png",
+   "legende": "Depuis le repos vers le nord : volées de retour, galerie (cf. P18)"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_palier.png",
+   "legende": "Galerie nord depuis la bibliothèque (cf. P04)"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "chemin": "rendus/coque_passage.png",
+   "legende": "Passage ouest sous la volée de retour vers le petit salon (cf. P24)"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "chemin": "rendus/bati.png",
+   "legende": "Façade sud depuis la pelouse (≈ W01)"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "chemin": "rendus/bati_sud_aerien.png",
+   "legende": "Façade sud aérienne (≈ W15)"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "chemin": "rendus/bati_nord.png",
+   "legende": "Façade nord aérienne (≈ W11)"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "chemin": "rendus/bati_nord_sol.png",
+   "legende": "Avant-corps nord et porte d'entrée depuis le perron (≈ P38/P39)"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "chemin": "rendus/bati_est.png",
+   "legende": "Façade est, persiennes (≈ W17)"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "chemin": "rendus/bati_detail.png",
+   "legende": "Avant-corps sud : portique à 2 colonnes, pans coupés, balcon balustré"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "chemin": "rendus/bati_interieur.png",
+   "legende": "Contrôle intérieur : baies percées, parement intérieur"
+  },
+  {
+   "t": "2026-11-15T20:49:35",
+   "chemin": "rendus/assemblage_sud_haut.png",
+   "legende": "Assemblage complet après miroir (≈ W15)"
+  },
+  {
+   "t": "2026-11-15T20:59:58",
+   "chemin": "rendus/jeu/planche.png",
+   "legende": "Captures de l'exécutable Linux (avant P4)"
+  },
+  {
+   "t": "2026-11-15T21:33:30",
+   "chemin": "rendus/unity-reprise/vestibule.png",
+   "legende": "Player Linux : vestibule décoré et escalier"
+  },
+  {
+   "t": "2026-11-15T21:33:30",
+   "chemin": "rendus/unity-reprise/salle_a_manger.png",
+   "legende": "Player Linux : salle à manger à l’étage"
+  },
+  {
+   "t": "2026-11-15T21:33:30",
+   "chemin": "rendus/unity-reprise/bibliotheque.png",
+   "legende": "Player Linux : bibliothèque au-dessus de l’entrée"
+  },
+  {
+   "t": "2026-11-15T22:28:01",
+   "chemin": "rendus/interface-immersive-1920/accueil.png",
+   "legende": "Accueil immersif 3D : Château Saint-Victor, UX audacieuse sans photographie"
+  },
+  {
+   "t": "2026-11-15T22:28:01",
+   "chemin": "rendus/interface-immersive-1920/bassin_visite.png",
+   "legende": "Visite 3D : accès direct au bassin du parc"
+  },
+  {
+   "t": "2026-11-16T16:06:15",
+   "chemin": "rendus/paintball-solo-pov.png",
+   "legende": "Paintball solo : vue a la premiere personne, marqueur et impacts colores."
+  },
+  {
+   "t": "2026-11-16T16:06:15",
+   "chemin": "rendus/paintball-solo-troisieme-personne.png",
+   "legende": "Paintball solo : robot anime CC0 et zone de cibles degagee."
+  },
+  {
+   "t": "2026-11-16T16:06:15",
+   "chemin": "rendus/paintball-impact-sol.png",
+   "legende": "Impacts cyan visibles sur le sol apres trois tirs sans toucher de cible."
+  },
+  {
+   "t": "2026-11-17T18:15:45",
+   "chemin": "rendus/paintball-nuit-jardin.png",
+   "legende": "Paintball de nuit : guirlandes et lanternes japonaises dans le jardin"
+  }
+ ],
+ "attente": [
+  {
+   "id": "PLAN",
+   "question": "Plan proposé (voir plan-rdc.svg et plan-etage.svg). RDC : vestibule au nord (avant-corps), escalier impérial dans l'axe, passages est/ouest sous les volées, petit salon (fontaine, sabres) sous le repos, salon bow-window au centre sud, billard à l'est du salon, couloirs est/ouest le long de la façade nord. Étage : bibliothèque au-dessus du vestibule, palier à galeries sous coupole, et sur la façade jardin d'est en ouest : chambre 1 (angle SE), salle à manger, chambre 2 à rayures (au-dessus du salon), chambre 3 (bureau, marine). Points à confirmer : 1) La salle à manger est-elle bien à l'étage (et non au RDC) ? 2) Billard : long côté nord-sud, cheminée sur le mur est, porte nord vers le couloir est ? 3) Le salon vert (W07) est-il la pièce d'angle SE au fond du billard ? 4) Côté ouest du RDC (portes vert d'eau) : un salon symétrique du billard, et quoi au bout du couloir ouest ? 5) Vestibule et bibliothèque ont-ils des fenêtres sur les côtés est/ouest de l'avant-corps d'entrée ? 6) Que desservent le dégagement nord-ouest de l'étage (placards, porte cintrée) et la porte en niche à l'est du palier ?",
+   "t": "2026-11-15T20:00:59",
+   "reponse": "VALIDÉ",
+   "t_reponse": "2026-11-15T20:04:00"
+  },
+  {
+   "id": "P4.coque-repere",
+   "question": "Le repère D-003 (+X est, +Y sud, Z haut) est indirect par rapport au terrain : dans Blender/Unity, en regardant vers le sud, l'est est à droite alors qu'il est à gauche en réalité. Tout le modèle est donc le miroir du château (vérifié sur P24/P42 : la volée est à gauche en regardant le sud sur la photo, à droite dans la coque ; plans SVG justes). Correction proposée : garder D-003 dans les scripts et appliquer un miroir Y global (échelle Y = −1, normales recalculées, angles des portes inversés) à l'assemblage, ou redéfinir +Y = nord. Que retient-on ?",
+   "t": "2026-11-15T20:47:32",
+   "reponse": "D-026 déjà retenue : miroir global Y à l’assemblage et Z dans Unity.",
+   "t_reponse": "2026-11-15T21:23:11"
+  }
+ ],
+ "journal": [
+  {
+   "t": "2026-11-15T19:35:54",
+   "msg": "État initialisé"
+  },
+  {
+   "t": "2026-11-15T19:35:54",
+   "msg": "P0.1 → fait : 58 photos Pixel + 18 web (W01-W18)"
+  },
+  {
+   "t": "2026-11-15T19:35:54",
+   "msg": "P0.2 → fait : Triage par zone, à confirmer en P1"
+  },
+  {
+   "t": "2026-11-15T19:37:15",
+   "msg": "App de suivi en place"
+  },
+  {
+   "t": "2026-11-15T19:41:07",
+   "msg": "Décision D-007 : Exécution en workflow multi-agents"
+  },
+  {
+   "t": "2026-11-15T19:41:07",
+   "msg": "Décision D-008 : Plan déduit des photos"
+  },
+  {
+   "t": "2026-11-15T19:41:07",
+   "msg": "Décision D-009 : Niveaux modélisés"
+  },
+  {
+   "t": "2026-11-15T19:41:07",
+   "msg": "Décision D-010 : Gameplay"
+  },
+  {
+   "t": "2026-11-15T19:42:18",
+   "msg": "P1.ext → en-cours"
+  },
+  {
+   "t": "2026-11-15T19:42:19",
+   "msg": "P2.emprise → en-cours"
+  },
+  {
+   "t": "2026-11-15T19:42:20",
+   "msg": "P1.int-etage → en-cours"
+  },
+  {
+   "t": "2026-11-15T19:42:20",
+   "msg": "P1.int-rdc → en-cours"
+  },
+  {
+   "t": "2026-11-15T19:44:03",
+   "msg": "P1.ext : 18 images réduites et lues ; W10/W11 vus depuis le nord (entrée), W12 : jardin à gauche, entrée à droite, tennis en haut (ouest)"
+  },
+  {
+   "t": "2026-11-15T19:45:06",
+   "msg": "int-etage : 31 photos vues (P00-P19, P47-P57) ; P44-P46 consultées pour le raccord"
+  },
+  {
+   "t": "2026-11-15T19:45:06",
+   "msg": "int-etage : P46->P47 = 8 s (13:50:51 -> 13:50:59), pas 1 min 08 ; salle à manger P44-P46 = pièce vue depuis le palier d'étage (P04-P06)"
+  },
+  {
+   "t": "2026-11-15T19:46:07",
+   "msg": "int-rdc : 27 photos lues ; vestibule en avant-corps nord, escalier impérial, 2 passages latéraux, petit salon sous palier, salon bow-window au sud, billard à l'est"
+  },
+  {
+   "t": "2026-11-15T19:47:50",
+   "msg": "P1.ext : 18 fiches écrites. Façade sud 9 travées (pavillons 1+aile 2+avant-corps 3+aile 2+pavillon 1), attique 7 ; 8 souches + 1 conduit ; verrière centrale ; tennis à l'ouest, parking à l'est (hypothèse D-003)"
+  },
+  {
+   "t": "2026-11-15T19:47:50",
+   "msg": "Décision D-011 : Orientation et ordonnance des façades"
+  },
+  {
+   "t": "2026-11-15T19:47:50",
+   "msg": "P1.ext → fait : 18 fiches ext. (P37-P40, W01-W06, W10-W13, W15-W18) ; orientation et ordonnance fixées (décision)"
+  },
+  {
+   "t": "2026-11-15T19:50:08",
+   "msg": "P2.emprise : W12 lu (nord à droite, ouest en haut), échelle sol tennis 12,7 px/m, voitures ~15 px/m ; proportions façades W01/W11/W15/W17"
+  },
+  {
+   "t": "2026-11-15T19:50:35",
+   "msg": "Décision D-012 : P47-P57 et salle à manger à l'étage"
+  },
+  {
+   "t": "2026-11-15T19:50:35",
+   "msg": "Décision D-013 : Escalier impérial et bibliothèque au-dessus du vestibule"
+  },
+  {
+   "t": "2026-11-15T19:50:35",
+   "msg": "P1.int-etage → fait : 31 fiches (P00-P19, P47-P57) ; P44-P57 à l'étage (enfilade ch1-SàM-ch2-ch3) ; escalier impérial ; bibliothèque au-dessus du vestibule"
+  },
+  {
+   "t": "2026-11-15T19:50:35",
+   "msg": "int-etage terminé : 31 fiches, 2 décisions (niveau étage de P44-P57, escalier impérial)"
+  },
+  {
+   "t": "2026-11-15T19:52:12",
+   "msg": "Décision D-014 : Escalier d'honneur impérial"
+  },
+  {
+   "t": "2026-11-15T19:52:12",
+   "msg": "Décision D-015 : Salon au tableau = salon bow-window"
+  },
+  {
+   "t": "2026-11-15T19:52:12",
+   "msg": "int-rdc : 27 fiches écrites (P20-P36, P41-P46, W07-W09, W14)"
+  },
+  {
+   "t": "2026-11-15T19:52:12",
+   "msg": "P1.int-rdc → fait : 27 fiches ; escalier impérial ; vestibule en avant-corps nord, couloirs E/O façade nord, petit salon sous palier, salon bow-window sud centre, billard à l'est ; orientation billard, salle à manger et salon vert à arbitrer en P3"
+  },
+  {
+   "t": "2026-11-15T19:52:30",
+   "msg": "Rendu : rendus/emprise.png"
+  },
+  {
+   "t": "2026-11-15T19:52:30",
+   "msg": "Décision D-016 : Gabarit commun (P2.emprise)"
+  },
+  {
+   "t": "2026-11-15T19:52:30",
+   "msg": "P2.emprise → fait : gabarit.json + emprise.png : 36 × 18,9 m, niveaux, travées 9/7/4/4, 8 souches, verrière, abords (±8 %)"
+  },
+  {
+   "t": "2026-11-15T19:52:55",
+   "msg": "P1.inventaire → en-cours"
+  },
+  {
+   "t": "2026-11-15T19:52:55",
+   "msg": "P3.graphe → en-cours"
+  },
+  {
+   "t": "2026-11-15T19:52:55",
+   "msg": "P3.plan → en-cours"
+  },
+  {
+   "t": "2026-11-15T19:56:27",
+   "msg": "P1.inventaire/P3 : lecture des 76 fiches et du gabarit ; SàM P43-P46 confirmée à l'étage (P42→P43 = 28 s, montée par l'escalier)"
+  },
+  {
+   "t": "2026-11-15T19:57:15",
+   "msg": "P1.inventaire → fait : inventaire.json : 757 éléments dédupliqués sur 23 pièces/zones, priorités 1/2/3 (scripts/inventaire.py)"
+  },
+  {
+   "t": "2026-11-15T20:00:59",
+   "msg": "Décision D-017 : Plan RDC proposé (P3)"
+  },
+  {
+   "t": "2026-11-15T20:00:59",
+   "msg": "Décision D-018 : Plan d'étage proposé (P3)"
+  },
+  {
+   "t": "2026-11-15T20:00:59",
+   "msg": "P3.graphe → fait : graphe.json : 35 pièces/volumes (17 vus), 38 liaisons avec preuves ; P43-P46 corrigées en étage"
+  },
+  {
+   "t": "2026-11-15T20:00:59",
+   "msg": "P3.plan → fait : plan-rdc.svg + plan-etage.svg (pièces, portes, fenêtres sur axes de travées, escalier, photos et directions)"
+  },
+  {
+   "t": "2026-11-15T20:00:59",
+   "msg": "P3.validation → a-valider"
+  },
+  {
+   "t": "2026-11-15T20:00:59",
+   "msg": "En attente de validation : PLAN"
+  },
+  {
+   "t": "2026-11-15T20:00:59",
+   "msg": "P3 : plans RDC/étage publiés, en attente de validation (PLAN)"
+  },
+  {
+   "t": "2026-11-15T20:01:05",
+   "msg": "P3.graphe → fait : graphe.json : 34 pièces/volumes (20 vus), 36 liaisons avec preuves ; P43-P46 corrigées en étage"
+  },
+  {
+   "t": "2026-11-15T20:02:11",
+   "msg": "P2.toiture → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:02:12",
+   "msg": "P2.jardin → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:02:12",
+   "msg": "P2.vegetation → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:02:12",
+   "msg": "P2.annexes → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:02:13",
+   "msg": "P2.terrasse → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:02:13",
+   "msg": "P2.facade-sud → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:02:13",
+   "msg": "P2.facade-nord → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:02:13",
+   "msg": "P2.facades-laterales → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:02:14",
+   "msg": "P2.toiture → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:04:00",
+   "msg": "Validé PLAN : VALIDÉ"
+  },
+  {
+   "t": "2026-11-15T20:04:48",
+   "msg": "P3.validation → fait : Validé par Valentin dans l'app, sans correction"
+  },
+  {
+   "t": "2026-11-15T20:04:48",
+   "msg": "Décision D-019 : Plan intérieur validé"
+  },
+  {
+   "t": "2026-11-15T20:04:50",
+   "msg": "--help"
+  },
+  {
+   "t": "2026-11-15T20:07:25",
+   "msg": "Décision D-020 : Skills jeu vidéo installés"
+  },
+  {
+   "t": "2026-11-15T20:12:13",
+   "msg": "parc : textures CC0 téléchargées (Poly Haven, ambientCG LeafSet), début du script scripts/composants/parc.py"
+  },
+  {
+   "t": "2026-11-15T20:13:01",
+   "msg": "P2.terrasse : script scripts/composants/terrasse.py écrit (textures CC0 Tiles142, beige_wall_001, kitchen_wood), premier essai"
+  },
+  {
+   "t": "2026-11-15T20:16:21",
+   "msg": "bati : références lues (W01, W13, W15, W11, W17, P38, P39, W06), textures CC0 beige_wall_001 + oak_wood_planks ; écriture de scripts/composants/bati.py"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "msg": "Rendu : rendus/terrasse.png"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "msg": "Rendu : rendus/terrasse_sud_sol.png"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "msg": "Rendu : rendus/terrasse_detail.png"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "msg": "Rendu : rendus/terrasse_nord.png"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "msg": "Rendu : rendus/terrasse_est.png"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "msg": "Décision D-021 : Terrasse : limites et raccords"
+  },
+  {
+   "t": "2026-11-15T20:18:21",
+   "msg": "P2.terrasse → fait : terrasse.glb (16,6 Mo, 291 objets, 219 balustres instanciés) : terrasse sud + retour est balustrés, perron sud évasé 8 marches, bacs ronds à lauriers-roses, escalier est rampant, perron nord 9 marches + 2 lampadaires, dallage CC0, 4 parasols, salons, transats ; 5 rendus"
+  },
+  {
+   "t": "2026-11-15T20:22:26",
+   "msg": "P2.jardin → fait : parc.glb (26 Mo) : terrain, cours, bassin, tennis, parking, piscine, haies, végétation ; rendus/parc.png"
+  },
+  {
+   "t": "2026-11-15T20:22:26",
+   "msg": "P2.vegetation → fait : parc.glb (26 Mo) : terrain, cours, bassin, tennis, parking, piscine, haies, végétation ; rendus/parc.png"
+  },
+  {
+   "t": "2026-11-15T20:22:27",
+   "msg": "P2.annexes → fait : parc.glb (26 Mo) : terrain, cours, bassin, tennis, parking, piscine, haies, végétation ; rendus/parc.png"
+  },
+  {
+   "t": "2026-11-15T20:22:27",
+   "msg": "P2.toiture → fait : toiture.glb (7,6 Mo) : tuiles, souches, verrière, balustrades d'attique ; 4 rendus"
+  },
+  {
+   "t": "2026-11-15T20:22:27",
+   "msg": "P2.facade-sud → a-faire"
+  },
+  {
+   "t": "2026-11-15T20:22:27",
+   "msg": "P2.facade-nord → a-faire"
+  },
+  {
+   "t": "2026-11-15T20:22:27",
+   "msg": "P2.facades-laterales → a-faire"
+  },
+  {
+   "t": "2026-11-15T20:22:27",
+   "msg": "Rendu : rendus/parc.png"
+  },
+  {
+   "t": "2026-11-15T20:22:27",
+   "msg": "Rendu : rendus/toiture.png"
+  },
+  {
+   "t": "2026-11-15T20:23:15",
+   "msg": "P2.facade-sud → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:23:15",
+   "msg": "P2.facade-nord → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:23:15",
+   "msg": "P2.facades-laterales → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:23:16",
+   "msg": "P4.coque → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:26:44",
+   "msg": "P5.controle → en-cours : Explorateur.cs (1re personne, ZQSD physique, saut, course, E/clic pour les portes), Porte.cs (pivot sur le gond, objets porte_*)"
+  },
+  {
+   "t": "2026-11-15T20:26:44",
+   "msg": "P5.import → en-cours : ChateauScene.cs : menu Château/Construire la scène + BuildLinux ; parc, terrasse, toiture importés (glTFast), MeshCollider, vitrage transparent"
+  },
+  {
+   "t": "2026-11-15T20:26:44",
+   "msg": "scripts/assembler.py : assemblage des GLB + 6 vues de contrôle (W01, W15, W11, P39, W17, W18)"
+  },
+  {
+   "t": "2026-11-15T20:29:06",
+   "msg": "P4.coque : lecture des plans, géométrie de l'escalier impérial arrêtée (repos +3,40, 19+11 contremarches)"
+  },
+  {
+   "t": "2026-11-15T20:35:34",
+   "msg": "bati : lecture gabarit/photos faite, écriture de scripts/composants/bati.py (P2.facade-sud/nord/laterales)"
+  },
+  {
+   "t": "2026-11-15T20:47:32",
+   "msg": "Décision D-022 : Coque intérieure : niveaux, épaisseurs, hauteurs (P4.coque)"
+  },
+  {
+   "t": "2026-11-15T20:47:32",
+   "msg": "Décision D-023 : Escalier impérial : géométrie praticable (P4.coque)"
+  },
+  {
+   "t": "2026-11-15T20:47:32",
+   "msg": "Décision D-024 : Portes animables : convention (P4.coque)"
+  },
+  {
+   "t": "2026-11-15T20:47:32",
+   "msg": "En attente de validation : P4.coque-repere"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_rdc.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_etage.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_rdc_plan.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_etage_plan.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_coupe_ns.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_cage_so.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_cage.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_escalier.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_escalier_repos.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_palier.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "Rendu : rendus/coque_passage.png"
+  },
+  {
+   "t": "2026-11-15T20:47:41",
+   "msg": "P4.coque → fait : coque.glb (3,8 Mo, 197 objets) + travail/coque.json (37 pièces, 35 ouvertures, pivots des vantaux) ; escalier impérial praticable (0,179/0,177) ; 11 rendus ; repère D-003 en miroir signalé (attente)"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "Décision D-025 : Façades (bati) : murs, baies et menuiseries"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "bati : bati.glb 4,7 Mo (332 objets, 59 maillages, 74 baies, 277 instances), 7 rendus"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "Rendu : rendus/bati.png"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "Rendu : rendus/bati_sud_aerien.png"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "Rendu : rendus/bati_nord.png"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "Rendu : rendus/bati_nord_sol.png"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "Rendu : rendus/bati_est.png"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "Rendu : rendus/bati_detail.png"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "Rendu : rendus/bati_interieur.png"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "P2.facade-sud → fait : bati.glb (4,7 Mo) : sud 9/9/7 baies, bow à pans coupés, portique 2 colonnes, balcon z=5,35 ; rendus bati, bati_sud_aerien, bati_detail"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "P2.facade-nord → fait : dans bati.glb : nord 7/7/5, porte d'entrée à pilastres et inscription, tables, soupiraux ; rendus bati_nord, bati_nord_sol"
+  },
+  {
+   "t": "2026-11-15T20:48:53",
+   "msg": "P2.facades-laterales → fait : dans bati.glb : est/ouest 4/4/2, persiennes, frontons pavillons ; ouest par symétrie ; rendu bati_est"
+  },
+  {
+   "t": "2026-11-15T20:49:35",
+   "msg": "Décision D-026 : Miroir Y à l'assemblage"
+  },
+  {
+   "t": "2026-11-15T20:49:35",
+   "msg": "Rendu : rendus/assemblage_sud_haut.png"
+  },
+  {
+   "t": "2026-11-15T20:51:39",
+   "msg": "P4.chambres → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:51:39",
+   "msg": "P4.bureau → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:51:40",
+   "msg": "P4.salons → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:51:40",
+   "msg": "P4.billard → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:51:41",
+   "msg": "P4.vestibule → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:51:41",
+   "msg": "P4.palier → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:51:41",
+   "msg": "P4.couloirs → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:56:11",
+   "msg": "P4.salle-a-manger → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:56:11",
+   "msg": "P4.bibliotheque → en-cours"
+  },
+  {
+   "t": "2026-11-15T20:59:56",
+   "msg": "piece_circulations : lecture coque.json, inventaire et photos (vestibule, escalier, petit salon, passages, couloirs, palier, galeries) ; écriture du script"
+  },
+  {
+   "t": "2026-11-15T20:59:58",
+   "msg": "P5.build → en-cours : build/linux/ChateauSaintVictor.x86_64 (IL2CPP) ; contrôle par -capture <dossier> (8 points de vue) ; intérieur praticable, pièces encore nues"
+  },
+  {
+   "t": "2026-11-15T20:59:58",
+   "msg": "Rendu : rendus/jeu/planche.png"
+  },
+  {
+   "t": "2026-11-15T21:03:19",
+   "msg": "piece_salons : photos P27-P35/W07 lues, assets Poly Haven téléchargés (fauteuils, lustre, console, plante, cadre, canapé, vase, table, miroir ; parquet, noyer, velours, marbre)"
+  },
+  {
+   "t": "2026-11-15T21:09:26",
+   "msg": "P4.chambres : script piece_chambres.py écrit (3 chambres), premier lancement"
+  },
+  {
+   "t": "2026-11-15T21:23:11",
+   "msg": "P5.import → en-cours : Reprise : intégration des quatre composants intérieurs et vérification du build"
+  },
+  {
+   "t": "2026-11-15T21:23:11",
+   "msg": "Validé P4.coque-repere : D-026 déjà retenue : miroir global Y à l’assemblage et Z dans Unity."
+  },
+  {
+   "t": "2026-11-15T21:26:42",
+   "msg": "P4.assemblage → en-cours : Contrôle de l’intégration des quatre décors dans le player Linux"
+  },
+  {
+   "t": "2026-11-15T21:26:42",
+   "msg": "Reprise : décors réception exportés, import automatique des GLB, entrée animable, portes fermées respectées selon coque.json et contrôle de parcours ajouté."
+  },
+  {
+   "t": "2026-11-15T21:28:43",
+   "msg": "Décision D-027 : Reconstruction Unity depuis les composants"
+  },
+  {
+   "t": "2026-11-15T21:33:30",
+   "msg": "Rendu : rendus/unity-reprise/vestibule.png"
+  },
+  {
+   "t": "2026-11-15T21:33:30",
+   "msg": "Rendu : rendus/unity-reprise/salle_a_manger.png"
+  },
+  {
+   "t": "2026-11-15T21:33:30",
+   "msg": "Rendu : rendus/unity-reprise/bibliotheque.png"
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P2.assemblage → fait : Neuf composants assemblés dans export/chateau.blend ; extérieur contrôlé dans les captures Linux entrée/jardin."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.assemblage → fait : Quatre ensembles de décors intégrés ; douze captures du player contrôlées. Entrée, escalier et galerie traversés avec le CharacterController."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P5.import → fait : Synchronisation automatique des neuf GLB ; scène reconstruite avant chaque build. Références Unity : 0 erreur, 0 avertissement."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P5.eclairage → fait : Intensités des vingt sources glTF adaptées à URP ; surexposition corrigée et captures Linux contrôlées."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P5.controle → fait : Contrôleur existant conservé. Deux vantaux d’entrée animables ; seuls les vantaux intérieurs déclarés ouvrables sont interactifs. Contrôle automatique du passage et montée à l’étage réussi."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P5.build → fait : Build Linux IL2CPP réussi ; player lancé, douze captures contrôlées et dix contrôles de parcours réussis. Lancement : ./lancer.sh."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.vestibule → a-valider : Décor piece_circulations intégré et contrôlé dans le player ; rendu vestibule.png."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.palier → a-valider : Décor piece_circulations intégré ; escalier et accès à la galerie testés dans le player."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.couloirs → a-valider : Décor piece_circulations intégré : passages, couloirs et petit salon."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.salons → a-valider : Décor piece_salons intégré ; vues salon et billard du player contrôlées."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.billard → a-valider : Décor piece_salons intégré ; vue billard du player contrôlée."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.salle-a-manger → a-valider : Décor piece_reception intégré ; vue salle_a_manger du player contrôlée."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.bibliotheque → a-valider : Décor piece_reception intégré ; vue bibliotheque du player contrôlée."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.bureau → a-valider : P50/P51 rattachées à la salle à manger selon D-012 ; pièces non vues meublées sobrement dans piece_salons."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "P4.chambres → a-valider : Décor piece_chambres intégré ; trois vues de chambres du player contrôlées."
+  },
+  {
+   "t": "2026-11-15T21:34:58",
+   "msg": "Reprise terminée : build Linux exécuté, 12 captures contrôlées, 10 contrôles de parcours réussis. Les premiers faux blocages venaient de mouvements inférieurs au minMoveDistance=0,001 m à très haute cadence ; test stabilisé sur le pas physique. Décors intérieurs soumis à validation visuelle."
+  },
+  {
+   "t": "2026-11-15T21:59:42",
+   "msg": "Décision D-028 : Interface de présentation et visite du domaine"
+  },
+  {
+   "t": "2026-11-15T22:05:18",
+   "msg": "Décision D-029 : Visite uniquement en 3D et skill Game UI UX"
+  },
+  {
+   "t": "2026-11-15T22:15:50",
+   "msg": "Décision D-030 : UX immersive et audacieuse"
+  },
+  {
+   "t": "2026-11-15T22:28:01",
+   "msg": "P5.controle → fait : UX plein écran : destinations prévisualisées au survol/focus et entrée directe, pile de menus, focus clavier/manette, HUD événementiel, commandes contextuelles et mode animations réduites. 10 contrôles UI réussis par résolution (1280×720,1920×1080,2560×1080). Manette physique non testée."
+  },
+  {
+   "t": "2026-11-15T22:28:01",
+   "msg": "P5.build → fait : Build Linux IL2CPP réussi avec interface immersive. 30 contrôles UI et 10 contrôles de parcours réussis ; références Unity sans erreur. ./lancer.sh ouvre une fenêtre 1600×900. Aucun affichage de photos, contact ni réservation."
+  },
+  {
+   "t": "2026-11-15T22:28:01",
+   "msg": "Rendu : rendus/interface-immersive-1920/accueil.png"
+  },
+  {
+   "t": "2026-11-15T22:28:01",
+   "msg": "Rendu : rendus/interface-immersive-1920/bassin_visite.png"
+  },
+  {
+   "t": "2026-11-15T22:28:01",
+   "msg": "Interface immersive livrée : Game UI/UX et Emil Kowalski appliqués. Trois formats testés, focus et clics contrôlés ; photographies absentes de l’application. Limites de fidélité des textures/décors consignées dans travail/audits/fidelite.md."
+  },
+  {
+   "t": "2026-11-16T08:31:35",
+   "msg": "Décision D-031 : Accès, animation et médiation du domaine"
+  },
+  {
+   "t": "2026-11-16T08:40:45",
+   "msg": "P4.salons → a-valider : Tableau marin du salon recalé sur la photo source P30, texture intégrée à sa toile et dimensions corrigées à 2,60 × 1,40 m."
+  },
+  {
+   "t": "2026-11-16T08:40:46",
+   "msg": "P5.build → fait : Rebuild Linux IL2CPP réussi (1257 Mo); contrôle du projet Unity: 235 fichiers, 0 erreur, 0 avertissement."
+  },
+  {
+   "t": "2026-11-16T08:40:53",
+   "msg": "P4.salons → a-valider : Tableau marin du salon recale sur la photo source P30, texture integree a sa toile et dimensions corrigees a 2,60 x 1,40 m."
+  },
+  {
+   "t": "2026-11-16T08:40:53",
+   "msg": "P4.bibliotheque → a-valider : Bibliotheques agrandies a 2,80 m de large et 3,05 m de haut, selon les vues source P00-P03."
+  },
+  {
+   "t": "2026-11-16T08:40:53",
+   "msg": "P5.controle → fait : Portes-fenetres d'etage ouvrables, plaques historiques interactives a l'entree, l'escalier, la bibliotheque et la terrasse; une fontaine haute et animee, drapeaux animes."
+  },
+  {
+   "t": "2026-11-16T08:40:54",
+   "msg": "P5.build → fait : Rebuild Linux IL2CPP reussi (1257 Mo); controle du projet Unity: 235 fichiers, 0 erreur, 0 avertissement."
+  },
+  {
+   "t": "2026-11-16T14:56:33",
+   "msg": "P5.controle → en-cours : Mode paintball solo : cameras, balistique, impacts et objets physiques."
+  },
+  {
+   "t": "2026-11-16T14:56:33",
+   "msg": "Décision D-032 : Paintball solo sur navigateur"
+  },
+  {
+   "t": "2026-11-16T15:21:55",
+   "msg": "P5.build → en-cours : Construction WebGL paintball et verification navigateur."
+  },
+  {
+   "t": "2026-11-16T16:06:15",
+   "msg": "P5.controle → fait : Paintball solo WebGL : POV/3e personne, robot anime CC0, tirs avec gravite/trainee, impacts colores, rechargement, pause, score et mobilier mobile. Verification Chrome : tous les controles passent, dont animation et collision joueur-caisse."
+  },
+  {
+   "t": "2026-11-16T16:06:15",
+   "msg": "P5.build → fait : Build WebGL reussi 116,2 Mo ; Chrome sans erreur, ecran de resultat apres 90 s teste, 282 textures compressees et dependances GLB du decor retirees. Serveur local sur localhost:8086."
+  },
+  {
+   "t": "2026-11-16T16:06:15",
+   "msg": "Rendu : rendus/paintball-solo-pov.png"
+  },
+  {
+   "t": "2026-11-16T16:06:15",
+   "msg": "Rendu : rendus/paintball-solo-troisieme-personne.png"
+  },
+  {
+   "t": "2026-11-16T16:06:15",
+   "msg": "Rendu : rendus/paintball-impact-sol.png"
+  },
+  {
+   "t": "2026-11-16T17:23:48",
+   "msg": "Décision D-033 : Paintball professionnalisé"
+  },
+  {
+   "t": "2026-11-16T19:12:59",
+   "msg": "Décision D-034 : Match et bots du paintball"
+  },
+  {
+   "t": "2026-11-17T00:37:30",
+   "msg": "Décision D-035 : Apparitions sur tout le domaine et commandes tactiles"
+  },
+  {
+   "t": "2026-11-17T09:48:02",
+   "msg": "Décision D-036 : Options, portes-fenêtres, passages sous l'escalier"
+  },
+  {
+   "t": "2026-11-17T18:15:45",
+   "msg": "Décision D-037 : Nuit réelle, décor de nuit, chute des touchés, musique provençale"
+  },
+  {
+   "t": "2026-11-17T18:15:45",
+   "msg": "Rendu : rendus/paintball-nuit-jardin.png"
+  },
+  {
+   "t": "2026-11-17T19:43:38",
+   "msg": "Publication 17/11 : build Brotli (nuit réelle, décor de nuit, chute des touchés, musique provençale) déployé sur le Worker, version 13af45a4"
+  },
+  {
+   "t": "2026-11-17T20:24:15",
+   "msg": "Décision D-038 : Fenêtres éclairées, bassin, salon seul, build mobile ASTC"
+  },
+  {
+   "t": "2026-11-17T20:49:04",
+   "msg": "Publication 17/11 nuit : fenêtres éclairées, bassin, salon jouable seul, build mobile ASTC ; Worker version 80bc7004"
+  },
+  {
+   "t": "2026-11-17T23:00:34",
+   "msg": "Décision D-039 : Jardin sur données ouvertes, scooter, toit, accroupi, vies"
+  },
+  {
+   "t": "2026-11-18T00:35:08",
+   "msg": "Décision D-040 : Plan du domaine d'après la limite de propriété"
+  },
+  {
+   "t": "2026-11-19T09:59:21",
+   "msg": "Relevé des 18–19 novembre importé et contrôlé (23 photos, 5 vidéos). Manifeste et planches dans travail/releve-2026-11-19. Plans R03, R07 et R18 repérés. Parcours des combles et pièces documentés dans pieces-manquantes.md."
+  },
+  {
+   "t": "2026-11-19T10:00:44",
+   "msg": "Relevé 19/11 : archive 23 photos et 5 vidéos extraite et contrôlée ; trois agents analysent plans métriques, parcours des combles, œuvres. Sources dans sources/releve-2026-11-19 ; rapports travail/releve-2026-11-19. Aucun build ni déploiement."
+  },
+  {
+   "t": "2026-11-19T11:50:16",
+   "msg": "Décision D-042 : Plans d'évacuation du 17/10/2022 pour le bâti et l'intérieur (annule D-041)"
+  }
+ ],
+ "maj": "2026-11-19T11:50:16"
+}

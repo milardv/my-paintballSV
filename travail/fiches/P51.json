@@ -1,0 +1,170 @@
+{
+ "id": "P51",
+ "zone": "int-salle-a-manger",
+ "niveau": "etage",
+ "piece": "Salle à manger d'étage (= P44-P46), salon lambrissé vert et jaune",
+ "orientation_vue": "vers le mur du buffet (nord supposé) : porte vers galerie à gauche, placard double à droite",
+ "murs_visibles": [
+  "mur du buffet",
+  "mur droit (bord)",
+  "mur gauche (bord)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "buffet, à gauche",
+   "donne_sur": "galerie du palier d'étage (pilier blanc mouluré, sol marbre à cabochons, chaise paillée laquée blanche, bouquet)",
+   "dimensions_estimees": "porte double L 1.3 x H 2.7 m, ouverte"
+  },
+  {
+   "type": "porte",
+   "mur": "buffet, à droite",
+   "donne_sur": "placard mural ou pièce non vue (porte double à panneaux chantournés)",
+   "dimensions_estimees": "L 1.3 x H 2.7 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.2,
+  "largeur_m": 6.0,
+  "profondeur_m": 7.0
+ },
+ "sol": "parquet chêne point de Hongrie, miel clair",
+ "plafond": "plafond blanc à grands motifs rocaille en stuc (cartouches, rinceaux, coquilles) en bordure, corniche moulurée",
+ "murs_revetement": "boiseries Louis XV : panneaux à cadres chantournés vert céladon sur fond ocre-jaune, encadrements vert pâle, agrafes et coquilles sculptées, dessus-de-porte chantournés, soubassement à panneaux",
+ "elements": [
+  {
+   "nom": "lustre bronze doré rocaille 12 feux, bougies électriques",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": "Ø 0.8 x H 1.0 m",
+   "position_dans_piece": "centre plafond",
+   "quantite": 1
+  },
+  {
+   "nom": "table de salle à manger Louis XV à rallonges, plateau noyer",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun miel",
+   "dimensions_estimees": "2.4 x 1.2 x H 0.76 m",
+   "position_dans_piece": "centre",
+   "quantite": 1
+  },
+  {
+   "nom": "chaises Louis XV cannées",
+   "categorie": "mobilier",
+   "materiau": "hêtre, canne",
+   "couleur": "brun/miel",
+   "dimensions_estimees": "H 0.95 m",
+   "position_dans_piece": "autour de la table",
+   "quantite": 8
+  },
+  {
+   "nom": "chaise garnie grise (veste noire posée)",
+   "categorie": "mobilier",
+   "materiau": "tissu",
+   "couleur": "gris",
+   "dimensions_estimees": "",
+   "position_dans_piece": "bout de table",
+   "quantite": 2
+  },
+  {
+   "nom": "buffet provençal en noyer à 4 portes, ceinture chantournée",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "1.9 x 0.55 x H 1.05 m",
+   "position_dans_piece": "centre du mur",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau à cadre doré (fontaine sur place ombragée, Provence)",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "vert/ocre",
+   "dimensions_estimees": "0.7 x 0.9 m",
+   "position_dans_piece": "au-dessus du buffet",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe pied boule en céramique corail, abat-jour rose saumon",
+   "categorie": "luminaire",
+   "materiau": "céramique, tissu",
+   "couleur": "corail/rose",
+   "dimensions_estimees": "H 0.6 m",
+   "position_dans_piece": "buffet, gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe colonne métal argenté, abat-jour blanc",
+   "categorie": "luminaire",
+   "materiau": "métal",
+   "couleur": "argent/blanc",
+   "dimensions_estimees": "H 0.55 m",
+   "position_dans_piece": "buffet, droite",
+   "quantite": 1
+  },
+  {
+   "nom": "service à thé/café en argent sur plateau",
+   "categorie": "objet",
+   "materiau": "argent",
+   "couleur": "argent",
+   "dimensions_estimees": "plateau 0.45 x 0.3 m",
+   "position_dans_piece": "buffet",
+   "quantite": 4
+  },
+  {
+   "nom": "bougeoirs, photophore en verre, sous-plat en raphia",
+   "categorie": "objet",
+   "materiau": "verre, métal, raphia",
+   "couleur": "",
+   "dimensions_estimees": "",
+   "position_dans_piece": "buffet",
+   "quantite": 4
+  },
+  {
+   "nom": "desserte/console bar à deux plateaux avec bouteilles d'alcool",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": "0.8 x 0.4 x H 0.85 m",
+   "position_dans_piece": "angle droit",
+   "quantite": 1
+  },
+  {
+   "nom": "bouteilles d'alcool",
+   "categorie": "objet",
+   "materiau": "verre",
+   "couleur": "variés",
+   "dimensions_estimees": "0.3 m",
+   "position_dans_piece": "desserte",
+   "quantite": 10
+  },
+  {
+   "nom": "vêtements (pantalons) posés sur la table",
+   "categorie": "textile",
+   "materiau": "coton",
+   "couleur": "beige/bleu jean",
+   "dimensions_estimees": "",
+   "position_dans_piece": "table",
+   "quantite": 1
+  },
+  {
+   "nom": "dessus-de-porte chantournés avec agrafe sculptée",
+   "categorie": "moulure",
+   "materiau": "bois",
+   "couleur": "vert",
+   "dimensions_estimees": "1.3 x 0.6 m",
+   "position_dans_piece": "au-dessus des portes",
+   "quantite": 2
+  }
+ ],
+ "indices_plan": [
+  "La porte gauche donne sur la galerie du palier d'étage : ce qu'on voit en P04/P05 depuis la porte de la bibliothèque (lustre doré, chaises cannées)",
+  "Placard/porte double à droite = même porte que dans P46 (angle)",
+  "Niveau étage : fenêtres à garde-corps avec vue au-dessus des cimes ; enfilade avec la salle à manger P44-P46 vue depuis le palier d'étage (P04-P06) ; P46->P47 = 8 s"
+ ],
+ "incertitudes": [
+  "La porte double de droite peut être un passage vers la chambre-1 ou un placard"
+ ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "W10",
+  "zone": "ext-toiture",
+  "niveau": "ext",
+  "piece": "toiture (vue depuis le nord, parc au fond)",
+  "orientation_vue": "Vue aérienne au-dessus de l'entrée nord, vers le sud ; façade nord en bas, parc et bassin au fond. (photos.json disait « côté jardin » : c'est le côté entrée)",
+  "murs_visibles": [
+    "haut de la façade nord (avant-corps + ailes + pavillons d'angle)"
+  ],
+  "ouvertures": [],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "",
+  "plafond": "",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "toit principal à croupes multiples (tuiles canal) avec noues formant une croix autour de la verrière",
+      "categorie": "architecture",
+      "materiau": "terre cuite",
+      "couleur": "rouge orangé",
+      "dimensions_estimees": "",
+      "position_dans_piece": "corps central",
+      "quantite": 1
+    },
+    {
+      "nom": "toit pyramidal de l'avant-corps nord, entouré d'une balustrade",
+      "categorie": "architecture",
+      "materiau": "tuiles canal",
+      "couleur": "rouge orangé",
+      "dimensions_estimees": "≈9 × 6 m",
+      "position_dans_piece": "centre de la façade nord",
+      "quantite": 1
+    },
+    {
+      "nom": "toits en pavillon bas des pavillons d'angle nord (2), derrière parapet",
+      "categorie": "architecture",
+      "materiau": "tuiles canal",
+      "couleur": "rouge orangé",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angles NO et NE",
+      "quantite": 2
+    },
+    {
+      "nom": "verrière à 4 pans avec mât en fer forgé",
+      "categorie": "architecture",
+      "materiau": "verre + métal",
+      "couleur": "gris",
+      "dimensions_estimees": "≈4 × 3 m",
+      "position_dans_piece": "centre",
+      "quantite": 1
+    },
+    {
+      "nom": "souches de cheminée (4 au nord, 4 au sud)",
+      "categorie": "architecture",
+      "materiau": "pierre/enduit",
+      "couleur": "crème",
+      "dimensions_estimees": "≈1 × 0,6 × 1,8 m",
+      "position_dans_piece": "symétriques le long des deux façades longues",
+      "quantite": 8
+    },
+    {
+      "nom": "conduit métallique cylindrique",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "gris",
+      "dimensions_estimees": "h≈4 m",
+      "position_dans_piece": "pavillon d'angle NO, angle",
+      "quantite": 1
+    },
+    {
+      "nom": "balustrades d'acrotère",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "corps central, avant-corps, terrasses des ailes",
+      "quantite": 1
+    },
+    {
+      "nom": "fenêtres d'attique à persiennes",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "attique façade nord",
+      "quantite": 6
+    },
+    {
+      "nom": "boîte technique / lucarne sur le pan nord",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pied de la verrière, côté nord",
+      "quantite": 1
+    },
+    {
+      "nom": "antenne TV râteau",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pan nord-est",
+      "quantite": 1
+    },
+    {
+      "nom": "allée asphaltée + piéton",
+      "categorie": "architecture",
+      "materiau": "enrobé",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "côté ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "haie, grillage du tennis, palmiers",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "droite de l'image (ouest) : grillage vert du tennis, palmiers",
+      "quantite": 3
+    },
+    {
+      "nom": "bassin haricot, pelouse, if, buis",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "au fond (sud)",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Même côté que W11 ; souches symétriques",
+    "Tennis à droite de l'image vue du nord → à l'ouest"
+  ],
+  "incertitudes": [
+    "Comptage des souches : 8 maçonnées + 1 conduit métal (note photos.json « 9 souches » compte le conduit)"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "id": "W18",
+  "zone": "ext-jardin",
+  "niveau": "ext",
+  "piece": "parc entier (aérien très large)",
+  "orientation_vue": "Vue aérienne haute depuis le sud du parc, vers le nord ; château en haut",
+  "murs_visibles": [
+    "façade sud (petite)"
+  ],
+  "ouvertures": [],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "pelouse, sable, enrobé",
+  "plafond": "",
+  "murs_revetement": "",
+  "elements": [
+    {
+      "nom": "grande pelouse ovale (axe nord-sud) entourée d'arbres",
+      "categorie": "vegetation",
+      "materiau": "gazon",
+      "couleur": "vert, plaques sèches",
+      "dimensions_estimees": "≈100 × 70 m",
+      "position_dans_piece": "centre",
+      "quantite": 1
+    },
+    {
+      "nom": "bassin haricot avec jets (2)",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "eau vert d'eau, margelle blanche",
+      "dimensions_estimees": "≈30 × 14 m",
+      "position_dans_piece": "pelouse, sud, un peu à l'ouest de l'axe",
+      "quantite": 1
+    },
+    {
+      "nom": "mât avec drapeaux (français + autre)",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "",
+      "dimensions_estimees": "h≈8 m",
+      "position_dans_piece": "rive nord-est du bassin (concavité)",
+      "quantite": 1
+    },
+    {
+      "nom": "buis en boule autour du mât",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "près du mât",
+      "quantite": 4
+    },
+    {
+      "nom": "massif de cyprès de Provence (5-6)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert sombre",
+      "dimensions_estimees": "h≈10 m",
+      "position_dans_piece": "ouest du bassin",
+      "quantite": 6
+    },
+    {
+      "nom": "grand chêne vert / pin parasol à couronne ronde",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert foncé",
+      "dimensions_estimees": "Ø≈15 m",
+      "position_dans_piece": "sud-est du bassin",
+      "quantite": 1
+    },
+    {
+      "nom": "if conique",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert sombre",
+      "dimensions_estimees": "h≈12 m",
+      "position_dans_piece": "pelouse NO, près de la cour",
+      "quantite": 1
+    },
+    {
+      "nom": "oliviers argentés",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert argenté",
+      "dimensions_estimees": "",
+      "position_dans_piece": "ouest de la pelouse",
+      "quantite": 3
+    },
+    {
+      "nom": "mimosa / arbre jaune-vert (catalpa ?)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "jaune-vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "SO de la pelouse",
+      "quantite": 1
+    },
+    {
+      "nom": "arbres isolés en bordure de pelouse",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pourtour",
+      "quantite": 10
+    },
+    {
+      "nom": "platanes en alignement",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert clair",
+      "dimensions_estimees": "",
+      "position_dans_piece": "bord de la cour sablée",
+      "quantite": 7
+    },
+    {
+      "nom": "haies de cyprès/thuyas",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "limite ouest",
+      "quantite": 2
+    },
+    {
+      "nom": "allée asphaltée en arc avec bordures, et rond-point/parking au sud",
+      "categorie": "architecture",
+      "materiau": "enrobé",
+      "couleur": "gris",
+      "dimensions_estimees": "larg. ≈5 m",
+      "position_dans_piece": "est et sud de la pelouse",
+      "quantite": 1
+    },
+    {
+      "nom": "véhicules garés",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "aire bas-droite",
+      "quantite": 2
+    },
+    {
+      "nom": "massif triangulaire planté",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "carrefour sud-est",
+      "quantite": 1
+    },
+    {
+      "nom": "tennis",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "rouge",
+      "dimensions_estimees": "",
+      "position_dans_piece": "ouest du château",
+      "quantite": 1
+    },
+    {
+      "nom": "piscine voisine (forme libre)",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "turquoise",
+      "dimensions_estimees": "",
+      "position_dans_piece": "bas gauche, hors domaine",
+      "quantite": 1
+    },
+    {
+      "nom": "villas voisines",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "est et nord-est",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Plan masse du parc : château (N) → cour sablée + platanes → pelouse ovale → bassin + mât (S-SO) → allée en arc à l'est"
+  ],
+  "incertitudes": [
+    "Limites exactes du domaine",
+    "Essences approximatives (vue lointaine)"
+  ]
+}

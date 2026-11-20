@@ -1,0 +1,14 @@
+{
+  "success": false,
+  "command": "build",
+  "data": {
+    "provenance": "/home/valm/IdeaProjects/chateau-saint-victor/travail/paintball-web-correctifs.provenance.json"
+  },
+  "errors": [
+    {
+      "code": "COMMAND_FAILED",
+      "message": "Build failed: Unity process stopped with signal SIGTERM. See log: /home/valm/IdeaProjects/chateau-saint-victor/travail/paintball-web-correctifs.log"
+    }
+  ],
+  "warnings": []
+}

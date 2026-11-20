@@ -1,0 +1,154 @@
+{
+ "id": "P52",
+ "zone": "int-chambre-2",
+ "niveau": "etage",
+ "piece": "Chambre-2 à rayures (salle de jeux d'enfants), en enfilade entre la salle à manger et la chambre-3",
+ "orientation_vue": "depuis le passage ébrasé venant de la salle à manger, dans l'axe de l'enfilade vers la chambre-3",
+ "murs_visibles": [
+  "mur du fond (porte d'enfilade)",
+  "mur gauche (fenêtres)",
+  "mur droit (bord)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "côté salle à manger",
+   "donne_sur": "salle à manger d'étage (P50)",
+   "dimensions_estimees": "baie ébrasée dans mur épais (~0.6 m), porte L 1.0 x H 2.6 m"
+  },
+  {
+   "type": "porte",
+   "mur": "fond",
+   "donne_sur": "chambre-3 / bureau (P55-P57) en enfilade",
+   "dimensions_estimees": "porte L 0.9 x H 2.4 m"
+  },
+  {
+   "type": "fenetre",
+   "mur": "gauche",
+   "donne_sur": "extérieur (façade, jardin supposé)",
+   "dimensions_estimees": "porte-fenêtre L 1.2 x H 3.0 m"
+  },
+  {
+   "type": "fenetre",
+   "mur": "gauche (2e)",
+   "donne_sur": "extérieur",
+   "dimensions_estimees": "fenêtre L 1.0 x H 2.2 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 4.5,
+  "profondeur_m": 7.5
+ },
+ "sol": "parquet de Versailles (panneaux carrés à entrelacs) chêne, patiné",
+ "plafond": "plafond plat blanc, double corniche à filets, rosace de lustre",
+ "murs_revetement": "papier peint (ou tenture) à rayures verticales larges or, beige et gris-taupe ; soubassement/plinthes vert d'eau ; dessus de cheminée en boiserie (trumeau à guirlande)",
+ "elements": [
+  {
+   "nom": "lustre bronze doré 8 feux",
+   "categorie": "luminaire",
+   "materiau": "bronze",
+   "couleur": "doré",
+   "dimensions_estimees": "Ø 0.6 x H 0.9 m",
+   "position_dans_piece": "centre",
+   "quantite": 1
+  },
+  {
+   "nom": "fauteuil crapaud / bergère en velours",
+   "categorie": "mobilier",
+   "materiau": "velours",
+   "couleur": "vieux rose/taupe",
+   "dimensions_estimees": "0.7 x 0.7 m",
+   "position_dans_piece": "angle fond gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "château-fort de jouet bleu (type La Reine des Neiges)",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "bleu",
+   "dimensions_estimees": "0.6 x 0.4 x H 0.7 m",
+   "position_dans_piece": "fond, centre",
+   "quantite": 1
+  },
+  {
+   "nom": "jouets au sol (camions de pompiers, voitures, porteur, cheval à bascule)",
+   "categorie": "objet",
+   "materiau": "plastique/bois",
+   "couleur": "rouge/multicolore",
+   "dimensions_estimees": "",
+   "position_dans_piece": "sol",
+   "quantite": 15
+  },
+  {
+   "nom": "chaise paillée en bois clair",
+   "categorie": "mobilier",
+   "materiau": "hêtre, paille",
+   "couleur": "naturel",
+   "dimensions_estimees": "H 0.9 m",
+   "position_dans_piece": "premier plan",
+   "quantite": 2
+  },
+  {
+   "nom": "pile de coussins/linge blanc sur une chaise",
+   "categorie": "textile",
+   "materiau": "coton",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "premier plan",
+   "quantite": 1
+  },
+  {
+   "nom": "interrupteur",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "embrasure gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "interrupteur double",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "embrasure droite",
+   "quantite": 1
+  },
+  {
+   "nom": "rideaux lin taupe",
+   "categorie": "textile",
+   "materiau": "lin",
+   "couleur": "taupe",
+   "dimensions_estimees": "H 3.3 m",
+   "position_dans_piece": "fenêtres",
+   "quantite": 2
+  },
+  {
+   "nom": "plante verte",
+   "categorie": "vegetation",
+   "materiau": "",
+   "couleur": "vert",
+   "dimensions_estimees": "",
+   "position_dans_piece": "fond droit",
+   "quantite": 1
+  },
+  {
+   "nom": "console/bureau bois sombre",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": "",
+   "position_dans_piece": "fond droit",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Enfilade salle à manger -> chambre-2 -> chambre-3 le long de la même façade (fenêtres à gauche)",
+  "Par la porte du fond on voit une table/bureau et un tapis : chambre-3 (P55)"
+ ],
+ "incertitudes": [
+  "Embrasure de 0.6 m : mur de refend porteur probable"
+ ]
+}

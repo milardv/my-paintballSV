@@ -1,0 +1,227 @@
+{
+ "id": "P00",
+ "zone": "int-bibliotheque",
+ "niveau": "etage",
+ "piece": "Bibliothèque (étage, au-dessus du vestibule, côté façade d'entrée)",
+ "orientation_vue": "vers le mur est supposé (mur de la cheminée), angle nord-est à gauche",
+ "murs_visibles": [
+  "mur est (cheminée)",
+  "mur nord (partie, bibliothèque vitrée à gauche)",
+  "angle sud-est (bibliothèque à droite)"
+ ],
+ "ouvertures": [
+  {
+   "type": "fenetre",
+   "mur": "est",
+   "donne_sur": "extérieur (arbres), garde-corps fer forgé noir",
+   "dimensions_estimees": "porte-fenêtre 2 vantaux + imposte, L 1.2 x H 3.2 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.8,
+  "largeur_m": 6.5,
+  "profondeur_m": 7.5
+ },
+ "sol": "parquet chêne point de Hongrie (chevrons), teinte miel foncé, ciré",
+ "plafond": "plafond à caissons peints blanc : poutres croisées moulurées formant ~9 caissons, gorge et corniche blanches au-dessus du lambris",
+ "murs_revetement": "lambris chêne foncé toute hauteur (panneaux à cadres, frise de panneaux cintrés en partie haute sous la corniche), corniche bois",
+ "elements": [
+  {
+   "nom": "cheminée sculptée néo-Renaissance avec trumeau-miroir à fronton cintré",
+   "categorie": "cheminee",
+   "materiau": "bois sculpté (noyer), miroir",
+   "couleur": "brun",
+   "dimensions_estimees": "L 2.0 x H 3.2 m (manteau H 1.2)",
+   "position_dans_piece": "mur est, à droite de la fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "contrecœur / plaque de cheminée en carreaux de faïence verts et dorés",
+   "categorie": "cheminee",
+   "materiau": "céramique",
+   "couleur": "vert bronze",
+   "dimensions_estimees": "0.9 x 0.5 m",
+   "position_dans_piece": "foyer",
+   "quantite": 1
+  },
+  {
+   "nom": "guirlande de pompons de feutre sur le manteau",
+   "categorie": "objet",
+   "materiau": "feutre",
+   "couleur": "rose/rouge/blanc",
+   "dimensions_estimees": "L 1.5 m",
+   "position_dans_piece": "devant le trumeau",
+   "quantite": 1
+  },
+  {
+   "nom": "ornement noir posé sur le fronton (sculpture/objet)",
+   "categorie": "objet",
+   "materiau": "métal ou bois",
+   "couleur": "noir",
+   "dimensions_estimees": "0.3 m",
+   "position_dans_piece": "sommet du trumeau",
+   "quantite": 1
+  },
+  {
+   "nom": "téléviseur écran plat sur pied",
+   "categorie": "objet",
+   "materiau": "plastique/verre",
+   "couleur": "noir",
+   "dimensions_estimees": "55 pouces, 1.25 x 0.75 m",
+   "position_dans_piece": "devant le foyer",
+   "quantite": 1
+  },
+  {
+   "nom": "piano droit ancien à cariatides/consoles sculptées",
+   "categorie": "mobilier",
+   "materiau": "palissandre/acajou verni",
+   "couleur": "brun-noir",
+   "dimensions_estimees": "L 1.45 x H 1.3 x P 0.6 m",
+   "position_dans_piece": "contre l'angle est/sud, perpendiculaire au mur",
+   "quantite": 1
+  },
+  {
+   "nom": "poignées et chandeliers dorés du piano",
+   "categorie": "ferronnerie",
+   "materiau": "laiton",
+   "couleur": "doré",
+   "dimensions_estimees": "petites",
+   "position_dans_piece": "façade du piano",
+   "quantite": 4
+  },
+  {
+   "nom": "lampe de chevet pied céramique blanc, abat-jour crème",
+   "categorie": "luminaire",
+   "materiau": "céramique/tissu",
+   "couleur": "blanc/crème",
+   "dimensions_estimees": "H 0.6 m",
+   "position_dans_piece": "sur le piano",
+   "quantite": 1
+  },
+  {
+   "nom": "bouquet de fleurs séchées dans vase",
+   "categorie": "vegetation",
+   "materiau": "fleurs séchées, verre",
+   "couleur": "beige/blanc",
+   "dimensions_estimees": "H 0.6 m",
+   "position_dans_piece": "sur le piano",
+   "quantite": 1
+  },
+  {
+   "nom": "petits objets blancs (pots, bougeoirs, tasse)",
+   "categorie": "objet",
+   "materiau": "porcelaine",
+   "couleur": "blanc",
+   "dimensions_estimees": "0.1-0.2 m",
+   "position_dans_piece": "sur le piano",
+   "quantite": 5
+  },
+  {
+   "nom": "télécommandes / objets sur le piano",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "noir",
+   "dimensions_estimees": "petits",
+   "position_dans_piece": "piano",
+   "quantite": 2
+  },
+  {
+   "nom": "lampadaire à abat-jour plissé crème",
+   "categorie": "luminaire",
+   "materiau": "laiton, tissu plissé",
+   "couleur": "crème",
+   "dimensions_estimees": "H 1.6 m",
+   "position_dans_piece": "devant la bibliothèque nord-ouest, près de la fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "fauteuils cabriolet Louis XV laqués crème, garniture velours rose",
+   "categorie": "mobilier",
+   "materiau": "bois laqué, velours",
+   "couleur": "crème/rose poudré",
+   "dimensions_estimees": "0.65 x 0.6 x H 0.95 m",
+   "position_dans_piece": "autour du tapis",
+   "quantite": 3
+  },
+  {
+   "nom": "fauteuil garni velours fuchsia à accotoirs bois clair",
+   "categorie": "mobilier",
+   "materiau": "bois, velours",
+   "couleur": "fuchsia",
+   "dimensions_estimees": "0.7 m",
+   "position_dans_piece": "premier plan bas",
+   "quantite": 1
+  },
+  {
+   "nom": "table basse ovale bois (bord visible)",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "miel",
+   "dimensions_estimees": "1.2 x 0.8 m",
+   "position_dans_piece": "bord gauche premier plan",
+   "quantite": 1
+  },
+  {
+   "nom": "grand tapis persan (fond rouge, médaillons bleu marine)",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge carmin, bleu nuit, rose",
+   "dimensions_estimees": "4.0 x 3.0 m",
+   "position_dans_piece": "centre de la pièce",
+   "quantite": 1
+  },
+  {
+   "nom": "bibliothèque vitrée 3-4 portes",
+   "categorie": "mobilier",
+   "materiau": "chêne/noyer verni, vitres",
+   "couleur": "brun moyen",
+   "dimensions_estimees": "L 2.2-2.6 x H 2.5 x P 0.45 m",
+   "position_dans_piece": "mur nord, à gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "bibliothèque vitrée 3-4 portes (en retour d'angle)",
+   "categorie": "mobilier",
+   "materiau": "chêne/noyer verni, vitres",
+   "couleur": "brun moyen",
+   "dimensions_estimees": "L 2.2-2.6 x H 2.5 x P 0.45 m",
+   "position_dans_piece": "angle sud-est, retour sur mur sud",
+   "quantite": 1
+  },
+  {
+   "nom": "livres",
+   "categorie": "objet",
+   "materiau": "papier",
+   "couleur": "variés",
+   "dimensions_estimees": "",
+   "position_dans_piece": "dans les bibliothèques",
+   "quantite": 300
+  },
+  {
+   "nom": "rideau voile / store à l'imposte",
+   "categorie": "textile",
+   "materiau": "tissu",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "fenêtre est",
+   "quantite": 1
+  },
+  {
+   "nom": "câble d'alimentation au sol",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "noir",
+   "dimensions_estimees": "",
+   "position_dans_piece": "devant la cheminée",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Bibliothèque vitrée contre le mur nord = même meuble que celui à gauche de la fenêtre centrale en P01",
+  "La fenêtre de ce mur est celle visible au bord droit de P01 (à côté de la cheminée)"
+ ],
+ "incertitudes": [
+  "Orientation absolue (est) supposée : déduite de la bibliothèque au-dessus du vestibule (P17/P18) et de D-003",
+  "Hauteur sous plafond estimée par la porte-fenêtre (~3.2 m) + lambris ; 4.5-5 m"
+ ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "P38",
+  "zone": "ext-facade-nord",
+  "niveau": "ext",
+  "piece": "façade nord, avant-corps d'entrée",
+  "orientation_vue": "Contre-plongée frontale depuis le bas du perron, axe de l'avant-corps nord, vue vers le sud",
+  "murs_visibles": [
+    "façade nord : avant-corps central entier + amorces des deux ailes"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "avant-corps nord, RDC, axe",
+      "donne_sur": "vestibule",
+      "dimensions_estimees": "≈1,6 × 3,4 m + imposte"
+    },
+    {
+      "type": "fenetre",
+      "mur": "avant-corps nord, étage, axe",
+      "donne_sur": "pièce/palier d'étage dans l'axe",
+      "dimensions_estimees": "≈1,2 × 2,6 m, fronton cintré, balconnet"
+    },
+    {
+      "type": "fenetre",
+      "mur": "avant-corps nord, attique, axe",
+      "donne_sur": "attique (non modélisé, D-009)",
+      "dimensions_estimees": "≈1,0 × 1,4 m, fronton cintré"
+    },
+    {
+      "type": "fenetre",
+      "mur": "aile gauche (ouest) : RDC, étage, attique",
+      "donne_sur": "pièces côté nord-ouest",
+      "dimensions_estimees": "1 travée visible par niveau"
+    },
+    {
+      "type": "fenetre",
+      "mur": "aile droite (est) : RDC, étage, attique",
+      "donne_sur": "pièces côté nord-est",
+      "dimensions_estimees": "1 travée visible par niveau, balconnets fonte"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": 9.0,
+    "profondeur_m": null
+  },
+  "sol": "perron de 9 à 10 marches pleine largeur (≈8 m) en pierre calcaire, palier haut devant la porte",
+  "plafond": "ciel",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "avant-corps central à 3 niveaux (RDC, étage, attique) dépassant la corniche des ailes",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "larg. ≈9 m, h ≈19 m",
+      "position_dans_piece": "centre de la façade nord",
+      "quantite": 1
+    },
+    {
+      "nom": "chaînes d'angle à refends",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "4 angles de l'avant-corps, 3 niveaux",
+      "quantite": 4
+    },
+    {
+      "nom": "ordre corinthien au RDC : 2 colonnes engagées + 2 pilastres d'angle, entablement à frise inscrite",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "h≈4,5 m",
+      "position_dans_piece": "RDC de l'avant-corps",
+      "quantite": 4
+    },
+    {
+      "nom": "panneaux en table à cadre mouluré",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "trumeaux RDC (2), étage (2 + 2 petits), attique (2)",
+      "quantite": 8
+    },
+    {
+      "nom": "fronton cintré (segmentaire) sur fenêtre",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "larg. ≈2 m",
+      "position_dans_piece": "fenêtres d'axe étage et attique",
+      "quantite": 2
+    },
+    {
+      "nom": "corniche à modillons et denticules sous toit-terrasse",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "saillie ≈0,6 m",
+      "position_dans_piece": "couronnement avant-corps et ailes",
+      "quantite": 1
+    },
+    {
+      "nom": "bandeaux d'étage",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "entre niveaux",
+      "quantite": 1
+    },
+    {
+      "nom": "porte d'entrée bois à deux vantaux, grilles à volutes, imposte ferronnée",
+      "categorie": "architecture",
+      "materiau": "bois + fer forgé",
+      "couleur": "brun foncé / noir",
+      "dimensions_estimees": "≈1,6 × 3,4 m",
+      "position_dans_piece": "axe RDC",
+      "quantite": 1
+    },
+    {
+      "nom": "plaque « CHATEAU SAINT-VICTOR »",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "gris, lettres dorées",
+      "dimensions_estimees": "≈2,2 × 0,35 m",
+      "position_dans_piece": "frise au-dessus de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "platine d'interphone / sonnette",
+      "categorie": "objet",
+      "materiau": "inox",
+      "couleur": "gris métal",
+      "dimensions_estimees": "≈12 × 20 cm",
+      "position_dans_piece": "pilastre droit de la porte, h≈1,5 m",
+      "quantite": 1
+    },
+    {
+      "nom": "boîtier (lecteur de badge ou boîte aux lettres)",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "gris foncé",
+      "dimensions_estimees": "≈15 × 15 cm",
+      "position_dans_piece": "à droite de l'interphone",
+      "quantite": 1
+    },
+    {
+      "nom": "caméra de surveillance",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": "≈15 cm",
+      "position_dans_piece": "chaîne d'angle droite, h≈3 m",
+      "quantite": 1
+    },
+    {
+      "nom": "fougère en pot (néphrolépis)",
+      "categorie": "vegetation",
+      "materiau": "terre cuite / pot",
+      "couleur": "vert",
+      "dimensions_estimees": "Ø≈60 cm",
+      "position_dans_piece": "palier haut, à droite de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "lanterne-photophore posée au sol",
+      "categorie": "luminaire",
+      "materiau": "métal noir + verre",
+      "couleur": "noir",
+      "dimensions_estimees": "≈25 × 25 × 45 cm",
+      "position_dans_piece": "palier haut, à droite de la fougère",
+      "quantite": 1
+    },
+    {
+      "nom": "petit pot avec plante (buis/arbuste)",
+      "categorie": "vegetation",
+      "materiau": "terre cuite",
+      "couleur": "orangé",
+      "dimensions_estimees": "Ø≈30 cm",
+      "position_dans_piece": "palier haut, extrémité droite",
+      "quantite": 1
+    },
+    {
+      "nom": "garde-corps en fonte (balconnet) devant fenêtre",
+      "categorie": "ferronnerie",
+      "materiau": "fonte",
+      "couleur": "noir",
+      "dimensions_estimees": "≈1,2 × 0,5 m",
+      "position_dans_piece": "fenêtres d'étage de l'avant-corps et des ailes",
+      "quantite": 3
+    },
+    {
+      "nom": "lampadaire boule sur colonne fonte",
+      "categorie": "luminaire",
+      "materiau": "fonte peinte + globe opalin",
+      "couleur": "noir / globe blanc laiteux",
+      "dimensions_estimees": "h≈3,0 m, globe Ø≈40 cm, socle carré ≈40 cm",
+      "position_dans_piece": "sur les dés de pierre en tête des murs d'échiffre du perron nord, de part et d'autre",
+      "quantite": 2
+    },
+    {
+      "nom": "if",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert sombre",
+      "dimensions_estimees": "h≈10 m",
+      "position_dans_piece": "à gauche du perron",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "P37-P40 même perron",
+    "Vestibule derrière la porte (P1.int-rdc) ; fenêtre d'axe étage = pièce ou palier au-dessus du vestibule",
+    "Avant-corps = toit pyramidal central de W10/W11"
+  ],
+  "incertitudes": [
+    "Nombre exact de marches (9 ou 10, la plus basse peut être cachée)",
+    "La fenêtre d'axe d'étage éclaire-t-elle le palier de l'escalier ?"
+  ]
+}

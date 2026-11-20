@@ -1,0 +1,99 @@
+{
+ "id": "P03",
+ "zone": "int-bibliotheque",
+ "niveau": "etage",
+ "piece": "Bibliothèque (étage, au-dessus du vestibule, côté façade d'entrée)",
+ "orientation_vue": "vers l'angle sud-ouest supposé : porte de la bibliothèque ouverte sur le palier à gauche",
+ "murs_visibles": [
+  "mur sud (porte vers palier)",
+  "mur ouest (bibliothèques)"
+ ],
+ "ouvertures": [
+  {
+   "type": "porte",
+   "mur": "sud",
+   "donne_sur": "palier de l'étage (P04) : sol marbre à cabochons rouges, rampe fer forgé",
+   "dimensions_estimees": "porte double à vantaux laqués blancs moulurés, L 1.4 x H 3.0 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.8,
+  "largeur_m": 6.5,
+  "profondeur_m": 7.5
+ },
+ "sol": "parquet chêne point de Hongrie (chevrons), teinte miel foncé, ciré",
+ "plafond": "plafond à caissons peints blanc : poutres croisées moulurées formant ~9 caissons, gorge et corniche blanches au-dessus du lambris",
+ "murs_revetement": "lambris chêne foncé toute hauteur (panneaux à cadres, frise de panneaux cintrés en partie haute sous la corniche), corniche bois",
+ "elements": [
+  {
+   "nom": "vantail de porte laqué blanc à panneaux moulurés, côté palier",
+   "categorie": "architecture",
+   "materiau": "bois laqué",
+   "couleur": "blanc",
+   "dimensions_estimees": "0.7 x 3.0 m",
+   "position_dans_piece": "porte sud, ouvert",
+   "quantite": 1
+  },
+  {
+   "nom": "plaque/tirette de serrure en laiton (boîte aux lettres d'intérieur)",
+   "categorie": "ferronnerie",
+   "materiau": "laiton",
+   "couleur": "doré",
+   "dimensions_estimees": "0.25 x 0.04 m",
+   "position_dans_piece": "vantail de porte",
+   "quantite": 1
+  },
+  {
+   "nom": "bibliothèque vitrée 3-4 portes",
+   "categorie": "mobilier",
+   "materiau": "chêne/noyer verni, vitres",
+   "couleur": "brun moyen",
+   "dimensions_estimees": "L 2.2-2.6 x H 2.5 x P 0.45 m",
+   "position_dans_piece": "mur sud, à droite de la porte",
+   "quantite": 1
+  },
+  {
+   "nom": "bibliothèque vitrée 3-4 portes",
+   "categorie": "mobilier",
+   "materiau": "chêne/noyer verni, vitres",
+   "couleur": "brun moyen",
+   "dimensions_estimees": "L 2.2-2.6 x H 2.5 x P 0.45 m",
+   "position_dans_piece": "mur ouest (retour d'angle)",
+   "quantite": 1
+  },
+  {
+   "nom": "livres (dont livres de poche, guides)",
+   "categorie": "objet",
+   "materiau": "papier",
+   "couleur": "",
+   "dimensions_estimees": "",
+   "position_dans_piece": "bibliothèques",
+   "quantite": 200
+  },
+  {
+   "nom": "canapé (bord)",
+   "categorie": "mobilier",
+   "materiau": "tissu",
+   "couleur": "taupe",
+   "dimensions_estimees": "",
+   "position_dans_piece": "bord droit bas",
+   "quantite": 1
+  },
+  {
+   "nom": "chargeurs/câbles blancs",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "sur le canapé",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Porte de la bibliothèque donnant sur le palier = point de vue de P04 (on voit la rampe fer forgé et le sol à cabochons)",
+  "Sur le palier, pilastre/mur blanc mouluré et tableau (bord) à gauche"
+ ],
+ "incertitudes": [
+  "Porte sur le mur sud supposé ; peut être décentrée (proche de l'angle)"
+ ]
+}

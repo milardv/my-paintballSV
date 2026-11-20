@@ -1,0 +1,163 @@
+{
+  "id": "P26",
+  "zone": "int-petit-salon",
+  "niveau": "rdc",
+  "piece": "petit salon sous le palier / bas du passage est",
+  "orientation_vue": "vers le nord-est (sous la volée de retour est, vers le passage est)",
+  "murs_visibles": [
+    "ouest du passage est = limon de l'escalier (soubassement à panneaux)",
+    "est (damas, tableau château, porte double blanche fermée)"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "est",
+      "donne_sur": "couloir/pièce est (fermée)",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 2.9,
+        "note": "porte double blanche à panneaux et filets céladon, serrure à entrée laiton"
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 3.5,
+    "largeur_m": 2.2,
+    "profondeur_m": 5.0
+  },
+  "sol": "marbre blanc veiné gris, dalles carrées posées en diagonale (~50 cm), cabochons rouges ronds (~6 cm) aux croisements, bandes d'encadrement en marbre rouge (rouge de Vitrolles/griotte, ~12 cm) dessinant des tapis de pierre",
+  "plafond": "sous-face rampante de la volée de retour est, à panneaux moulurés blancs",
+  "murs_revetement": "papier peint damassé grand motif floral, fond taupe/gris-beige, motif blanc cassé ; soubassement à panneaux moulurés blanc filets vert céladon (~1 m)",
+  "elements": [
+    {
+      "nom": "console desserte 2 plateaux + tiroirs, pieds tournés",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun rouge",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "profondeur_m": 0.45,
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "contre le limon, sous la volée",
+      "quantite": 1
+    },
+    {
+      "nom": "grande lanterne tressée (osier/rotin foncé)",
+      "categorie": "objet",
+      "materiau": "rotin",
+      "couleur": "brun foncé",
+      "dimensions_estimees": {
+        "hauteur_m": 0.45
+      },
+      "position_dans_piece": "sur la desserte",
+      "quantite": 3
+    },
+    {
+      "nom": "lampe sans fil à abat-jour",
+      "categorie": "luminaire",
+      "materiau": "métal, tissu",
+      "couleur": "blanc/laiton",
+      "dimensions_estimees": {
+        "hauteur_m": 0.3
+      },
+      "position_dans_piece": "sur la desserte",
+      "quantite": 4
+    },
+    {
+      "nom": "lampe baladeuse blanche (cylindre)",
+      "categorie": "luminaire",
+      "materiau": "plastique",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 0.3
+      },
+      "position_dans_piece": "sur la desserte",
+      "quantite": 1
+    },
+    {
+      "nom": "piles de coussins/plaids pliés",
+      "categorie": "textile",
+      "materiau": "coton",
+      "couleur": "blanc/écru/rose",
+      "dimensions_estimees": {
+        "largeur_m": 0.5
+      },
+      "position_dans_piece": "étagère basse de la desserte",
+      "quantite": 6
+    },
+    {
+      "nom": "grille de bouche de chauffage au sol",
+      "categorie": "objet",
+      "materiau": "fonte",
+      "couleur": "noir",
+      "dimensions_estimees": {
+        "largeur_m": 0.4,
+        "profondeur_m": 0.3
+      },
+      "position_dans_piece": "sol, devant la desserte",
+      "quantite": 1
+    },
+    {
+      "nom": "fauteuil Louis XV vert olive",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, tissu",
+      "couleur": "olive",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "centre",
+      "quantite": 1
+    },
+    {
+      "nom": "fauteuil Louis XV rouge (premier plan)",
+      "categorie": "mobilier",
+      "materiau": "bois laqué, velours",
+      "couleur": "rouge",
+      "dimensions_estimees": {
+        "hauteur_m": 0.95
+      },
+      "position_dans_piece": "premier plan",
+      "quantite": 1
+    },
+    {
+      "nom": "table basse ronde marbre + plateau + lanterne",
+      "categorie": "mobilier",
+      "materiau": "marbre",
+      "couleur": "blanc",
+      "dimensions_estimees": {
+        "diametre_m": 1.0
+      },
+      "position_dans_piece": "droite",
+      "quantite": 1
+    },
+    {
+      "nom": "tableau du château (cadre doré)",
+      "categorie": "tableau",
+      "materiau": "toile",
+      "couleur": "bleu/vert",
+      "dimensions_estimees": {
+        "largeur_m": 0.8
+      },
+      "position_dans_piece": "mur est",
+      "quantite": 1
+    },
+    {
+      "nom": "rampe fer forgé à volutes",
+      "categorie": "ferronnerie",
+      "materiau": "fer forgé",
+      "couleur": "noir",
+      "dimensions_estimees": {},
+      "position_dans_piece": "en haut à gauche",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "La sous-face rampante descend vers le sud : volée de retour est montant vers le nord",
+    "Porte double blanche fermée côté est : sans doute vers le couloir/pièce de service est ou la salle à manger"
+  ],
+  "incertitudes": [
+    "Orientation exacte de la vue (nord-est supposé)",
+    "Destination de la porte fermée"
+  ]
+}

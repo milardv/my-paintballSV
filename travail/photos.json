@@ -1,0 +1,914 @@
+[
+ {
+  "id": "P00",
+  "fichier": "sources/pixel/PXL_20261115_134758722.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-bibliotheque",
+  "note": "Bibliothèque boisée : piano, canapé, tapis persan, plafond à caissons blancs",
+  "statut": "triee"
+ },
+ {
+  "id": "P01",
+  "fichier": "sources/pixel/PXL_20261115_134800139.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-bibliotheque",
+  "note": "Bibliothèque boisée : piano, canapé, tapis persan, plafond à caissons blancs",
+  "statut": "triee"
+ },
+ {
+  "id": "P02",
+  "fichier": "sources/pixel/PXL_20261115_134801383.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-bibliotheque",
+  "note": "Bibliothèque boisée : piano, canapé, tapis persan, plafond à caissons blancs",
+  "statut": "triee"
+ },
+ {
+  "id": "P03",
+  "fichier": "sources/pixel/PXL_20261115_134802432.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-bibliotheque",
+  "note": "Bibliothèque boisée : piano, canapé, tapis persan, plafond à caissons blancs",
+  "statut": "triee"
+ },
+ {
+  "id": "P04",
+  "fichier": "sources/pixel/PXL_20261115_134803941.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P05",
+  "fichier": "sources/pixel/PXL_20261115_134805523.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P06",
+  "fichier": "sources/pixel/PXL_20261115_134806440.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P07",
+  "fichier": "sources/pixel/PXL_20261115_134807316.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P08",
+  "fichier": "sources/pixel/PXL_20261115_134808289.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P09",
+  "fichier": "sources/pixel/PXL_20261115_134809191.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P10",
+  "fichier": "sources/pixel/PXL_20261115_134810413.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P11",
+  "fichier": "sources/pixel/PXL_20261115_134811618.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P12",
+  "fichier": "sources/pixel/PXL_20261115_134813160.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P13",
+  "fichier": "sources/pixel/PXL_20261115_134814198.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-palier-etage",
+  "note": "Palier de l'étage : coupole à lanterneau, tapisserie, rampe fer forgé, portes cintrées",
+  "statut": "triee"
+ },
+ {
+  "id": "P14",
+  "fichier": "sources/pixel/PXL_20261115_134819568.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-escalier",
+  "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+  "statut": "triee"
+ },
+ {
+  "id": "P15",
+  "fichier": "sources/pixel/PXL_20261115_134820902.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-escalier",
+  "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+  "statut": "triee"
+ },
+ {
+  "id": "P16",
+  "fichier": "sources/pixel/PXL_20261115_134827403.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-escalier",
+  "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+  "statut": "triee"
+ },
+ {
+  "id": "P17",
+  "fichier": "sources/pixel/PXL_20261115_134829607.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-escalier",
+  "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+  "statut": "triee"
+ },
+ {
+  "id": "P18",
+  "fichier": "sources/pixel/PXL_20261115_134830740.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-escalier",
+  "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+  "statut": "triee"
+ },
+ {
+  "id": "P19",
+  "fichier": "sources/pixel/PXL_20261115_134835845.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-escalier",
+  "note": "Escalier d'honneur : marbre, tapis rouge, main courante laiton",
+  "statut": "triee"
+ },
+ {
+  "id": "P20",
+  "fichier": "sources/pixel/PXL_20261115_134837236.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-vestibule",
+  "note": "Depuis l'escalier vers le vestibule : colonnes, rideaux rouges",
+  "statut": "triee"
+ },
+ {
+  "id": "P21",
+  "fichier": "sources/pixel/PXL_20261115_134839324.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-vestibule",
+  "note": "Vestibule : colonnes, tapis rouge, lustre",
+  "statut": "triee"
+ },
+ {
+  "id": "P22",
+  "fichier": "sources/pixel/PXL_20261115_134842520.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-couloir-rdc",
+  "note": "Couloir RDC : papier peint damassé, sol marbre à cabochons, fusil",
+  "statut": "triee"
+ },
+ {
+  "id": "P23",
+  "fichier": "sources/pixel/PXL_20261115_134843815.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-couloir-rdc",
+  "note": "Couloir RDC : papier peint damassé, sol marbre à cabochons, fusil",
+  "statut": "triee"
+ },
+ {
+  "id": "P24",
+  "fichier": "sources/pixel/PXL_20261115_134845421.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-couloir-rdc",
+  "note": "Couloir RDC : papier peint damassé, sol marbre à cabochons, fusil",
+  "statut": "triee"
+ },
+ {
+  "id": "P25",
+  "fichier": "sources/pixel/PXL_20261115_134849070.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-petit-salon",
+  "note": "Petit salon/antichambre damassé, guéridon, fauteuils rouges",
+  "statut": "triee"
+ },
+ {
+  "id": "P26",
+  "fichier": "sources/pixel/PXL_20261115_134850135.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-petit-salon",
+  "note": "Petit salon : desserte, banquette rouge",
+  "statut": "triee"
+ },
+ {
+  "id": "P27",
+  "fichier": "sources/pixel/PXL_20261115_134852823.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-salon-bow-window",
+  "note": "Salon à bow-window (avant-corps jardin), parquet, lustre",
+  "statut": "triee"
+ },
+ {
+  "id": "P28",
+  "fichier": "sources/pixel/PXL_20261115_134853848.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-salon-bow-window",
+  "note": "Salon à bow-window (avant-corps jardin), parquet, lustre",
+  "statut": "triee"
+ },
+ {
+  "id": "P29",
+  "fichier": "sources/pixel/PXL_20261115_134855200.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-salon-bow-window",
+  "note": "Salon à bow-window (avant-corps jardin), parquet, lustre",
+  "statut": "triee"
+ },
+ {
+  "id": "P30",
+  "fichier": "sources/pixel/PXL_20261115_134858525.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-salon-tableau",
+  "note": "Pièce au grand tableau marine, commode, vers billard",
+  "statut": "triee"
+ },
+ {
+  "id": "P31",
+  "fichier": "sources/pixel/PXL_20261115_134859823.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-salon-tableau",
+  "note": "Grand tableau marine, enfilade vers le billard",
+  "statut": "triee"
+ },
+ {
+  "id": "P32",
+  "fichier": "sources/pixel/PXL_20261115_134902746.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-billard",
+  "note": "Salle de billard : plafond à caissons peints, cheminée bois, tapis",
+  "statut": "triee"
+ },
+ {
+  "id": "P33",
+  "fichier": "sources/pixel/PXL_20261115_134903984.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-billard",
+  "note": "Salle de billard : plafond à caissons peints, cheminée bois, tapis",
+  "statut": "triee"
+ },
+ {
+  "id": "P34",
+  "fichier": "sources/pixel/PXL_20261115_134905147.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-billard",
+  "note": "Salle de billard : plafond à caissons peints, cheminée bois, tapis",
+  "statut": "triee"
+ },
+ {
+  "id": "P35",
+  "fichier": "sources/pixel/PXL_20261115_134907133.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-billard",
+  "note": "Salle de billard : plafond à caissons peints, cheminée bois, tapis",
+  "statut": "triee"
+ },
+ {
+  "id": "P36",
+  "fichier": "sources/pixel/PXL_20261115_134915969.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-couloir-rdc",
+  "note": "Couloir vers billard, fenêtres sur balconnet",
+  "statut": "triee"
+ },
+ {
+  "id": "P37",
+  "fichier": "sources/pixel/PXL_20261115_134938249.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "ext-facade-nord",
+  "note": "Façade d'entrée (nord) : perron, porte bois sculptée, lampadaires",
+  "statut": "triee"
+ },
+ {
+  "id": "P38",
+  "fichier": "sources/pixel/PXL_20261115_134942650.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "ext-facade-nord",
+  "note": "Façade d'entrée (nord) : perron, porte bois sculptée, lampadaires",
+  "statut": "triee"
+ },
+ {
+  "id": "P39",
+  "fichier": "sources/pixel/PXL_20261115_134947390.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "ext-facade-nord",
+  "note": "Façade d'entrée (nord) : perron, porte bois sculptée, lampadaires",
+  "statut": "triee"
+ },
+ {
+  "id": "P40",
+  "fichier": "sources/pixel/PXL_20261115_134955028.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "ext-facade-nord",
+  "note": "Façade d'entrée (nord) : perron, porte bois sculptée, lampadaires",
+  "statut": "triee"
+ },
+ {
+  "id": "P41",
+  "fichier": "sources/pixel/PXL_20261115_135008588.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-vestibule",
+  "note": "Vestibule d'entrée axe escalier : tapis, table dorée, colonnes",
+  "statut": "triee"
+ },
+ {
+  "id": "P42",
+  "fichier": "sources/pixel/PXL_20261115_135019503.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-couloir-rdc",
+  "note": "Couloir le long de l'escalier, console miroir",
+  "statut": "triee"
+ },
+ {
+  "id": "P43",
+  "fichier": "sources/pixel/PXL_20261115_135047473.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-salle-a-manger",
+  "note": "Salle à manger : lambris vert/jaune, longue table, buffets",
+  "statut": "triee"
+ },
+ {
+  "id": "P44",
+  "fichier": "sources/pixel/PXL_20261115_135048437.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-salle-a-manger",
+  "note": "Salle à manger : lambris vert/jaune, longue table, buffets",
+  "statut": "triee"
+ },
+ {
+  "id": "P45",
+  "fichier": "sources/pixel/PXL_20261115_135050087.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-salle-a-manger",
+  "note": "Salle à manger : lambris vert/jaune, longue table, buffets",
+  "statut": "triee"
+ },
+ {
+  "id": "P46",
+  "fichier": "sources/pixel/PXL_20261115_135051313.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-salle-a-manger",
+  "note": "Salle à manger : lambris vert/jaune, longue table, buffets",
+  "statut": "triee"
+ },
+ {
+  "id": "P47",
+  "fichier": "sources/pixel/PXL_20261115_135059351.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-chambre-1",
+  "note": "Chambre : lit, tapis, armoire, 2 fenêtres",
+  "statut": "triee"
+ },
+ {
+  "id": "P48",
+  "fichier": "sources/pixel/PXL_20261115_135100590.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-chambre-1",
+  "note": "Chambre : lit, tapis, armoire, 2 fenêtres",
+  "statut": "triee"
+ },
+ {
+  "id": "P49",
+  "fichier": "sources/pixel/PXL_20261115_135102000.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-chambre-1",
+  "note": "Chambre : lit, tapis, armoire, 2 fenêtres",
+  "statut": "triee"
+ },
+ {
+  "id": "P50",
+  "fichier": "sources/pixel/PXL_20261115_135108463.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-bureau",
+  "note": "Bureau : cheminée marbre blanc, grande table, lambris",
+  "statut": "triee"
+ },
+ {
+  "id": "P51",
+  "fichier": "sources/pixel/PXL_20261115_135109922.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-bureau",
+  "note": "Bureau : cheminée marbre blanc, grande table, lambris",
+  "statut": "triee"
+ },
+ {
+  "id": "P52",
+  "fichier": "sources/pixel/PXL_20261115_135112459.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-chambre-2",
+  "note": "Chambre à rayures : cheminée, jouets",
+  "statut": "triee"
+ },
+ {
+  "id": "P53",
+  "fichier": "sources/pixel/PXL_20261115_135114713.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-chambre-2",
+  "note": "Chambre à rayures : cheminée, jouets",
+  "statut": "triee"
+ },
+ {
+  "id": "P54",
+  "fichier": "sources/pixel/PXL_20261115_135115711.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-chambre-2",
+  "note": "Chambre à rayures : cheminée, jouets",
+  "statut": "triee"
+ },
+ {
+  "id": "P55",
+  "fichier": "sources/pixel/PXL_20261115_135122461.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-chambre-3",
+  "note": "Pièce à l'armoire et tableau marine",
+  "statut": "triee"
+ },
+ {
+  "id": "P56",
+  "fichier": "sources/pixel/PXL_20261115_135123195.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-chambre-3",
+  "note": "Pièce à l'armoire et tableau marine",
+  "statut": "triee"
+ },
+ {
+  "id": "P57",
+  "fichier": "sources/pixel/PXL_20261115_135125273.jpg",
+  "source": "pixel",
+  "taille": [
+   3072,
+   4080
+  ],
+  "zone": "int-chambre-3",
+  "note": "Pièce à l'armoire et tableau marine",
+  "statut": "triee"
+ },
+ {
+  "id": "W01",
+  "fichier": "sources/web/1.webp",
+  "source": "web",
+  "taille": [
+   960,
+   720
+  ],
+  "zone": "ext-facade-sud",
+  "note": "Façade jardin (sud) frontale : perron, balcon central, balustrade terrasse",
+  "statut": "triee"
+ },
+ {
+  "id": "W02",
+  "fichier": "sources/web/2.png",
+  "source": "web",
+  "taille": [
+   768,
+   512
+  ],
+  "zone": "ext-facade-est",
+  "note": "Angle 3/4, olivier, terrasse balustrée",
+  "statut": "triee"
+ },
+ {
+  "id": "W03",
+  "fichier": "sources/web/3.webp",
+  "source": "web",
+  "taille": [
+   1091,
+   605
+  ],
+  "zone": "ext-jardin",
+  "note": "Vue aérienne du parc : pelouse, bassin en haricot, mât, allée",
+  "statut": "triee"
+ },
+ {
+  "id": "W04",
+  "fichier": "sources/web/4.webp",
+  "source": "web",
+  "taille": [
+   1649,
+   591
+  ],
+  "zone": "ext-toiture",
+  "note": "Toiture : tuiles canal, souches de cheminée, verrière, balustrades ; vue mer",
+  "statut": "triee"
+ },
+ {
+  "id": "W05",
+  "fichier": "sources/web/5.webp",
+  "source": "web",
+  "taille": [
+   743,
+   588
+  ],
+  "zone": "ext-jardin",
+  "note": "Aérien face jardin : bassin, mâts, pelouse, perron",
+  "statut": "triee"
+ },
+ {
+  "id": "W06",
+  "fichier": "sources/web/6.webp",
+  "source": "web",
+  "taille": [
+   1608,
+   835
+  ],
+  "zone": "ext-facade-nord",
+  "note": "Plaque « Château Saint-Victor », chapiteaux, porte et imposte fer forgé",
+  "statut": "triee"
+ },
+ {
+  "id": "W07",
+  "fichier": "sources/web/7.webp",
+  "source": "web",
+  "taille": [
+   1920,
+   977
+  ],
+  "zone": "int-salon-vert",
+  "note": "Salon vert à pan coupé : cheminée marbre rose, trumeau doré, pendule",
+  "statut": "triee"
+ },
+ {
+  "id": "W08",
+  "fichier": "sources/web/8.webp",
+  "source": "web",
+  "taille": [
+   1920,
+   1003
+  ],
+  "zone": "int-vestibule",
+  "note": "Vestibule : rideaux rouges, porte-manteau, escalier fer forgé",
+  "statut": "triee"
+ },
+ {
+  "id": "W09",
+  "fichier": "sources/web/9.webp",
+  "source": "web",
+  "taille": [
+   1920,
+   991
+  ],
+  "zone": "int-escalier",
+  "note": "Cage d'escalier vue de dessus : forme, marbre à cabochons",
+  "statut": "triee"
+ },
+ {
+  "id": "W10",
+  "fichier": "sources/web/10.webp",
+  "source": "web",
+  "taille": [
+   1919,
+   706
+  ],
+  "zone": "ext-toiture",
+  "note": "Toiture côté jardin : verrière, 9 souches, croupes",
+  "statut": "triee"
+ },
+ {
+  "id": "W11",
+  "fichier": "sources/web/11.webp",
+  "source": "web",
+  "taille": [
+   1886,
+   972
+  ],
+  "zone": "ext-facade-nord",
+  "note": "Aérien façade nord : entrée, parking, tennis",
+  "statut": "triee"
+ },
+ {
+  "id": "W12",
+  "fichier": "sources/web/12.webp",
+  "source": "web",
+  "taille": [
+   1005,
+   940
+  ],
+  "zone": "ext-emprise",
+  "note": "Vue zénithale : emprise exacte, toitures, terrasses, tennis, parking",
+  "statut": "triee"
+ },
+ {
+  "id": "W13",
+  "fichier": "sources/web/13.webp",
+  "source": "web",
+  "taille": [
+   1917,
+   885
+  ],
+  "zone": "ext-facade-sud",
+  "note": "Façade jardin rapprochée : ferronneries, parasols",
+  "statut": "triee"
+ },
+ {
+  "id": "W14",
+  "fichier": "sources/web/14.webp",
+  "source": "web",
+  "taille": [
+   1917,
+   912
+  ],
+  "zone": "int-salon-vert",
+  "note": "Détail pendule cavalier et candélabres",
+  "statut": "triee"
+ },
+ {
+  "id": "W15",
+  "fichier": "sources/web/15.webp",
+  "source": "web",
+  "taille": [
+   1491,
+   817
+  ],
+  "zone": "ext-facade-sud",
+  "note": "Aérien façade jardin + terrasse, tennis, piscine",
+  "statut": "triee"
+ },
+ {
+  "id": "W16",
+  "fichier": "sources/web/16.webp",
+  "source": "web",
+  "taille": [
+   1718,
+   879
+  ],
+  "zone": "ext-jardin",
+  "note": "Aérien large : platanes, cour sablée, palmiers",
+  "statut": "triee"
+ },
+ {
+  "id": "W17",
+  "fichier": "sources/web/17.webp",
+  "source": "web",
+  "taille": [
+   1819,
+   975
+  ],
+  "zone": "ext-facade-est",
+  "note": "Façade latérale : volets persiennés, lanternes",
+  "statut": "triee"
+ },
+ {
+  "id": "W18",
+  "fichier": "sources/web/18.webp",
+  "source": "web",
+  "taille": [
+   916,
+   693
+  ],
+  "zone": "ext-jardin",
+  "note": "Aérien très large du parc",
+  "statut": "triee"
+ }
+]

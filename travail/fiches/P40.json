@@ -1,0 +1,166 @@
+{
+  "id": "P40",
+  "zone": "ext-facade-nord",
+  "niveau": "ext",
+  "piece": "façade nord, avant-corps d'entrée et ailes",
+  "orientation_vue": "Vue frontale depuis le bas du perron nord, un peu plus loin que P38, vers le sud",
+  "murs_visibles": [
+    "façade nord : avant-corps central + 1 travée de chaque aile"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "avant-corps nord RDC",
+      "donne_sur": "vestibule",
+      "dimensions_estimees": "≈1,6 × 3,4 m"
+    },
+    {
+      "type": "fenetre",
+      "mur": "avant-corps étage (axe)",
+      "donne_sur": "étage, au-dessus du vestibule",
+      "dimensions_estimees": "≈1,2 × 2,6 m, balconnet, applique dessous"
+    },
+    {
+      "type": "fenetre",
+      "mur": "avant-corps attique (axe)",
+      "donne_sur": "attique",
+      "dimensions_estimees": "≈1,0 × 1,4 m"
+    },
+    {
+      "type": "fenetre",
+      "mur": "aile ouest : RDC (porte-fenêtre + garde-corps), étage, attique",
+      "donne_sur": "pièces NO",
+      "dimensions_estimees": "1 travée visible"
+    },
+    {
+      "type": "fenetre",
+      "mur": "aile est : RDC, étage (balconnet), attique",
+      "donne_sur": "pièces NE",
+      "dimensions_estimees": "1-2 travées visibles"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": 9.0,
+    "profondeur_m": null
+  },
+  "sol": "perron : 9 marches visibles + palier, pierre calcaire",
+  "plafond": "ciel",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "perron droit de 9-10 marches, largeur ≈8 m, encadré de murs d'échiffre pleins terminés par des dés",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "blanc gris",
+      "dimensions_estimees": "giron ≈35 cm, hauteur ≈16 cm",
+      "position_dans_piece": "devant l'avant-corps nord",
+      "quantite": 1
+    },
+    {
+      "nom": "lampadaire boule sur colonne fonte",
+      "categorie": "luminaire",
+      "materiau": "fonte peinte + globe opalin",
+      "couleur": "noir / globe blanc laiteux",
+      "dimensions_estimees": "h≈3,0 m, globe Ø≈40 cm, socle carré ≈40 cm",
+      "position_dans_piece": "sur les dés de pierre en tête des murs d'échiffre du perron nord, de part et d'autre",
+      "quantite": 2
+    },
+    {
+      "nom": "applique sous la fenêtre d'axe d'étage",
+      "categorie": "luminaire",
+      "materiau": "métal",
+      "couleur": "noir",
+      "dimensions_estimees": "≈25 cm",
+      "position_dans_piece": "linteau de la porte / sous balconnet d'étage",
+      "quantite": 1
+    },
+    {
+      "nom": "fougère en pot",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "Ø≈60 cm",
+      "position_dans_piece": "palier, droite de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "lanterne-photophore",
+      "categorie": "luminaire",
+      "materiau": "métal noir + verre",
+      "couleur": "noir",
+      "dimensions_estimees": "≈45 cm",
+      "position_dans_piece": "palier, droite",
+      "quantite": 1
+    },
+    {
+      "nom": "pot de plante",
+      "categorie": "vegetation",
+      "materiau": "terre cuite",
+      "couleur": "orange",
+      "dimensions_estimees": "Ø≈30 cm",
+      "position_dans_piece": "palier, extrémité droite",
+      "quantite": 1
+    },
+    {
+      "nom": "interphone + boîtier",
+      "categorie": "objet",
+      "materiau": "inox",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pilastre droit",
+      "quantite": 2
+    },
+    {
+      "nom": "panneaux en table",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "avant-corps, 3 niveaux",
+      "quantite": 8
+    },
+    {
+      "nom": "frontons cintrés",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "fenêtres axe étage + attique",
+      "quantite": 2
+    },
+    {
+      "nom": "corniche à modillons de l'avant-corps et des ailes (l'avant-corps monte plus haut d'≈1 niveau)",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "couronnement",
+      "quantite": 1
+    },
+    {
+      "nom": "balconnets en fonte",
+      "categorie": "ferronnerie",
+      "materiau": "fonte",
+      "couleur": "noir",
+      "dimensions_estimees": "",
+      "position_dans_piece": "fenêtres d'étage axe + ailes, RDC ailes",
+      "quantite": 5
+    },
+    {
+      "nom": "if",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert sombre",
+      "dimensions_estimees": "",
+      "position_dans_piece": "gauche du perron",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Même perron que P37-P39 ; dernier cliché extérieur avant le retour au RDC (P41)"
+  ],
+  "incertitudes": [
+    "Hauteur relative de l'avant-corps vs ailes : il dépasse la corniche des ailes d'un étage d'attique"
+  ]
+}

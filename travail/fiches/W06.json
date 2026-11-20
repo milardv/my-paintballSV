@@ -1,0 +1,89 @@
+{
+  "id": "W06",
+  "zone": "ext-facade-nord",
+  "niveau": "ext",
+  "piece": "porte d'entrée nord (détail)",
+  "orientation_vue": "Gros plan en contre-plongée sur le haut de la porte d'entrée nord, vers le sud",
+  "murs_visibles": [
+    "avant-corps nord, RDC, partie haute"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "avant-corps nord",
+      "donne_sur": "vestibule",
+      "dimensions_estimees": "porte ouverte, imposte ferronnée"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "",
+  "plafond": "",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "plaque « CHATEAU SAINT-VICTOR » en lettres capitales romaines dorées, tirets",
+      "categorie": "objet",
+      "materiau": "pierre ou tôle peinte",
+      "couleur": "fond gris olive, lettres or",
+      "dimensions_estimees": "≈2,3 × 0,4 m",
+      "position_dans_piece": "frise entre les colonnes, au-dessus de l'imposte",
+      "quantite": 1
+    },
+    {
+      "nom": "chapiteaux corinthiens / composites (feuilles d'acanthe, volutes, fleuron)",
+      "categorie": "moulure",
+      "materiau": "pierre sculptée",
+      "couleur": "crème",
+      "dimensions_estimees": "h≈0,6 m",
+      "position_dans_piece": "colonnes engagées et pilastres d'angle",
+      "quantite": 4
+    },
+    {
+      "nom": "imposte vitrée à grille en fer forgé : volutes en C affrontées + monogramme central entrelacé",
+      "categorie": "ferronnerie",
+      "materiau": "fer forgé noir + verre",
+      "couleur": "noir",
+      "dimensions_estimees": "≈1,5 × 0,5 m",
+      "position_dans_piece": "au-dessus de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "dormant et vantaux en bois mouluré",
+      "categorie": "architecture",
+      "materiau": "bois",
+      "couleur": "brun rouge foncé",
+      "dimensions_estimees": "",
+      "position_dans_piece": "porte",
+      "quantite": 1
+    },
+    {
+      "nom": "architrave et frise lisse, corniche",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "entablement",
+      "quantite": 1
+    },
+    {
+      "nom": "panneau en table à cadre",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "trumeaux latéraux",
+      "quantite": 2
+    }
+  ],
+  "indices_plan": [
+    "Détail de la porte vue en P37/P38/P40 ; ouverte : entrée du vestibule"
+  ],
+  "incertitudes": [
+    "Monogramme de l'imposte illisible (initiales ?)",
+    "Image issue d'une vidéo web (D-006) : référence seulement"
+  ]
+}

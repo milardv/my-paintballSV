@@ -1,0 +1,79 @@
+{
+ "ambiance_parc": {
+  "text": "Peaceful Provencal chateau park in Marseille on a warm afternoon, cicadas chirping, gentle wind in pine trees, distant birds, a small fountain trickling, seamless ambient loop, no music, no voices",
+  "duration_seconds": 22,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2",
+  "loop": true
+ },
+ "ambiance_interieur": {
+  "text": "Interior ambience of a grand old French chateau hall, clearly audible room tone, wind howling softly against tall old windows, wooden floor creaks, an antique pendulum clock ticking steadily nearby, distant muffled cicadas outside, seamless ambient loop, no music, no voices",
+  "duration_seconds": 20,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2",
+  "loop": true
+ },
+ "tir_marqueur": {
+  "text": "Single paintball marker shot, sharp pneumatic compressed air pop with a short hollow thump, close up, dry, no echo",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2"
+ },
+ "impact_peinture": {
+  "text": "Paintball hitting a hard wall and bursting, wet splat with a short crack, close up",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2"
+ },
+ "cible_touchee": {
+  "text": "Paintball smacking a wooden target board, solid wet thwack followed by a short satisfying metallic ding",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2"
+ },
+ "recharge": {
+  "text": "Reloading a paintball marker: plastic hopper lid snapping open, paintballs rattling and pouring into the hopper, lid clicking shut",
+  "duration_seconds": 1.5,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2"
+ },
+ "chargeur_vide": {
+  "text": "Dry trigger click of an empty air gun, light mechanical click, close up",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2"
+ },
+ "menu_validation": {
+  "text": "Short elegant user interface confirm sound, soft wooden click with a bright airy chime, game menu",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2"
+ },
+ "musique_ambiance": {
+  "text": "Chill instrumental background music evoking a lazy summer afternoon in a small Provencal village in the 1930s: gentle accordion musette melody, plucked mandolin and warm nylon guitar, soft clarinet answering, light upright bass, slow relaxed tempo, nostalgic, sunny and peaceful, pastis on the terrace under the plane trees, no drums, no vocals, seamless loop",
+  "duration_seconds": 30,
+  "prompt_influence": 0.6,
+  "model_id": "eleven_text_to_sound_v2",
+  "loop": true,
+  "api": "sound-generation"
+ },
+ "explosion_peinture": {
+  "text": "Huge cartoon paint grenade explosion: a deep punchy boom with a sub-bass thump, a big wet splash of thick paint bursting in all directions, splatters raining down on the ground, stylish arcade video game impact, close up, no music, no voices",
+  "duration_seconds": 2.2,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2"
+ },
+ "ambiance_neige": {
+  "text": "Quiet snowy winter park ambience, soft gusts of cold wind through bare trees, gentle hiss of falling snow, muffled distant silence, very calm, seamless ambient loop, no birds, no insects, no music, no voices",
+  "duration_seconds": 22,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2",
+  "loop": true
+ },
+ "pas_neige": {
+  "text": "Single footstep in fresh powder snow, soft compressing crunch, close up, dry, no echo",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.55,
+  "model_id": "eleven_text_to_sound_v2"
+ }
+}

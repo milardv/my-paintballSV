@@ -1,0 +1,55 @@
+{
+    "reussi": true,
+    "controles": [
+        {
+            "nom": "import_piece_chambres",
+            "reussi": true,
+            "detail": "piece_chambres"
+        },
+        {
+            "nom": "import_piece_circulations",
+            "reussi": true,
+            "detail": "piece_circulations"
+        },
+        {
+            "nom": "import_piece_reception",
+            "reussi": true,
+            "detail": "piece_reception"
+        },
+        {
+            "nom": "import_piece_salons",
+            "reussi": true,
+            "detail": "piece_salons"
+        },
+        {
+            "nom": "entree_interaction",
+            "reussi": true,
+            "detail": "2 vantaux ; cible bati_porte_entree_bois_vantail_0"
+        },
+        {
+            "nom": "entree_passage",
+            "reussi": true,
+            "detail": "écart 0.12 m, position (0.00, 0.08, -8.49), obstacles "
+        },
+        {
+            "nom": "escalier_central",
+            "reussi": true,
+            "detail": "écart 0.13 m, position (-0.65, 3.49, 1.70), obstacles "
+        },
+        {
+            "nom": "repos",
+            "reussi": true,
+            "detail": "écart 0.12 m, position (-2.72, 3.48, 1.80), obstacles mur_petit_salon_billard"
+        },
+        {
+            "nom": "escalier_retour",
+            "reussi": true,
+            "detail": "écart 0.14 m, position (-2.80, 5.43, -2.38), obstacles "
+        },
+        {
+            "nom": "galerie",
+            "reussi": true,
+            "detail": "écart 0.12 m, position (-2.80, 5.43, -4.01), obstacles palier_panneaux_cage,mur_bibliotheque_palier"
+        }
+    ]
+}

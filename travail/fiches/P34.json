@@ -1,0 +1,322 @@
+{
+  "id": "P34",
+  "zone": "int-billard",
+  "niveau": "rdc",
+  "piece": "salle de billard",
+  "orientation_vue": "vers le nord/nord-ouest (billard au fond, cheminée à droite)",
+  "murs_visibles": [
+    "gauche : console, lampes, tableau",
+    "fond : porte ouverte (lumière, garde-corps), tableau, console, porte double fermée",
+    "droite : cheminée et porte ouverte"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "fond, à gauche",
+      "donne_sur": "espace clair avec porte-fenêtre à garde-corps fer forgé (couloir est façade nord ? P36) ; panneau « sortie » vert au-dessus",
+      "dimensions_estimees": {
+        "largeur_m": 1.3,
+        "hauteur_m": 3.4
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "fond/droite, à gauche de la cheminée",
+      "donne_sur": "porte double noyer fermée",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.4
+      }
+    },
+    {
+      "type": "porte",
+      "mur": "droite, après la cheminée",
+      "donne_sur": "pièce avec table et porte-fenêtre",
+      "dimensions_estimees": {
+        "largeur_m": 1.4,
+        "hauteur_m": 3.4
+      }
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": 5.0,
+    "largeur_m": 6.5,
+    "profondeur_m": 10.0
+  },
+  "sol": "parquet à panneaux (type Versailles/damier à losanges en bois de bout), chêne clair, motif de cubes en perspective",
+  "plafond": "plafond à caissons octogonaux et carrés en bois, poutres maîtresses brun-rouge, moulures vert d'eau, fonds de caissons peints de fleurs stylisées (vert sombre, ocre, rose) ; corniche vert d'eau",
+  "murs_revetement": "tenture damassée crème/ivoire à grand motif, menuiseries (portes, cheminée) en noyer sculpté",
+  "elements": [
+    {
+      "nom": "lustre à pampilles 12 bras, bobèches à bougies",
+      "categorie": "luminaire",
+      "materiau": "bronze argenté, cristal",
+      "couleur": "argent/blanc",
+      "dimensions_estimees": {
+        "diametre_m": 0.8,
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "plafond, axes de la pièce",
+      "quantite": 2
+    },
+    {
+      "nom": "cheminée monumentale en noyer sculpté à colonnettes, trumeau à tapisserie encadrée (scène de chasse/personnages), corniche sculptée",
+      "categorie": "cheminee",
+      "materiau": "noyer, faïence",
+      "couleur": "brun/vert",
+      "dimensions_estimees": {
+        "largeur_m": 2.2,
+        "hauteur_m": 4.0
+      },
+      "position_dans_piece": "mur de la cheminée (voir orientation)",
+      "quantite": 1
+    },
+    {
+      "nom": "contrecœur et jambages en carreaux de faïence verte émaillée",
+      "categorie": "cheminee",
+      "materiau": "faïence",
+      "couleur": "vert bouteille",
+      "dimensions_estimees": {
+        "largeur_m": 1.2,
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "foyer",
+      "quantite": 1
+    },
+    {
+      "nom": "pare-feu et chenets",
+      "categorie": "ferronnerie",
+      "materiau": "laiton, fer",
+      "couleur": "doré/noir",
+      "dimensions_estimees": {
+        "largeur_m": 0.7
+      },
+      "position_dans_piece": "devant le foyer",
+      "quantite": 1
+    },
+    {
+      "nom": "table de billard français (sans poches), tapis vert, pieds tournés",
+      "categorie": "mobilier",
+      "materiau": "acajou, drap",
+      "couleur": "brun/vert",
+      "dimensions_estimees": {
+        "largeur_m": 2.6,
+        "profondeur_m": 1.4,
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "moitié de la pièce opposée au salon",
+      "quantite": 1
+    },
+    {
+      "nom": "tapis persan à fond ivoire, motifs floraux rouges/bleus, franges",
+      "categorie": "tapis",
+      "materiau": "laine",
+      "couleur": "ivoire/rouge/bleu",
+      "dimensions_estimees": {
+        "largeur_m": 3.5,
+        "profondeur_m": 2.7
+      },
+      "position_dans_piece": "devant la cheminée",
+      "quantite": 1
+    },
+    {
+      "nom": "table basse ovale, plateau onyx/marbre, piètement laiton",
+      "categorie": "mobilier",
+      "materiau": "marbre, laiton",
+      "couleur": "blanc veiné/or",
+      "dimensions_estimees": {
+        "largeur_m": 1.1,
+        "hauteur_m": 0.45
+      },
+      "position_dans_piece": "sur le tapis",
+      "quantite": 1
+    },
+    {
+      "nom": "fauteuil médaillon Louis-Philippe, bois acajou, tissu blanc",
+      "categorie": "mobilier",
+      "materiau": "acajou, tissu",
+      "couleur": "brun/blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 1.0
+      },
+      "position_dans_piece": "autour de la table basse",
+      "quantite": 4
+    },
+    {
+      "nom": "petit bouquet de fleurs dans un vase",
+      "categorie": "objet",
+      "materiau": "verre",
+      "couleur": "blanc/vert",
+      "dimensions_estimees": {
+        "hauteur_m": 0.2
+      },
+      "position_dans_piece": "table basse",
+      "quantite": 1
+    },
+    {
+      "nom": "lampadaire laiton, abat-jour blanc",
+      "categorie": "luminaire",
+      "materiau": "laiton",
+      "couleur": "doré/blanc",
+      "dimensions_estimees": {
+        "hauteur_m": 1.6
+      },
+      "position_dans_piece": "à côté de la cheminée",
+      "quantite": 1
+    },
+    {
+      "nom": "statue bronze patiné : femme en costume XVIIe avec chapeau à plume",
+      "categorie": "objet",
+      "materiau": "bronze",
+      "couleur": "brun noir",
+      "dimensions_estimees": {
+        "hauteur_m": 0.8
+      },
+      "position_dans_piece": "sur la console entre deux portes-fenêtres",
+      "quantite": 1
+    },
+    {
+      "nom": "console Louis-Philippe galbée",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun",
+      "dimensions_estimees": {
+        "largeur_m": 1.0,
+        "hauteur_m": 0.85
+      },
+      "position_dans_piece": "entre les portes-fenêtres",
+      "quantite": 1
+    },
+    {
+      "nom": "tableau paysage/marine à cadre doré",
+      "categorie": "tableau",
+      "materiau": "huile",
+      "couleur": "bleu/brun",
+      "dimensions_estimees": {
+        "largeur_m": 1.0,
+        "hauteur_m": 0.7
+      },
+      "position_dans_piece": "au-dessus de la console, entre portes-fenêtres",
+      "quantite": 1
+    },
+    {
+      "nom": "rideaux de soie ivoire/beige à embrasses",
+      "categorie": "textile",
+      "materiau": "soie",
+      "couleur": "ivoire",
+      "dimensions_estimees": {
+        "hauteur_m": 4.2
+      },
+      "position_dans_piece": "portes-fenêtres",
+      "quantite": 6
+    },
+    {
+      "nom": "radiateur fonte à colonnes",
+      "categorie": "objet",
+      "materiau": "fonte",
+      "couleur": "ivoire",
+      "dimensions_estimees": {
+        "largeur_m": 0.6,
+        "hauteur_m": 0.9
+      },
+      "position_dans_piece": "à côté des portes-fenêtres",
+      "quantite": 2
+    },
+    {
+      "nom": "panneau lumineux « sortie de secours » (bonhomme vert)",
+      "categorie": "objet",
+      "materiau": "plastique",
+      "couleur": "vert/blanc",
+      "dimensions_estimees": {
+        "largeur_m": 0.35,
+        "hauteur_m": 0.15
+      },
+      "position_dans_piece": "au-dessus des portes noyer",
+      "quantite": 2
+    },
+    {
+      "nom": "console galbée et 2 lampes céramique blanche",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun/blanc",
+      "dimensions_estimees": {
+        "largeur_m": 1.3
+      },
+      "position_dans_piece": "mur gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "tabouret de bar/chaise à assise rouge",
+      "categorie": "mobilier",
+      "materiau": "acajou, velours",
+      "couleur": "rouge",
+      "dimensions_estimees": {
+        "hauteur_m": 0.7
+      },
+      "position_dans_piece": "mur gauche près de la console",
+      "quantite": 1
+    },
+    {
+      "nom": "tableau paysage à cadre doré",
+      "categorie": "tableau",
+      "materiau": "huile",
+      "couleur": "vert/bleu",
+      "dimensions_estimees": {
+        "largeur_m": 0.8,
+        "hauteur_m": 0.55
+      },
+      "position_dans_piece": "mur gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "console + lampe céramique blanche + 2 chaises à assise rouge",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun/rouge",
+      "dimensions_estimees": {
+        "largeur_m": 1.0
+      },
+      "position_dans_piece": "mur du fond, sous un tableau paysage",
+      "quantite": 1
+    },
+    {
+      "nom": "tableau paysage (marine) cadre doré",
+      "categorie": "tableau",
+      "materiau": "huile",
+      "couleur": "bleu",
+      "dimensions_estimees": {
+        "largeur_m": 0.7,
+        "hauteur_m": 0.5
+      },
+      "position_dans_piece": "mur du fond",
+      "quantite": 1
+    },
+    {
+      "nom": "buffet (bord gauche)",
+      "categorie": "mobilier",
+      "materiau": "acajou",
+      "couleur": "brun",
+      "dimensions_estimees": {},
+      "position_dans_piece": "premier plan gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "dessus-de-porte peints",
+      "categorie": "tableau",
+      "materiau": "huile",
+      "couleur": "sombre",
+      "dimensions_estimees": {
+        "largeur_m": 1.4
+      },
+      "position_dans_piece": "au-dessus des portes",
+      "quantite": 3
+    }
+  ],
+  "indices_plan": [
+    "Une porte de billard donne sur un espace à porte-fenêtre à garde-corps fer forgé : couloir est (P36) ou salle à manger (balconnets P43-P45)",
+    "Panneaux de sortie de secours : itinéraire d'évacuation billard → couloir"
+  ],
+  "incertitudes": [
+    "Orientation de la vue incohérente avec P32/P33 à cause de la grand-angle : à arbitrer en P3 (cheminée sur mur nord ou est ?)"
+  ]
+}

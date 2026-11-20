@@ -1,0 +1,160 @@
+{
+ "id": "P16",
+ "zone": "int-escalier",
+ "niveau": "etage",
+ "piece": "Escalier d'honneur impérial (volée centrale RDC -> repos, puis deux volées latérales repos -> étage)",
+ "orientation_vue": "depuis le repos intermédiaire vers l'est/nord-est : volée latérale montant vers l'étage, galerie à arcades au-dessus, vestibule RDC en contrebas à gauche",
+ "murs_visibles": [
+  "mur est/sud (repos)",
+  "arcades de la galerie haute",
+  "trémie"
+ ],
+ "ouvertures": [
+  {
+   "type": "arcade",
+   "mur": "étage",
+   "donne_sur": "galerie haute (lanterne suspendue)",
+   "dimensions_estimees": "arcades plein cintre H 3.5 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 11.0,
+  "largeur_m": 9.0,
+  "profondeur_m": 9.0
+ },
+ "sol": "marches en marbre blanc veiné, tapis d'escalier rouge (larg. ~0.9 m) ; repos en dallage marbre blanc en losanges à cabochons rouges et encadrement marbre rouge",
+ "plafond": "coupole en voûte en arc de cloître sur plan carré : caissons trapézoïdaux et triangulaires soulignés de filets gris-vert, puits de lumière vitré rectangulaire au sommet, 4 oculi en demi-lune (un par face) à la base de la voûte, corniche à denticules et frise d'oves",
+ "murs_revetement": "murs blancs à panneaux moulurés gris-vert, soubassement à table saillante suivant la pente, arcades à l'étage",
+ "elements": [
+  {
+   "nom": "marches en marbre blanc (giron ~0.35, hauteur ~0.16 m)",
+   "categorie": "architecture",
+   "materiau": "marbre",
+   "couleur": "blanc",
+   "dimensions_estimees": "larg. volée centrale ~2.0 m, volées latérales ~1.5 m",
+   "position_dans_piece": "escalier",
+   "quantite": 1
+  },
+  {
+   "nom": "tapis d'escalier rouge (moquette) avec tringles",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge vermillon",
+   "dimensions_estimees": "larg. 0.9 m",
+   "position_dans_piece": "axe des volées",
+   "quantite": 1
+  },
+  {
+   "nom": "rampe d'escalier en fer forgé à volutes et rinceaux, main courante laiton poli",
+   "categorie": "ferronnerie",
+   "materiau": "fer forgé noir, laiton",
+   "couleur": "noir/doré",
+   "dimensions_estimees": "H 0.95 m",
+   "position_dans_piece": "autour de la trémie",
+   "quantite": 1
+  },
+  {
+   "nom": "chaise cannée ancienne",
+   "categorie": "mobilier",
+   "materiau": "bois, canne",
+   "couleur": "brun",
+   "dimensions_estimees": "0.45 x 0.45 x H 0.9 m",
+   "position_dans_piece": "angle du repos, contre le mur",
+   "quantite": 1
+  },
+  {
+   "nom": "appliques bronze doré 2 bras à bougies électriques",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": "H 0.4 m",
+   "position_dans_piece": "piliers et murs de la cage",
+   "quantite": 1
+  },
+  {
+   "nom": "balustrade à balustres tournés",
+   "categorie": "architecture",
+   "materiau": "pierre/plâtre peint",
+   "couleur": "blanc",
+   "dimensions_estimees": "H 0.9 m, balustres H 0.55",
+   "position_dans_piece": "dans les arcades latérales, côté cage",
+   "quantite": 1
+  },
+  {
+   "nom": "amphore en terre cuite sur trépied métallique dans un bac carré en pierre, herbes de la pampa",
+   "categorie": "vegetation",
+   "materiau": "terre cuite, fer, pierre",
+   "couleur": "ocre",
+   "dimensions_estimees": "amphore H 0.7, bac 0.5 x 0.5 m, herbes H 1.6 m",
+   "position_dans_piece": "repos, sous la tapisserie",
+   "quantite": 1
+  },
+  {
+   "nom": "tapis rouge débordant sur le repos (palier)",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge",
+   "dimensions_estimees": "1.2 x 1.0 m",
+   "position_dans_piece": "arrivée de volée sur le repos",
+   "quantite": 1
+  },
+  {
+   "nom": "lanterne suspendue de galerie",
+   "categorie": "luminaire",
+   "materiau": "métal, verre",
+   "couleur": "doré",
+   "dimensions_estimees": "H 0.6 m",
+   "position_dans_piece": "galerie haute",
+   "quantite": 1
+  },
+  {
+   "nom": "applique bronze 3 bras",
+   "categorie": "luminaire",
+   "materiau": "bronze doré",
+   "couleur": "doré",
+   "dimensions_estimees": "",
+   "position_dans_piece": "mur de l'étage, haut gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau encadré (galerie haute)",
+   "categorie": "tableau",
+   "materiau": "",
+   "couleur": "",
+   "dimensions_estimees": "0.4 x 0.5 m",
+   "position_dans_piece": "galerie haute gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "console + bouquet (galerie haute)",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": "",
+   "position_dans_piece": "palier étage gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "dallage du repos fissuré (fissures visibles)",
+   "categorie": "architecture",
+   "materiau": "marbre",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "repos",
+   "quantite": 1
+  },
+  {
+   "nom": "rideaux rouges du vestibule (vus en contrebas)",
+   "categorie": "textile",
+   "materiau": "velours",
+   "couleur": "rouge",
+   "dimensions_estimees": "",
+   "position_dans_piece": "RDC",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Vu en contrebas : vestibule RDC (pilastres, papier peint damassé, porte double, rideau rouge, fauteuil) = P20-P21"
+ ],
+ "incertitudes": []
+}

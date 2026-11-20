@@ -1,0 +1,248 @@
+{
+ "id": "P55",
+ "zone": "int-chambre-3",
+ "niveau": "etage",
+ "piece": "Chambre-3 : bureau / pièce à l'armoire et au tableau marine (bout de l'enfilade, porte sur le dégagement d'étage)",
+ "orientation_vue": "depuis la porte-fenêtre (à gauche) vers le fond de la pièce : bureau, tableau marine, porte à droite",
+ "murs_visibles": [
+  "mur gauche (porte-fenêtre)",
+  "mur du fond (tableau marine)",
+  "mur droit (porte)"
+ ],
+ "ouvertures": [
+  {
+   "type": "fenetre",
+   "mur": "gauche",
+   "donne_sur": "extérieur : cour gravillonnée, vasques et pelouse en contrebas, arbres ; garde-corps fer forgé",
+   "dimensions_estimees": "porte-fenêtre 2 vantaux + imposte L 1.3 x H 3.3 m"
+  },
+  {
+   "type": "fenetre",
+   "mur": "gauche (2e)",
+   "donne_sur": "extérieur",
+   "dimensions_estimees": "porte-fenêtre L 1.2 x H 3.2 m"
+  },
+  {
+   "type": "porte",
+   "mur": "droit",
+   "donne_sur": "pièce voisine / dégagement (porte laquée filets verts)",
+   "dimensions_estimees": "porte double L 1.2 x H 2.6 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.0,
+  "largeur_m": 5.5,
+  "profondeur_m": 7.0
+ },
+ "sol": "parquet de Versailles chêne clair (panneaux carrés à entrelacs), ciré",
+ "plafond": "plafond blanc, corniche moulurée à feuillages, grande rosace en stuc rocaille",
+ "murs_revetement": "murs peints blanc cassé (papier à fine texture), plinthes ; portes laquées blanches à filets verts",
+ "elements": [
+  {
+   "nom": "grand tableau marine (côte rocheuse, ciel d'orage) dans cadre sculpté sombre",
+   "categorie": "tableau",
+   "materiau": "huile, bois sculpté",
+   "couleur": "gris/bleu/ocre",
+   "dimensions_estimees": "1.9 x 1.3 m",
+   "position_dans_piece": "mur du fond, centre",
+   "quantite": 1
+  },
+  {
+   "nom": "bureau plat Louis XV en noyer",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "1.6 x 0.8 x H 0.76 m",
+   "position_dans_piece": "devant le tableau, sur le tapis",
+   "quantite": 1
+  },
+  {
+   "nom": "ordinateur iMac",
+   "categorie": "objet",
+   "materiau": "aluminium",
+   "couleur": "argent/blanc",
+   "dimensions_estimees": "0.6 x 0.45 m",
+   "position_dans_piece": "sur le bureau",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe bouillotte à abat-jour crème",
+   "categorie": "luminaire",
+   "materiau": "laiton, tissu",
+   "couleur": "doré/crème",
+   "dimensions_estimees": "H 0.6 m",
+   "position_dans_piece": "bureau",
+   "quantite": 1
+  },
+  {
+   "nom": "boîte à mouchoirs/coffret en cuir, téléphone, papiers",
+   "categorie": "objet",
+   "materiau": "cuir, papier",
+   "couleur": "brun",
+   "dimensions_estimees": "",
+   "position_dans_piece": "bureau",
+   "quantite": 4
+  },
+  {
+   "nom": "meuble bas / bibliothèque noire en bois sculpté derrière le bureau",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "noir",
+   "dimensions_estimees": "1.2 x H 1.0 m",
+   "position_dans_piece": "sous le tableau",
+   "quantite": 1
+  },
+  {
+   "nom": "lampe haute fine (liseuse)",
+   "categorie": "luminaire",
+   "materiau": "métal",
+   "couleur": "noir/blanc",
+   "dimensions_estimees": "H 1.5 m",
+   "position_dans_piece": "derrière le bureau",
+   "quantite": 1
+  },
+  {
+   "nom": "table à jeux avec échiquier",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "brun",
+   "dimensions_estimees": "0.8 x 0.5 x H 0.75 m",
+   "position_dans_piece": "angle droit",
+   "quantite": 1
+  },
+  {
+   "nom": "pouf / tabouret capitonné violet",
+   "categorie": "mobilier",
+   "materiau": "velours",
+   "couleur": "violet",
+   "dimensions_estimees": "0.4 m",
+   "position_dans_piece": "angle droit",
+   "quantite": 1
+  },
+  {
+   "nom": "fauteuil Louis XVI laqué blanc garni blanc",
+   "categorie": "mobilier",
+   "materiau": "bois laqué, tissu",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "devant le bureau",
+   "quantite": 1
+  },
+  {
+   "nom": "fauteuil cabriolet Louis-Philippe garni tissu blanc",
+   "categorie": "mobilier",
+   "materiau": "acajou, tissu",
+   "couleur": "brun/blanc",
+   "dimensions_estimees": "0.65 x 0.65 x H 0.95 m",
+   "position_dans_piece": "devant le bureau",
+   "quantite": 1
+  },
+  {
+   "nom": "tapis d'Orient vert pâle et rose à bordure",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "vert sauge/rose",
+   "dimensions_estimees": "3.0 x 2.5 m",
+   "position_dans_piece": "sous le bureau",
+   "quantite": 1
+  },
+  {
+   "nom": "commode/meuble bas à tiroirs en noyer",
+   "categorie": "mobilier",
+   "materiau": "noyer",
+   "couleur": "brun",
+   "dimensions_estimees": "1.2 x 0.5 x H 0.9 m",
+   "position_dans_piece": "entre les deux fenêtres",
+   "quantite": 1
+  },
+  {
+   "nom": "cadres photo posés",
+   "categorie": "objet",
+   "materiau": "bois, verre",
+   "couleur": "",
+   "dimensions_estimees": "0.2 m",
+   "position_dans_piece": "sur le meuble bas",
+   "quantite": 2
+  },
+  {
+   "nom": "lustre fer forgé et bronze 8 bras, bougies électriques",
+   "categorie": "luminaire",
+   "materiau": "fer/bronze",
+   "couleur": "doré",
+   "dimensions_estimees": "Ø 0.7 x H 1.2 m",
+   "position_dans_piece": "centre, rosace",
+   "quantite": 1
+  },
+  {
+   "nom": "rideaux de lin écru sur tringle bois, embrasses à glands",
+   "categorie": "textile",
+   "materiau": "lin, passementerie",
+   "couleur": "écru",
+   "dimensions_estimees": "H 3.6 m",
+   "position_dans_piece": "fenêtres",
+   "quantite": 4
+  },
+  {
+   "nom": "embrasse cordelière à gland",
+   "categorie": "textile",
+   "materiau": "coton",
+   "couleur": "écru/doré",
+   "dimensions_estimees": "",
+   "position_dans_piece": "rideaux",
+   "quantite": 2
+  },
+  {
+   "nom": "garde-corps en fer forgé",
+   "categorie": "ferronnerie",
+   "materiau": "fer",
+   "couleur": "noir",
+   "dimensions_estimees": "H 0.9 m",
+   "position_dans_piece": "porte-fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "espagnolette et loqueteaux",
+   "categorie": "ferronnerie",
+   "materiau": "fer",
+   "couleur": "noir",
+   "dimensions_estimees": "H 3.2 m",
+   "position_dans_piece": "fenêtres",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur fonte blanc sous la fenêtre",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "blanc",
+   "dimensions_estimees": "1.0 x H 0.8 m",
+   "position_dans_piece": "sous la porte-fenêtre",
+   "quantite": 1
+  },
+  {
+   "nom": "tableau (portrait) sur le mur entre fenêtres",
+   "categorie": "tableau",
+   "materiau": "huile",
+   "couleur": "brun",
+   "dimensions_estimees": "0.35 x 0.5 m",
+   "position_dans_piece": "mur gauche",
+   "quantite": 1
+  },
+  {
+   "nom": "prise et câbles",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "pied du bureau",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Vue par la fenêtre : cour gravillonnée et vasques en contrebas d'environ un étage => étage",
+  "Porte du fond de la chambre-2 (P52/P54) aboutit ici",
+  "La porte P57 donne sur un dégagement à sol de marbre et portes à filets verts : probablement le couloir P10-P12"
+ ],
+ "incertitudes": [
+  "Façade de la vue (cour d'entrée gravillonnée ou côté ouest) à recouper avec le lot ext"
+ ]
+}

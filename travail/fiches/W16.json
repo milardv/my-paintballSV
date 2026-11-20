@@ -1,0 +1,135 @@
+{
+  "id": "W16",
+  "zone": "ext-jardin",
+  "niveau": "ext",
+  "piece": "parc sud et cour sablée (aérien large)",
+  "orientation_vue": "Vue aérienne depuis le sud à ~60 m, vers le nord ; château au centre",
+  "murs_visibles": [
+    "façade sud entière"
+  ],
+  "ouvertures": [],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "cour sablée, enrobé, tennis",
+  "plafond": "",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "cour sablée rectangulaire devant la terrasse sud",
+      "categorie": "architecture",
+      "materiau": "sable stabilisé",
+      "couleur": "beige clair",
+      "dimensions_estimees": "≈60 × 30 m",
+      "position_dans_piece": "entre perron sud et pelouse",
+      "quantite": 1
+    },
+    {
+      "nom": "platanes taillés en têtard / boule, en alignement",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert clair",
+      "dimensions_estimees": "h≈8 m",
+      "position_dans_piece": "bord sud de la cour sablée, 2 groupes (ouest : 3, est : 4)",
+      "quantite": 7
+    },
+    {
+      "nom": "chêne vert / pin isolé",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert foncé",
+      "dimensions_estimees": "",
+      "position_dans_piece": "premier plan bas",
+      "quantite": 1
+    },
+    {
+      "nom": "tennis (rouge)",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "rouge",
+      "dimensions_estimees": "",
+      "position_dans_piece": "ouest du château",
+      "quantite": 1
+    },
+    {
+      "nom": "palmiers",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "le long du tennis et à l'est",
+      "quantite": 5
+    },
+    {
+      "nom": "allée d'accès asphaltée descendant vers l'est/sud-est",
+      "categorie": "architecture",
+      "materiau": "enrobé",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "est du château",
+      "quantite": 1
+    },
+    {
+      "nom": "voiture garée",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "allée NE",
+      "quantite": 1
+    },
+    {
+      "nom": "parasols et mobilier",
+      "categorie": "mobilier",
+      "materiau": "",
+      "couleur": "écru",
+      "dimensions_estimees": "",
+      "position_dans_piece": "terrasse sud",
+      "quantite": 4
+    },
+    {
+      "nom": "haies taillées (pittosporum)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "bord est de la cour / allée",
+      "quantite": 1
+    },
+    {
+      "nom": "pins d'Alep en massif",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "colline au nord",
+      "quantite": 20
+    },
+    {
+      "nom": "piscine voisine",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "turquoise",
+      "dimensions_estimees": "",
+      "position_dans_piece": "nord-ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "villas voisines",
+      "categorie": "architecture",
+      "materiau": "",
+      "couleur": "",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pourtour",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Cour sablée = lien entre W05 (pelouse) et W15 (terrasse)"
+  ],
+  "incertitudes": [
+    "Nombre exact de platanes"
+  ]
+}

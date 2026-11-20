@@ -1,0 +1,1241 @@
+{
+ "version": 1,
+ "repere": "D-003 (+X est, +Y sud, m) ; gabarit P2.emprise",
+ "parcours_photo": "P00-P13 étage (bibliothèque, palier, dégagement NO) ; P14-P19 descente ; P20-P36 RDC ; P37-P40 perron nord ; P41-P42 RDC ; P43-P57 étage (montée P42→P43 en 28 s)",
+ "pieces": [
+  {
+   "id": "R-vestibule",
+   "nom": "Vestibule",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "photos": [
+    "P19",
+    "P20",
+    "P21",
+    "P41",
+    "W08"
+   ],
+   "rect_m": [
+    -4,
+    -12.45,
+    4,
+    -3.5
+   ],
+   "fenetres_sur_facade": [
+    "nord axe 0 (porte d'entrée)",
+    "retours est et ouest de l'avant-corps nord (rideaux rouges)"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 8,
+    "profondeur_ns_m": 8.95,
+    "hauteur_plafond_m": 5.0
+   }
+  },
+  {
+   "id": "R-couloir-ouest",
+   "nom": "Couloir ouest",
+   "niveau": "rdc",
+   "certitude": "probable",
+   "photos": [
+    "P22"
+   ],
+   "rect_m": [
+    -10.8,
+    -8.75,
+    -4,
+    -6.4
+   ],
+   "fenetres_sur_facade": [
+    "nord x=-8,7",
+    "nord x=-5,1 (balconnets)"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 2.35,
+    "hauteur_plafond_m": 4.5
+   }
+  },
+  {
+   "id": "R-couloir-est",
+   "nom": "Couloir est",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "photos": [
+    "P36"
+   ],
+   "rect_m": [
+    4,
+    -8.75,
+    10.8,
+    -6.4
+   ],
+   "fenetres_sur_facade": [
+    "nord x=5,1",
+    "nord x=8,7 (balconnets)"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 2.35,
+    "hauteur_plafond_m": 4.5
+   }
+  },
+  {
+   "id": "R-passage-ouest",
+   "nom": "Passage ouest",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "photos": [
+    "P23",
+    "P24"
+   ],
+   "rect_m": [
+    -4,
+    -3.5,
+    -2.2,
+    0.8
+   ],
+   "fenetres_sur_facade": [],
+   "dimensions_estimees": {
+    "largeur_eo_m": 1.8,
+    "profondeur_ns_m": 4.3,
+    "hauteur_plafond_m": 4.0
+   }
+  },
+  {
+   "id": "R-passage-est",
+   "nom": "Passage est",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "photos": [
+    "P42"
+   ],
+   "rect_m": [
+    2.2,
+    -3.5,
+    4,
+    0.8
+   ],
+   "fenetres_sur_facade": [],
+   "dimensions_estimees": {
+    "largeur_eo_m": 1.8,
+    "profondeur_ns_m": 4.3,
+    "hauteur_plafond_m": 4.0
+   }
+  },
+  {
+   "id": "escalier",
+   "nom": "Escalier impérial",
+   "niveau": "rdc+etage",
+   "certitude": "sur",
+   "photos": [
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "W09"
+   ],
+   "rect_m": [
+    -2.2,
+    -3.5,
+    2.2,
+    0.8
+   ],
+   "fenetres_sur_facade": [
+    "verrière zénithale + 4 oculi de coupole"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 4.4,
+    "profondeur_ns_m": 4.3,
+    "hauteur_plafond_m": 11.0
+   }
+  },
+  {
+   "id": "R-petit-salon",
+   "nom": "Petit salon (sous le repos)",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "photos": [
+    "P25",
+    "P26"
+   ],
+   "rect_m": [
+    -4,
+    0.8,
+    4,
+    3.9
+   ],
+   "fenetres_sur_facade": [],
+   "dimensions_estimees": {
+    "largeur_eo_m": 8,
+    "profondeur_ns_m": 3.1,
+    "hauteur_plafond_m": 3.2
+   }
+  },
+  {
+   "id": "R-salon",
+   "nom": "Salon bow-window",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "photos": [
+    "P27",
+    "P28",
+    "P29",
+    "P30",
+    "P31"
+   ],
+   "rect_m": [
+    -4,
+    3.9,
+    4,
+    9.35
+   ],
+   "fenetres_sur_facade": [
+    "sud x=-2,73 (pan coupé, porte-fenêtre)",
+    "sud x=0 (fenêtre)",
+    "sud x=2,73 (pan coupé, porte-fenêtre)"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 8,
+    "profondeur_ns_m": 5.45,
+    "hauteur_plafond_m": 5.0
+   }
+  },
+  {
+   "id": "R-billard",
+   "nom": "Billard",
+   "niveau": "rdc",
+   "certitude": "probable",
+   "photos": [
+    "P32",
+    "P33",
+    "P34",
+    "P35"
+   ],
+   "rect_m": [
+    4,
+    -1.5,
+    10.8,
+    8.75
+   ],
+   "fenetres_sur_facade": [
+    "sud x=5,25 (porte-fenêtre)",
+    "sud x=8,85 (porte-fenêtre)"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 10.25,
+    "hauteur_plafond_m": 5.0
+   }
+  },
+  {
+   "id": "R-degagement-est",
+   "nom": "Dégagement est + sanitaires",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "photos": [],
+   "rect_m": [
+    4,
+    -6.4,
+    10.8,
+    -1.5
+   ],
+   "fenetres_sur_facade": [],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 4.9,
+    "hauteur_plafond_m": 4.5
+   }
+  },
+  {
+   "id": "R-salon-vert",
+   "nom": "Salon vert (pavillon SE)",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "photos": [
+    "W07",
+    "W14"
+   ],
+   "rect_m": [
+    10.8,
+    3.85,
+    18,
+    9.45
+   ],
+   "fenetres_sur_facade": [
+    "sud x=14,4",
+    "est y=6,9"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 5.6,
+    "hauteur_plafond_m": 5.0
+   }
+  },
+  {
+   "id": "R-salon-ouest",
+   "nom": "Salon ouest",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "photos": [],
+   "rect_m": [
+    -10.8,
+    -1.5,
+    -4,
+    8.75
+   ],
+   "fenetres_sur_facade": [
+    "sud x=-8,85",
+    "sud x=-5,25"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 10.25,
+    "hauteur_plafond_m": 5.0
+   }
+  },
+  {
+   "id": "R-piece-no",
+   "nom": "Pièce nord-ouest",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "photos": [],
+   "rect_m": [
+    -18,
+    -9.45,
+    -10.8,
+    -3.85
+   ],
+   "fenetres_sur_facade": [
+    "nord x=-14,4",
+    "ouest y=-6,9"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 5.6,
+    "hauteur_plafond_m": 4.5
+   }
+  },
+  {
+   "id": "R-service-ouest",
+   "nom": "(non vu)",
+   "niveau": "rdc",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    -10.8,
+    -6.4,
+    -4,
+    -1.5
+   ],
+   "fenetres_sur_facade": [],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 4.9,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "R-bloc-est",
+   "nom": "Bloc est (non vu)",
+   "niveau": "rdc",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    10.8,
+    -3.85,
+    18,
+    3.85
+   ],
+   "fenetres_sur_facade": [
+    "est y=-2,3",
+    "est y=2,3"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 7.7,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "R-bloc-ouest",
+   "nom": "Bloc ouest (non vu)",
+   "niveau": "rdc",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    -18,
+    -3.85,
+    -10.8,
+    3.85
+   ],
+   "fenetres_sur_facade": [
+    "ouest y=-2,3",
+    "ouest y=2,3"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 7.7,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "R-pavillon-so",
+   "nom": "Pavillon SO (non vu)",
+   "niveau": "rdc",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    -18,
+    3.85,
+    -10.8,
+    9.45
+   ],
+   "fenetres_sur_facade": [
+    "sud x=-14,4",
+    "ouest y=6,9"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 5.6,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "R-pavillon-ne",
+   "nom": "Pavillon NE (non vu)",
+   "niveau": "rdc",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    10.8,
+    -9.45,
+    18,
+    -3.85
+   ],
+   "fenetres_sur_facade": [
+    "nord x=14,4",
+    "est y=-6,9"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 5.6,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "E-bibliotheque",
+   "nom": "Bibliothèque",
+   "niveau": "etage",
+   "certitude": "sur",
+   "photos": [
+    "P00",
+    "P01",
+    "P02",
+    "P03"
+   ],
+   "rect_m": [
+    -4,
+    -12.45,
+    4,
+    -5.3
+   ],
+   "fenetres_sur_facade": [
+    "nord axe 0",
+    "retours est et ouest de l'avant-corps nord"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 8,
+    "profondeur_ns_m": 7.15,
+    "hauteur_plafond_m": 4.8
+   }
+  },
+  {
+   "id": "E-palier",
+   "nom": "Palier, galeries et cage sous coupole",
+   "niveau": "etage",
+   "certitude": "sur",
+   "photos": [
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09"
+   ],
+   "rect_m": [
+    -5.6,
+    -5.3,
+    5.6,
+    1.0
+   ],
+   "fenetres_sur_facade": [
+    "verrière + 4 oculi"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 11.2,
+    "profondeur_ns_m": 6.3,
+    "hauteur_plafond_m": 11.0
+   }
+  },
+  {
+   "id": "E-degagement-no",
+   "nom": "Dégag. NO",
+   "niveau": "etage",
+   "certitude": "incertain",
+   "photos": [
+    "P10",
+    "P11",
+    "P12",
+    "P13"
+   ],
+   "rect_m": [
+    -10.8,
+    -5.3,
+    -5.6,
+    -3.5
+   ],
+   "fenetres_sur_facade": [],
+   "dimensions_estimees": {
+    "largeur_eo_m": 5.2,
+    "profondeur_ns_m": 1.8,
+    "hauteur_plafond_m": 4.0
+   }
+  },
+  {
+   "id": "E-salle-a-manger",
+   "nom": "Salle à manger",
+   "niveau": "etage",
+   "certitude": "probable",
+   "photos": [
+    "P43",
+    "P44",
+    "P45",
+    "P46",
+    "P50",
+    "P51"
+   ],
+   "rect_m": [
+    4,
+    1.0,
+    10.8,
+    8.75
+   ],
+   "fenetres_sur_facade": [
+    "sud x=5,25 (porte-fenêtre, balconnet)",
+    "sud x=8,85 (porte-fenêtre, balconnet)"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 7.75,
+    "hauteur_plafond_m": 4.6
+   }
+  },
+  {
+   "id": "E-chambre-1",
+   "nom": "Chambre 1 (angle SE)",
+   "niveau": "etage",
+   "certitude": "probable",
+   "photos": [
+    "P47",
+    "P48",
+    "P49"
+   ],
+   "rect_m": [
+    10.8,
+    3.85,
+    18,
+    9.45
+   ],
+   "fenetres_sur_facade": [
+    "sud x=14,4",
+    "est y=6,9"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 5.6,
+    "hauteur_plafond_m": 4.0
+   }
+  },
+  {
+   "id": "E-chambre-2",
+   "nom": "Chambre 2 à rayures",
+   "niveau": "etage",
+   "certitude": "probable",
+   "photos": [
+    "P52",
+    "P53",
+    "P54"
+   ],
+   "rect_m": [
+    -4,
+    3.9,
+    4,
+    9.35
+   ],
+   "fenetres_sur_facade": [
+    "sud x=-2,73",
+    "sud x=0",
+    "sud x=2,73 (balcon du bow)"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 8,
+    "profondeur_ns_m": 5.45,
+    "hauteur_plafond_m": 4.0
+   }
+  },
+  {
+   "id": "E-chambre-3",
+   "nom": "Chambre 3 (bureau, marine)",
+   "niveau": "etage",
+   "certitude": "probable",
+   "photos": [
+    "P55",
+    "P56",
+    "P57"
+   ],
+   "rect_m": [
+    -10.8,
+    1.0,
+    -4,
+    8.75
+   ],
+   "fenetres_sur_facade": [
+    "sud x=-8,85",
+    "sud x=-5,25"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 7.75,
+    "hauteur_plafond_m": 4.0
+   }
+  },
+  {
+   "id": "E-est",
+   "nom": "(non vu, porte en niche P05)",
+   "niveau": "etage",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    5.6,
+    -5.3,
+    10.8,
+    1.0
+   ],
+   "fenetres_sur_facade": [],
+   "dimensions_estimees": {
+    "largeur_eo_m": 5.2,
+    "profondeur_ns_m": 6.3,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "E-ouest",
+   "nom": "(non vu)",
+   "niveau": "etage",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    -10.8,
+    -3.5,
+    -5.6,
+    1.0
+   ],
+   "fenetres_sur_facade": [],
+   "dimensions_estimees": {
+    "largeur_eo_m": 5.2,
+    "profondeur_ns_m": 4.5,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "E-nord-ouest",
+   "nom": "(non vu)",
+   "niveau": "etage",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    -10.8,
+    -8.75,
+    -4,
+    -5.3
+   ],
+   "fenetres_sur_facade": [
+    "nord x=-8,7",
+    "nord x=-5,1"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 3.45,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "E-nord-est",
+   "nom": "(non vu)",
+   "niveau": "etage",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    4,
+    -8.75,
+    10.8,
+    -5.3
+   ],
+   "fenetres_sur_facade": [
+    "nord x=5,1",
+    "nord x=8,7"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 6.8,
+    "profondeur_ns_m": 3.45,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "E-bloc-est",
+   "nom": "Bloc est (non vu)",
+   "niveau": "etage",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    10.8,
+    -3.85,
+    18,
+    3.85
+   ],
+   "fenetres_sur_facade": [
+    "est y=-2,3",
+    "est y=2,3"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 7.7,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "E-bloc-ouest",
+   "nom": "Bloc ouest (non vu)",
+   "niveau": "etage",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    -18,
+    -3.85,
+    -10.8,
+    3.85
+   ],
+   "fenetres_sur_facade": [
+    "ouest y=-2,3",
+    "ouest y=2,3"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 7.7,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "E-pavillon-so",
+   "nom": "Pavillon SO (non vu)",
+   "niveau": "etage",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    -18,
+    3.85,
+    -10.8,
+    9.45
+   ],
+   "fenetres_sur_facade": [
+    "sud x=-14,4",
+    "ouest y=6,9"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 5.6,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "E-pavillon-no",
+   "nom": "Pavillon NO (non vu)",
+   "niveau": "etage",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    -18,
+    -9.45,
+    -10.8,
+    -3.85
+   ],
+   "fenetres_sur_facade": [
+    "nord x=-14,4",
+    "ouest y=-6,9"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 5.6,
+    "hauteur_plafond_m": null
+   }
+  },
+  {
+   "id": "E-pavillon-ne",
+   "nom": "Pavillon NE (non vu)",
+   "niveau": "etage",
+   "certitude": "non-vu",
+   "photos": [],
+   "rect_m": [
+    10.8,
+    -9.45,
+    18,
+    -3.85
+   ],
+   "fenetres_sur_facade": [
+    "nord x=14,4",
+    "est y=-6,9"
+   ],
+   "dimensions_estimees": {
+    "largeur_eo_m": 7.2,
+    "profondeur_ns_m": 5.6,
+    "hauteur_plafond_m": null
+   }
+  }
+ ],
+ "liaisons": [
+  {
+   "de": "ext-perron-nord",
+   "a": "R-vestibule",
+   "type": "porte d'entrée",
+   "preuve": "P37-P41 (porte d'axe, imposte fer forgé)",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    0,
+    -12.45
+   ]
+  },
+  {
+   "de": "R-vestibule",
+   "a": "R-couloir-ouest",
+   "type": "porte double",
+   "preuve": "P21, P22, P41",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    -4,
+    -7.6
+   ]
+  },
+  {
+   "de": "R-vestibule",
+   "a": "R-couloir-est",
+   "type": "porte double",
+   "preuve": "P36, P41, W08",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    4,
+    -7.6
+   ]
+  },
+  {
+   "de": "R-vestibule",
+   "a": "R-passage-ouest",
+   "type": "baie entre colonnes",
+   "preuve": "P23, P41",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    -3.1,
+    -3.5
+   ]
+  },
+  {
+   "de": "R-vestibule",
+   "a": "R-passage-est",
+   "type": "baie entre colonnes",
+   "preuve": "P41, P42",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    3.1,
+    -3.5
+   ]
+  },
+  {
+   "de": "R-vestibule",
+   "a": "escalier",
+   "type": "volée centrale",
+   "preuve": "P18-P20, P41, W09",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    0,
+    -3.5
+   ]
+  },
+  {
+   "de": "R-passage-ouest",
+   "a": "R-petit-salon",
+   "type": "baie",
+   "preuve": "P24 (fontaine au fond)",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    -3.1,
+    0.8
+   ]
+  },
+  {
+   "de": "R-passage-est",
+   "a": "R-petit-salon",
+   "type": "baie",
+   "preuve": "P42",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    3.1,
+    0.8
+   ]
+  },
+  {
+   "de": "R-petit-salon",
+   "a": "R-salon",
+   "type": "porte (NO du salon)",
+   "preuve": "P25, P27, P30",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    -2.6,
+    3.9
+   ]
+  },
+  {
+   "de": "R-petit-salon",
+   "a": "R-salon",
+   "type": "porte blanche (NE du salon)",
+   "preuve": "P25, P30, P31",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    2.6,
+    3.9
+   ]
+  },
+  {
+   "de": "R-salon",
+   "a": "R-billard",
+   "type": "porte double noyer",
+   "preuve": "P28, P29, P31, P32",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    4,
+    5.0
+   ]
+  },
+  {
+   "de": "R-salon",
+   "a": "R-salon-ouest",
+   "type": "porte double vert d'eau",
+   "preuve": "P27, P28",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "position_m": [
+    -4,
+    5.0
+   ]
+  },
+  {
+   "de": "R-passage-ouest",
+   "a": "R-salon-ouest",
+   "type": "porte vert d'eau",
+   "preuve": "P23, P24 (même teinte que P27)",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "position_m": [
+    -4,
+    -1.0
+   ]
+  },
+  {
+   "de": "R-passage-est",
+   "a": "R-billard",
+   "type": "porte blanche",
+   "preuve": "P42, P26 (porte double fermée) ; destination non vue",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "position_m": [
+    4,
+    -0.6
+   ]
+  },
+  {
+   "de": "R-billard",
+   "a": "R-salon-vert",
+   "type": "porte noyer (à droite de la cheminée)",
+   "preuve": "P31, P33, W07 (table, chaises rouges)",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "position_m": [
+    10.8,
+    6.0
+   ]
+  },
+  {
+   "de": "R-billard",
+   "a": "R-bloc-est",
+   "type": "porte noyer fermée (à gauche de la cheminée)",
+   "preuve": "P33, P34",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "position_m": [
+    10.8,
+    1.2
+   ]
+  },
+  {
+   "de": "R-billard",
+   "a": "R-degagement-est",
+   "type": "porte noyer « sortie »",
+   "preuve": "P34, P35 puis P36 8 s après",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "position_m": [
+    8.4,
+    -1.5
+   ]
+  },
+  {
+   "de": "R-billard",
+   "a": "R-degagement-est",
+   "type": "porte noyer fermée « sortie »",
+   "preuve": "P35",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "position_m": [
+    5.6,
+    -1.5
+   ]
+  },
+  {
+   "de": "R-couloir-est",
+   "a": "R-degagement-est",
+   "type": "porte à pictogramme (toilettes)",
+   "preuve": "P36",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    7.4,
+    -6.4
+   ]
+  },
+  {
+   "de": "R-couloir-ouest",
+   "a": "R-piece-no",
+   "type": "porte au fond du couloir",
+   "preuve": "P22 (porte-fenêtre au fond)",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "position_m": [
+    -10.8,
+    -7.6
+   ]
+  },
+  {
+   "de": "R-couloir-ouest",
+   "a": "R-service-ouest",
+   "type": "porte (mur sud du couloir)",
+   "preuve": "P22",
+   "niveau": "rdc",
+   "certitude": "incertain",
+   "position_m": [
+    -7.4,
+    -6.4
+   ]
+  },
+  {
+   "de": "R-salon",
+   "a": "ext-terrasse-sud",
+   "type": "portes-fenêtres des pans coupés",
+   "preuve": "P27-P29, W01",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    0,
+    9.9
+   ]
+  },
+  {
+   "de": "R-billard",
+   "a": "ext-terrasse-sud",
+   "type": "portes-fenêtres",
+   "preuve": "P32, P33",
+   "niveau": "rdc",
+   "certitude": "sur",
+   "position_m": [
+    6.9,
+    8.75
+   ]
+  },
+  {
+   "de": "E-palier",
+   "a": "E-bibliotheque",
+   "type": "porte (galerie nord)",
+   "preuve": "P03, P04, P17, P18",
+   "niveau": "etage",
+   "certitude": "sur",
+   "position_m": [
+    0,
+    -5.3
+   ]
+  },
+  {
+   "de": "E-palier",
+   "a": "E-salle-a-manger",
+   "type": "porte (fond de galerie est, angle NO)",
+   "preuve": "P04, P05, P43, P50, P51",
+   "niveau": "etage",
+   "certitude": "sur",
+   "position_m": [
+    4.8,
+    1.0
+   ]
+  },
+  {
+   "de": "E-palier",
+   "a": "E-chambre-3",
+   "type": "porte à filets verts (fond de galerie ouest)",
+   "preuve": "P07-P09, P57 (sol à cabochons, lanterne)",
+   "niveau": "etage",
+   "certitude": "incertain",
+   "position_m": [
+    -4.8,
+    1.0
+   ]
+  },
+  {
+   "de": "E-salle-a-manger",
+   "a": "E-chambre-2",
+   "type": "porte ébrasée (refend 0,6 m)",
+   "preuve": "P50, P52, P53",
+   "niveau": "etage",
+   "certitude": "sur",
+   "position_m": [
+    4,
+    7.2
+   ]
+  },
+  {
+   "de": "E-salle-a-manger",
+   "a": "E-chambre-1",
+   "type": "porte double",
+   "preuve": "P44, P45, P47 (8 s)",
+   "niveau": "etage",
+   "certitude": "sur",
+   "position_m": [
+    10.8,
+    6.6
+   ]
+  },
+  {
+   "de": "E-chambre-2",
+   "a": "E-chambre-3",
+   "type": "porte d'enfilade",
+   "preuve": "P52, P54, P55, P57",
+   "niveau": "etage",
+   "certitude": "sur",
+   "position_m": [
+    -4,
+    7.2
+   ]
+  },
+  {
+   "de": "E-palier",
+   "a": "E-degagement-no",
+   "type": "arcade (tête de volée ouest)",
+   "preuve": "P09, P10",
+   "niveau": "etage",
+   "certitude": "incertain",
+   "position_m": [
+    -5.6,
+    -4.4
+   ]
+  },
+  {
+   "de": "E-degagement-no",
+   "a": "E-bloc-ouest",
+   "type": "porte double cintrée",
+   "preuve": "P10-P12",
+   "niveau": "etage",
+   "certitude": "incertain",
+   "position_m": [
+    -10.8,
+    -4.4
+   ]
+  },
+  {
+   "de": "E-degagement-no",
+   "a": "E-ouest",
+   "type": "porte ouverte (pièce claire)",
+   "preuve": "P12, P13",
+   "niveau": "etage",
+   "certitude": "incertain",
+   "position_m": [
+    -8.0,
+    -3.5
+   ]
+  },
+  {
+   "de": "E-palier",
+   "a": "E-est",
+   "type": "porte double en niche cintrée",
+   "preuve": "P05",
+   "niveau": "etage",
+   "certitude": "incertain",
+   "position_m": [
+    5.6,
+    -4.4
+   ]
+  },
+  {
+   "de": "E-salle-a-manger",
+   "a": "E-bloc-est",
+   "type": "porte double à panneaux chantournés (placard ?)",
+   "preuve": "P46, P51",
+   "niveau": "etage",
+   "certitude": "incertain",
+   "position_m": [
+    10.8,
+    2.5
+   ]
+  },
+  {
+   "de": "R-vestibule",
+   "a": "E-palier",
+   "type": "escalier impérial (volée centrale + 2 volées de retour)",
+   "preuve": "P14-P19, W09, D-013/D-014",
+   "niveau": "rdc→etage",
+   "certitude": "sur"
+  },
+  {
+   "de": "R-couloir-est",
+   "a": "ext-perron-nord",
+   "type": "parcours photo (sortie par le vestibule)",
+   "preuve": "P36 13:49:15 → P37 13:49:38",
+   "niveau": "rdc",
+   "certitude": "sur"
+  }
+ ],
+ "questions": [
+  "Billard : long côté nord-sud (2 portes-fenêtres au sud, cheminée sur le mur est entre 2 portes, porte nord vers le couloir est) — ou long côté est-ouest ?",
+  "Salle à manger, chambres 1-2-3 : à l'étage, en enfilade sur la façade jardin (sud), d'est en ouest : chambre 1 (angle SE) / salle à manger / chambre 2 (au-dessus du salon) / chambre 3 ?",
+  "Salon vert (W07, pan coupé arrondi) = pièce au fond du billard, dans le pavillon SE ?",
+  "Côté ouest du RDC (portes vert d'eau P23/P27, fond du couloir P22) : salon ouest symétrique du billard, pièce nord-ouest au bout du couloir ?",
+  "Avant-corps nord : le vestibule et la bibliothèque ont des fenêtres sur les retours est et ouest ; l'avant-corps est-il plus saillant que 1,2 m (gabarit) ?",
+  "Dégagement P10-P13 et porte en niche P05 : où mènent-ils (chambres côté nord, blocs est/ouest) ?"
+ ]
+}

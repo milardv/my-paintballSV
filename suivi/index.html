@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chantier Saint-Victor</title>
+<style>
+:root{--bg:#f6f3ee;--carte:#fffdf9;--txt:#2b2722;--doux:#7b7267;--ligne:#e4ddd2;--accent:#a8642a;
+--fait:#4f8a5b;--cours:#d39b2c;--bloque:#b84a3a;--valider:#7a5bb5;--afaire:#cfc6b8}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1a17;--carte:#25221e;--txt:#ece6dc;--doux:#9d9486;--ligne:#3a352e;--afaire:#4a443b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.45 system-ui,sans-serif}
+header{padding:18px 24px 10px;display:flex;flex-wrap:wrap;gap:16px;align-items:baseline;justify-content:space-between}
+h1{margin:0;font:600 20px Georgia,serif;letter-spacing:.3px}
+h2{font:600 13px system-ui;text-transform:uppercase;letter-spacing:.8px;color:var(--doux);margin:0 0 10px}
+.maj{color:var(--doux);font-size:12px}
+.barre{height:6px;background:var(--afaire);border-radius:3px;overflow:hidden;margin:0 24px 18px}
+.barre div{height:100%;background:var(--fait);transition:width .6s}
+main{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:18px;padding:0 24px 30px}
+@media (max-width:900px){main{grid-template-columns:1fr;padding:0 16px 24px}header{padding:16px}.barre{margin:0 16px 16px}}
+section{background:var(--carte);border:1px solid var(--ligne);border-radius:10px;padding:14px 16px;margin-bottom:18px}
+.phases{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.phase h3{margin:0 0 6px;font:600 14px Georgia,serif;display:flex;justify-content:space-between}
+.phase h3 span{font:12px system-ui;color:var(--doux)}
+.t{display:flex;gap:7px;align-items:flex-start;padding:3px 0;font-size:13px}
+.t i{flex:none;width:9px;height:9px;border-radius:50%;margin-top:5px;background:var(--afaire)}
+.t.fait i{background:var(--fait)}.t.en-cours i{background:var(--cours);animation:pulse 1.2s infinite}
+.t.bloque i{background:var(--bloque)}.t.a-valider i{background:var(--valider)}
+.t small{display:block;color:var(--doux);font-size:11.5px}
+@keyframes pulse{50%{opacity:.35}}
+.attente{border-color:var(--valider);border-width:2px}
+.q{margin-bottom:12px}.q p{margin:0 0 6px;white-space:pre-wrap}
+textarea{width:100%;min-height:60px;font:inherit;background:var(--bg);color:var(--txt);border:1px solid var(--ligne);border-radius:6px;padding:6px}
+button{font:inherit;border:0;border-radius:6px;padding:6px 12px;margin:6px 6px 0 0;cursor:pointer;background:var(--valider);color:#fff}
+button.sec{background:var(--afaire);color:var(--txt)}
+.plan img{width:100%;background:#fff;border-radius:6px}
+.filtres{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.filtres b{font-weight:400;font-size:12px;padding:2px 8px;border-radius:10px;background:var(--bg);border:1px solid var(--ligne);cursor:pointer}
+.filtres b.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.photos{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:6px}
+.ph{position:relative;aspect-ratio:3/4;border-radius:5px;overflow:hidden;cursor:pointer;border:2px solid transparent}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ph span{position:absolute;left:0;right:0;bottom:0;font-size:10.5px;padding:1px 4px;background:rgba(0,0,0,.55);color:#fff}
+.ph.analysee{border-color:var(--cours)}.ph.modelisee{border-color:var(--fait)}
+.rendus{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.rendus figure{margin:0}.rendus img{width:100%;border-radius:5px;display:block;cursor:pointer}
+.rendus figcaption{font-size:11.5px;color:var(--doux)}
+.journal{max-height:320px;overflow:auto;font-size:12.5px}
+.journal div{padding:3px 0;border-bottom:1px solid var(--ligne)}
+.journal time{color:var(--doux);margin-right:6px;font-variant-numeric:tabular-nums}
+.dec{max-height:420px;overflow:auto;font-size:12.5px}
+.dec h4{margin:12px 0 2px;font:600 13px Georgia,serif}.dec p{margin:3px 0}
+.vide{color:var(--doux);font-style:italic}
+#zoom{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;flex-direction:column;z-index:9;padding:16px}
+#zoom img{max-width:100%;max-height:88vh}#zoom p{color:#fff;margin:8px 0 0}
+</style>
+</head>
+<body>
+<header><h1>Château Saint-Victor — chantier</h1><span class="maj" id="maj">…</span></header>
+<div class="barre"><div id="prog" style="width:0"></div></div>
+<main>
+ <div>
+  <section id="sAttente" class="attente" hidden><h2>À valider</h2><div id="attente"></div></section>
+  <section><h2>Phases</h2><div class="phases" id="phases"></div></section>
+  <section class="plan" id="sPlan" hidden><h2>Plan proposé</h2><div id="plan"></div></section>
+  <section><h2>Derniers rendus</h2><div class="rendus" id="rendus"></div></section>
+  <section><h2>Photos <span id="nbPh"></span></h2><div class="filtres" id="filtres"></div><div class="photos" id="photos"></div></section>
+ </div>
+ <div>
+  <section><h2>Journal</h2><div class="journal" id="journal"></div></section>
+  <section><h2>Décisions</h2><div class="dec" id="dec"></div></section>
+ </div>
+</main>
+<div id="zoom"><img alt=""><p></p></div>
+<script>
+const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let derniere='', zone='toutes', etat={};
+const zoom=(src,leg)=>{const z=$('zoom');z.querySelector('img').src=src;z.querySelector('p').textContent=leg||'';z.style.display='flex'};
+$('zoom').onclick=()=>$('zoom').style.display='none';
+const heure=t=>t?t.slice(11,16):'';
+
+function rendre(e){
+  const ts=e.phases.flatMap(p=>p.taches), fait=ts.filter(t=>t.statut==='fait').length;
+  $('prog').style.width=(100*fait/ts.length)+'%';
+  $('maj').textContent=`${fait}/${ts.length} tâches · maj ${heure(e.maj)}`;
+  $('phases').innerHTML=e.phases.map(p=>`<div class="phase"><h3>${esc(p.titre)}<span>${p.taches.filter(t=>t.statut==='fait').length}/${p.taches.length}</span></h3>`+
+    p.taches.map(t=>`<div class="t ${t.statut}"><i title="${t.statut}"></i><div>${esc(t.titre)}${t.note||t.agent?`<small>${esc([t.agent,t.note].filter(Boolean).join(' · '))}</small>`:''}</div></div>`).join('')+'</div>').join('');
+  const att=(e.attente||[]).filter(q=>!q.reponse);
+  $('sAttente').hidden=!att.length;
+  if(!document.activeElement||document.activeElement.tagName!=='TEXTAREA')
+    $('attente').innerHTML=att.map(q=>`<div class="q"><p><b>${esc(q.id)}</b> — ${esc(q.question)}</p><textarea id="r-${esc(q.id)}" placeholder="Remarques, corrections…"></textarea>
+     <button onclick="valider('${esc(q.id)}',true)">Valider</button><button class="sec" onclick="valider('${esc(q.id)}',false)">Demander une correction</button></div>`).join('');
+  $('sPlan').hidden=!e.plan.length;
+  $('plan').innerHTML=e.plan.map(n=>`<img src="/f/travail/${n}?v=${esc(e.maj)}" alt="${n}" onclick="zoom(this.src,'${n}')">`).join('');
+  const r=(e.rendus||[]).slice().reverse();
+  $('rendus').innerHTML=r.length?r.map(x=>`<figure><img loading="lazy" src="/f/${esc(x.chemin)}?v=${esc(x.t)}" onclick="zoom(this.src,'${esc(x.legende)}')"><figcaption>${heure(x.t)} ${esc(x.legende)}</figcaption></figure>`).join(''):'<p class="vide">Aucun rendu pour l\'instant.</p>';
+  const zones=[...new Set(e.photos.map(p=>p.zone))].sort();
+  $('filtres').innerHTML=['toutes',...zones].map(z=>`<b class="${z===zone?'on':''}" onclick="zone='${z}';rendre(etat)">${z}</b>`).join('');
+  const ph=e.photos.filter(p=>zone==='toutes'||p.zone===zone);
+  $('nbPh').textContent=`(${ph.length})`;
+  $('photos').innerHTML=ph.map(p=>`<div class="ph ${p.statut}" title="${esc(p.note)}" onclick="zoom('/f/${esc(p.fichier)}','${esc(p.id+' — '+p.zone+' — '+p.note)}')"><img loading="lazy" src="/f/travail/vignettes/${p.id}.jpg"><span>${p.id} ${esc(p.zone.replace(/^(int|ext)-/,''))}</span></div>`).join('');
+  $('journal').innerHTML=(e.journal||[]).slice().reverse().map(j=>`<div><time>${heure(j.t)}</time>${esc(j.msg)}</div>`).join('');
+  $('dec').innerHTML=e.decisions.split(/^## /m).slice(1).reverse().map(b=>{const [t,...c]=b.split('\n');return `<h4>${esc(t)}</h4>`+c.filter(l=>l.trim()).map(l=>`<p>${esc(l).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\*(.+?)\*/g,'<i>$1</i>').replace(/`(.+?)`/g,'<code>$1</code>')}</p>`).join('')}).join('');
+}
+async function valider(id,ok){
+  const t=$('r-'+id).value.trim();
+  if(!ok&&!t){alert('Décris la correction attendue.');return}
+  await fetch('/api/valide',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,reponse:(ok?'VALIDÉ':'CORRECTION')+(t?' : '+t:'')})});
+  derniere='';tick();
+}
+async function tick(){
+  try{const e=await (await fetch('/api/etat')).json();const k=e.maj+e.decisions.length;if(k!==derniere){derniere=k;etat=e;rendre(e)}}catch(_){}
+}
+tick();setInterval(tick,2500);
+</script>
+</body>

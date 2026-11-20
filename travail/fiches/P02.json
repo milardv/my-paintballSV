@@ -1,0 +1,170 @@
+{
+ "id": "P02",
+ "zone": "int-bibliotheque",
+ "niveau": "etage",
+ "piece": "Bibliothèque (étage, au-dessus du vestibule, côté façade d'entrée)",
+ "orientation_vue": "vers le mur ouest supposé (miroir sur radiateur, fenêtre), angle nord-ouest à droite",
+ "murs_visibles": [
+  "mur ouest",
+  "mur nord (partie droite)"
+ ],
+ "ouvertures": [
+  {
+   "type": "fenetre",
+   "mur": "ouest",
+   "donne_sur": "extérieur, garde-corps fer forgé",
+   "dimensions_estimees": "porte-fenêtre 2 vantaux + imposte, L 1.2 x H 3.2 m"
+  }
+ ],
+ "dimensions_estimees": {
+  "hauteur_plafond_m": 4.8,
+  "largeur_m": 6.5,
+  "profondeur_m": 7.5
+ },
+ "sol": "parquet chêne point de Hongrie (chevrons), teinte miel foncé, ciré",
+ "plafond": "plafond à caissons peints blanc : poutres croisées moulurées formant ~9 caissons, gorge et corniche blanches au-dessus du lambris",
+ "murs_revetement": "lambris chêne foncé toute hauteur (panneaux à cadres, frise de panneaux cintrés en partie haute sous la corniche), corniche bois",
+ "elements": [
+  {
+   "nom": "grand miroir encastré dans le lambris",
+   "categorie": "objet",
+   "materiau": "miroir, cadre chêne",
+   "couleur": "brun",
+   "dimensions_estimees": "L 1.3 x H 2.0 m",
+   "position_dans_piece": "mur ouest, au-dessus du radiateur",
+   "quantite": 1
+  },
+  {
+   "nom": "radiateur fonte à colonnes",
+   "categorie": "objet",
+   "materiau": "fonte",
+   "couleur": "bronze foncé",
+   "dimensions_estimees": "L 1.3 x H 0.85 m",
+   "position_dans_piece": "sous le miroir",
+   "quantite": 1
+  },
+  {
+   "nom": "tablette de radiateur en marbre blanc",
+   "categorie": "architecture",
+   "materiau": "marbre",
+   "couleur": "blanc",
+   "dimensions_estimees": "L 1.4 x P 0.3 m",
+   "position_dans_piece": "sur le radiateur",
+   "quantite": 1
+  },
+  {
+   "nom": "paire de lampes à pied torsadé, abat-jour plissé crème",
+   "categorie": "luminaire",
+   "materiau": "bois/laiton, tissu",
+   "couleur": "brun/crème",
+   "dimensions_estimees": "H 0.7 m",
+   "position_dans_piece": "tablette du radiateur",
+   "quantite": 2
+  },
+  {
+   "nom": "statuette en bronze (personnage, jeune homme)",
+   "categorie": "objet",
+   "materiau": "bronze",
+   "couleur": "brun-noir",
+   "dimensions_estimees": "H 0.45 m",
+   "position_dans_piece": "centre de la tablette",
+   "quantite": 1
+  },
+  {
+   "nom": "photophore en verre / vase",
+   "categorie": "objet",
+   "materiau": "verre",
+   "couleur": "blanc",
+   "dimensions_estimees": "H 0.2 m",
+   "position_dans_piece": "tablette",
+   "quantite": 1
+  },
+  {
+   "nom": "bibliothèque vitrée 3-4 portes",
+   "categorie": "mobilier",
+   "materiau": "chêne/noyer verni, vitres",
+   "couleur": "brun moyen",
+   "dimensions_estimees": "L 2.2-2.6 x H 2.5 x P 0.45 m",
+   "position_dans_piece": "mur ouest à gauche du miroir (livres anciens)",
+   "quantite": 1
+  },
+  {
+   "nom": "bibliothèque vitrée 3-4 portes",
+   "categorie": "mobilier",
+   "materiau": "chêne/noyer verni, vitres",
+   "couleur": "brun moyen",
+   "dimensions_estimees": "L 2.2-2.6 x H 2.5 x P 0.45 m",
+   "position_dans_piece": "mur nord à droite (bouteilles et carafes)",
+   "quantite": 1
+  },
+  {
+   "nom": "canapé d'angle en tissu chiné",
+   "categorie": "mobilier",
+   "materiau": "tissu",
+   "couleur": "taupe",
+   "dimensions_estimees": "3.0 x 1.8 m",
+   "position_dans_piece": "devant le mur ouest",
+   "quantite": 1
+  },
+  {
+   "nom": "coussins à volants en velours dévoré",
+   "categorie": "textile",
+   "materiau": "velours",
+   "couleur": "fuchsia/magenta",
+   "dimensions_estimees": "0.45 x 0.45 m",
+   "position_dans_piece": "canapé",
+   "quantite": 2
+  },
+  {
+   "nom": "plaid gris",
+   "categorie": "textile",
+   "materiau": "laine",
+   "couleur": "gris",
+   "dimensions_estimees": "",
+   "position_dans_piece": "méridienne du canapé",
+   "quantite": 1
+  },
+  {
+   "nom": "chargeur / câble blanc",
+   "categorie": "objet",
+   "materiau": "plastique",
+   "couleur": "blanc",
+   "dimensions_estimees": "",
+   "position_dans_piece": "accoudoir gauche du canapé",
+   "quantite": 1
+  },
+  {
+   "nom": "table basse ovale bois",
+   "categorie": "mobilier",
+   "materiau": "bois",
+   "couleur": "miel",
+   "dimensions_estimees": "1.4 x 0.9 m",
+   "position_dans_piece": "bord droit",
+   "quantite": 1
+  },
+  {
+   "nom": "grand tapis persan (fond rouge, médaillons bleu marine)",
+   "categorie": "tapis",
+   "materiau": "laine",
+   "couleur": "rouge carmin, bleu nuit, rose",
+   "dimensions_estimees": "4.0 x 3.0 m",
+   "position_dans_piece": "centre de la pièce",
+   "quantite": 1
+  },
+  {
+   "nom": "garde-corps fer forgé",
+   "categorie": "ferronnerie",
+   "materiau": "fer",
+   "couleur": "noir",
+   "dimensions_estimees": "",
+   "position_dans_piece": "porte-fenêtre ouest",
+   "quantite": 1
+  }
+ ],
+ "indices_plan": [
+  "Bibliothèque nord-droite = bibliothèque à bouteilles à gauche de la fenêtre centrale en P01"
+ ],
+ "incertitudes": [
+  "Mur ouest/est selon l'orientation retenue"
+ ]
+}

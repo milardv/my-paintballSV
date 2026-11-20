@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-15T21:26:02.047491+00:00",
+  "title": "Design System: Château Saint-Victor",
+  "extensions": {
+    "colorMeta": {
+      "ivory": {
+        "displayName": "Ivory",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0127 86.83)",
+          "oklch(26.43% 0.0127 86.83)",
+          "oklch(37.86% 0.0127 86.83)",
+          "oklch(49.29% 0.0127 86.83)",
+          "oklch(60.71% 0.0127 86.83)",
+          "oklch(72.14% 0.0127 86.83)",
+          "oklch(83.57% 0.0127 86.83)",
+          "oklch(95.00% 0.0127 86.83)"
+        ]
+      },
+      "pine": {
+        "displayName": "Pine",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15.00% 0.0464 175.45)",
+          "oklch(26.43% 0.0464 175.45)",
+          "oklch(37.86% 0.0464 175.45)",
+          "oklch(49.29% 0.0464 175.45)",
+          "oklch(60.71% 0.0464 175.45)",
+          "oklch(72.14% 0.0464 175.45)",
+          "oklch(83.57% 0.0464 175.45)",
+          "oklch(95.00% 0.0464 175.45)"
+        ]
+      },
+      "brass": {
+        "displayName": "Brass",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15.00% 0.0714 83.17)",
+          "oklch(26.43% 0.0714 83.17)",
+          "oklch(37.86% 0.0714 83.17)",
+          "oklch(49.29% 0.0714 83.17)",
+          "oklch(60.71% 0.0714 83.17)",
+          "oklch(72.14% 0.0714 83.17)",
+          "oklch(83.57% 0.0714 83.17)",
+          "oklch(95.00% 0.0714 83.17)"
+        ]
+      },
+      "on-pine-hover": {
+        "displayName": "On pine hover",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15.00% 0.0471 166.96)",
+          "oklch(26.43% 0.0471 166.96)",
+          "oklch(37.86% 0.0471 166.96)",
+          "oklch(49.29% 0.0471 166.96)",
+          "oklch(60.71% 0.0471 166.96)",
+          "oklch(72.14% 0.0471 166.96)",
+          "oklch(83.57% 0.0471 166.96)",
+          "oklch(95.00% 0.0471 166.96)"
+        ]
+      },
+      "on-pine-selected": {
+        "displayName": "On pine selected",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15.00% 0.0543 158.72)",
+          "oklch(26.43% 0.0543 158.72)",
+          "oklch(37.86% 0.0543 158.72)",
+          "oklch(49.29% 0.0543 158.72)",
+          "oklch(60.71% 0.0543 158.72)",
+          "oklch(72.14% 0.0543 158.72)",
+          "oklch(83.57% 0.0543 158.72)",
+          "oklch(95.00% 0.0543 158.72)"
+        ]
+      },
+      "on-pine-pressed": {
+        "displayName": "On pine pressed",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15.00% 0.0486 166.81)",
+          "oklch(26.43% 0.0486 166.81)",
+          "oklch(37.86% 0.0486 166.81)",
+          "oklch(49.29% 0.0486 166.81)",
+          "oklch(60.71% 0.0486 166.81)",
+          "oklch(72.14% 0.0486 166.81)",
+          "oklch(83.57% 0.0486 166.81)",
+          "oklch(95.00% 0.0486 166.81)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Titre monumental d’accueil, unités TextMeshPro du canevas."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Destination prévisualisée."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Lieu dans le HUD."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Description de destination."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Actions sur scène."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "pointer-press-scale",
+        "value": "0.97",
+        "purpose": "Pression pointeur immédiate, désactivée en animations réduites."
+      },
+      {
+        "name": "pointer-release",
+        "value": "140ms; 1 - (1 - t)^3",
+        "purpose": "Retour interruptible à l’échelle 1, sans mouvement clavier."
+      },
+      {
+        "name": "scene-action-color",
+        "value": "160ms",
+        "purpose": "Transition native de couleur des boutons transparents. La sélection clavier applique immédiatement sa teinte."
+      },
+      {
+        "name": "disc-color",
+        "value": "120ms",
+        "purpose": "Transition native de couleur du disque. La sélection clavier applique immédiatement sa teinte."
+      },
+      {
+        "name": "movement-help-lifetime",
+        "value": "12s",
+        "purpose": "Masquage de l’aide temporaire."
+      },
+      {
+        "name": "keyboard-selection-color",
+        "value": "0ms",
+        "purpose": "FocusInterface applique directement la teinte sélectionnée sans interpolation clavier."
+      }
+    ],
+    "breakpoints": []
+  },
+  "components": [
+    {
+      "name": "Entrée circulaire",
+      "kind": "button",
+      "refersTo": "entry-disc",
+      "description": "Prévisualisation HTML du disque Unity. Les couleurs d’état sont des approximations de la multiplication native ; dimensions illustratives.",
+      "html": "<button class=\"ds-entry\">Entrer</button>",
+      "css": ".ds-entry{width:180px;height:180px;border:0;border-radius:50%;clip-path:circle(50%);background:#173D34;color:#F4F0E7;font:400 31px Manrope,sans-serif;transition:background-color .12s,transform .14s cubic-bezier(.333333,1,.666667,1)}.ds-entry:hover{background:rgb(30,79,57)}.ds-entry:focus-visible{transition-duration:0s;background:rgb(32,85,60);outline:2px solid rgb(189,166,112);outline-offset:0;}.ds-entry:active{background:rgb(18,49,36)}@media (prefers-reduced-motion:no-preference){.ds-entry:active{transform:scale(.97);transition:background-color .12s}}"
+    },
+    {
+      "name": "Commande sur scène",
+      "kind": "button",
+      "refersTo": "button-on-scene",
+      "description": "Traduction du bouton transparent ; marges illustratives, la disposition native est proportionnelle.",
+      "html": "<button class=\"ds-action\">Parcourir les espaces</button>",
+      "css": ".ds-action{border:0;border-radius:0;color:#F4F0E7;font:400 21px Manrope,sans-serif;background:transparent;padding:12px 24px;transition:background-color .16s,transform .14s cubic-bezier(.333333,1,.666667,1)}.ds-action:hover{background:#36594B}.ds-action:focus-visible{transition-duration:0s;background:#456A55;outline:2px solid rgb(189,166,112);outline-offset:0;}.ds-action:active{background:#284C3E}@media(prefers-reduced-motion:no-preference){.ds-action:active{transform:scale(.97);transition:background-color .16s}}"
+    },
+    {
+      "name": "Commande de tête",
+      "kind": "button",
+      "refersTo": "button-header",
+      "description": "Fond pin opaque au repos pour Les commandes, Quitter et Reprendre la visite ; mêmes états on-pine.",
+      "html": "<button class=\"ds-header\">Les commandes</button>",
+      "css": ".ds-header{border:0;border-radius:0;color:#F4F0E7;font:400 21px Manrope,sans-serif;background:#173D34;padding:12px 24px;transition:background-color .16s,transform .14s cubic-bezier(.333333,1,.666667,1)}.ds-header:hover{background:#36594B}.ds-header:focus-visible{transition-duration:0s;background:#456A55;outline:2px solid rgb(189,166,112);outline-offset:0;}.ds-header:active{background:#284C3E}@media(prefers-reduced-motion:no-preference){.ds-header:active{transform:scale(.97);transition:background-color .16s}}"
+    },
+    {
+      "name": "Destination",
+      "kind": "nav",
+      "refersTo": "button-on-scene",
+      "description": "La ligne sélectionnée prévisualise la scène ; une validation entre dans le lieu.",
+      "html": "<button class=\"ds-destination\">La bibliothèque</button>",
+      "css": ".ds-destination{border:0;border-radius:0;color:#F4F0E7;font:400 21px Manrope,sans-serif;background:transparent;font-size:28px;text-align:left;padding:12px 20px;min-height:64px;border-bottom:1px solid rgba(173,148,100,.45);transition:background-color .16s}.ds-destination:hover{background:#36594B}.ds-destination:focus-visible{transition-duration:0s;background:#456A55;outline:2px solid rgb(189,166,112);outline-offset:0;}.ds-destination:active{background:#284C3E}"
+    },
+    {
+      "name": "Rappel contextuel",
+      "kind": "custom",
+      "refersTo": "hud-hint",
+      "description": "Cartouche passif de commande, sans animation.",
+      "html": "<div class=\"ds-hint\">Échap · Les espaces</div>",
+      "css": ".ds-hint{display:inline-block;background:#173D34;color:#F4F0E7;padding:12px 20px;font:400 18px Manrope,sans-serif;border-radius:0}"
+    },
+    {
+      "name": "Titre de lieu",
+      "kind": "custom",
+      "description": "Titrage superposé sur un voile à 32 bandes et fondu de puissance 0,35 ; dimensions de prévisualisation illustratives.",
+      "html": "<div class=\"ds-caption\"><div class=\"ds-title\">Le vestibule</div><div class=\"ds-signature\">Château Saint-Victor</div></div>",
+      "css": ".ds-caption{padding:44px 24px 20px;color:#F4F0E7;background:linear-gradient(to top,rgba(6,17,13,0.7800) 0%,rgba(6,17,13,0.7714) 3.125%,rgba(6,17,13,0.7626) 6.25%,rgba(6,17,13,0.7536) 9.375%,rgba(6,17,13,0.7444) 12.5%,rgba(6,17,13,0.7350) 15.625%,rgba(6,17,13,0.7253) 18.75%,rgba(6,17,13,0.7154) 21.875%,rgba(6,17,13,0.7053) 25%,rgba(6,17,13,0.6949) 28.125%,rgba(6,17,13,0.6841) 31.25%,rgba(6,17,13,0.6731) 34.375%,rgba(6,17,13,0.6617) 37.5%,rgba(6,17,13,0.6499) 40.625%,rgba(6,17,13,0.6377) 43.75%,rgba(6,17,13,0.6251) 46.875%,rgba(6,17,13,0.6120) 50%,rgba(6,17,13,0.5983) 53.125%,rgba(6,17,13,0.5840) 56.25%,rgba(6,17,13,0.5691) 59.375%,rgba(6,17,13,0.5534) 62.5%,rgba(6,17,13,0.5368) 65.625%,rgba(6,17,13,0.5191) 68.75%,rgba(6,17,13,0.5004) 71.875%,rgba(6,17,13,0.4801) 75%,rgba(6,17,13,0.4582) 78.125%,rgba(6,17,13,0.4342) 81.25%,rgba(6,17,13,0.4073) 84.375%,rgba(6,17,13,0.3767) 87.5%,rgba(6,17,13,0.3406) 90.625%,rgba(6,17,13,0.2956) 93.75%,rgba(6,17,13,0.2319) 96.875%,rgba(6,17,13,0.0000) 100%)}.ds-title{font:400 40px \"Cormorant Garamond\",serif}.ds-signature{font:400 18px Manrope,sans-serif;margin-top:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le château en scène",
+    "overview": "Une visite native audacieuse et luxueuse : le château occupe tout l’écran, accompagné d’un titre monumental et d’actions peu nombreuses. Les voiles pin rendent le texte ivoire lisible sans remplacer le lieu par une surface éditoriale opaque.\n\nCormorant Garamond régulier apporte l’ampleur patrimoniale ; Manrope rend les commandes directes. L’exploration conserve une légère dimension jeu vidéo, avec destinations prévisualisées, entrée immédiate et HUD contextuel. Les photographies servent exclusivement à la modélisation.",
+    "keyCharacteristics": [
+      "Scène 3D en direct sur tout l’écran.",
+      "Grand titrage régulier et entrée circulaire.",
+      "Navigation verticale superposée au lieu.",
+      "Focus explicite, menus empilés et zone sûre."
+    ],
+    "rules": [
+      {
+        "name": "The Living Scene Rule",
+        "body": "La couleur rend le monde lisible ; elle ne remplace pas la scène par un panneau opaque.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do conserver la scène 3D comme sujet principal.",
+      "Do placer des voiles de lisibilité derrière le texte superposé.",
+      "Do préserver la prévisualisation au survol et au focus, puis l’entrée en une action.",
+      "Do réserver le mouvement de pression au pointeur et proposer les animations réduites."
+    ],
+    "donts": [
+      "Don't afficher de photographie ou galerie dans l’application.",
+      "Don't ajouter de contact, réservation ou argument commercial fictif.",
+      "Don't revenir au panneau éditorial opaque partageant l’écran d’accueil.",
+      "Don't ajouter de mouvement décoratif aux actions clavier répétées."
+    ]
+  }
+}

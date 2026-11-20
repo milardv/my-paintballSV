@@ -1,0 +1,184 @@
+{
+  "id": "P37",
+  "zone": "ext-facade-nord",
+  "niveau": "ext",
+  "piece": "perron et porte d'entrée (façade nord)",
+  "orientation_vue": "Contre-plongée depuis le bas du perron nord, côté gauche (ouest), vers la façade nord ; avant-corps central à droite, aile ouest de la façade nord fuyant à gauche derrière l'if",
+  "murs_visibles": [
+    "façade nord : avant-corps d'entrée (moitié gauche) et aile ouest de la façade nord"
+  ],
+  "ouvertures": [
+    {
+      "type": "porte",
+      "mur": "avant-corps nord, axe",
+      "donne_sur": "vestibule (RDC)",
+      "dimensions_estimees": "double vantail ≈1,6 × 3,4 m + imposte ≈0,6 m"
+    },
+    {
+      "type": "fenetre",
+      "mur": "étage de l'avant-corps, retour gauche",
+      "donne_sur": "pièce d'étage au-dessus du vestibule",
+      "dimensions_estimees": "≈1,1 × 2,2 m"
+    },
+    {
+      "type": "fenetre",
+      "mur": "aile ouest façade nord, RDC",
+      "donne_sur": "pièce RDC côté nord-ouest",
+      "dimensions_estimees": "porte-fenêtre ≈1,2 × 2,6 m"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "marches et paliers en pierre calcaire blanche, usées et tachées",
+  "plafond": "ciel",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "porte d'entrée à deux vantaux",
+      "categorie": "architecture",
+      "materiau": "bois massif (chêne ?) vernis",
+      "couleur": "brun foncé acajou",
+      "dimensions_estimees": "≈1,6 × 3,4 m",
+      "position_dans_piece": "axe de l'avant-corps nord, en haut du perron",
+      "quantite": 1
+    },
+    {
+      "nom": "grilles de porte en fer forgé à volutes (C et S) dans les panneaux hauts vitrés des vantaux",
+      "categorie": "ferronnerie",
+      "materiau": "fer forgé",
+      "couleur": "noir",
+      "dimensions_estimees": "≈0,35 × 1,0 m chacune",
+      "position_dans_piece": "partie haute de chaque vantail",
+      "quantite": 2
+    },
+    {
+      "nom": "imposte vitrée à grille de volutes",
+      "categorie": "ferronnerie",
+      "materiau": "fer forgé + vitre",
+      "couleur": "noir",
+      "dimensions_estimees": "≈1,5 × 0,55 m",
+      "position_dans_piece": "au-dessus de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "heurtoir / poignée de tirage horizontale en laiton sur traverse",
+      "categorie": "objet",
+      "materiau": "laiton",
+      "couleur": "doré patiné",
+      "dimensions_estimees": "≈20 cm",
+      "position_dans_piece": "panneau médian du vantail",
+      "quantite": 1
+    },
+    {
+      "nom": "plaque inscription « CHATEAU SAINT-VICTOR »",
+      "categorie": "objet",
+      "materiau": "pierre ou métal peint",
+      "couleur": "fond gris-vert, lettres capitales dorées",
+      "dimensions_estimees": "≈2,2 × 0,35 m",
+      "position_dans_piece": "frise au-dessus de l'imposte, entre les colonnes",
+      "quantite": 1
+    },
+    {
+      "nom": "colonnes / pilastres engagés à chapiteau corinthien (composite)",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "h≈4 m, fût ≈0,45 m",
+      "position_dans_piece": "encadrant la porte",
+      "quantite": 2
+    },
+    {
+      "nom": "pilastres d'angle à refends (bossages)",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angles de l'avant-corps",
+      "quantite": 1
+    },
+    {
+      "nom": "panneaux en table saillante (moulurés) sur trumeaux",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "≈1,3 × 2,5 m",
+      "position_dans_piece": "de part et d'autre de la porte",
+      "quantite": 1
+    },
+    {
+      "nom": "corniche à denticules / modillons",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "couronnement de l'aile et de l'avant-corps",
+      "quantite": 1
+    },
+    {
+      "nom": "if commun (Taxus baccata) de grande taille",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert très sombre",
+      "dimensions_estimees": "h≈10 m, Ø≈6 m",
+      "position_dans_piece": "devant l'aile ouest, à gauche du perron",
+      "quantite": 1
+    },
+    {
+      "nom": "lampadaire boule sur colonne fonte",
+      "categorie": "luminaire",
+      "materiau": "fonte peinte + globe opalin",
+      "couleur": "noir / globe blanc laiteux",
+      "dimensions_estimees": "h≈3,0 m, globe Ø≈40 cm, socle carré ≈40 cm",
+      "position_dans_piece": "sur les dés de pierre en tête des murs d'échiffre du perron nord, de part et d'autre",
+      "quantite": 2
+    },
+    {
+      "nom": "mur d'échiffre / parapet plein du perron",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "blanc cassé, taché",
+      "dimensions_estimees": "h≈1 m, ép. ≈0,5 m",
+      "position_dans_piece": "côtés du perron",
+      "quantite": 1
+    },
+    {
+      "nom": "groupe extérieur de climatisation",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "blanc",
+      "dimensions_estimees": "≈0,8 × 0,6 × 0,3 m",
+      "position_dans_piece": "au pied de l'aile ouest, derrière le parapet",
+      "quantite": 1
+    },
+    {
+      "nom": "voiture garée",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "noire",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pied de l'aile ouest, côté parking",
+      "quantite": 1
+    },
+    {
+      "nom": "fenêtre à deux vantaux et petits bois, persiennes repliées",
+      "categorie": "architecture",
+      "materiau": "bois peint",
+      "couleur": "blanc",
+      "dimensions_estimees": "",
+      "position_dans_piece": "aile ouest",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Suite directe de P36 (sortie par la porte d'entrée) ; P38-P40 même perron",
+    "Porte = accès au vestibule (P1.int-rdc)",
+    "if à gauche du perron = W11 (arbre devant l'entrée, côté gauche)"
+  ],
+  "incertitudes": [
+    "Essence de la porte (chêne ou noyer)",
+    "Plaque : pierre peinte ou tôle ?"
+  ]
+}

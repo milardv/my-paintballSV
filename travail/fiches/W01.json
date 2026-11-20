@@ -1,0 +1,231 @@
+{
+  "id": "W01",
+  "zone": "ext-facade-sud",
+  "niveau": "ext",
+  "piece": "façade jardin (sud) et terrasse",
+  "orientation_vue": "Vue frontale depuis la pelouse, axe de la façade sud, vers le nord",
+  "murs_visibles": [
+    "façade sud entière + terrasse et perron"
+  ],
+  "ouvertures": [
+    {
+      "type": "baie",
+      "mur": "avant-corps central sud RDC",
+      "donne_sur": "salon central RDC (axe)",
+      "dimensions_estimees": "3 baies : 2 portes-fenêtres + 1 fenêtre centrale, sous portique"
+    },
+    {
+      "type": "fenetre",
+      "mur": "façade sud RDC hors avant-corps",
+      "donne_sur": "pièces de réception RDC",
+      "dimensions_estimees": "6 portes-fenêtres ≈1,3 × 3,2 m (2 par aile + 1 par pavillon d'angle)"
+    },
+    {
+      "type": "fenetre",
+      "mur": "façade sud étage",
+      "donne_sur": "chambres/pièces d'étage",
+      "dimensions_estimees": "9 fenêtres : 3 dans l'avant-corps (donnant sur balcon) + 2 par aile + 1 par pavillon"
+    },
+    {
+      "type": "fenetre",
+      "mur": "façade sud attique (corps central uniquement)",
+      "donne_sur": "attique",
+      "dimensions_estimees": "7 fenêtres plus basses"
+    },
+    {
+      "type": "porte",
+      "mur": "RDC aile est, extrémité",
+      "donne_sur": "pièce RDC est (porte ouverte vers intérieur sombre)",
+      "dimensions_estimees": "porte-fenêtre ouverte"
+    }
+  ],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": 36.0,
+    "profondeur_m": null
+  },
+  "sol": "pelouse au premier plan, bande de gravier/sable clair au pied de la terrasse",
+  "plafond": "ciel",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "corps central à 3 niveaux (RDC, étage, attique) couronné d'une balustrade",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème doré",
+      "dimensions_estimees": "≈7 travées",
+      "position_dans_piece": "centre",
+      "quantite": 1
+    },
+    {
+      "nom": "pavillons d'angle à 2 niveaux, plus bas, en légère saillie, fenêtre d'étage à fronton cintré",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "1 travée chacun",
+      "position_dans_piece": "extrémités est et ouest",
+      "quantite": 2
+    },
+    {
+      "nom": "avant-corps central sud à portique : colonnes au RDC portant un balcon à balustres à l'étage",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "larg. ≈7 m, saillie ≈2 m",
+      "position_dans_piece": "axe",
+      "quantite": 1
+    },
+    {
+      "nom": "balcon à balustres",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "≈6 × 2 m",
+      "position_dans_piece": "étage de l'avant-corps",
+      "quantite": 1
+    },
+    {
+      "nom": "frontons triangulaires et cintrés alternés sur baies RDC de l'avant-corps",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "avant-corps RDC",
+      "quantite": 1
+    },
+    {
+      "nom": "balustrade de couronnement + dés",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "h≈0,9 m",
+      "position_dans_piece": "acrotère du corps central",
+      "quantite": 1
+    },
+    {
+      "nom": "souches de cheminée visibles",
+      "categorie": "architecture",
+      "materiau": "pierre/enduit",
+      "couleur": "crème",
+      "dimensions_estimees": "≈1 × 0,6 × 1,5 m",
+      "position_dans_piece": "toiture, réparties sur la longueur",
+      "quantite": 6
+    },
+    {
+      "nom": "mât (paratonnerre/girouette) au-dessus de la verrière",
+      "categorie": "objet",
+      "materiau": "métal",
+      "couleur": "gris",
+      "dimensions_estimees": "h≈5 m",
+      "position_dans_piece": "centre de la toiture",
+      "quantite": 1
+    },
+    {
+      "nom": "appliques-lanternes",
+      "categorie": "luminaire",
+      "materiau": "métal noir + verre",
+      "couleur": "noir",
+      "dimensions_estimees": "≈40 cm",
+      "position_dans_piece": "trumeaux RDC de part et d'autre de l'avant-corps",
+      "quantite": 2
+    },
+    {
+      "nom": "balconnets en fonte",
+      "categorie": "ferronnerie",
+      "materiau": "fonte",
+      "couleur": "noir",
+      "dimensions_estimees": "",
+      "position_dans_piece": "fenêtres d'étage hors avant-corps",
+      "quantite": 6
+    },
+    {
+      "nom": "terrasse surélevée (≈1 m) sur toute la largeur, bordée de balustrade à balustres",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "≈40 × 8 m",
+      "position_dans_piece": "devant la façade sud",
+      "quantite": 1
+    },
+    {
+      "nom": "perron central de ≈7 marches pleine largeur de l'avant-corps, élargi en éventail",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "blanc",
+      "dimensions_estimees": "larg. ≈12 m",
+      "position_dans_piece": "axe",
+      "quantite": 1
+    },
+    {
+      "nom": "vasques / urnes sur piédestal",
+      "categorie": "objet",
+      "materiau": "pierre",
+      "couleur": "blanc",
+      "dimensions_estimees": "≈0,5 m",
+      "position_dans_piece": "têtes des murs d'échiffre du perron",
+      "quantite": 2
+    },
+    {
+      "nom": "boules / massifs arrondis (pittosporum ou laurier) en bacs circulaires",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "Ø≈2 m",
+      "position_dans_piece": "de part et d'autre du perron",
+      "quantite": 2
+    },
+    {
+      "nom": "soupiraux grillagés dans le mur de terrasse",
+      "categorie": "architecture",
+      "materiau": "métal",
+      "couleur": "noir",
+      "dimensions_estimees": "≈0,5 × 0,4 m",
+      "position_dans_piece": "mur de soutènement de la terrasse, extrémités",
+      "quantite": 2
+    },
+    {
+      "nom": "massif de géraniums / lauriers roses rouges et palmier nain en pot",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "rouge / vert",
+      "dimensions_estimees": "",
+      "position_dans_piece": "angle sud-ouest, premier plan gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "pins d'Alep / pins parasols",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert",
+      "dimensions_estimees": "h≈12 m",
+      "position_dans_piece": "derrière le pavillon ouest",
+      "quantite": 1
+    },
+    {
+      "nom": "feuillus (micocouliers ?)",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert clair",
+      "dimensions_estimees": "",
+      "position_dans_piece": "derrière le pavillon est",
+      "quantite": 1
+    },
+    {
+      "nom": "immeuble-tour moderne",
+      "categorie": "architecture",
+      "materiau": "béton",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "arrière-plan droit (hors domaine)",
+      "quantite": 1
+    }
+  ],
+  "indices_plan": [
+    "Axe = salon central RDC derrière le portique (P1.int-rdc)",
+    "Pavillon ouest = côté tennis (W15), pavillon est = côté parking/olivier (W02, W17)"
+  ],
+  "incertitudes": [
+    "Nombre exact de marches du perron sud (≈7-9, voir W15/W16)",
+    "Sens est/ouest à confirmer"
+  ]
+}

@@ -1,0 +1,1394 @@
+{
+  "images": [
+    {
+      "source": "bati",
+      "texture": "bati_pierre_lisse_nor_gl",
+      "path": "Assets/Chateau/Paintball/WebTextures/bati__bati_pierre_lisse_nor_gl.jpg"
+    },
+    {
+      "source": "bati",
+      "texture": "bati_pierre_lisse_diff",
+      "path": "Assets/Chateau/Paintball/WebTextures/bati__bati_pierre_lisse_diff.jpg"
+    },
+    {
+      "source": "bati",
+      "texture": "bati_pierre_rough",
+      "path": "Assets/Chateau/Paintball/WebTextures/bati__bati_pierre_rough.png"
+    },
+    {
+      "source": "bati",
+      "texture": "bati_pierre_appareil_nor_gl",
+      "path": "Assets/Chateau/Paintball/WebTextures/bati__bati_pierre_appareil_nor_gl.jpg"
+    },
+    {
+      "source": "bati",
+      "texture": "bati_pierre_appareil_diff",
+      "path": "Assets/Chateau/Paintball/WebTextures/bati__bati_pierre_appareil_diff.jpg"
+    },
+    {
+      "source": "bati",
+      "texture": "white_plaster_rough_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/bati__white_plaster_rough_01_diff_1k.jpg"
+    },
+    {
+      "source": "bati",
+      "texture": "bati_soubassement_nor_gl",
+      "path": "Assets/Chateau/Paintball/WebTextures/bati__bati_soubassement_nor_gl.jpg"
+    },
+    {
+      "source": "bati",
+      "texture": "bati_soubassement_diff",
+      "path": "Assets/Chateau/Paintball/WebTextures/bati__bati_soubassement_diff.jpg"
+    },
+    {
+      "source": "bati",
+      "texture": "bati_chene_fonce_diff",
+      "path": "Assets/Chateau/Paintball/WebTextures/bati__bati_chene_fonce_diff.jpg"
+    },
+    {
+      "source": "coque",
+      "texture": "marbre_dallage_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/coque__marbre_dallage_col.jpg"
+    },
+    {
+      "source": "coque",
+      "texture": "marbre_dallage_rgh",
+      "path": "Assets/Chateau/Paintball/WebTextures/coque__marbre_dallage_rgh.jpg"
+    },
+    {
+      "source": "coque",
+      "texture": "white_plaster_rough_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/coque__white_plaster_rough_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "coque",
+      "texture": "plafond_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/coque__plafond_col.jpg"
+    },
+    {
+      "source": "coque",
+      "texture": "enduit_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/coque__enduit_col.jpg"
+    },
+    {
+      "source": "coque",
+      "texture": "marbre_blanc_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/coque__marbre_blanc_col.jpg"
+    },
+    {
+      "source": "coque",
+      "texture": "oak_wood_planks_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/coque__oak_wood_planks_nor_gl_1k.jpg"
+    },
+    {
+      "source": "coque",
+      "texture": "oak_wood_planks_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/coque__oak_wood_planks_diff_1k.jpg"
+    },
+    {
+      "source": "coque",
+      "texture": "oak_wood_planks_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/coque__oak_wood_planks_rough_1k.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "white_sandstone_blocks_02_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__white_sandstone_blocks_02_nor_gl_1k.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "pierre_claire",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__pierre_claire.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "fond_bassin",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__fond_bassin.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "ecorce",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__ecorce.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "gravier_nord",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__gravier_nord.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "sandy_gravel_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__sandy_gravel_nor_gl_1k.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "sable_cour",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__sable_cour.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "asphalt_02_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__asphalt_02_nor_gl_1k.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "tennis_resine",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tennis_resine.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "filet",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__filet.png"
+    },
+    {
+      "source": "parc",
+      "texture": "asphalte",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__asphalte.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "asphalt_02_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__asphalt_02_rough_1k.png"
+    },
+    {
+      "source": "parc",
+      "texture": "sandy_gravel_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__sandy_gravel_rough_1k.png"
+    },
+    {
+      "source": "parc",
+      "texture": "gravel_floor_02_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__gravel_floor_02_nor_gl_1k.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "gravel_floor_02_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__gravel_floor_02_rough_1k.png"
+    },
+    {
+      "source": "parc",
+      "texture": "eau_nor",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__eau_nor.png"
+    },
+    {
+      "source": "parc",
+      "texture": "grillage",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__grillage.png"
+    },
+    {
+      "source": "parc",
+      "texture": "drapeau_ue",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__drapeau_ue.png"
+    },
+    {
+      "source": "parc",
+      "texture": "drapeau_fr",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__drapeau_fr.png"
+    },
+    {
+      "source": "parc",
+      "texture": "leafy_grass_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__leafy_grass_nor_gl_1k.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "gazon",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__gazon.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "bark_brown_02_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__bark_brown_02_nor_gl_1k.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "ecorce_pin",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__ecorce_pin.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_alep",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_alep.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_alep",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_alep.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_buis",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_buis.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_buis",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_buis.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_chene",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_chene.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_chene",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_chene.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_cypres",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_cypres.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_cypres",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_cypres.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_feuillu",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_feuillu.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_feuillu",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_feuillu.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_lavande",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_lavande.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_lavande",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_lavande.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_haie",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_haie.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_if",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_if.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_if",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_if.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_laurier",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_laurier.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_laurier",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_laurier.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "ecorce_olivier",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__ecorce_olivier.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_olivier",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_olivier.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_olivier",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_olivier.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_parasol",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_parasol.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_parasol",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_parasol.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "palm_tree_bark_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__palm_tree_bark_nor_gl_1k.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "stipe",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__stipe.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "palme_pennee",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__palme_pennee.png"
+    },
+    {
+      "source": "parc",
+      "texture": "ecorce_platane",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__ecorce_platane.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "amas_platane",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__amas_platane.png"
+    },
+    {
+      "source": "parc",
+      "texture": "tuile_platane",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__tuile_platane.jpg"
+    },
+    {
+      "source": "parc",
+      "texture": "palme_eventail",
+      "path": "Assets/Chateau/Paintball/WebTextures/parc__palme_eventail.png"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "noyer",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__noyer.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "gallinera_chair_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__gallinera_chair_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "gallinera_chair_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__gallinera_chair_diff_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "gallinera_chair_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__gallinera_chair_arm_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "dining_chair_02_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__dining_chair_02_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "dining_chair_02_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__dining_chair_02_diff_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "dining_chair_02_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__dining_chair_02_arm_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tableau_gravure",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tableau_gravure.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "toile_de_jouy",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__toile_de_jouy.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "bois_sombre",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__bois_sombre.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "parquet_damier",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__parquet_damier.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "peinture_creme",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__peinture_creme.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tableau_eglise",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tableau_eglise.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tableau_nature_morte",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tableau_nature_morte.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tapis_chambre_1",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tapis_chambre_1.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "Armchair_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__Armchair_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "bergere_velours_rose_0",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__bergere_velours_rose_0.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "Armchair_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__Armchair_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "marbre_blanc",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__marbre_blanc.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "bois_clair",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__bois_clair.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "acajou",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__acajou.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "potted_plant_02_pot_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__potted_plant_02_pot_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "potted_plant_02_pot_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__potted_plant_02_pot_diff_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "potted_plant_02_pot_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__potted_plant_02_pot_rough_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "potted_plant_02_leaves_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__potted_plant_02_leaves_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "potted_plant_02_leaves_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__potted_plant_02_leaves_diff_1k.png"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "potted_plant_02_leaves_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__potted_plant_02_leaves_rough_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "papier_rayures",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__papier_rayures.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "parquet_versailles",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__parquet_versailles.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "potted_plant_04_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__potted_plant_04_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "potted_plant_04_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__potted_plant_04_diff_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "potted_plant_04_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__potted_plant_04_arm_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tableau_bouquet",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tableau_bouquet.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tableau_portrait_nuit",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tableau_portrait_nuit.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tableau_paysage",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tableau_paysage.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "noyer_rouge",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__noyer_rouge.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "Armchair_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__Armchair_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "bois_noir",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__bois_noir.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "peinture_blanc_casse",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__peinture_blanc_casse.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "merisier",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__merisier.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "clavier",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__clavier.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "Ottoman_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__Ottoman_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "pouf_violet_0",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__pouf_violet_0.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "Ottoman_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__Ottoman_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "echiquier",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__echiquier.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tableau_marche_chambre_3_toile",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tableau_marche_chambre_3_toile.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tableau_marine",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tableau_marine.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tableau_portrait_femme",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tableau_portrait_femme.jpg"
+    },
+    {
+      "source": "piece_chambres",
+      "texture": "tapis_chambre_3",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_chambres__tapis_chambre_3.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "marbre_rouge_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__marbre_rouge_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "soubassement_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__soubassement_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "damas_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__damas_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "Armchair_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__Armchair_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "Armchair_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__Armchair_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "Armchair_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__Armchair_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "tableau_chateau_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__tableau_chateau_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "tapisserie_escalier_avec_bordure",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__tapisserie_escalier_avec_bordure.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "tableau_marine_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__tableau_marine_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "tableau_sombre_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__tableau_sombre_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "marbre_blanc_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__marbre_blanc_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "marbre_vert_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__marbre_vert_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "affiche_concert_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__affiche_concert_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "marbre_noir_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__marbre_noir_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "tableau_gravure2_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__tableau_gravure2_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "tableau_gravure1_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__tableau_gravure1_col.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "potted_plant_02_pot_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__potted_plant_02_pot_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "potted_plant_02_pot_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__potted_plant_02_pot_diff_1k.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "potted_plant_02_pot_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__potted_plant_02_pot_rough_1k.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "potted_plant_02_leaves_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__potted_plant_02_leaves_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "potted_plant_02_leaves_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__potted_plant_02_leaves_diff_1k.png"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "potted_plant_02_leaves_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__potted_plant_02_leaves_rough_1k.jpg"
+    },
+    {
+      "source": "piece_circulations",
+      "texture": "tapis_vestibule_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_circulations__tapis_vestibule_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "bib_lambris_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__bib_lambris_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "bib_lambris_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__bib_lambris_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "bib_frise_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__bib_frise_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "bib_frise_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__bib_frise_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "acajou_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__acajou_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "faience_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__faience_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "chene_miel_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__chene_miel_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "bois_fonce_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__bois_fonce_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "marbre_blanc_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__marbre_blanc_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "parquet_bib_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__parquet_bib_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "parquet_bib_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__parquet_bib_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "parquet_bib_rgh",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__parquet_bib_rgh.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "palissandre_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__palissandre_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "tapis_persan_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__tapis_persan_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "marbre_rouge_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__marbre_rouge_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "deg_bas_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__deg_bas_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "deg_bas_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__deg_bas_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "deg_haut_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__deg_haut_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "deg_haut_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__deg_haut_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "marbre_losanges_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__marbre_losanges_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "marbre_losanges_rgh",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__marbre_losanges_rgh.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "deg_porte_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__deg_porte_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "deg_porte_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__deg_porte_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "sam_bas_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__sam_bas_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "sam_bas_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__sam_bas_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "sam_haut_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__sam_haut_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "sam_haut_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__sam_haut_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "sam_dessus_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__sam_dessus_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "sam_dessus_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__sam_dessus_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "noyer_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__noyer_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "tableau_fontaine_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__tableau_fontaine_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "cannage_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__cannage_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "tableau_place_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__tableau_place_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "parquet_sam_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__parquet_sam_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "parquet_sam_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__parquet_sam_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "parquet_sam_rgh",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__parquet_sam_rgh.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "tableau_paysage_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__tableau_paysage_col.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "sam_plafond_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__sam_plafond_nrm.jpg"
+    },
+    {
+      "source": "piece_reception",
+      "texture": "sam_plafond_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_reception__sam_plafond_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "caisson_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__caisson_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "american_walnut_veneer_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__american_walnut_veneer_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "acajou_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__acajou_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "velour_velvet_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__velour_velvet_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "noyer_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__noyer_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "american_walnut_veneer_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__american_walnut_veneer_rough_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "faience_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__faience_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "tapisserie_cheminee",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__tapisserie_cheminee.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "ClassicConsole_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__ClassicConsole_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "ClassicConsole_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__ClassicConsole_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "ClassicConsole_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__ClassicConsole_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "GreenChair_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__GreenChair_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "fauteuil_medaillon_0",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__fauteuil_medaillon_0.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "GreenChair_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__GreenChair_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "Chandelier_03_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__Chandelier_03_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "Chandelier_03_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__Chandelier_03_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "Chandelier_03_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__Chandelier_03_arm_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "Chandelier_03_opacity_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__Chandelier_03_opacity_1k.png"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "oak_wood_planks_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__oak_wood_planks_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "parquet_versailles_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__parquet_versailles_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "damas_billard_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__damas_billard_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "damas_rgh",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__damas_rgh.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "dessus_porte_fleurs",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__dessus_porte_fleurs.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "rideau_billard",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__rideau_billard.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "marble_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__marble_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "marble_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__marble_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "fancy_picture_frame_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__fancy_picture_frame_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "fancy_picture_frame_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__fancy_picture_frame_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "fancy_picture_frame_01_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__fancy_picture_frame_01_rough_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "fancy_picture_frame_01_canvas_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__fancy_picture_frame_01_canvas_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "fancy_picture_frame_01_canvas_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__fancy_picture_frame_01_canvas_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "fancy_picture_frame_01_canvas_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__fancy_picture_frame_01_canvas_rough_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "tableau_paysage",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__tableau_paysage.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "tapis_ivoire",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__tapis_ivoire.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "antique_ceramic_vase_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__antique_ceramic_vase_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "antique_ceramic_vase_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__antique_ceramic_vase_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "antique_ceramic_vase_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__antique_ceramic_vase_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "ornate_mirror_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__ornate_mirror_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "ornate_mirror_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__ornate_mirror_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "ornate_mirror_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__ornate_mirror_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "damas_deg_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__damas_deg_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "GreenChair_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__GreenChair_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "herringbone_parquet_nor_gl_2k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__herringbone_parquet_nor_gl_2k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "herringbone_parquet_diff_2k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__herringbone_parquet_diff_2k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "herringbone_parquet_rough_2k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__herringbone_parquet_rough_2k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "damas_no_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__damas_no_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "tapis_rouge",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__tapis_rouge.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "Armchair_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__Armchair_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "bergere_grise_0",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__bergere_grise_0.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "Armchair_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__Armchair_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "potted_plant_02_pot_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__potted_plant_02_pot_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "potted_plant_02_pot_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__potted_plant_02_pot_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "potted_plant_02_pot_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__potted_plant_02_pot_rough_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "potted_plant_02_leaves_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__potted_plant_02_leaves_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "potted_plant_02_leaves_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__potted_plant_02_leaves_diff_1k.png"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "potted_plant_02_leaves_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__potted_plant_02_leaves_rough_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "Sofa_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__Sofa_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "Sofa_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__Sofa_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "Sofa_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__Sofa_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "damas_ouest_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__damas_ouest_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "rideau_salon",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__rideau_salon.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "round_wooden_table_01_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__round_wooden_table_01_nor_gl_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "round_wooden_table_01_diff_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__round_wooden_table_01_diff_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "round_wooden_table_01_arm_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__round_wooden_table_01_arm_1k.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "tapis_bleu",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__tapis_bleu.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "damas_salon_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__damas_salon_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "tableau_marine",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__tableau_marine.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "tableau_portrait",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__tableau_portrait.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "tableau_sombre",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__tableau_sombre.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "marbre_rose_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__marbre_rose_col.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "fauteuil_louis_xv_0",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__fauteuil_louis_xv_0.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "tableau_couchant",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__tableau_couchant.jpg"
+    },
+    {
+      "source": "piece_salons",
+      "texture": "rideau_vert",
+      "path": "Assets/Chateau/Paintball/WebTextures/piece_salons__rideau_vert.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "pierre_appareil_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__pierre_appareil_nrm.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "pierre_appareil_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__pierre_appareil_col.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "pierre_appareil_rgh",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__pierre_appareil_rgh.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "pierre_lisse_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__pierre_lisse_nrm.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "pierre_lisse_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__pierre_lisse_col.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "pierre_lisse_rgh",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__pierre_lisse_rgh.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "tresse_nrm",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__tresse_nrm.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "tresse_ecru_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__tresse_ecru_col.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "kitchen_wood_nor_gl_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__kitchen_wood_nor_gl_1k.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "teck_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__teck_col.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "kitchen_wood_rough_1k",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__kitchen_wood_rough_1k.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "tresse_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__tresse_col.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "pierre_marche_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__pierre_marche_col.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "Tiles142_2K-JPG_NormalGL",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__Tiles142_2K-JPG_NormalGL.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "dallage_col",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__dallage_col.jpg"
+    },
+    {
+      "source": "terrasse",
+      "texture": "Tiles142_2K-JPG_Roughness",
+      "path": "Assets/Chateau/Paintball/WebTextures/terrasse__Tiles142_2K-JPG_Roughness.jpg"
+    },
+    {
+      "source": "toiture",
+      "texture": "toiture_pierre_appareil_nor_gl",
+      "path": "Assets/Chateau/Paintball/WebTextures/toiture__toiture_pierre_appareil_nor_gl.jpg"
+    },
+    {
+      "source": "toiture",
+      "texture": "toiture_pierre_diff",
+      "path": "Assets/Chateau/Paintball/WebTextures/toiture__toiture_pierre_diff.jpg"
+    },
+    {
+      "source": "toiture",
+      "texture": "toiture_pierre_rough",
+      "path": "Assets/Chateau/Paintball/WebTextures/toiture__toiture_pierre_rough.png"
+    },
+    {
+      "source": "toiture",
+      "texture": "toiture_terre_cuite_diff",
+      "path": "Assets/Chateau/Paintball/WebTextures/toiture__toiture_terre_cuite_diff.jpg"
+    },
+    {
+      "source": "toiture",
+      "texture": "toiture_pierre_appareil_diff",
+      "path": "Assets/Chateau/Paintball/WebTextures/toiture__toiture_pierre_appareil_diff.jpg"
+    },
+    {
+      "source": "toiture",
+      "texture": "toiture_tuiles_canal_nor_gl",
+      "path": "Assets/Chateau/Paintball/WebTextures/toiture__toiture_tuiles_canal_nor_gl.jpg"
+    },
+    {
+      "source": "toiture",
+      "texture": "toiture_tuiles_canal_diff",
+      "path": "Assets/Chateau/Paintball/WebTextures/toiture__toiture_tuiles_canal_diff.jpg"
+    },
+    {
+      "source": "toiture",
+      "texture": "toiture_tuiles_canal_rough",
+      "path": "Assets/Chateau/Paintball/WebTextures/toiture__toiture_tuiles_canal_rough.png"
+    }
+  ]
+}

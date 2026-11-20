@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="fr"><meta charset="utf-8"><link rel="icon" type="image/png" sizes="32x32" href="icone-32.png"><link rel="icon" type="image/png" sizes="192x192" href="icone-192.png"><link rel="apple-touch-icon" href="icone-180.png"><meta name="theme-color" content="#10251f"><meta name="description" content="Paintball solo dans le domaine du Château Saint-Victor, Marseille. 90 secondes, huit cibles, une couleur."><meta property="og:title" content="Saint-Victor · Paintball"><meta property="og:description" content="Paintball solo dans le domaine du Château Saint-Victor, Marseille."><meta property="og:image" content="icone-512.png"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Saint-Victor · Paintball</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#10251f;color:#f4f0e7;font:16px system-ui}html,body{overflow:hidden;overscroll-behavior:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}canvas{display:block;width:100vw;height:100vh;height:100dvh;outline:none;touch-action:none}#tourner{display:none;position:fixed;inset:0;z-index:5;background:#10251f;align-items:center;justify-content:center;text-align:center;padding:24px;font-size:20px}@media (orientation:portrait) and (pointer:coarse){#tourner{display:flex}}#loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;background:#10251f;gap:20px}h1{font:clamp(40px,7vw,96px) Georgia;margin:0}progress{width:min(400px,75vw);accent-color:#40cee4}#error{max-width:700px;white-space:pre-wrap;color:#ff9c97}small{opacity:.75}button{font:inherit;padding:12px 20px;border:1px solid #f4f0e7;background:transparent;color:inherit;cursor:pointer}</style>
+<canvas id="unity-canvas" width="{{{ WIDTH }}}" height="{{{ HEIGHT }}}" tabindex="0" aria-label="Jeu de paintball au Château Saint-Victor"></canvas>
+<div id="tourner">Tournez votre téléphone en paysage pour jouer.</div><div id="loading"><img src="icone-192.png" width="96" height="96" alt="" style="border-radius:22px"><small>MARSEILLE · PAINTBALL SOLO</small><h1>Saint-Victor</h1><progress id="progress" max="1" value="0"></progress><span id="status">Préparation du domaine…</span><small>Clavier et souris · ZQSD / WASD · V : changer de vue · ou écran tactile</small><div id="error" role="alert"></div></div>
+<script>
+// Verrouillage du pointeur refusé (changement de plein écran ou d'onglet, panneau en ligne au premier plan…) :
+// erreur sans gravité, notée en console. Le chargeur Unity en ferait une alerte bloquante.
+// Son que le navigateur ne sait pas décoder (certains Android) : remplacé par un court silence au lieu d'arrêter le jeu.
+(()=>{const nonFatale=e=>/pointer ?lock|WrongDocumentError|requestPointerLock|decodeAudioData|EncodingError/i.test(String(e&&(e.name+' '+e.message)||e));
+const Audio=window.BaseAudioContext||window.AudioContext||window.webkitAudioContext,decoder=Audio&&Audio.prototype.decodeAudioData;
+if(decoder)Audio.prototype.decodeAudioData=function(donnees,ok,ko){
+  const silence=e=>{console.warn('Son illisible, remplacé par un silence :',e&&e.message);return this.createBuffer(1,Math.max(1,Math.round(this.sampleRate*.05)),this.sampleRate)};
+  let p;try{p=Promise.resolve(decoder.call(this,donnees))}catch(e){p=Promise.reject(e)}
+  p=p.catch(silence);if(ok)p.then(ok);return p};
+const demander=Element.prototype.requestPointerLock;
+if(demander)Element.prototype.requestPointerLock=function(...a){
+  if(document.hidden||document.getElementById('salon')?.classList.contains('ouvert'))return Promise.resolve();
+  try{const p=demander.apply(this,a);if(p&&p.catch)p.catch(e=>console.warn('Verrouillage du pointeur refusé :',e&&e.message));return p}
+  catch(e){console.warn('Verrouillage du pointeur refusé :',e&&e.message);return Promise.resolve()}};
+addEventListener('unhandledrejection',e=>{if(nonFatale(e.reason)){e.preventDefault();e.stopImmediatePropagation();console.warn('Erreur non bloquante :',e.reason&&e.reason.message)}},true);
+addEventListener('error',e=>{if(nonFatale(e.error||e.message)){e.preventDefault();e.stopImmediatePropagation();console.warn('Erreur non bloquante :',e.message)}},true);
+window.paintballErreurNonFatale=nonFatale;})();
+// Diagnostic des pertes de contexte WebGL (iOS) : garde le dernier shader compilé et, si le contexte est
+// perdu, écrit en console sa première ligne utile, ses déclarations « flat » et la version du système.
+// Relevé du 17/11 dans Chrome : aucun des ~50 shaders du jeu n'a de sortie « flat » (bug WebKit 286297 écarté).
+(()=>{const P=window.WebGL2RenderingContext&&WebGL2RenderingContext.prototype;if(!P)return;
+const sources=new WeakMap();let dernier=null;
+const ss=P.shaderSource,cs=P.compileShader;
+P.shaderSource=function(sh,src){try{sources.set(sh,src)}catch(e){}return ss.call(this,sh,src)};
+window.paintballShadersFlat=[];window.paintballShadersCompiles=0;P.compileShader=function(sh){dernier=sources.get(sh)||null;window.paintballShadersCompiles++;const f=dernier&&dernier.match(/^.*\bflat\b.*$/gm);if(f)window.paintballShadersFlat.push({decl:f,debut:dernier.slice(0,300),source:dernier});return cs.call(this,sh)};
+window.paintballDernierShader=()=>dernier;
+addEventListener('webglcontextlost',e=>{const src=dernier||'';
+console.error('Perte du contexte WebGL pendant/après la compilation de :',(src.match(/\/\/[^\n]*|#define [^\n]*/g)||[]).slice(0,6).join(' | '),
+'\nDéclarations flat :',(src.match(/^.*\bflat\b.*$/gm)||['aucune']).join(' ; '),'\n',navigator.userAgent);
+window.paintballPerteContexte={shader:src.slice(0,4000),flat:src.match(/^.*\bflat\b.*$/gm)||[]};},true);})();
+</script><script src="reseau.js"></script><script src="Build/{{{ LOADER_FILENAME }}}"></script><script>
+const canvas=document.getElementById('unity-canvas');
+// Deux builds publiés : textures DXT (ordinateurs) et ASTC (téléphones et tablettes, qui n'ont pas le DXT : Unity
+// devrait décompresser chaque texture en mémoire et l'onglet serait fermé faute de mémoire). Les noms MOBILE_ sont
+// remplacés à la publication (PaintballScene.PublierDouble) ; sinon, build unique.
+const mobile={dataUrl:'Build/MOBILE_DATA',frameworkUrl:'Build/MOBILE_FRAMEWORK',codeUrl:'Build/MOBILE_CODE'};
+const textureMobile=(()=>{try{const g=document.createElement('canvas').getContext('webgl2');return !!g&&!!g.getExtension('WEBGL_compressed_texture_astc')&&!g.getExtension('WEBGL_compressed_texture_s3tc')}catch(e){return false}})();
+const config={dataUrl:'Build/{{{ DATA_FILENAME }}}',frameworkUrl:'Build/{{{ FRAMEWORK_FILENAME }}}',codeUrl:'Build/{{{ CODE_FILENAME }}}',streamingAssetsUrl:'StreamingAssets',companyName:'Saint-Victor',productName:'Saint-Victor Paintball',productVersion:'0.1',matchWebGLToCanvasSize:true,devicePixelRatio:Math.min(devicePixelRatio,1.5),showBanner:(m,t)=>{console[t==='error'?'error':'warn'](m);if(t==='error'&&!window.paintballErreurNonFatale(m))document.getElementById('error').textContent=m},errorHandler:(e)=>window.paintballErreurNonFatale(e)?(console.warn('Erreur non bloquante :',String(e&&e.message||e)),true):false};
+if((textureMobile||/[?&]mobile=1/.test(location.search))&&!mobile.dataUrl.includes('MOBILE_'))Object.assign(config,mobile,{devicePixelRatio:1,cacheControl:()=>'no-store'});  // mobile : pas de copie dans le cache IndexedDB (pic de mémoire au chargement)
+window.paintballBuild=config.dataUrl;
+createUnityInstance(canvas,config,p=>{document.getElementById('progress').value=p;document.getElementById('status').textContent='Chargement du domaine · '+Math.round(p*100)+' %'}).then(instance=>{window.unityInstance=instance;window.paintballRead=()=>instance.SendMessage('Explorateur','LireEtat','');document.getElementById('loading').style.display='none';canvas.focus()}).catch(e=>{document.getElementById('error').textContent='Le jeu n’a pas pu démarrer : '+e});
+document.addEventListener('pointerlockchange',()=>{if(!document.pointerLockElement&&window.paintballState?.active) canvas.focus()});
+document.addEventListener('touchmove',e=>{if(!e.target.closest('#salon'))e.preventDefault()},{passive:false});
+// Téléphone en paysage : plein écran (et orientation verrouillée si le navigateur le permet). Les navigateurs
+// exigent un geste : si la demande est refusée, elle est refaite au toucher suivant, tant qu'on est en paysage.
+// En portrait, sortie du plein écran. iPhone (Safari) n'a pas l'API hors vidéo : ajout à l'écran d'accueil.
+if(matchMedia('(pointer:coarse)').matches){
+  const paysage=()=>matchMedia('(orientation:landscape)').matches;
+  const plein=()=>document.fullscreenElement||document.webkitFullscreenElement;
+  const pleinEcran=()=>{
+    if(!paysage()||plein())return;
+    const el=document.documentElement,demande=el.requestFullscreen?el.requestFullscreen({navigationUI:'hide'}):el.webkitRequestFullscreen?.();
+    Promise.resolve(demande).then(()=>screen.orientation?.lock?.('landscape')).catch(()=>{});
+  };
+  const orientation=()=>{if(paysage())pleinEcran();else if(plein())(document.exitFullscreen||document.webkitExitFullscreen)?.call(document).catch?.(()=>{})};
+  screen.orientation?.addEventListener?.('change',orientation);
+  addEventListener('orientationchange',orientation);
+  document.addEventListener('touchend',e=>{if(!e.target.closest('#salon input,#salon textarea,#salon select'))pleinEcran()},{passive:true});
+}
+</script></html>

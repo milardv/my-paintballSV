@@ -1,0 +1,146 @@
+{
+  "id": "W04",
+  "zone": "ext-toiture",
+  "niveau": "ext",
+  "piece": "toiture (vue rapprochée)",
+  "orientation_vue": "Vue aérienne rasante au-dessus de la façade sud ou est, vers la mer (ouest/sud-ouest ?), toiture au premier plan",
+  "murs_visibles": [
+    "corniche et attique d'une façade longue + angle de pavillon à gauche"
+  ],
+  "ouvertures": [],
+  "dimensions_estimees": {
+    "hauteur_plafond_m": null,
+    "largeur_m": null,
+    "profondeur_m": null
+  },
+  "sol": "",
+  "plafond": "ciel",
+  "murs_revetement": "pierre calcaire de taille (type pierre de Cassis/Rognes), appareil réglé, teinte crème à beige rosé, patine grise et coulures noires en partie basse",
+  "elements": [
+    {
+      "nom": "toits à croupes et pans en tuiles canal (tuiles rondes romaines)",
+      "categorie": "architecture",
+      "materiau": "terre cuite",
+      "couleur": "rouge orangé nuancé",
+      "dimensions_estimees": "pente ≈30°",
+      "position_dans_piece": "corps central et pavillons",
+      "quantite": 1
+    },
+    {
+      "nom": "verrière pyramidale à 4 pans sur armature métallique",
+      "categorie": "architecture",
+      "materiau": "verre + acier",
+      "couleur": "gris bleuté",
+      "dimensions_estimees": "≈4 × 4 m, h≈1,5 m",
+      "position_dans_piece": "centre du toit",
+      "quantite": 1
+    },
+    {
+      "nom": "mât à girouette / paratonnerre avec ornement en fer forgé",
+      "categorie": "ferronnerie",
+      "materiau": "fer",
+      "couleur": "noir/gris",
+      "dimensions_estimees": "h≈4 m",
+      "position_dans_piece": "sommet de la verrière",
+      "quantite": 1
+    },
+    {
+      "nom": "souches de cheminée parallélépipédiques à corniche et chapeau",
+      "categorie": "architecture",
+      "materiau": "pierre/enduit",
+      "couleur": "crème",
+      "dimensions_estimees": "≈1,0 × 0,7 × 2,0 m",
+      "position_dans_piece": "le long de l'acrotère",
+      "quantite": 7
+    },
+    {
+      "nom": "balustrade d'acrotère à balustres et dés",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "h≈0,8 m",
+      "position_dans_piece": "pourtour du toit du corps central",
+      "quantite": 1
+    },
+    {
+      "nom": "parapet plein",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "pavillon d'angle gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "corniche à modillons",
+      "categorie": "moulure",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "sous l'acrotère",
+      "quantite": 1
+    },
+    {
+      "nom": "chéneau / gouttière et descentes",
+      "categorie": "architecture",
+      "materiau": "zinc/cuivre",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "derrière la balustrade",
+      "quantite": 2
+    },
+    {
+      "nom": "conduit de fumée métallique cylindrique avec chapeau",
+      "categorie": "objet",
+      "materiau": "inox/fonte",
+      "couleur": "gris",
+      "dimensions_estimees": "Ø≈20 cm, h≈5 m",
+      "position_dans_piece": "angle du pavillon gauche, au premier plan",
+      "quantite": 1
+    },
+    {
+      "nom": "haubans / câbles d'antenne",
+      "categorie": "objet",
+      "materiau": "acier",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "sur les pans",
+      "quantite": 1
+    },
+    {
+      "nom": "antenne ou boîtier sur souche",
+      "categorie": "objet",
+      "materiau": "",
+      "couleur": "gris",
+      "dimensions_estimees": "",
+      "position_dans_piece": "souche du milieu gauche",
+      "quantite": 1
+    },
+    {
+      "nom": "fenêtres d'attique à frontons",
+      "categorie": "architecture",
+      "materiau": "pierre",
+      "couleur": "crème",
+      "dimensions_estimees": "",
+      "position_dans_piece": "sous la corniche, premier plan",
+      "quantite": 4
+    },
+    {
+      "nom": "cyprès",
+      "categorie": "vegetation",
+      "materiau": "",
+      "couleur": "vert sombre",
+      "dimensions_estimees": "",
+      "position_dans_piece": "parc à gauche",
+      "quantite": 3
+    }
+  ],
+  "indices_plan": [
+    "Verrière centrale = puits de lumière sur la cage d'escalier / hall (P1.int-etage)",
+    "Mer au fond : vue vers l'ouest/sud-ouest (rade de Marseille)"
+  ],
+  "incertitudes": [
+    "Façade exacte au premier plan (sud ou est)",
+    "Nombre total de souches (W10 : 8 + 1 conduit)"
+  ]
+}
